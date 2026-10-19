@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Arbortext, Inc., 1988-2008, v.4002-->
+<root>
+	<content lan="zh-cn">
+		<item>
+			<id>1</id>
+			<title>快捷操作</title
+>
+		</item>
+		<item>
+			<id>2</id>
+			<title>个性化设置</title>
+		</item
+>
+		<item>
+			<id>3</id>
+			<title>连接与共享</title>
+		</item>
+		<item
+>
+			<id>4</id>
+			<title>移动办公</title>
+		</item>
+		<item>
+			<id>5</id
+>
+			<title>相机与图库</title>
+		</item>
+		<item>
+			<id>6</id>
+			<title>联系人</title>
+		</item>
+		<item>
+			<id>7</id>
+			<title>通话（WiFi Only版本不支持）</title
+>
+		</item>
+		<item>
+			<id>8</id>
+			<title>支付与安全</title>
+		</item
+>
+		<item>
+			<id>9</id>
+			<title>平板管家</title>
+		</item>        
+		<item>
+			<id>10</id>
+			<title>备份、恢复与升级</title>
+		</item
+>
+		<item>
+			<id>11</id>
+			<title>更多帮助</title>
+		</item>
+	</content
+>
+	<content lan="en-us">
+		<item>
+			<id>1</id>
+			<title>Quick Operations</title
+>
+		</item>
+		<item>
+			<id>2</id>
+			<title>Customized Settings</title
+>
+		</item>
+		<item>
+			<id>3</id>
+			<title>Connection and Sharing</title
+>
+		</item>
+		<item>
+			<id>4</id>
+			<title>Mobile Office</title
+>
+		</item>
+		<item>
+			<id>5</id>
+			<title>Camera and Gallery</title
+>
+		</item>
+		<item>
+			<id>6</id>
+			<title>Contacts</title>
+		</item
+>
+		<item>
+			<id>7</id>
+			<title>Calls (Not available in the Wi-Fi Only version)</title>
+		</item>
+		<item>
+			<id>8</id>
+			<title>Payment and Security</title>
+		</item>
+		<item>
+			<id>9</id>
+			<title>Tablet Management</title>
+		</item>
+		<item>
+			<id>10</id>
+			<title>Backup, Restoration, and Update</title>
+		</item>
+		<item>
+			<id>11</id>
+			<title>More Information</title>
+		</item>
+	</content
+>
+</root>

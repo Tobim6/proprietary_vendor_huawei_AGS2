@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<NV_PARA>
+    <NV ID="2325" NAME="en_NV_Item_HIGH_PRIO_PLMN_REFRESH_TRIGGER_BG_SEARCH_CFG" PARAM_VALUE="{0x01,0x00,0x05,0x00}" MODEM_NUMBER="1" NV_SIZE="4"/>
+   </NV_PARA>

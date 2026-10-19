@@ -1,0 +1,6 @@
+# 2019-09-19 21:32:04.0
+ro.config.face_recognition=true
+# 2019-09-20 16:25:15.0
+ro.config.hw_wakeup_device=true
+# 2019-09-10 14:32:05.0
+ro.config.use_google_smartlock=true

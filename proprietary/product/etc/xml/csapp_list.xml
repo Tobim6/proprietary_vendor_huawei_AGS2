@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+  <pkgInfo name="com.huawei.browser"/>
+  <pkgInfo name="com.huawei.hwsearch"/>
+  <pkgInfo name="com.huawei.mycenter"/>
+  <pkgInfo name="com.huawei.maps.app"/>
+  <pkgInfo name="com.huawei.welinknow"/>
+  <pkgInfo name="com.huawei.hwread.dz"/>
+  <pkgInfo name="com.huawei.gamebox"/>
+  <pkgInfo name="com.honor.club"/>
+  <pkgInfo name="com.hihonor.vmall"/>
+  <pkgInfo name="com.huawei.educenter"/>
+  <pkgInfo name="com.huawei.hiassistantoversea"/>
+  <pkgInfo name="com.huawei.ohos.inputmethod"/>
+  <pkgInfo name="com.huawei.health"/>
+  <pkgInfo name="com.huawei.lives"/>
+</list>

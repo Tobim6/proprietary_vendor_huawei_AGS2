@@ -1,0 +1,40 @@
+# 2019-05-10 16:00:14.0
+persist.radio.defdualsimltemenu=true
+# 2019-04-09 16:24:51.0
+ro.boot.product.hardware.sku=AGS2-L09
+# 2019-04-09 16:24:51.0
+ro.build.id=HUAWEIAGS2-L09
+# 2019-04-09 16:24:51.0
+ro.check.modem_network=true
+# 2019-04-09 16:25:38.0
+ro.config.Is_Sup_2Gonly=false
+# 2019-04-09 16:24:51.0
+ro.config.attach_apn_enabled=true
+# 2019-04-19 18:48:21.0
+ro.config.face_recognition=false
+# 2019-04-24 12:10:06.0
+ro.config.hw_globalSearch=true
+# 2019-04-09 16:24:51.0
+ro.config.hw_hotswap_on=true
+# 2019-04-09 16:24:51.0
+ro.config.hw_lte_support=true
+# 2019-04-09 16:24:51.0
+ro.config.hw_showSimName=true
+# 2019-04-09 16:24:51.0
+ro.config.hw_show_4G_Plus_icon=true
+# 2019-04-09 16:24:51.0
+ro.config.safety_certification=ce
+# 2019-04-09 16:24:51.0
+ro.config.support_ca=true
+# 2019-04-09 16:25:38.0
+ro.hwcamera.lightpainting=false
+# 2019-04-09 16:24:51.0
+ro.hwcamera.timelapse=false
+# 2019-04-09 16:24:51.0
+ro.hwpp_ds_fail=111,32,33,35
+# 2019-04-09 16:25:38.0
+ro.product.first_api_level=26
+# 2019-04-09 16:24:51.0
+ro.product.model=AGS2-L09
+# 2019-04-09 16:25:38.0
+ro.product.name=AGS2-L09

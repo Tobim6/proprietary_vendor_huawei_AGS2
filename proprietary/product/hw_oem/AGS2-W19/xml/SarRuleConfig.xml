@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<SarRuleConfig>
+    <!--  restore sar value when condition not match, for wifi and cell sar value -->
+    <restore>
+        <!--  restore wifi nvram to default value -->
+        <sar_wifi_restore value="16" />
+        <sar_wifi_24GHz_restore value="16" />
+		<sar_wifi_5GHz_restore value="16" />		
+    </restore>
+
+    <!-- is_use_precondition is used to control power dissipation, recommend is 1 -->
+    <configs is_use_precondition="0" >
+        <config>
+            <is_cell_sar_sensor value="1" />
+            <is_wifi_connected value="1" />
+			<wifi_band value="0" />
+			<sar_wifi_reduce value="9" />
+			<sar_wifi_24GHz_reduce value="9" />
+        </config>
+        <config>
+            <is_cell_sar_sensor value="1" />
+            <is_wifi_connected value="1" />
+			<wifi_band value="1" />
+			<sar_wifi_reduce value="7" />
+			<sar_wifi_5GHz_reduce value="7" />
+        </config>
+	</configs>
+</SarRuleConfig>
+

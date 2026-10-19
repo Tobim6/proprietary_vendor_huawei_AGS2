@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+  <!--2019-04-09 16:24:06.0-->
+  <string def_cust_tile="wifi,bt,data,sound,rotation,airplane,hishare,flashlight,location,screenshot,eyecomfort"/>
+  <!--2019-04-09 16:23:15.0-->
+  <integer fingersense_smartshot_enabled="0"/>
+  <!--2019-04-09 16:24:05.0-->
+  <string hw_forbid_accelerometer="com.imo.android.imoim"/>
+  <!--2019-04-09 16:23:16.0-->
+  <integer settings.global.hw_wifi_ap_band="2"/>
+  <!--2019-04-23 10:32:29.0-->
+  <string settings.global.transition_animation_scale="0.5"/>
+  <!--2019-04-23 10:32:29.0-->
+  <string settings.global.window_animation_scale="0.5"/>
+  <!--2019-05-20 19:12:47.0-->
+  <integer settings.secure.game_deep_nodisturb_mode="0"/>
+  <!--2019-04-09 16:24:05.0-->
+  <integer settings.secure.game_dnd_mode="1"/>
+  <!--2019-04-09 16:24:05.0-->
+  <integer settings.secure.game_power_save_mode="1"/>
+  <!--2019-04-19 16:26:45.0-->
+  <integer settings.system.hw_screen_brightness_mode_value="0"/>
+  <!--2021-09-14 14:36:05.0-->
+  <integer settings.system.iconnect_wearable_cached_device_max="2"/>
+  <!--2019-04-09 16:24:51.0-->
+  <integer settings.system.screen_brightness="98"/>
+  <!--2019-04-09 16:23:15.0-->
+  <integer settings.system.screen_brightness_mode="0"/>
+  <!--2019-04-09 16:24:06.0-->
+  <integer settings.system.sws_mode="3"/>
+  <!--2019-04-09 16:24:06.0-->
+  <integer settings.system.touch_disable_mode="0"/>
+</resources>

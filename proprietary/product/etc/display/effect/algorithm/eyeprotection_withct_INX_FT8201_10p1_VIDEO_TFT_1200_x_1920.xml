@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EyeProtectionConfig>
+    <feature name="EYEPROTECTION_ALGORITHM">
+        <mode name="PARAMETERS">
+            <param name="RgbGammaLutLowLuma">1.0,0.976470588235,0.933333333333</param>
+            <param name="IsRgbGamma">false</param>
+            <param name="LuminanceThresh">50</param>
+            <param name="BlueLightFilterReal">7</param>
+            <!--HighLuminancePoints-->
+            <param name="HighLuminancePoints">0,6000</param>
+            <param name="HighLuminancePoints">3500,6000</param>
+            <param name="HighLuminancePoints">7000,7005</param>
+            <param name="HighLuminancePoints">10000,7005</param>
+            <!--AmbientCtThreshold-->
+            <param name="AmbientCtThreshold">6000</param>
+            <param name="AmbientCtThreshold">7000</param>
+            <!--RgbGammaLutHighLuma-->
+            <param name="RgbGammaLutHighLuma">1.0,0.976470588235,0.933333333333</param>
+            <param name="RgbGammaLutHighLuma">1.0,0.976470588235,0.933333333333</param>
+
+        </mode>
+    </feature>
+</EyeProtectionConfig>

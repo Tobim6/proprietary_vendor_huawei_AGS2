@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<NV_PARA>
+  <NV FEATUREINDEX="90009" FEATURENAME="ucLteNoSubscribeHplmnSwitch" VALUE="1"/>
+  <NV FEATUREINDEX="90010" FEATURENAME="ulPublishmentTimerHplmnLen" VALUE="7200"/>
+</NV_PARA>

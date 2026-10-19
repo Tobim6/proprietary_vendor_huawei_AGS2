@@ -1,0 +1,22 @@
+# 2019-05-10 16:00:14.0
+persist.radio.defdualsimltemenu=true
+# 2019-04-09 19:49:21.0
+ro.boot.product.hardware.sku=AGS2-W09
+# 2019-04-09 19:49:21.0
+ro.build.id=HUAWEIAGS2-W09
+# 2019-04-09 19:49:21.0
+ro.carrier=wifi-only
+# 2019-04-24 12:10:06.0
+ro.config.hw_globalSearch=true
+# 2019-04-09 19:49:21.0
+ro.hwcamera.lightpainting=false
+# 2019-04-09 19:49:21.0
+ro.hwcamera.timelapse=false
+# 2019-04-09 19:49:21.0
+ro.product.first_api_level=26
+# 2019-04-09 19:49:21.0
+ro.product.model=AGS2-W09
+# 2019-04-09 19:49:21.0
+ro.product.name=AGS2-W09
+# 2019-04-09 19:49:22.0
+ro.qq.camera.sensor=3

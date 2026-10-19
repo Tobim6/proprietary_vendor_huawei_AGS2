@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts>
+  <shortcut shortcutid="Yahoo" title="Yahoo!" language="" type="" link="https://rdsig.yahoo.co.jp/adrs/mv/prein/and/yjstep/hutab1804/step/RV=1/RU=aHR0cHM6Ly93d3cueWFob28uY28uanAvP2ZyPWh1dGFiMTgwNA--" icon="y144.png" uninstall=""/>
+  <shortcut shortcutid="eBookJapan" title="eBookJapan" language="" type="" link="https://www.ebookjapan.jp/ebj/special/coupon/huawei/" icon="ebookjapan.png" uninstall=""/>
+  <shortcut-replace old="com.huawei.yahoojplink/com.huawei.yahoojplink.LinkActivity" new="Yahoo"/>
+  <shortcut-replace old="com.huawei.android.ebookjapan/com.huawei.android.ebookjapan.LinkActivity" new="eBookJapan"/>
+</shortcuts>

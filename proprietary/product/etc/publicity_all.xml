@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<packageList>
+	<packageInfo author="华为终端有限公司" feature="HiCard APP是华为公司提供的卡片框架服务，该服务定义了卡片的属性、展示规则以及布局显示等内容。它可以支持多个不同的卡片服务提供方接入，也支持多个应用端订阅和查询卡片，统一规范获取卡片与渲染效果，提升更好的用户体验。卡片服务提供方及卡片展示方具体对应如下：     1.卡片服务提供方:HAG开放服务、玩机技巧、HiSuggestion     2.卡片展示方：智能助手、HiSuggestion、HiVision     (以上每一个卡片展示方均可以展示三个卡片提供方所提供的卡片)" package="com.huawei.hicard" label="com.huawei.hicard">
+	</packageInfo>
+	<packageInfo author="华为终端有限公司" feature="全天候运动健康管家。" package="com.huawei.ohos.health" label="com.huawei.ohos.health">
+	</packageInfo>
+	<packageInfo author="华为终端有限公司" feature="定制系统资源。" package="com.android.frameworkres.overlay" label="com.android.frameworkres.overlay">
+	</packageInfo>
+	<packageInfo author="华为终端有限公司" feature="定制系统资源。" package="com.android.frameworkres.overlay" label="com.android.frameworkres.overlay">
+	</packageInfo>
+	<packageInfo author="华为终端有限公司" feature="定制系统资源。" package="com.android.frameworkres.overlay" label="com.android.frameworkres.overlay">
+	</packageInfo>
+	<packageInfo author="华为终端有限公司" feature="定制系统资源。" package="com.android.frameworkres.overlay" label="com.android.frameworkres.overlay">
+	</packageInfo>
+	<packageInfo author="华为终端有限公司" feature="定制系统资源。" package="com.android.frameworkres.overlay" label="com.android.frameworkres.overlay">
+	</packageInfo>
+	<packageInfo author="华为终端有限公司" feature="定制系统资源。" package="com.android.frameworkres.overlay" label="com.android.frameworkres.overlay">
+	</packageInfo>
+	<packageInfo author="华为终端有限公司" feature="定制系统资源。" package="com.android.frameworkres.overlay" label="com.android.frameworkres.overlay">
+	</packageInfo>
+	<packageInfo author="华为终端有限公司" feature="定制系统资源。" package="com.android.frameworkres.overlay" label="com.android.frameworkres.overlay">
+	</packageInfo>
+	<packageInfo author="华为终端有限公司" feature="情景智能特性旨在将用户零散的信息集中管理起来，并在合适的时间进行提醒。" package="com.huawei.intelligent" label="com.huawei.intelligent">
+	</packageInfo>
+	<packageInfo author="华为终端有限公司" feature="根据用户使用手机的习惯，提供个性化的服务" package="com.huawei.pengine" label="com.huawei.pengine">
+	</packageInfo>
+	<packageInfo author="华为软件技术有限公司" feature="智慧推荐定制资源" package="com.huawei.ohos.suggestion.hm.overlay" label="com.huawei.ohos.suggestion.hm.overlay">
+	</packageInfo>
+	<packageInfo author="华为软件技术有限公司" feature="智慧推荐定制资源" package="com.huawei.ohos.suggestion.hm.overlay" label="com.huawei.ohos.suggestion.hm.overlay">
+	</packageInfo>
+	<packageInfo author="华为软件技术有限公司" feature="智慧搜索APP是华为公司提供的搜索工具，可以搜索本地内容、华为云服务资源及第三方合作伙伴资源，并结合您的搜索习惯，提供相关智能搜索服务。     1. 本地应用的内容：搜索已安装的应用、联系人、设置项、短信、邮件、备忘录、本地文件（如word文档等）。     2. 在线资源：华为应用市场应用、直达服务卡片、华为音乐、华为视频、书籍、主题及网页内容等。" package="com.huawei.search" label="com.huawei.search">
+	</packageInfo>
+	<packageInfo feature="教育中心APP定位于构建教与学的学习交流平台，为用户提供优质教育内容和服务的中心化平台。" package="com.huawei.educenter" author="华为软件技术有限公司" label="com.huawei.educenter">
+	</packageInfo>
+	<packageInfo package="com.android.browser" feature="华为浏览器是一款高速、安全、稳定的浏览器，同时具备恶意网址拦截，网页广告过滤，书签云同步等特色功能，欢迎体验。" author="华为软件技术有限公司" label="com.android.browser">
+	</packageInfo>
+	<packageInfo package="com.android.internal.display.cutout.emulation.narrow" feature="非挖孔屏产品定制显示窄挖孔功能。" author="谷歌" label="com.android.internal.display.cutout.emulation.narrow">
+	</packageInfo>
+	<packageInfo package="com.android.internal.display.cutout.emulation.tall" feature="非挖孔屏产品定制显示高挖孔功能。" author="谷歌" label="com.android.internal.display.cutout.emulation.tall">
+	</packageInfo>
+	<packageInfo package="com.android.internal.display.cutout.emulation.wide" feature="非挖孔屏产品定制显示宽挖孔功能。" author="谷歌" label="com.android.internal.display.cutout.emulation.wide">
+	</packageInfo>
+	<packageInfo package="com.huawei.android.FloatTasks" feature="为用户提供快捷操作、能快速进入主屏幕、回退、最近任务。" author="华为终端有限公司" label="com.huawei.android.FloatTasks">
+	</packageInfo>
+	<packageInfo package="com.huawei.android.hwupgradeguide" feature="升级向导可以为您展示新版本的一些有价值的特性。" author="华为软件技术有限公司" label="com.huawei.android.hwupgradeguide">
+	</packageInfo>
+	<packageInfo package="com.huawei.android.mirrorshare" feature="无线投屏支持屏幕镜像无线投射功能。" author="华为终端有限公司" label="com.huawei.android.mirrorshare">
+	</packageInfo>
+	<packageInfo package="com.huawei.contentsensor" feature="智慧识屏取词模块，帮助智慧识屏获取需要分析处理的文本内容。" author="华为终端有限公司" label="com.huawei.contentsensor">
+	</packageInfo>
+	<packageInfo package="com.huawei.fans" feature="花粉俱乐部是华为官方唯一的用户交流平台，提供最新华为、荣耀手机产品、家庭智能产品、配件产品等产品资讯，以及 EMUI ROM 资源、刷机教程、玩机技巧等，并为用户开展丰富多彩的线上线下互动交流活动，是花粉的专属乐园。" author="华为终端有限公司" label="com.huawei.fans">
+	</packageInfo>
+	<packageInfo package="com.huawei.fido.uafclient" feature="为满足FIDO（快速线上身份认证）协议的应用提供基础能力支持，第三方应用可通过该应用绑定指纹完成在线身份认证。" author="华为终端有限公司" label="com.huawei.fido.uafclient">
+	</packageInfo>
+	<packageInfo package="com.huawei.gameassistant" feature="应用助手是华为官方的安卓游戏应用使用助手。" author="华为软件技术有限公司" label="com.huawei.gameassistant">
+	</packageInfo>
+	<packageInfo package="com.huawei.gamebox" feature="华为游戏中心是华为为游戏开发者和用户提供的服务平台，旨在为您推荐安全、高质量的游戏及丰富便捷的游戏服务。" author="华为软件技术有限公司" label="com.huawei.gamebox">
+	</packageInfo>
+	<packageInfo package="com.huawei.health" feature="针对存量设备，通过HOTA升级，回合预置应用，提升用户体验与粘性，夯实存量用户经营基础。" author="华为终端有限公司" label="com.huawei.health">
+	</packageInfo>
+	<packageInfo package="com.huawei.hiaction" feature="智慧识屏中控模块，帮助智慧识屏综合调用取词、语义分析和决策判断等能力，给您提供完整的智慧识屏服务。" author="华为软件技术有限公司" label="com.huawei.hiaction">
+	</packageInfo>
+	<packageInfo package="com.huawei.hiai" feature="Huawei HiAI Engine" author="华为终端有限公司" label="com.huawei.hiai">
+	</packageInfo>
+	<packageInfo package="com.huawei.hilink.framework" label="com.huawei.hilink.framework" feature="与华为 HiLink 智能网关配合，支持智能家居设备间互联互通。" author="华为终端有限公司">
+	</packageInfo>
+	<packageInfo package="com.huawei.hitouch" feature="智慧识屏应用提供文字识别、识图购物、全屏翻译、二维码识别、识物等功能。" author="华为软件技术有限公司" label="com.huawei.hitouch">
+	</packageInfo>
+	<packageInfo package="com.huawei.hwasm" feature="为FIDO（快速线上身份认证）协议提供底层能力支撑。" author="华为终端有限公司" label="com.huawei.hwasm">
+	</packageInfo>
+	<packageInfo package="com.huawei.hwireader" feature="华为阅读是华为手机内置的手机阅读软件，拥有海量免费小说以及50万多万册热门图书，支持 TXT、UMD、PDF、EBK、CHM、EPUB 等多种阅读格式。" author="华为软件技术有限公司" label="com.huawei.hwireader">
+	</packageInfo>
+	<packageInfo package="com.huawei.iconnect" feature="支持穿戴设备互联，提供如下功能：扫描发现穿戴设备后进行连接提醒、下载或打开对应应用、穿戴设备间因为距离太远断开连接后快速重新连接。" author="华为终端有限公司" label="com.huawei.iconnect">
+	</packageInfo>
+	<packageInfo package="com.huawei.imedia.sws" feature="Huawei Histen音效设置，用户可以根据喜好设置和配置音效均衡器等信息。" author="华为终端有限公司" label="com.huawei.imedia.sws">
+	</packageInfo>
+	<packageInfo package="com.huawei.kidsmode" feature="儿童乐园，专为学龄前儿童打造，为孩子提供丰富的教学和娱乐内容。" author="华为终端有限公司" label="com.huawei.kidsmode">
+	</packageInfo>
+	<packageInfo package="com.huawei.kidsmode.kidspaint" feature="儿童绘画应用，让孩子享受绘画乐趣、发现并发挥孩子绘画天赋。" author="华为终端有限公司" label="com.huawei.kidsmode.kidspaint">
+	</packageInfo>
+	<packageInfo package="com.huawei.lives" feature="华为生活服务是华为官方推出的生活消费类软件，您可以使用华为生活服务为手机充话费、流量、海外购物、订酒店、订机票、打车、查询快递等。" author="华为软件技术有限公司" label="com.huawei.lives">
+	</packageInfo>
+	<packageInfo package="com.huawei.meetime" feature="“畅连”是基于华为帐号的社交通信服务，提供音视频通话、留言等功能。在 WLAN 或移动数据连接时，您可与拥有华为手机、平板、音箱、智慧屏等设备的联系人进行高清视频或语音通话。" author="华为终端有限公司" label="com.huawei.meetime">
+	</packageInfo>
+	<packageInfo package="com.huawei.meetime.overlay" feature="控制畅连小圈和畅连消息分享入口" author="华为终端有限公司" label="com.huawei.meetime.overlay">
+	</packageInfo>
+	<packageInfo package="com.huawei.msdp" feature="综合传感信息处理平台，用于支撑智慧化相关业务。" author="华为终端有限公司" label="com.huawei.msdp">
+	</packageInfo>
+	<packageInfo package="com.huawei.nb.service" feature="通用数据管理服务：具备数据计算，数据脱敏和加密，生命周期管理，端云协同等功能，提供更高效、安全、可靠和一致性的用户体验。" author="华为终端有限公司" label="com.huawei.nb.service">
+	</packageInfo>
+	<packageInfo package="com.huawei.ohos.camera" feature="华为相机FA卡片，提供模式快捷入口功能。" author="华为终端有限公司" use-permission="华为相机FA卡片，提供模式快捷入口功能。" label="com.huawei.ohos.camera">
+	</packageInfo>
+	<packageInfo package="com.huawei.ohos.inputmethod" feature="小艺输入法是由华为开发的一款免费的键盘应用程序，可让您快速，准确，有趣地打字。" author="华为软件技术有限公司" label="com.huawei.ohos.inputmethod">
+	</packageInfo>
+	<packageInfo package="com.huawei.ohos.photos" feature="华为图库FA卡片，提供相册卡片、创作卡片功能。" author="华为终端有限公司" use-permission="华为图库FA卡片，提供相册卡片、创作卡片功能。" label="com.huawei.ohos.photos">
+	</packageInfo>
+	<packageInfo package="com.huawei.ohos.suggestion.overlay" feature="智慧推荐定制资源" author="华为软件技术有限公司" label="com.huawei.ohos.suggestion.overlay">
+	</packageInfo>
+	<packageInfo package="com.huawei.ohos.suggestion.overlay" feature="智慧推荐定制资源" author="华为软件技术有限公司" label="com.huawei.ohos.suggestion.overlay">
+	</packageInfo>
+	<packageInfo package="com.huawei.recsys" feature="智慧决策引擎，用于提供多设备协同、服务推荐、情景智能的底层AI能力。" author="华为终端有限公司" label="com.huawei.recsys">
+	</packageInfo>
+	<packageInfo package="com.huawei.regservice" feature="运营商为了改进通信服务质量或提供用户自定义服务或技术，可能会通过该应用获取您设备的相关信息。运营商承诺仅将相关信息用以服务分析，不会以任何可识别个人身份的形式向外界披露。" author="华为终端有限公司" label="com.huawei.regservice">
+	</packageInfo>
+	<packageInfo package="com.huawei.scanner" feature="华为智慧视觉应用提供扫码、翻译、识文、购物、卡路里、识物功能。" author="华为软件技术有限公司" label="com.huawei.scanner">
+	</packageInfo>
+	<packageInfo package="com.huawei.searchservice" feature="融合搜索服务，统一管理应用、文件数据索引，提供端侧全文搜索能力。" author="华为终端有限公司" label="com.huawei.searchservice">
+	</packageInfo>
+	<packageInfo package="com.huawei.tips" feature="亮点智能推介，向用户推荐和说明HarmonyOS的特性，提升用户的使用体验。" author="华为终端有限公司" label="com.huawei.tips">
+	</packageInfo>
+	<packageInfo package="com.huawei.wallet" feature="您可以通过 Huawei Pay 完成线下支付、卡管理、花币管理、查看账单。" author="华为软件技术有限公司" label="com.huawei.wallet">
+	</packageInfo>
+	<packageInfo package="com.huawei.welinknow" feature="Link Now 是为终端消费者用户提供的多场景在线协同与在线教育服务平台，融合消息、会议、直播、在线教学等功能与服务。" author="华为软件技术有限公司" label="com.huawei.welinknow">
+	</packageInfo>
+	<packageInfo use-permission=" " author="华为终端有限公司" label="华为杂志锁屏" feature="管理系统预置的杂志锁屏内容、提供锁屏壁纸、并提供更新和订阅功能。" package="com.android.keyguard">
+	</packageInfo>
+</packageList>

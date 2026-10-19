@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<NV_PARA>
+<NV ID="9043" NAME="NV_CODEC_TYPE" PARAM_VALUE="{0x05,0x04,0x05,0x02,0x00,0x01,0x08,0x00}" MODEM_NUMBER="1" NV_SIZE="8" />
+</NV_PARA>

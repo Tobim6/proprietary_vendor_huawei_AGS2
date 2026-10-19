@@ -1,0 +1,10 @@
+/data/hw_init/product/region_comm/china/app/GameBox_stub/GameBox_stub.apk
+/product/region_comm/china/app/HiEdu_stub/HiEdu_stub.apk
+/product/region_comm/china/app/HiVision/HiVision.apk,priv
+/data/hw_init/product/region_comm/china/app/HwFansClub/HwFansClub.apk
+/product/region_comm/china/app/HwHealth_stub/HwHealth_stub.apk
+/data/hw_init/product/region_comm/china/app/HwLives_stub/HwLives_stub.apk
+/product/region_comm/china/app/HwMeetimeHm/HwMeetimeHm.apk,priv
+/data/hw_init/product/region_comm/china/app/HwReader/HwReader.apk
+/data/hw_init/product/region_comm/china/app/HwSmartSuggestion/HwSmartSuggestion.apk
+/product/region_comm/china/app/LinkNow_stub/LinkNow_stub.apk

@@ -1,0 +1,111 @@
+on early-boot
+	service CameraDaemon /vendor/bin/CameraDaemon hi6250 AGASSI2
+	class main
+	user media
+	group audio camera inet net_bt net_bt_admin net_bw_acct drmrpc mediadrm system dsm
+
+on boot
+    setprop ro.odm.build.fingerprint ${ro.product.odm.brand}/${ro.product.odm.name}/${ro.product.odm.device}_${ro.boot.product.hardware.sku}:${ro.build.version.release}/${ro.vendor.build.id}/${ro.vendor.build.version.incremental}:${ro.vendor.build.type}/${ro.vendor.build.tags}
+	chown system system /dev/ttyAMA4
+	chmod 660 /dev/ttyAMA4
+
+	#rcc module
+	write /sys/kernel/rcc/event PASSIVE_MODE
+	write /sys/kernel/rcc/max_anon_clean_size 418M
+	write /sys/kernel/rcc/enable 1
+
+on property:sys.boot_completed=1
+	write /sys/kernel/rcc/event BOOT_COMPLETE
+
+on property:ro.config.hw_low_ram=true
+    write /sys/kernel/rcc/max_anon_clean_size 800M
+
+#Donot support fingerprint procduct need disabled fps_hal/fps_hal_ext
+service vendor.fps_hal /vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service
+    # "class hal" causes a race condition on some devices due to files created
+    # in /data. As a workaround, postpone startup until later in boot once
+    # /data is mounted.
+    class late_start
+    user system
+    group system input uhid
+    writepid /dev/cpuset/system-background/tasks
+    disabled
+
+service fps_hal_ext /vendor/bin/hw/vendor.huawei.hardware.biometrics.fingerprint@2.1-service
+    # "class hal" causes a race condition on some devices due to files created
+    # in /data. As a workaround, postpone startup until later in boot once
+    # /data is mounted.
+    class late_start
+    user system
+    group system input
+    writepid /dev/cpuset/foreground/tasks /dev/stune/foreground/tasks
+    disabled
+
+on property:ro.boot.product.hardware.sku=AGS2-AL00HN
+    start vendor.fps_hal
+
+on property:ro.boot.product.hardware.sku=AGS2-AL00HN
+    start fps_hal_ext
+
+on property:ro.boot.product.hardware.sku=AGS2-W09HN
+    start vendor.fps_hal
+
+on property:ro.boot.product.hardware.sku=AGS2-W09HN
+    start fps_hal_ext
+
+#WIFI only procduct need disabled secure_element
+service secure_element_hal_service /vendor/bin/hw/android.hardware.secure_element@1.0-service
+    override
+    class hal
+    user secure_element
+    group secure_element system nfc
+    disabled
+
+on property:ro.boot.product.hardware.sku=AGS2-AL00
+    start secure_element_hal_service
+
+on property:ro.boot.product.hardware.sku=AGS2-AL00HN
+    start secure_element_hal_service
+
+on property:ro.boot.product.hardware.sku=AGS2-L03
+    start secure_element_hal_service
+
+on property:ro.boot.product.hardware.sku=AGS2-L09
+    start secure_element_hal_service
+
+#Modemnum
+on property:ro.boot.product.hardware.sku=AGS2-AL00
+    setprop ro.odm.config.modem_number 1
+
+on property:ro.boot.product.hardware.sku=AGS2-AL00HN
+    setprop ro.odm.config.modem_number 1
+
+on property:ro.boot.product.hardware.sku=AGS2-L03
+    setprop ro.odm.config.modem_number 1
+
+on property:ro.boot.product.hardware.sku=AGS2-L09
+    setprop ro.odm.config.modem_number 1
+
+#wifi only procduct need disabled rild
+service vendor.ril-daemon /vendor/bin/hw/rild
+    override
+    class main
+    user root
+    group radio cache inet misc audio log readproc wakelock system
+    capabilities BLOCK_SUSPEND NET_ADMIN NET_RAW
+    disabled
+
+on property:ro.boot.product.hardware.sku=AGS2-AL00
+    start vendor.ril-daemon
+
+on property:ro.boot.product.hardware.sku=AGS2-AL00HN
+    start vendor.ril-daemon
+
+on property:ro.boot.product.hardware.sku=AGS2-L03
+    start vendor.ril-daemon
+
+on property:ro.boot.product.hardware.sku=AGS2-L09
+    start vendor.ril-daemon
+
+on boot
+    symlink /vendor/preavs/oemcrypto /mnt/oemcrypto

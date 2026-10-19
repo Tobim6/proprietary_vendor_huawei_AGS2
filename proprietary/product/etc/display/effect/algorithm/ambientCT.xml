@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DisplayEngineConfig>
+    <feature name="SmartCCT_ALGORITHM">
+        <mode name="PARAMETERS">
+            <param name="LightSensorRateMillis">300</param><!-- sensor rate -->
+            <param name="AscendDebounceTime">3000</param><!-- Ascend CT delay time -->
+            <param name="DescendDebounceTime">3000</param><!-- Descend CT delay time -->
+
+            <!-- brighten lines for all ambient light, don't change -->
+            <param name="AscendLinePoints">0,0</param>
+            <param name="AscendLinePoints">2500,700</param>
+            <param name="AscendLinePoints">3500,800</param>
+            <param name="AscendLinePoints">4500,900</param>
+            <param name="AscendLinePoints">5500,1000</param>
+            <param name="AscendLinePoints">7000,1000</param>
+            <param name="AscendLinePoints">10000,1000</param>
+
+            <!-- darken lines for all ambient light, don't change -->
+            <param name="DescendLinePoints">0,0</param>
+            <param name="DescendLinePoints">3500,600</param>
+            <param name="DescendLinePoints">4500,800</param>
+            <param name="DescendLinePoints">5500,950</param>
+            <param name="DescendLinePoints">7000,1000</param>
+            <param name="DescendLinePoints">10000,1000</param>
+        </mode>
+    </feature>
+</DisplayEngineConfig>

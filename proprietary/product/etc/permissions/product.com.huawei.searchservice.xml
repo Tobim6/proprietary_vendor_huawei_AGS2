@@ -1,0 +1,4 @@
+<permissions>
+    <library name="com.huawei.searchservice"
+    file="/product/jar/HwSearchService/com.huawei.searchservice.sdk.jar" />
+</permissions>

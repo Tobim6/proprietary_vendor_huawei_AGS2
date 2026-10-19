@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<forcerotation_applications>
+<package_name name="com.duoduo.child.story" /><!--儿歌多多-->
+<package_name name="com.qq.reader" /><!--qq阅读-->
+<package_name name="com.ss.android.article.news" /><!--今日头条-->
+<package_name name="com.baidu.browser.apps" /><!--百度浏览器-->
+<package_name name="com.kk.dict" /><!--快快查汉语字典-->
+<package_name name="cn.kuwo.player" /><!--酷我音乐-->
+<package_name name="com.asiainfo.android" /><!--沃邮箱-->
+<package_name name="com.autonavi.cmccmap" /><!--和地图-->
+<package_name name="com.autonavi.minimap" /><!--高德地图-->
+<package_name name="com.baidu.BaiduMap" /><!--百度地图-->
+<package_name name="com.chaozh.iReaderFree15" /><!--爱读掌阅-->
+<package_name name="com.chinamobile.cmccwifi" /><!--随e行WLAN-->
+<package_name name="com.corp21cn.mail189" /><!--189邮箱-->
+<package_name name="com.ct.client" /><!--电信营业厅-->
+<package_name name="com.dp.android.elong" /><!--艺龙旅行-->
+<package_name name="com.eg.android.AlipayGphone" /><!--支付宝钱包-->
+<package_name name="com.funcity.taxi.passenger" /><!--快的打车-->
+<package_name name="com.gwsoft.imusic.controller" /><!--爱音乐-->
+<package_name name="com.handsgo.jiakao.android" /><!--驾考宝典-->
+<package_name name="com.iflytek.cmcc" /><!--灵犀语音助手-->
+<package_name name="com.jingdong.app.mall" /><!--京东-->
+<package_name name="com.neusoft.td.android.wo116114" /><!--116114-->
+<package_name name="com.pdager" /><!--天翼导航-->
+<package_name name="com.pplive.androidphone" /><!--PPTV聚力-->
+<package_name name="com.qihoo360.mobilesafe" /><!-- 360卫士-->
+<package_name name="com.sankuai.meituan" /><!-- 美团团购 -->
+<package_name name="com.shoujiduoduo.ringtone" /><!--铃声多多-->
+<package_name name="com.sina.weibo" /><!--微博-->
+<package_name name="com.sohu.newsclient" /><!--搜狐新闻-->
+<package_name name="com.syezon.wifi" /><!--WiFi信号增强器-->
+<package_name name="com.taobao.taobao" /><!--手机淘宝-->
+<package_name name="com.tencent.mm" /><!--微信-->
+<package_name name="com.wuba" /><!--58同城-->
+<package_name name="com.youdao.dict" /><!--网易有道词典-->
+<package_name name="im.yixin" /><!--易信-->
+<package_name name="com.huawei.espacev2" /><!--espace-->
+<package_name name="com.huawei.svn.hiwork" /><!--anyoffice-->
+<!--DTS2017122103899 zwx504375 201712121  begin-->
+<package_name name="com.huawei.betaclub" /><!--betaClub-->
+<!--DTS2017122103899 zwx504375 201712121  end-->
+
+<!--53个20170322没有测到之前测试pass的应用-->
+<package_name name="com.tencent.android.qqdownloader" /><!--应用宝-->
+<package_name name="com.qihoo.appstore" /><!--360手机助手-->
+<package_name name="com.baidu.appsearch" /><!--百度手机助手-->
+<package_name name="com.ximalaya.ting.android" /><!--喜马拉雅FM-->
+<package_name name="com.hexin.plat.android" /><!--同花顺炒股票-->
+<package_name name="com.tencent.reading" /><!--天天快报-->
+<package_name name="com.tencent.qqpim" /><!--QQ同步助手-->
+<package_name name="com.jsmcc" /><!--掌上营业厅-->
+<package_name name="com.cleanmaster.mguard_cn" /><!--猎豹清理大师-->
+<package_name name="com.cubic.autohome" /><!--汽车之家-->
+<package_name name="com.example.businesshall" /><!--浙江移动手机营业厅-->
+<package_name name="cmb.pb" /><!--招商银行-->
+<package_name name="com.umetrip.android.msky.app" /><!--航旅纵横-->
+<package_name name="com.eastmoney.android.berlin" /><!--东方财富网-->
+<package_name name="com.icbc" /><!--中国工商银行-->
+<package_name name="com.nuomi" /><!--百度糯米-->
+<package_name name="com.myzaker.ZAKER_Phone" /><!--ZAKER新闻-->
+<package_name name="me.ele" /><!--饿了么-->
+<package_name name="com.ushaqi.zhuishushenqi" /><!--追书神器-->
+<package_name name="com.android.bankabc" /><!--农行掌上银行-->
+<package_name name="com.youan.universal" /><!--WiFi万能密码-->
+<package_name name="com.tencent.token" /><!--QQ安全中心-->
+<package_name name="com.chinamobile.contacts.im" /><!--和通讯录-->
+<package_name name="cn.etouch.ecalendar" /><!--中华万年历日历天气-->
+<package_name name="sina.mobile.tianqitong" /><!--天气通-->
+<package_name name="com.sankuai.meituan.takeoutnew" /><!--美团外卖-->
+<package_name name="com.taobao.qianniu" /><!--千牛-->
+<package_name name="com.moxiu.launcher" /><!--魔秀桌面-->
+<package_name name="com.mogujie" /><!--蘑菇街-->
+<package_name name="com.fanli.android.apps" /><!--返利-->
+<package_name name="com.lphtsccft" /><!--涨乐财富通-->
+<package_name name="com.gtgj.view" /><!--高铁管家-->
+<package_name name="com.qihoo.cleandroid_cn" /><!--360清理大师-->
+<package_name name="android.zhibo8" /><!--直播吧-->
+<package_name name="com.kingpoint.gmcchh" /><!--广东移动-->
+<package_name name="com.suning.mobile.ebuy" /><!--苏宁易购-->
+<package_name name="com.pp.assistant" /><!--PP助手-->
+<package_name name="com.baidu.homework" /><!--作业帮-->
+<package_name name="com.youloft.calendar" /><!--万年历-->
+<package_name name="com.ting.mp3.android" /><!--百度音乐-->
+<package_name name="cn.eclicks.wzsearch" /><!--车轮查违章-->
+<package_name name="com.tencent.pb" /><!--微信电话本-->
+<package_name name="com.xiaomi.hm.health" /><!--小米运动-->
+<package_name name="com.chaozh.iReaderFree15" /><!--爱读掌阅-->
+<package_name name="com.cootek.smartdialer" /><!--触宝电话-->
+<package_name name="com.yiche.price" /><!--汽车报价大全-->
+<package_name name="com.bankcomm.Bankcomm" /><!--交通银行-->
+<package_name name="com.didapinche.booking" /><!--嘀嗒拼车-->
+<package_name name="com.jiongji.andriod.card" /><!--百词斩-->
+<package_name name="com.mymoney" /><!--随手记-->
+<!--53个20170322没有测到之前测试pass的应用-->
+
+
+<not_component_name name="com.ss.android.article.news/com.ss.android.media.video.VideoCaptureActivity" /><!--今日头条_发布视频-->
+<not_component_name name="com.baidu.browser.apps/com.baidu.megapp.proxy.activity.FragmentActivityProxyExt" /><!--百度浏览器_拍照-->
+<not_component_name name="com.kk.dict/.activity.CameraActivity" /><!--快快查汉语字典_拍照-->
+<not_component_name name="cn.kuwo.player/cn.kuwo.sing.ui.activity.KsingScannerCodeActivity" /><!--酷我音乐_扫一扫-->
+<not_component_name name="com.autonavi.minimap/com.autonavi.mine.qrcode.QRCodeScanActivity" /><!--高德地图_扫一扫-->
+<not_component_name name="com.chaozh.iReaderFree15/com.zhangyue.iReader.thirdplatform.barcode.ui.CaptureActivity" /><!--爱读掌阅_扫一扫-->
+<not_component_name name="com.ct.client/.zxing.activity.CaptureActivity" /><!--电信营业厅_扫一扫-->
+<not_component_name name="com.dp.android.elong/com.elong.zxing.activity.CaptureActivity" /><!--艺龙旅行_扫一扫-->
+<not_component_name name="com.jingdong.app.mall/com.jd.lib.scan.lib.zxing.client.android.CaptureActivity" /><!--京东_扫一扫-->
+<not_component_name name="com.neusoft.td.android.wo116114/com.wsh.base.lib.zxing.CaptureActivity" /><!--116114_扫一扫-->
+<not_component_name name="com.pplive.androidphone/.ui.barcode.BarcodeCaptureActivity" /><!--PPTV聚力_扫一扫-->
+<not_component_name name="com.sankuai.meituan/com.meituan.android.base.ui.CustomCaptureActivity" /><!-- 美团_扫一扫-->
+<not_component_name name="com.sankuai.meituan/com.sankuai.xm.videolib.RecordVideoActivity" /><!--美团_评价拍照-->
+<not_component_name name="com.shoujiduoduo.ringtone/com.shoujiduoduo.ui.home.MusicAlbumActivity" /><!--铃声多多_相册页面-->
+<not_component_name name="com.sina.weibo/.qrcode.CaptureActivity" /><!--微博_扫一扫-->
+<not_component_name name="com.sina.weibo/.radar.RadarMainActivity" /><!--微博_雷达-->
+<not_component_name name="com.sina.weibo/.photoalbum.camera.CameraActivity" /><!--微博_拍摄-->
+<not_component_name name="com.sohu.newsclient/.push.ScannerProxyActivity" /><!--搜狐新闻_扫一扫-->
+<not_component_name name="com.sohu.newsclient/.plugin.NewsProxyActivity" /><!--搜狐新闻_相机-->
+<not_component_name name="com.taobao.taobao/.scancode.gateway.activity.ScancodeGatewayActivity" /><!--手机淘宝_扫一扫-->
+<not_component_name name="com.taobao.taobao/com.etao.feimagesearch.FEISCaptureActivity" /><!--手机淘宝_拍照-->
+<not_component_name name="com.tencent.mm/.plugin.scanner.ui.BaseScanUI" /><!--微信_扫一扫-->
+<not_component_name name="com.tencent.mm/.plugin.mmsight.ui.SightCaptureUI" /><!--微信_拍照/小视频-->
+<not_component_name name="com.tencent.mm/.plugin.voip.ui.VideoActivity" /><!--微信_视频-->
+<not_component_name name="com.wuba/.zxing.scan.activity.CaptureFragmentActivity" /><!--58同城_扫一扫-->
+<not_component_name name="com.wuba/.activity.publish.PublishCameraActivity" /><!--58同城_发布消息-->
+<not_component_name name="com.youdao.dict/.activity.OCRFromCameraActivity" /><!--网易有道词典_拍照-->
+<not_component_name name="im.yixin/.activity.barcode.CaptureYXQRCodeActivity" /><!--易信_扫一扫-->
+<not_component_name name="im.yixin/.activity.message.media.CaptureVideoActivity" /><!--易信_聊天拍摄视频-->
+<not_component_name name="com.eg.android.AlipayGphone/com.alipay.mobile.scan.as.main.MainCaptureActivity" /><!--支付宝_扫一扫-->
+<not_component_name name="com.eg.android.AlipayGphone/com.alipay.mobile.beehive.capture.activity.CaptureActivity" /><!--支付宝_记录我的生活拍照-->
+<not_component_name name="com.qihoo360.mobilesafe/.loader.a.ActivityN1NR3" /><!--360卫士_安全扫码-->
+<not_component_name name="com.huawei.works/com.huawei.we.container.PluginProxyActivity$P0$Standard" /><!--welink_扫一扫-->
+<not_component_name name="com.huawei.espacev2/com.huawei.espace.module.chat.ui.VideoRecorderActivity" /><!--espace_拍视频-->
+
+<!--原来白名单存在的页面-->
+    <not_component_name name="com.jingdong.app.mall/com.jingdong.lib.zxing.client.android.CaptureActivity" />
+    <not_component_name name="com.taobao.qianniu/.ui.common.ScanActivity" />
+<!--原来白名单存在的页面-->
+</forcerotation_applications>

@@ -1,0 +1,5 @@
+/product/app/CeliaKeyboardStub/CeliaKeyboardStub.apk
+/data/hw_init/product/app/HwGameAssistant/HwGameAssistant.apk
+/product/app/HwHealthHm/HwHealthHm.apk
+/data/hw_init/product/app/HwKidsMode/HwKidsMode.apk
+/product/app/HwKidsPaint/HwKidsPaint.apk

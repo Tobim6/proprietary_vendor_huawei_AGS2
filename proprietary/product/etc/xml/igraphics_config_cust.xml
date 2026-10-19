@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * igfx Config
+ * all states definitions at here.
+ -->
+<igfx_config version="5">
+    <igfx_min_version version="3" />
+
+    <igfx_property_config>
+        <property
+            key="persist.disable"
+            value="0" />
+    </igfx_property_config>
+
+    <xy_setting
+        xy_enable = "false"/>
+
+    <igfx_app_list version="1">
+        <igfx
+            name="com.tencent.tmgp.sgame"
+            type="cpu_bound"
+            tDBF="60"
+            bTC="3"
+            mMBFlag="true"
+            cMBFlag="true"
+        />
+        <igfx
+            name="com.tencent.tmgp.pubgmhd"
+            type="cpu_bound"
+            pSF="10"
+            bTC="3"
+            eHO="true"
+            ifSSK="true"
+            mMBFlag="true"
+            cMBFlag="true"
+        />
+        <igfx
+            name="com.tencent.tmgp.cf"
+            type="cpu_bound"
+            tICE="1280"
+            DCFNum="30"
+            bTC="5"
+            mMBFlag="true"
+            cMBFlag="true"
+        />
+        <igfx
+            name="com.tencent.tmgp.speedmobile"
+            type="cpu_bound"
+            mBF="40"
+            mMBFlag="true"
+            cMBFlag="true"
+        />
+        <igfx
+            name="com.netease.hyxd.huawei"
+            type="cpu_bound"
+            mMBFlag="true"
+            cMBFlag="true"
+        />
+        <igfx
+            name="com.netease.hyxd"
+            type="cpu_bound"
+            mMBFlag="true"
+            cMBFlag="true"
+        />
+        <igfx
+            name="com.tencent.tmgp.pubgm"
+            type="cpu_bound"
+            bTC="3"
+            ifSSK="true"
+            mMBFlag="true"
+            cMBFlag="true"
+        />
+        <igfx
+            name="com.mobile.legends:UnityKillsMe"
+            type="cpu_bound"
+            tDBF="60"
+            bTC="3"
+            mMBFlag="true"
+            cMBFlag="true"
+        />
+    </igfx_app_list>
+</igfx_config>

@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<favorites xmlns:launcher="http://schemas.android.com/apk/res/com.huawei.android.launcher">
+    
+    <!--替补应用-->
+    <!--浏览器-->
+    <reserveFavorite
+        launcher:packageName="com.android.browser"
+        launcher:className="com.huawei.browser.Main2" />
+
+    <!--相机-->
+    <reserveFavorite
+        launcher:packageName="com.huawei.camera"
+        launcher:className="com.huawei.camera" />
+
+    <!--日历-->
+    <reserveFavorite
+        launcher:packageName="com.android.calendar"
+        launcher:className="com.android.calendar.AllInOneActivity" />
+
+    <!--备忘录-->
+    <reserveFavorite
+        launcher:packageName="com.example.android.notepad"
+        launcher:className="com.example.android.notepad.NotePadActivity" />
+
+    <!--华为商城-->
+    <reserveFavorite
+        launcher:packageName="com.vmall.client"
+        launcher:className="com.vmall.client.splash.fragment.SplashActivity" />
+
+    <!--平板管家-->
+    <reserveFavorite
+        launcher:packageName="com.huawei.systemmanager"
+        launcher:className="com.huawei.systemmanager.mainscreen.MainScreenActivity" />
+
+    <!--服务-->
+    <reserveFavorite
+        launcher:packageName="com.huawei.phoneservice"
+        launcher:className="com.huawei.phoneservice.LaunchActivity" />
+
+    <!--生活服务-->
+    <reserveFavorite
+        launcher:packageName="com.huawei.lives"
+        launcher:className="com.huawei.lifeservice.basefunction.ui.entry.LandingActivity" />
+
+    <!--玩机技巧-->
+    <reserveFavorite
+        launcher:packageName="com.huawei.android.tips"
+        launcher:className="com.huawei.android.tips.launch.ui.SplashActivity" />
+
+    <!--联系人-->
+    <reserveFavorite
+        launcher:packageName="com.android.contacts"
+        launcher:className="com.android.contacts.activities.PeopleActivity" />
+
+    <!--文件管理-->
+    <reserveFavorite
+        launcher:packageName="com.huawei.hidisk"
+        launcher:className="com.huawei.hidisk.filemanager.FileManager" />
+
+    <!--平板克隆-->
+    <reserveFavorite
+        launcher:packageName="com.hicloud.android.clone"
+        launcher:className="com.huawei.android.clone.activity.sender.ChooseReceiveSendActivity" />
+
+    <!--查找我的手机-->
+    <reserveFavorite
+        launcher:packageName="com.huawei.android.findmyphone"
+        launcher:className="com.huawei.android.findmyphone.ui.FindMyPhoneActivity" />
+
+    <!--计算器-->
+    <reserveFavorite
+        launcher:packageName="com.android.calculator2"
+        launcher:className="com.huawei.calculator.Calculator" />
+
+    <!--音乐-->
+    <reserveFavorite
+        launcher:packageName="com.android.mediacenter"
+        launcher:className="com.android.mediacenter.PageActivity" />
+
+    <!--天气-->
+    <reserveFavorite
+        launcher:packageName="com.huawei.android.totemweather"
+        launcher:className="com.huawei.android.totemweather.WeatherHome" />
+
+    <!--新增首屏widget-->
+    <appwidget
+        launcher:packageName="com.huawei.android.totemweather"
+        launcher:className="com.huawei.android.totemweather.widget.huaweiwidget.HuaweiWidgetWeatherProvider"
+        launcher:container="-100"
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="0"
+        launcher:spanX="6"
+        launcher:spanY="1" />
+
+    <appwidget
+        launcher:packageName="com.android.browser"
+        launcher:className="com.huawei.browser.FASearchWidgetProvider"
+        launcher:container="-100"
+        launcher:screen="0"
+        launcher:x="2"
+        launcher:y="3"
+        launcher:spanX="2"
+        launcher:spanY="1" />
+
+    <!--新增首屏卡片-->
+    <!--小艺建议-->
+    <abilityform
+        launcher:originalBundleName="com.huawei.ohos.suggestion"
+        launcher:packageName="com.huawei.ohos.suggestion"
+        launcher:className="com.huawei.ohos.suggestion.xiaoyirecommender.XiaoyiRecAbility"
+        launcher:moduleName="xiaoyi_recommender"
+        launcher:formName="Xiaoyi Recommender"
+        launcher:formDimension="2"
+        launcher:container="-100"
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="3" />
+
+    <!--新增首屏应用-->
+    <!--应用市场-->
+    <favorite
+        launcher:packageName="com.huawei.appmarket"
+        launcher:className="com.huawei.appmarket.MainActivity"
+        launcher:container="-100"
+        launcher:screen="0"
+        launcher:x="4"
+        launcher:y="3"
+        launcher:shortcut="true"
+        launcher:icontype="0"
+        launcher:translatetitle="1" />
+
+    <!--教育中心-->
+    <favorite
+        launcher:packageName="com.huawei.educenter"
+        launcher:className="com.huawei.educenter.MainActivity"
+        launcher:container="-100"
+        launcher:screen="0"
+        launcher:x="5"
+        launcher:y="3"
+        launcher:shortcut="true"
+        launcher:icontype="0"
+        launcher:translatetitle="1" />
+
+    <!--游戏中心-->
+    <favorite
+        launcher:packageName="com.huawei.gamebox"
+        launcher:className="com.huawei.gamebox.GameBoxActivity"
+        launcher:container="-100"
+        launcher:screen="0"
+        launcher:x="2"
+        launcher:y="4"
+        launcher:shortcut="true"
+        launcher:icontype="0"
+        launcher:translatetitle="1" />
+
+    <!--运动健康-->
+    <favorite
+        launcher:packageName="com.huawei.health"
+        launcher:className="com.huawei.health.MainActivity"
+        launcher:container="-100"
+        launcher:screen="0"
+        launcher:x="3"
+        launcher:y="4"
+        launcher:shortcut="true"
+        launcher:icontype="0"
+        launcher:translatetitle="1" />
+
+    <!--畅连-->
+    <favorite
+        launcher:packageName="com.huawei.meetime"
+        launcher:className="com.huawei.meetime.MainMenuActivity"
+        launcher:container="-100"
+        launcher:screen="0"
+        launcher:x="4"
+        launcher:y="4"
+        launcher:shortcut="true"
+        launcher:icontype="0"
+        launcher:translatetitle="1" />
+
+    <!--设置-->
+    <favorite
+        launcher:packageName="com.android.settings"
+        launcher:className="com.android.settings.HWSettings"
+        launcher:container="-100"
+        launcher:screen="0"
+        launcher:x="5"
+        launcher:y="4"
+        launcher:shortcut="true"
+        launcher:icontype="0"
+        launcher:translatetitle="1" />
+</favorites>

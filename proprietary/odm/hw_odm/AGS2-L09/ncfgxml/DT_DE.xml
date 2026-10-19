@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<NV_PARA>
+    <NV ID="8331" NAME="LAPDM_RAND_BIT" PARAM_VALUE="{0x01,0x00,0x00,0x00}" MODEM_NUMBER="1" NV_SIZE="4" />
+</NV_PARA>

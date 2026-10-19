@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config hashvalue="d0b131eb737e362e486f529fa90f56c9">
+  <dict>
+    <array key="extend_pages">
+      <dict>
+        <string key="packageName">com.huawei.mycenter</string>
+        <string key="className">com.huawei.mycenter.oobe.view.privilege.hota.HOTAEnterActivity</string>
+      </dict>
+      <dict>
+        <string key="packageName">com.huawei.hidisk</string>
+        <string key="className">com.huawei.android.remotecontrol.ui.activation.MrGuideRouterActivity</string>
+      </dict>
+      <dict>
+        <string key="packageName">com.huawei.android.hwupgradeguide</string>
+        <string key="className">com.huawei.android.hwupgradeguide.LightSpotActivity</string>
+        <string key="contentproviderUri">content://com.huawei.android.hwupgradeguide.LightSpotShowProvider/is_need_show</string>
+        <string key="extraInfo"></string>
+      </dict>
+      <dict>
+        <string key="packageName">com.huawei.android.launcher</string>
+        <string key="className">com.huawei.android.launcher.newhomescreen.NewHomeIntroduceActivity</string>
+        <string key="contentproviderUri">content://com.huawei.launcher.provider.itemoperationsprovider.ItemOperationsProvider/isShowNewHomeChoice?callPackageName=com.huawei.android.hwupgradeguide</string>
+        <string key="extraInfo">query</string>
+      </dict>
+    </array>
+  </dict>
+</config>

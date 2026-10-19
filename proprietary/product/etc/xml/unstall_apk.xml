@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tag>
+  <apk>
+        /system/app/HwCryptoMessageService.apk;
+        /system/priv-app/Tag.apk;
+        /system/delapp/HwMirror.apk;
+        /system/app/WatchSync.apk;
+        /system/app/HwInstantOnline.apk;
+        /system/app/HwRcsService.apk;
+        /system/priv-app/HwUsbEarphoneUpdate.apk;
+        /system/priv-app/HwCardManager.apk;
+        /system/delapp/HwCompass.apk;
+        /data/hw_init/system/app/ContactsCamcard.apk;
+    </apk>
+</tag>

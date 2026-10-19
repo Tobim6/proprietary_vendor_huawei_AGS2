@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tag>
+  <apk>/preas/app/Hangouts.apk;</apk>
+  <restoreapk>/preas/app/Duo.apk;/system/priv-app/HwMotionRecognition.apk;</restoreapk>
+</tag>

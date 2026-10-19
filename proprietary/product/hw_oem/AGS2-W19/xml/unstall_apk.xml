@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tag>
+  <apk>
+                /system/priv-app/Mms.apk;
+                /system/priv-app/InCallUI.apk;
+                /system/app/HwCallRecorder.apk;
+                /system/app/Stk.apk;
+                /system/app/SmartcardService.apk;
+                /system/priv-app/CallLogBackup.apk;
+                /system/app/HwIms.apk;
+                /system/priv-app/CellBroadcastReceiver.apk;
+                /system/app/Duo.apk;
+                /preas/app/Duo.apk;
+                /product/app/HwFidoAsm.apk;
+                /product/app/HwFidoClient.apk;
+   </apk>
+</tag>

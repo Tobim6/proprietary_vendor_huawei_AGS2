@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+  <!--2019-09-19 16:15:45.0-->
+  <string authenticate_by_product="Hide_all_cust_Authen"/>
+  <!--2019-09-19 16:15:45.0-->
+  <string custom_certify_picture="/product/special_cust/AGS2-L09/hw/eu/media/AGS2-L09.png"/>
+  <!--2019-09-11 17:31:07.0-->
+  <string plmn_remind_data_service="26006,26003,26002,21401,26098,26044,21407,26033"/>
+</resources>

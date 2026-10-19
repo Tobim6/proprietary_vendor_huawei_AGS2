@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="GB2312"?>
+<Config>
+    <Sensor Name="gc2375">
+        <NoramlLowLevelISO>700</NoramlLowLevelISO>
+        <NoramlLowLevelFrameNum>4</NoramlLowLevelFrameNum>
+        <NormalHighLevelISO>1600</NormalHighLevelISO>
+        <NoramlHighLevelFrameNum>4</NoramlHighLevelFrameNum>
+        <SmartLowLevelISO>700</SmartLowLevelISO>
+        <SmartLowLevelFrameNum>4</SmartLowLevelFrameNum>
+        <SmartNightFrameNum>4</SmartNightFrameNum>
+        <SmartLowNightFrameNum>6</SmartLowNightFrameNum>
+    </Sensor>
+
+    <Sensor Name="sp2509">
+        <NoramlLowLevelISO>700</NoramlLowLevelISO>
+        <NoramlLowLevelFrameNum>4</NoramlLowLevelFrameNum>
+        <NormalHighLevelISO>1600</NormalHighLevelISO>
+        <NoramlHighLevelFrameNum>4</NoramlHighLevelFrameNum>
+        <SmartLowLevelISO>700</SmartLowLevelISO>
+        <SmartLowLevelFrameNum>4</SmartLowLevelFrameNum>
+        <SmartNightFrameNum>4</SmartNightFrameNum>
+        <SmartLowNightFrameNum>6</SmartLowNightFrameNum>
+    </Sensor>
+	
+	<Sensor Name="gc5025">
+        <NoramlLowLevelISO>700</NoramlLowLevelISO>
+        <NoramlLowLevelFrameNum>4</NoramlLowLevelFrameNum>
+        <NormalHighLevelISO>1600</NormalHighLevelISO>
+        <NoramlHighLevelFrameNum>4</NoramlHighLevelFrameNum>
+        <SmartLowLevelISO>700</SmartLowLevelISO>
+        <SmartLowLevelFrameNum>4</SmartLowLevelFrameNum>
+        <SmartNightFrameNum>4</SmartNightFrameNum>
+        <SmartLowNightFrameNum>6</SmartLowNightFrameNum>
+    </Sensor>
+
+    <Sensor Name="hi556">
+        <NoramlLowLevelISO>700</NoramlLowLevelISO>
+        <NoramlLowLevelFrameNum>4</NoramlLowLevelFrameNum>
+        <NormalHighLevelISO>1600</NormalHighLevelISO>
+        <NoramlHighLevelFrameNum>4</NoramlHighLevelFrameNum>
+        <SmartLowLevelISO>700</SmartLowLevelISO>
+        <SmartLowLevelFrameNum>4</SmartLowLevelFrameNum>
+        <SmartNightFrameNum>4</SmartNightFrameNum>
+        <SmartLowNightFrameNum>6</SmartLowNightFrameNum>
+    </Sensor>
+</Config>

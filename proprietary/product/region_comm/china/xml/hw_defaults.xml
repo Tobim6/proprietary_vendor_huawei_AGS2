@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+  <!--2019-04-19 14:16:01.0-->
+  <string hide_startupguide_pages="HwPhoneServicePage"/>
+  <!--2019-04-09 16:20:57.0-->
+  <string hw_networkmode_gstyle="true"/>
+  <!--2019-04-09 16:20:57.0-->
+  <integer settings.system.force_rotation_mode="1"/>
+  <!--2019-04-25 15:04:41.0-->
+  <string upgrade_guide_activity_path="com.huawei.android.hwupgradeguide.UpgradeWizardActivity"/>
+  <!--2019-04-25 15:04:41.0-->
+  <string upgrade_guide_appstoreflag="false"/>
+</resources>

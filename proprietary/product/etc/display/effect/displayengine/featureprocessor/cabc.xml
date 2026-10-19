@@ -1,0 +1,11 @@
+<DisplayEngineConfig>
+    <id>23</id>
+    <updated>2019-04-23</updated>
+    <feature name="CABC">
+        <mode name="FILTER">
+            <param name="DE_SCENE_ACTION_SMALLVIDEO_ENTER">MODE_VIDEO</param>
+            <param name="DE_SCENE_ACTION_SMALLVIDEO_EXIT">MODE_UI</param>    
+            <param name="DE_SCENE_ACTION_UI_ENTER">MODE_UI</param>
+        </mode>
+    </feature>
+</DisplayEngineConfig>

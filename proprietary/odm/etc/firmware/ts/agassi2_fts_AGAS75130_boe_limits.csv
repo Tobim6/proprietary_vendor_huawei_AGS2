@@ -1,0 +1,14 @@
+cb_test_threshold,
+1,55
+"threshold,short_circuit_min",
+200,
+"threshold,lcd_noise_max",
+80,
+rawdata_test_threshold,
+2000,12000
+open_test_threshold,
+40,
+cb_uniformity_test_threshold,
+70,70
+cb_increase_test_threshold,
+8,1500

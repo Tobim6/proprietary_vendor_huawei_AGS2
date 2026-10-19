@@ -1,0 +1,3 @@
+/product/app/HwFidoAsm/HwFidoAsm.apk
+/product/app/HwFidoClient/HwFidoClient.apk
+/data/hw_init/product/app/SWSHeadphone/SWSHeadphone.apk

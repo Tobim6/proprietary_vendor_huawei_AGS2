@@ -1,0 +1,8 @@
+# 2019-09-09 09:22:10.0
+ro.com.google.clientidbase.ms=android-huawei-rev1
+# 2019-09-19 21:32:04.0
+ro.config.face_recognition=true
+# 2019-09-20 16:02:59.0
+ro.config.hw_wakeup_device=true
+# 2019-09-10 14:52:30.0
+ro.config.use_google_smartlock=true

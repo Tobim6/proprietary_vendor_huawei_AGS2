@@ -1,0 +1,42 @@
+# 2021-09-09 11:24:55.0
+hw_mc.controlcenter.displaymode=552
+# 2021-09-14 11:26:58.0
+hw_mc.meetime.mode=1
+# 2021-10-11 19:41:24.0
+hw_mc.power.proxy_cellular=false
+# 2021-09-18 16:37:49.0
+hw_mc.pure_mode.enable=true
+# 2019-04-09 16:20:57.0
+ro.camera.sound.not_forced=true
+# 2019-04-09 16:20:57.0
+ro.config.full_network_support=false
+# 2021-09-14 11:26:58.0
+ro.config.hicall=true
+# 2019-04-09 16:20:57.0
+ro.config.hw_eyescomfort_info=1
+# 2019-04-24 12:10:06.0
+ro.config.hw_globalSearch=true
+# 2019-04-09 16:20:57.0
+ro.config.hw_lite_story_enable=true
+# 2019-04-09 16:20:57.0
+ro.config.hw_triple_finger=true
+# 2019-04-09 16:20:57.0
+ro.config.hw_wakeup_device=true
+# 2019-04-09 16:20:57.0
+ro.config.mm_socket_ctrl=0
+# 2019-04-16 14:46:48.0
+ro.config.privacycontact=false
+# 2019-04-16 09:37:58.0
+ro.config.show_sdcard_psw=true
+# 2021-09-02 19:23:57.0
+ro.config.sim_contacts_enabled=true
+# 2019-04-09 16:20:57.0
+ro.config.support_iseapp=true
+# 2019-04-11 11:55:00.0
+ro.config.support_mm_fp_pay=true
+# 2019-04-09 16:20:57.0
+ro.config.wifi_turn_off=true
+# 2019-04-09 16:20:57.0
+ro.cust.cdrom=/data/hw_init/product/region_comm/china/cdrom/autorun.iso
+# 2021-08-25 14:28:29.0
+ro.sys.pg_nfb_kill=true

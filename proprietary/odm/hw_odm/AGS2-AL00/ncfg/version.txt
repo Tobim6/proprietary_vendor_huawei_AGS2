@@ -1,0 +1,3 @@
+version=v000.001.001
+type=COTA_NCFG_AGS2-AL00
+schema=V001

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DegreeSettings>
+    <AppPreviewSizeProfile appname="com.whatsapp" maxsize="1280x720" minsize="0x0"/>
+    <AppPreviewSizeProfile appname="com.whatsapp.w4b" maxsize="1280x720" minsize="0x0"/>
+    <AppPreviewSizeProfile appname="com.perfect.collage.art.effects" maxsize="1440x1080" minsize="0x0"/>
+    <AppPreviewSizeProfile appname="com.editor.beauty.photo.effect" maxsize="1440x1080" minsize="0x0"/>
+    <DegreeProfiles cameraId="0">
+        <AppDegreeProfile appname="com.imo.android.imoim" activityname="null" form="ALL" yuvdegree="270" filter1b1="false" previewdegree="0" jpegdegree="0">
+    </AppDegreeProfile>
+    </DegreeProfiles>
+    <DegreeProfiles cameraId="1">
+        <AppDegreeProfile appname="com.imo.android.imoim" activityname="null" form="ALL" yuvdegree="90" filter1b1="false" previewdegree="0" jpegdegree="0">
+        </AppDegreeProfile>
+    </DegreeProfiles>
+</DegreeSettings>

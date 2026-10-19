@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+  <!--2019-04-09 16:25:39.0-->
+  <string custom_certify_picture="product/hw_oem/AGS2-W19/media/AGS2-W19.png" reset="true"/>
+  <!--2019-04-09 16:25:38.0-->
+  <string hw_reduce_sar_fcc="US,MX,AR,VE,CO,EC,CL,PE,UY,HN,NI,PA,PY,LB,AW,BS,CW,CA,GT,SV,CU,HT,DO,JM,TT,BB,GD,LC,VC,GY,SR,BR,SKN,BZ,AG,IN,TH,KE,BO,CR,IR,IL,KR,SC"/>
+</resources>

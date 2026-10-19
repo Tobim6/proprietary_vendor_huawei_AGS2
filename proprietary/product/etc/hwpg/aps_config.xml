@@ -1,0 +1,1656 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * aps Config
+ * all states definitions at here.
+ -->
+<aps_config>
+    <aps_property_config>
+        <property key="sys.aps.maxDimRatio" value="50" />
+        <property key="sys.aps.minBrightDuration" value="70000" />
+    </aps_property_config>
+    <aps_app_list version="1">
+        <aps name="com.supercell.boombeach.HUAWEI" type="9998" min="55" r_min="0.6" />
+        <aps name="com.happyelements.AndroidAnimal" type="9998" min="55" r_min="0.875" />
+        <aps name="com.vectorunit.red" type="9998" min="55" r_min="0.6667" />
+        <aps name="com.fingersoft.hillclimb" type="9998" min="55" r_min="0.6667" />
+        <aps name="com.supercell.clashofclans.huawei" type="9998" min="55" r_min="0.6667" />
+        <aps name="com.qqgame.happymj" type="9998" min="55" r_min="0.6667" />
+        <aps name="com.tencent.tmgp.RunGame" type="9998" min="55" r_min="0.6667" />
+        <aps name="com.doudizhu.huawei" type="9998" min="55" r_min="0.6667" />
+        <aps name="com.tencent.pao" type="9998" min="55" r_min="0.6667" />
+        <aps name="com.cmge.xyykp" type="9998" min="55" r_min="0.6667" />
+        <aps name="com.autonavi.minimap" type="9998" max="120" min="15" r_min="1" />
+        <aps name="com.baidu.BaiduMap" type="9998" max="120" min="15" r_min="1" />
+        <aps name="com.tencent.map" type="9998" max="120" min="15" r_min="1" />
+        <aps name="com.google.android.maps" type="9998" max="120" min="15" r_min="1" />
+        <aps name="com.baidu.navi" type="9998" max="120" min="15" r_min="1" />
+        <aps name="com.autonavi.xmgd.navigator" type="9998" max="120" min="15" r_min="1" />
+        <aps name="com.tencent.game.rhythmmaster" type="9998" min="55" r_min="1"/>
+        <aps name="air.com.tencent.qqfarmios" type="9998" min="55" r_min="1"/>
+        <aps name="com.longtugame.rxjh.huawei" type="9998" min="55" r_min="1"/>
+        <aps name="com.pokercity.lobby" type="9998" min="55" r_min="1"/>
+        <aps name="com.tencent.mm" type="9998" min="55" r_min="1"/>
+        <aps
+            name="com.meitu.meiyancamera" 
+            type="9998" 
+            min="55"  
+            r_min="1"/>
+        <aps 
+            name="com.pplive.androidphone" 
+            type="9998" 
+            min="55" 
+            r_min="1"
+            switch_level="1"/>
+        <aps 
+            name="com.panda.videoliveplatform" 
+            type="9998" 
+            min="55" 
+            r_min="1"
+            switch_level="1"/>
+        <aps 
+            name="com.lemon.faceu" 
+            type="9998" 
+            min="55"  
+            r_min="1"
+            switch_level="1"/> 
+        <aps 
+            name="com.sohu.sohuvideo" 
+            type="9998" 
+            min="55" 
+            r_min="1"
+            switch_level="1"/>
+        <aps 
+            name="com.duowan.kiwi" 
+            type="9998" 
+            min="55" 
+            r_min="1"
+            switch_level="1"/>
+        <aps 
+            name="com.storm.smart" 
+            type="9998" 
+            min="55" 
+            r_min="1"
+            switch_level="1"/>
+        <aps 
+            name="com.hunantv.imgo.activity" 
+            type="9998" 
+            min="55" 
+            r_min="1"
+            switch_level="1"/> 
+        <aps 
+            name="com.smile.gifmaker" 
+            type="9998" 
+            min="55" 
+            r_min="1"
+            switch_level="1"/>
+        <aps 
+            name="air.tv.douyu.android" 
+            type="9998" 
+            min="55" 
+            r_min="1"/> 
+        <aps 
+            name="com.xunlei.downloadprovider" 
+            type="9998" 
+            min="55" 
+            r_min="1"
+            switch_level="1"/> 
+        <aps 
+            name="com.baidu.netdisk" 
+            type="9998" 
+            min="55" 
+            r_min="1"
+            switch_level="1"/>
+        <aps 
+            name="com.letv.android.client" 
+            type="9998" 
+            min="55" 
+            r_min="1"
+            switch_level="1"/>
+        <aps
+            name="com.zplay.migupopstar"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.tuyoo.gomoku.huawei"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="net.peakgames.amycn.huawei"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.netease.mc.huawei"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.carrot.carrotfantasy"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="jp.co.hit_point.tabikaeru"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.yingxiong.dfzj.huawei"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.netease.zjz.huawei"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.mobile.legends"
+            type="9998"
+            min="60"
+            r_min="0.875" />
+        <aps
+            name="com.tencent.ig"
+            type="9998"
+            min="55"
+            r_min="0.6" />
+        <aps
+            name="com.tencent.tmgp.tmsk.qj2"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.tencent.tmgp.pubgm"
+            type="9998"
+            min="55"
+            r_min="0.6" />
+		<aps
+            name="com.tencent.tmgp.pubgmhd"
+            type="9998"
+            min="55"
+            r_min="0.6" />
+		<aps
+            name="com.longtugame.yscs.huawei"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+		<aps
+            name="com.tencent.cldts"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.netease.wyclx.huawei"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.miHoYo.bh3.huawei"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.wali.ak.huawei"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+		<aps
+            name="com.netease.hyxd.huawei"
+            type="9998"
+            min="60"
+            r_min="0.875" />
+        <aps 
+            name="com.tencent.tmgp.sgame" 
+            type="9998" 
+            min="60" 
+            r_min="0.875" />
+        <aps
+            name="com.wyd.hero.yqlfc.cb1.huawei"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.bairimeng.snake.huawei"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.boyaa.chinesechessnew.huawei"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.racergame.cityracing3d"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.ty.fishing.huawei"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.cmcm.arrowio.baidu"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.hlmj2016.android.pld.HUAWEI"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="org.tinghood.TpsForMobile.huawei"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.yingzheng.jlkt3.huawei"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.tencent.tmgp.ddtank"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.DBGame.DiabloLOL"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.tuo3.metal.huawei"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.boyaa.unionmj.HUAWEI"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.tencent.freestyle"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.example.chinesechess.huawei"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.ecapycsw.onetouchdrawing"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.cmplay.tiles2_cn.huawei"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.fengniao.qtdl.huawei"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.soulgame.slithersg.huawei"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.tencent.clover"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.tianjigames.fruitsplash"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.dw.fs.huawei"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.tencent.WeFire"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.crisisfire.android.huawei"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+             name="com.boyaa.lordlandnew.HUAWEI"
+             type="9998"
+             min="55"
+             r_min="0.875"/>
+        <aps
+             name="com.junyou.buyu.huawei"
+             type="9998"
+             min="55"
+             r_min="0.875"/>
+        <aps
+             name="com.tencent.tmgp.cf"
+             type="9998"
+             min="60"
+             r_min="0.6"/> 
+		<aps
+             name="com.netease.dhxy.huawei"
+             type="9998"
+             min="55"
+             r_min="0.75"/>
+        <aps
+             name="com.tencent.tmgp.ttzz"
+             type="9998"
+             min="55"
+             r_min="0.6"/>
+        <aps
+             name="com.t2ksports.nba2k16android"
+             type="9998"
+             min="55"
+             r_min="0.875"/>
+        <aps
+             name="com.yaowan.car.huawei"
+             type="9998"
+             min="55"
+             r_min="0.875"/>
+        <aps
+             name="com.tencent.tmgp.kof98"
+             type="9998"
+             min="55"
+             r_min="0.75"/>
+        <aps
+             name="com.halfbrick.fruitninja"
+             type="9998"
+             min="55"
+             r_min="0.875"/>
+        <aps
+             name="com.tencent.xjcard"
+             type="9998"
+             min="55"
+             r_min="0.75"/>
+        <aps
+             name="com.cocos2d.fishingjoy3.HUAWEI"
+             type="9998"
+             min="55"
+             r_min="0.75"/> 
+        <aps
+             name="com.happyelements.AndroidAnimal.qq"
+             type="9998"
+             min="55"
+             r_min="0.875"/>
+        <aps
+             name="com.tencent.peng"
+             type="9998"
+             min="55"
+             r_min="0.75"/>
+        <aps
+            name="com.elextech.alert.HUAWEI"
+            type="9998"
+            min="55"
+            r_min="0.875"/>
+        <aps
+             name="com.ztgame.bob"
+             type="9998"
+             min="55"
+             r_min="0.75"/> 
+        <aps
+            name="org.cocos2d.fishingjoy3.HUAWEI"
+            type="9998"
+            min="55"
+            r_min="0.875" /> 
+        <aps
+            name="cn.mobage.g12000119.HUAWEI"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.tencent.tmgp.mt2"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.ea.games.nfs13_row.HUAWEI"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.tencent.pocket"
+            type="9998"
+            min="55"
+            r_min="0.75" /> 
+        <aps
+            name="com.yodo1.SkiSafari.HUAWAI"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.mfp.jelly.huawei"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.huoshe.kxlll"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+             name="com.tencent.xhzs"
+             type="9998"
+             min="55"
+             r_min="0.875"/> 
+        <aps
+            name="com.imangi.templerun2"
+            type="9998"
+            min="55"
+            r_min="0.75" />
+        <aps
+            name="com.tencent.fruitninja"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+             name="com.qqgame.hlddz"
+             type="9998"
+             min="55"
+             r_min="0.875"/>
+        <aps
+             name="com.tencent.tmgp.ttwq"
+             type="9998"
+             min="55"
+             r_min="0.75"/>
+        <aps
+             name="com.tencent.qqgame.qqfive"
+             type="9998"
+             min="55"
+             r_min="0.875"/>
+        <aps
+             name="com.ditiechonglang.ss"
+             type="9998"
+             min="55"
+             r_min="0.875"/>
+        <aps
+             name="com.qqgame.happymj"
+             type="9998"
+             min="55"
+             r_min="0.875"/>
+        <aps
+             name="com.tencent.pao"
+             type="9998"
+             min="55"
+             r_min="0.875"/>
+        <aps
+             name="com.popcap.pvz2cthdhwct"
+             type="9998"
+             min="55"
+             r_min="0.875"/>
+        <aps
+             name="com.wanmei.zhuxian.huawei"
+             type="9998"
+             min="55"
+             r_min="0.875"/>
+        <aps
+             name="com.supercell.clashroyale.huawei"
+             type="9998"
+             min="55"
+             r_min="0.875"/>
+        <aps
+             name="com.pokercity.bydrqp.huawei"
+             type="9998"
+             min="55"
+             r_min="0.875"/>
+        <aps
+             name="com.outfit7.mytalkingtomfree"
+             type="9998"
+             min="55"
+             r_min="0.875"/>
+        <aps
+             name="com.boyaa.chinesechess.HUAWEI"
+             type="9998"
+             min="55"
+             r_min="0.75"/>
+        <aps
+             name="com.gbits.atm.huawei"
+             type="9998"
+             min="55"
+             r_min="0.75"/>
+        <aps
+             name="com.netease.stzb.huawei"
+             type="9998"
+             min="55"
+             r_min="0.875"/>
+        <aps
+             name="com.blizzard.wtcg.hearthstone"
+             type="9998"
+             min="55"
+             r_min="0.875"/>
+        <aps
+            name="cn.jj"
+            type="9998"
+            min="30"
+            r_min="0.875"/>
+        <aps
+             name="com.wepie.snake.huawei"
+             type="9998"
+             min="55"
+             r_min="0.875"/>
+        <aps
+             name="com.ea.simcitymobile.huawei"
+             type="9998"
+             min="55"
+             r_min="0.75"/>
+        <aps
+             name="com.tencent.qqgame"
+             type="9998"
+             min="55"
+             r_min="0.875"/>
+        <aps
+             name="com.sesame.zgjjgame.huawei"
+             type="9998"
+             min="55"
+             r_min="0.875"/>
+        <aps
+             name="com.tencent.tmgp.carrot3"
+             type="9998"
+             min="55"
+             r_min="0.75"/>
+        <aps
+             name="com.netease.l10.huawei"
+             type="9998"
+             min="55"
+             r_min="0.875"/>
+        <aps
+             name="com.netease.onmyoji.huawei"
+             type="9998"
+             min="55"
+             r_min="0.75"/> 
+        <aps
+            name="cld.navi.mainframe"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.sogou.map.android.maps"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.mapbar.android.mapbarmap"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.tigerknows"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.google.android.apps.maps"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="cn.com.tiros.android.navidog"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.tencent.shootgame"
+            type="9998"
+            min="55"
+            r_min="0.875"/>
+        <aps
+            name="com.netease.zjz"
+            type="9998"
+            min="55"
+            r_min="0.875"/>
+        <aps
+            name="com.tencent.tmgp.yongyong.zjz"
+            type="9998"
+            min="55"
+            r_min="0.875"/>
+        <aps
+            name="com.sdu.didi.gui"
+            type="9998"
+            min="55"
+            r_min="0.875"/>
+        <aps
+            name="so.ofo.labofo"
+            type="9998"
+            min="55"
+            r_min="0.875"/>
+        <aps
+            name="com.mobike.mobikeapp"
+            type="9998"
+            min="55"
+            r_min="0.875"/>
+        <aps
+            name="com.ea.game.nfs14_row"
+            type="9998"
+            min="55"
+            r_min="0.875"/>
+        <aps
+            name="com.haowan123.wdsg.huawei"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="sh.lilith.dgame.huawei"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.hy.kuyu8.huawei"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.tencent.tmgpherosiega"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.youdong.guaji_sg_gjbsg.huawei"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.loveplay.plane1009.YDMM2.PlaneActivity"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.zentertain.monster8it8"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.tencent.tmgp.herosiega"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.tencent.tmgp.herosiega"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.tencent.tmgp.speedmobile"
+            type="9998"
+            min="60"
+            r_min="0.875" />
+        <aps
+            name="com.huawei.hwireader"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.boyaa.hall"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.tencent.tmgp.bydr3dx"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.tencent.tmgp.dragonball"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.netease.my.huawei"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.t2ksports.nba2k17android"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="paile.mengle.operator.huawei"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.tencent.qqgame.xq"
+            type="9998"
+            min="55"
+            r_min="0.75" />
+        <aps
+            name="com.tencent.tmgp.supercell.clashofclans"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.tencent.nmrq"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.kiloo.subwaysurf"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.tencent.feiji"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.tencent.tmgp.jxqy"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.tencent.tmgp.supercell.clashroyale"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.wanmei.ff.huawei"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="yuanqiqishi.game.huawei"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.wedobest.shudu"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+          <aps
+            name="com.cnvcs.junqi"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.carrot.iceworld"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.ztgame.jl.huawei"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.m37.yhjyj.HUAWEI"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.pdragon.HD1010"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.mojang.minecraftpe"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.bf.sgs.hdexp.huawei"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.tencent.qqgame.qqhlupwvga"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.qqgame.mic"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.brianbaek.popstar"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.ea.game.starwarscapital_row"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.tencent.Qfarm"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.ttx5.huawei"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.pfu.popstar"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.yclmyi.poolMania"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.tencent.tmgp.locojoy"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.joym.xiongdakuaipao.huawei"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="air.com.jiayou.longzhu.huawei"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.seacow.kdsg.HUAWEI"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.tencent.tmgp.shadowfight2wechatqq"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.tencent.killer"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.hxjy.union.huawei"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.quhai.mlj.chs.huawei"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.tencent.tmgp.rxcq"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.tencent.ttx5"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.zoxun.match.sicmj.mixed.huawei"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.tencent.alpha"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.tencent.tmgp.mljz"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.tencent.west"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.tencent.tmgp.gods"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.m37.dtszj.sy37"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.ourpalm.tk2.huawei"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.tencent.castleclash"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.tnyoo.android.dotaxiyou.huawei"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.tencent.tmgp.hyxddjly"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.dshine.mtFightLand.huawei"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.youzu.snsgz.huawei"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="ne.lushi.lushilauncher"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.foxuc.gajyproject"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.tencent.tmgp.palol"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.outfit7.talkingtomgoldrun.HUAWEI"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.pokercity.lobby"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.duowan.groundhog.mctools"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.playrix.township.chukong.HUAWEI"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.bilibili.fatego"
+            type="9998"
+            min="55"
+            r_min="0.875"
+            switch_level="1"/>	
+        <aps
+            name="com.t2ksports.nba2k15android"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.stac.empire.main"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.socialquantum.acityint"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.Seriously.BestFiends"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.platogo.pmp"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.plarium.vikings"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.perblue.dragonsoul"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.nianticlabs.pokemongo"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.midasplayer.apps.bubblewitchsaga2"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.machinezone.gow"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.longtech.lastwars.gp"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.king.paradisebay"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.king.farmheroessupersaga"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.king.farmheroessaga"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.king.candycrushsodasaga"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.king.candycrushsaga"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.king.candycrushjellysaga"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.innogames.foeandroid"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.hcg.cok.gp"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.funplus.familyfarm"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.epicwaronline.ms"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.com2us.smon.normal.freefull.google.kr.android.common"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.bigfishgames.gummydropgoogle"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.allstargames.ggplay.wsjjeu"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.tencent.tmgp.vlong"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.tencent.tmgp.CX"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.tencent.lian"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.tencent.Q108"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.tencent.tmgp.lucifer"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.tencent.tmgp.herosiega"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.zentertain.monster8it8"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.loveplay.plane1009.YDMM2.PlaneActivity"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.youdong.guaji_sg_gjbsg.huawei"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.weizhi.rexuetuoluo.huawei"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.kongzhong.d61.huawei"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.niaodao.zuma.huawei"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.tencent.VocOV"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.tencent.tmgp.bnsm"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.uuzz.gamelottery.huawei"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.tencent.tmgp.dragonar3d"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="net.laizi.pk.xxddz.huawei"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.junhai.wyfx.huawei"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.tencent.game.VXDGame"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.tencent.tmgp.ttlz"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.tencent.tmgp.vdefense"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.tencent.Alice"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.tencent.tmgp.dpsg"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.tencent.alpha"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.tencent.king.candycrushsaga"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.shoumeng.sgxz.huawei"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.tencent.tmgp.sgzr"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.tencent.tmgpherosiega"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.skymoons.seer.huawei"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.tencent.tmgp.zhanxian"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.tencent.Mtown"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.tencent.tmgp.lordofdark"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.blingstorm.biscuit"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.lgyoo.fish.huawei"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.tencent.qmdgs"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.tencent.tmgp.qjnn"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.tencent.tmgp.SevenHegemony"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.fanqie.papa.huawei"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.quhai.mlj.chs.huawei"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.tencent.tmgp.MiniEmpire"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.youai.aoshitulong.huawei"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.hy.kuyu8.huawei"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.huoshe.kxll"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.k3k.gamefish.huawei"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.longtugame.jymfdsj.huawei"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.fgol.huawei"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.t2ksports.nba2k16android"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps
+            name="com.tencent.tmgp.hsxy"
+            type="9998"
+            min="55"
+            r_min="0.875" />
+        <aps 
+            name="com.tencent.news" 
+            type="9998" 
+            min="55" 
+            switch_level="1"
+            r_min="1"/>
+        <aps 
+            name="com.tencent.mobileqq" 
+            type="9998" 
+            min="55" 
+            switch_level="1" 
+            r_min="0.875"/>
+        <aps 
+            name="com.taobao.taobao" 
+            type="9998" 
+            min="55" 
+            switch_level="1" 
+            r_min="1"/>
+        <aps 
+            name="com.sina.weibo" 
+            type="9998" 
+            min="55" 
+            switch_level="1" 
+            r_min="1"/>
+        <aps 
+            name="com.ss.android.article.news" 
+            type="9998" 
+            min="55" 
+            switch_level="1" 
+            r_min="1"/>
+        <aps 
+            name="com.tencent.mtt" 
+            type="9998" 
+            min="55" 
+            switch_level="1" 
+            r_min="1"/>
+        <aps 
+            name="com.UCMobile" 
+            type="9998" 
+            min="55" 
+            switch_level="1" 
+            r_min="1"/>
+        <aps 
+            name="com.jingdong.app.mall" 
+            type="9998" 
+            min="55" 
+            switch_level="1" 
+            r_min="1"/>
+        <aps 
+            name="com.eg.android.AlipayGphone" 
+            type="9998" 
+            min="55" 
+            switch_level="1" 
+            r_min="1"/>
+        <aps 
+            name="cn.wps.moffice_eng" 
+            type="9998" 
+            min="55" 
+            switch_level="1"
+            r_min="1"/>
+        <aps 
+            name="com.baidu.searchbox" 
+            type="9998" 
+            min="55" 
+            switch_level="1"
+            r_min="1"/>
+        <aps 
+            name="com.tencent.qqlive" 
+            type="9998" 
+            min="55" 
+            switch_level="1"
+            r_min="1"/>
+        <aps 
+            name="com.qiyi.video" 
+            type="9998" 
+            min="55" 
+            switch_level="1"
+            r_min="1"/>
+        <aps 
+            name="com.sankuai.meituan" 
+            type="9998" 
+            min="55" 
+            switch_level="1"
+            r_min="1"/>
+        <aps 
+            name="com.tencent.android.qqdownloader" 
+            type="9998" 
+            min="55" 
+            switch_level="1"
+            r_min="1"/>
+        <aps 
+            name="com.kugou.android" 
+            type="9998" 
+            min="55" 
+            switch_level="1"
+            r_min="1"/>
+        <aps 
+            name="com.tencent.qqmusic" 
+            type="9998" 
+            min="55" 
+            switch_level="1"
+            r_min="1"/>
+        <aps 
+            name="com.tencent.reading" 
+            type="9998" 
+            min="55" 
+            switch_level="1"
+            r_min="1"/>
+        <aps 
+            name="com.ifeng.news2" 
+            type="9998" 
+            min="55" 
+            switch_level="1"
+            r_min="1"/>
+        <aps 
+            name="com.dianping.v1" 
+            type="9998" 
+            min="55" 
+            switch_level="1"
+            r_min="1"/>
+        <aps 
+            name="com.youku.phone" 
+            type="9998" 
+            min="55" 
+            switch_level="1"
+            r_min="1"/>
+        <aps 
+            name="ctrip.android.view" 
+            type="9998" 
+            min="55" 
+            switch_level="1"
+            r_min="1"/>
+        <aps 
+            name="com.tencent.androidqqmail" 
+            type="9998" 
+            min="55" 
+            switch_level="1"
+            r_min="0.875"/>
+        <aps 
+            name="com.moji.mjweather" 
+            type="9998" 
+            min="55" 
+            switch_level="1"
+            r_min="0.875"/>
+        <aps 
+            name="com.tmall.wireless" 
+            type="9998" 
+            min="55" 
+            switch_level="1"
+            r_min="1"/>
+        <aps 
+            name="com.hexin.plat.android" 
+            type="9998" 
+            min="55" 
+            switch_level="1"
+            r_min="1"/>
+        <aps 
+            name="com.ximalaya.ting.android" 
+            type="9998" 
+            min="55" 
+            switch_level="1"
+            r_min="0.875"/>
+        <aps 
+            name="com.mt.mtxx.mtxx" 
+            type="9998" 
+            min="55" 
+            switch_level="1"
+            r_min="1"/>
+        <aps 
+            name="com.cubic.autohome" 
+            type="9998" 
+            min="55" 
+            switch_level="1"
+            r_min="1"/>
+        <aps 
+            name="cmb.pb" 
+            type="9998" 
+            min="55"  
+            switch_level="1"
+            r_min="0.875"/>
+        <aps 
+            name="com.achievo.vipshop" 
+            type="9998" 
+            min="55" 
+            switch_level="1"
+            r_min="1"/>
+        <aps 
+            name="me.ele" 
+            type="9998" 
+            min="55"
+            switch_level="1"
+            r_min="1"/>
+        <aps 
+            name="com.netease.cloudmusic" 
+            type="9998" 
+            min="55" 
+            switch_level="1"
+            r_min="0.875"/>
+        <aps 
+            name="com.netease.newsreader.activity" 
+            type="9998" 
+            min="55" 
+            switch_level="1"
+            r_min="1"/>
+        <aps 
+            name="com.tencent.karaoke" 
+            type="9998" 
+            min="55" 
+            switch_level="1"
+            r_min="1"/>
+        <aps 
+            name="com.Qunar" 
+            type="9998" 
+            min="55" 
+            switch_level="1"
+            r_min="1"/>
+        <aps 
+            name="com.immomo.momo" 
+            type="9998" 
+            min="55" 
+            switch_level="1"
+            r_min="1"/>
+        <aps 
+            name="cn.kuwo.player" 
+            type="9998" 
+            min="55"
+            switch_level="1"
+            r_min="0.875"/>
+        <aps 
+            name="com.qzone" 
+            type="9998" 
+            min="55" 
+            switch_level="1"
+            r_min="0.875"/>
+        <aps 
+            name="com.baidu.tieba" 
+            type="9998" 
+            min="55" 
+            switch_level="1"
+            r_min="1"/>
+        <aps 
+            name="com.xiaobanlong.main" 
+            type="9998" 
+            min="55" 
+            switch_level="1"
+            r_min="1"/>
+        <aps 
+            name="com.qidian.QDReader" 
+            type="9998" 
+            min="55" 
+            switch_level="1"
+            r_min="1"/>
+        <aps 
+            name="com.esbook.reader" 
+            type="9998" 
+            min="55" 
+            switch_level="1"
+            r_min="0.875"/>
+        <aps
+            name="com.chaozh.iReaderFree"
+            type="9998"
+            min="55"
+            switch_level="1"
+            r_min="0.875" />
+        <aps
+            name="com.sdu.didi.psnger"
+            type="9998"
+            min="55"
+            switch_level="1"
+            r_min="1"/>
+        <aps
+            name="com.ss.android.ugc.aweme"
+            type="9998"
+            min="60"
+            r_min="0.875"/>
+        <aps
+            name="com.ss.android.ugc.live"
+            type="9998"
+            min="60"
+            r_min="0.875"/>
+        <aps
+            name="com.ss.android.ugc.aweme.lite"
+            type="9998"
+            min="60"
+            r_min="0.875"/>
+        <aps
+            name="com.smile.gifmaker"
+            type="9998"
+            min="60"
+            r_min="0.875"/>
+        <aps
+            name="com.kuaishou.nebula"
+            type="9998"
+            min="60"
+            r_min="0.875"/>
+    </aps_app_list>
+</aps_config>

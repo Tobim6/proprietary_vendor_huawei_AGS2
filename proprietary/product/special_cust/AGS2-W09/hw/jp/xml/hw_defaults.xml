@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+  <!--2019-09-09 16:44:41.0-->
+  <string authenticate_by_product="Hide_all_cust_Authen"/>
+  <!--2019-09-09 16:44:41.0-->
+  <string custom_certify_picture="/product/special_cust/AGS2-W09/hw/jp/media/AGS2-W09.png"/>
+  <!--2019-09-10 20:20:58.0-->
+  <string settings.global.wifi_country_code="JP"/>
+</resources>

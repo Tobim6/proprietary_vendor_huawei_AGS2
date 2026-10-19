@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<hwouc_presets>
+  <!--2021-10-11 18:48:48.0-->
+  <bool key="notify_plug_in_info_on_banner">true</bool>
+  <!--2021-09-06 12:59:29.0-->
+  <bool key="send_harmony_info_to_member_center">true</bool>
+  <!--2021-11-02 15:28:43.0-->
+  <bool key="upgrade_high_temp_protection_switch">true</bool>
+  <!--2021-11-02 15:28:43.0-->
+  <int key="upgrade_high_temp_protection_threshold">35000</int>
+</hwouc_presets>
