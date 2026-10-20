@@ -526,6 +526,77 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/AGS2/proprietary/vendor/firmware/ts/venus_synaptics_VENS11140_ebbg.img:$(TARGET_COPY_OUT_VENDOR)/firmware/ts/venus_synaptics_VENS11140_ebbg.img \
     vendor/huawei/AGS2/proprietary/vendor/firmware/ts/venus_synaptics_VENS18100_lg.img:$(TARGET_COPY_OUT_VENDOR)/firmware/ts/venus_synaptics_VENS18100_lg.img \
     vendor/huawei/AGS2/proprietary/vendor/firmware/wifi_cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi_cfg \
+    vendor/huawei/AGS2/proprietary/vendor/lib/camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@1.0-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib/camera.device@3.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.2-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib/camera.device@3.3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.3-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib/camera.device@3.4-external-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.4-external-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib/camera.device@3.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.4-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib/hw/android.hardware.audio.effect@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio.effect@4.0-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib/hw/android.hardware.audio@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio@4.0-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth@1.0-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.camera.provider@2.4-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib/hw/android.hardware.drm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.drm@1.0-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib/hw/android.hardware.gatekeeper@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.gatekeeper@1.0-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib/hw/android.hardware.graphics.allocator@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.graphics.allocator@2.0-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.graphics.mapper@2.0-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib/hw/android.hardware.keymaster@3.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.keymaster@3.0-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib/hw/android.hardware.memtrack@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.memtrack@1.0-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib/hw/android.hardware.nfc@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.nfc@1.1-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib/hw/android.hardware.thermal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.thermal@1.0-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib/hw/vendor.huawei.hardware.camera.factory@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.huawei.hardware.camera.factory@1.0-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib/hw/vendor.huawei.hardware.graphics.displayeffect@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.huawei.hardware.graphics.displayeffect@1.0-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib/hw/vendor.huawei.hardware.graphics.mediacomm@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.huawei.hardware.graphics.mediacomm@2.0-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib/hw/vendor.huawei.hardware.hwfs@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.huawei.hardware.hwfs@1.0-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib/hw/vendor.huawei.hardware.libteec@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.huawei.hardware.libteec@2.0-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib/hw/vendor.huawei.hardware.perfgenius@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.huawei.hardware.perfgenius@2.0-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib/vendor.huawei.hardware.dolby.dms@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.dolby.dms@1.0-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@1.0-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/camera.device@3.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.2-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/camera.device@3.3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.3-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/camera.device@3.4-external-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.4-external-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/camera.device@3.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.4-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/android.hardware.audio.effect@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio.effect@4.0-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/android.hardware.audio@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio@4.0-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.0-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/android.hardware.camera.provider@2.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.camera.provider@2.4-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gatekeeper@1.0-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/android.hardware.graphics.allocator@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.graphics.allocator@2.0-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/android.hardware.graphics.mapper@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.graphics.mapper@2.0-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/android.hardware.keymaster@3.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.keymaster@3.0-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/android.hardware.memtrack@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.memtrack@1.0-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/android.hardware.nfc@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.nfc@1.1-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/android.hardware.soundtrigger@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.soundtrigger@2.0-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/android.hardware.thermal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.thermal@1.0-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/vendor.huawei.hardware.activity_recognition@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.huawei.hardware.activity_recognition@1.1-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/vendor.huawei.hardware.biometrics.hwvoiceid@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.huawei.hardware.biometrics.hwvoiceid@1.0-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/vendor.huawei.hardware.camera.factory@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.huawei.hardware.camera.factory@1.0-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/vendor.huawei.hardware.fm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.huawei.hardware.fm@1.0-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/vendor.huawei.hardware.gnss@1.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.huawei.hardware.gnss@1.2-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/vendor.huawei.hardware.graphics.displayeffect@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.huawei.hardware.graphics.displayeffect@1.0-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/vendor.huawei.hardware.graphics.mediacomm@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.huawei.hardware.graphics.mediacomm@2.0-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/vendor.huawei.hardware.hisupl@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.huawei.hardware.hisupl@1.0-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/vendor.huawei.hardware.huawei_security_vnode@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.huawei.hardware.huawei_security_vnode@1.0-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/vendor.huawei.hardware.huaweiantitheft@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.huawei.hardware.huaweiantitheft@1.0-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/vendor.huawei.hardware.huaweisigntool@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.huawei.hardware.huaweisigntool@1.0-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/vendor.huawei.hardware.hwdisplay.displayengine@1.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.huawei.hardware.hwdisplay.displayengine@1.2-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/vendor.huawei.hardware.hwdisplay@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.huawei.hardware.hwdisplay@1.0-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/vendor.huawei.hardware.hwfs@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.huawei.hardware.hwfs@1.0-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/vendor.huawei.hardware.hwsecapi@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.huawei.hardware.hwsecapi@1.0-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/vendor.huawei.hardware.hwstp@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.huawei.hardware.hwstp@1.0-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/vendor.huawei.hardware.hwvibrator@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.huawei.hardware.hwvibrator@1.0-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/vendor.huawei.hardware.iawareperf@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.huawei.hardware.iawareperf@1.0-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/vendor.huawei.hardware.iawareperfpolicy@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.huawei.hardware.iawareperfpolicy@1.0-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/vendor.huawei.hardware.kds@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.huawei.hardware.kds@1.1-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/vendor.huawei.hardware.libteec@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.huawei.hardware.libteec@2.0-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/vendor.huawei.hardware.light@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.huawei.hardware.light@2.0-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/vendor.huawei.hardware.nfc@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.huawei.hardware.nfc@1.0-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/vendor.huawei.hardware.otherdevices@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.huawei.hardware.otherdevices@1.0-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/vendor.huawei.hardware.perfgenius@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.huawei.hardware.perfgenius@2.0-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/vendor.huawei.hardware.power@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.huawei.hardware.power@1.0-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/vendor.huawei.hardware.sensors@1.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.huawei.hardware.sensors@1.2-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/vendor.huawei.hardware.tp@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.huawei.hardware.tp@1.0-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/vendor.huawei.hardware.wifi@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.huawei.hardware.wifi@1.1-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/vendor.huawei.hardware.dolby.dms@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.huawei.hardware.dolby.dms@1.0-impl.so \
     vendor/huawei/AGS2/proprietary/vendor/modem/modem_fw/readme.txt:$(TARGET_COPY_OUT_VENDOR)/modem/modem_fw/readme.txt \
     vendor/huawei/AGS2/proprietary/vendor/phone.prop:$(TARGET_COPY_OUT_VENDOR)/phone.prop \
     vendor/huawei/AGS2/proprietary/vendor/ueventd.rc:$(TARGET_COPY_OUT_VENDOR)/ueventd.rc \
@@ -535,26 +606,10 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/AGS2/proprietary/vendor/wv_lib/liblog.so:$(TARGET_COPY_OUT_VENDOR)/wv_lib/liblog.so
 
 PRODUCT_PACKAGES += \
-    camera.device@1.0-impl \
-    camera.device@3.2-impl \
-    camera.device@3.3-impl \
-    camera.device@3.4-external-impl \
-    camera.device@3.4-impl \
     displayeffect.hi6250 \
     libGLES_mali \
     ese_hw_hal \
     CameraFactoryService \
-    android.hardware.audio.effect@4.0-impl \
-    android.hardware.audio@4.0-impl \
-    android.hardware.bluetooth@1.0-impl \
-    android.hardware.camera.provider@2.4-impl \
-    android.hardware.gatekeeper@1.0-impl \
-    android.hardware.graphics.allocator@2.0-impl \
-    android.hardware.graphics.mapper@2.0-impl \
-    android.hardware.keymaster@3.0-impl \
-    android.hardware.memtrack@1.0-impl \
-    android.hardware.nfc@1.1-impl \
-    android.hardware.thermal@1.0-impl \
     audio.r_submix.default \
     audio.usb.default \
     fingerprint.hi6250 \
@@ -579,12 +634,6 @@ PRODUCT_PACKAGES += \
     power.hi6250 \
     sensors.default \
     thermal.hi6250 \
-    vendor.huawei.hardware.camera.factory@1.0-impl \
-    vendor.huawei.hardware.graphics.displayeffect@1.0-impl \
-    vendor.huawei.hardware.graphics.mediacomm@2.0-impl \
-    vendor.huawei.hardware.hwfs@1.0-impl \
-    vendor.huawei.hardware.libteec@2.0-impl \
-    vendor.huawei.hardware.perfgenius@2.0-impl \
     vibrator.default \
     vulkan.hi6250 \
     hwcam.ddt \
@@ -737,7 +786,6 @@ PRODUCT_PACKAGES += \
     vendor.huawei.hardware.camera.cfgsvr@1.0 \
     vendor.huawei.hardware.camera.cfgsvr@1.1 \
     vendor.huawei.hardware.camera.factory@1.0 \
-    vendor.huawei.hardware.dolby.dms@1.0-impl \
     vendor.huawei.hardware.dolby.dms@1.0 \
     vendor.huawei.hardware.dubai@1.0 \
     vendor.huawei.hardware.dubai@1.1 \
@@ -818,7 +866,6 @@ PRODUCT_PACKAGES += \
     vendor.huawei.hardware.wifi.supplicant@2.1 \
     vendor.huawei.hardware.wifi@1.0 \
     vendor.huawei.hardware.wifi@1.1 \
-    android.hardware.drm@1.0-impl \
     lib_device_interface \
     lib_factory_interface \
     lib_fpc_tac_shared \
@@ -835,35 +882,11 @@ PRODUCT_PACKAGES += \
     libwifi_factory_test \
     libwifi_factory_test_hisi \
     activity_recognition.default \
-    android.hardware.soundtrigger@2.0-impl \
     audio.primary.hisi \
     facerecognize.hi6250 \
     gps.hi1102.default \
     gps.hisi.default \
     hisupl.hi1102.default \
-    vendor.huawei.hardware.activity_recognition@1.1-impl \
-    vendor.huawei.hardware.biometrics.hwvoiceid@1.0-impl \
-    vendor.huawei.hardware.fm@1.0-impl \
-    vendor.huawei.hardware.gnss@1.2-impl \
-    vendor.huawei.hardware.hisupl@1.0-impl \
-    vendor.huawei.hardware.huawei_security_vnode@1.0-impl \
-    vendor.huawei.hardware.huaweiantitheft@1.0-impl \
-    vendor.huawei.hardware.huaweisigntool@1.0-impl \
-    vendor.huawei.hardware.hwdisplay.displayengine@1.2-impl \
-    vendor.huawei.hardware.hwdisplay@1.0-impl \
-    vendor.huawei.hardware.hwsecapi@1.0-impl \
-    vendor.huawei.hardware.hwstp@1.0-impl \
-    vendor.huawei.hardware.hwvibrator@1.0-impl \
-    vendor.huawei.hardware.iawareperf@1.0-impl \
-    vendor.huawei.hardware.iawareperfpolicy@1.0-impl \
-    vendor.huawei.hardware.kds@1.1-impl \
-    vendor.huawei.hardware.light@2.0-impl \
-    vendor.huawei.hardware.nfc@1.0-impl \
-    vendor.huawei.hardware.otherdevices@1.0-impl \
-    vendor.huawei.hardware.power@1.0-impl \
-    vendor.huawei.hardware.sensors@1.2-impl \
-    vendor.huawei.hardware.tp@1.0-impl \
-    vendor.huawei.hardware.wifi@1.1-impl \
     voiceid.hi6250 \
     libFaceDetectCA \
     libFaceIDCA \
