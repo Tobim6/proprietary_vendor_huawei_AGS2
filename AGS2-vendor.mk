@@ -439,6 +439,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/AGS2/proprietary/vendor/bin/hinetmanager:$(TARGET_COPY_OUT_VENDOR)/bin/hinetmanager \
     vendor/huawei/AGS2/proprietary/vendor/bin/hisecd:$(TARGET_COPY_OUT_VENDOR)/bin/hisecd \
     vendor/huawei/AGS2/proprietary/vendor/bin/hostapd_hisi:$(TARGET_COPY_OUT_VENDOR)/bin/hostapd_hisi \
+    vendor/huawei/AGS2/proprietary/vendor/bin/hw/rild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/rild \
     vendor/huawei/AGS2/proprietary/vendor/bin/isplogcat:$(TARGET_COPY_OUT_VENDOR)/bin/isplogcat \
     vendor/huawei/AGS2/proprietary/vendor/bin/wpa_supplicant_hisi:$(TARGET_COPY_OUT_VENDOR)/bin/wpa_supplicant_hisi \
     vendor/huawei/AGS2/proprietary/vendor/etc/audio/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/audio_effects.xml \
@@ -1030,6 +1031,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/AGS2/proprietary/vendor/etc/init/hinetmanager.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hinetmanager.rc \
     vendor/huawei/AGS2/proprietary/vendor/etc/init/hisecd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hisecd.rc \
     vendor/huawei/AGS2/proprietary/vendor/etc/init/isplogcat.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/isplogcat.rc \
+    vendor/huawei/AGS2/proprietary/vendor/etc/init/rild.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/rild.rc \
     vendor/huawei/AGS2/proprietary/vendor/etc/modemConfig/VIA/basic_name:$(TARGET_COPY_OUT_VENDOR)/etc/modemConfig/VIA/basic_name \
     vendor/huawei/AGS2/proprietary/vendor/etc/modemConfig/balong/basic_name:$(TARGET_COPY_OUT_VENDOR)/etc/modemConfig/balong/basic_name \
     vendor/huawei/AGS2/proprietary/vendor/etc/modemConfig/viacbp82d_log.bcfg:$(TARGET_COPY_OUT_VENDOR)/etc/modemConfig/viacbp82d_log.bcfg \
@@ -1142,6 +1144,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/AGS2/proprietary/vendor/lib/hw/vibrator.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vibrator.default.so \
     vendor/huawei/AGS2/proprietary/vendor/lib/hw/vulkan.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vulkan.hi6250.so \
     vendor/huawei/AGS2/proprietary/vendor/lib/libcamera_omron.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera_omron.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib/libwifi-hal-bcm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwifi-hal-bcm.so \
     vendor/huawei/AGS2/proprietary/vendor/lib/vendor.huawei.hardware.dolby.dms@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.dolby.dms@1.0-impl.so \
     vendor/huawei/AGS2/proprietary/vendor/lib64/camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@1.0-impl.so \
     vendor/huawei/AGS2/proprietary/vendor/lib64/camera.device@3.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.2-impl.so \
@@ -1224,6 +1227,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/AGS2/proprietary/vendor/lib64/hw/voiceid.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/voiceid.hi6250.so \
     vendor/huawei/AGS2/proprietary/vendor/lib64/hw/vulkan.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vulkan.hi6250.so \
     vendor/huawei/AGS2/proprietary/vendor/lib64/libcamera_omron.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamera_omron.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/libwifi-hal-bcm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifi-hal-bcm.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/libwifi-hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifi-hal.so \
     vendor/huawei/AGS2/proprietary/vendor/lib64/vendor.huawei.hardware.dolby.dms@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.huawei.hardware.dolby.dms@1.0-impl.so \
     vendor/huawei/AGS2/proprietary/vendor/modem/modem_fw/readme.txt:$(TARGET_COPY_OUT_VENDOR)/modem/modem_fw/readme.txt \
     vendor/huawei/AGS2/proprietary/vendor/phone.prop:$(TARGET_COPY_OUT_VENDOR)/phone.prop \
@@ -1333,6 +1338,7 @@ PRODUCT_PACKAGES += \
     libpf_oneimage_hisi \
     libpf_rotate_hisi \
     libpowerlog \
+    libril \
     libscenedetection \
     libsecapi \
     libstorekeybox \
