@@ -3152,24 +3152,6 @@ LOCAL_MODULE_SUFFIX := .xml
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := NOTICE
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/NOTICE.txt
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .txt
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := NOTICE.xml
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/NOTICE.xml.gz
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .gz
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := a2dp_audio_policy_configuration
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/a2dp_audio_policy_configuration.xml

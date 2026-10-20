@@ -1522,8 +1522,6 @@ PRODUCT_PACKAGES += \
     facard_release_signed_feature \
     HwKidsPaint \
     HwFrameworkNormalization \
-    NOTICE \
-    NOTICE.xml \
     a2dp_audio_policy_configuration \
     audio_policy_volumes \
     blkcg_init \
