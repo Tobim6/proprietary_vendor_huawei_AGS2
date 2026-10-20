@@ -21,6 +21,7 @@ ifeq ($(TARGET_DEVICE),AGS2)
 include $(CLEAR_VARS)
 LOCAL_MODULE := displayeffect.hi6250
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/displayeffect.hi6250.so
 LOCAL_SRC_FILES_32 := proprietary/lib/displayeffect.hi6250.so
 LOCAL_MULTILIB := both
@@ -32,6 +33,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libGLES_mali
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/egl/libGLES_mali.so
 LOCAL_SRC_FILES_32 := proprietary/lib/egl/libGLES_mali.so
 LOCAL_MULTILIB := both
@@ -44,6 +46,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := ese_hw_hal
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/ese_hw_hal.so
 LOCAL_SRC_FILES_32 := proprietary/lib/ese_hw_hal.so
 LOCAL_MULTILIB := both
@@ -55,6 +58,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := hwcam.ddt
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/hwcam/hwcam.ddt.so
 LOCAL_SRC_FILES_32 := proprietary/lib/hwcam/hwcam.ddt.so
 LOCAL_MULTILIB := both
@@ -67,6 +71,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := hwcam.services
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/hwcam/hwcam.services.so
 LOCAL_SRC_FILES_32 := proprietary/lib/hwcam/hwcam.services.so
 LOCAL_MULTILIB := both
@@ -79,6 +84,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libAntiTheftCA
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libAntiTheftCA.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libAntiTheftCA.so
 LOCAL_MULTILIB := both
@@ -90,6 +96,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libBestShot
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libBestShot.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libBestShot.so
 LOCAL_MULTILIB := both
@@ -101,6 +108,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libBootloaderOeminfo
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libBootloaderOeminfo.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libBootloaderOeminfo.so
 LOCAL_MULTILIB := both
@@ -112,6 +120,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libFaceBeautyMeiwo
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libFaceBeautyMeiwo.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libFaceBeautyMeiwo.so
 LOCAL_MULTILIB := both
@@ -123,6 +132,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libHW_BShutter
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libHW_BShutter.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libHW_BShutter.so
 LOCAL_MULTILIB := both
@@ -134,6 +144,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libOmronFR
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libOmronFR.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libOmronFR.so
 LOCAL_MULTILIB := both
@@ -145,6 +156,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libOpenCL
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libOpenCL.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libOpenCL.so
 LOCAL_MULTILIB := both
@@ -156,6 +168,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libOpenCLFoundation
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libOpenCLFoundation.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libOpenCLFoundation.so
 LOCAL_MULTILIB := both
@@ -167,6 +180,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libPanPay
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libPanPay.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libPanPay.so
 LOCAL_MULTILIB := both
@@ -178,6 +192,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libRefocusContrastPosition
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libRefocusContrastPosition.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libRefocusContrastPosition.so
 LOCAL_MULTILIB := both
@@ -189,6 +204,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libSR_opencl
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libSR_opencl.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libSR_opencl.so
 LOCAL_MULTILIB := both
@@ -200,6 +216,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libSmartAE
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libSmartAE.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libSmartAE.so
 LOCAL_MULTILIB := both
@@ -211,6 +228,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libVideoDenoise
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libVideoDenoise.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libVideoDenoise.so
 LOCAL_MULTILIB := both
@@ -222,6 +240,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := lib_device_interface
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/lib_device_interface.so
 LOCAL_SRC_FILES_32 := proprietary/lib/lib_device_interface.so
 LOCAL_MULTILIB := both
@@ -233,6 +252,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := lib_factory_interface
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/lib_factory_interface.so
 LOCAL_SRC_FILES_32 := proprietary/lib/lib_factory_interface.so
 LOCAL_MULTILIB := both
@@ -244,6 +264,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := lib_fpc_tac_shared
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/lib_fpc_tac_shared.so
 LOCAL_SRC_FILES_32 := proprietary/lib/lib_fpc_tac_shared.so
 LOCAL_MULTILIB := both
@@ -255,6 +276,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := lib_mmi_interface
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/lib_mmi_interface.so
 LOCAL_SRC_FILES_32 := proprietary/lib/lib_mmi_interface.so
 LOCAL_MULTILIB := both
@@ -266,6 +288,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := lib_sensor_fac_interface
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/lib_sensor_fac_interface.so
 LOCAL_SRC_FILES_32 := proprietary/lib/lib_sensor_fac_interface.so
 LOCAL_MULTILIB := both
@@ -277,6 +300,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := lib_socslt
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/lib_socslt.so
 LOCAL_SRC_FILES_32 := proprietary/lib/lib_socslt.so
 LOCAL_MULTILIB := both
@@ -288,6 +312,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := lib_softap_hw
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/lib_softap_hw.so
 LOCAL_SRC_FILES_32 := proprietary/lib/lib_softap_hw.so
 LOCAL_MULTILIB := both
@@ -299,6 +324,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := lib_vibrator
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/lib_vibrator.so
 LOCAL_SRC_FILES_32 := proprietary/lib/lib_vibrator.so
 LOCAL_MULTILIB := both
@@ -310,6 +336,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := lib_wifi_sar
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/lib_wifi_sar.so
 LOCAL_SRC_FILES_32 := proprietary/lib/lib_wifi_sar.so
 LOCAL_MULTILIB := both
@@ -321,6 +348,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libaehc
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libaehc.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libaehc.so
 LOCAL_MULTILIB := both
@@ -332,6 +360,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libalConvert2Img_al6045
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libalConvert2Img_al6045.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libalConvert2Img_al6045.so
 LOCAL_MULTILIB := both
@@ -343,6 +372,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libaudio_utils
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libaudio_utils.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libaudio_utils.so
 LOCAL_MULTILIB := both
@@ -354,6 +384,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libbalong-ril-1
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libbalong-ril-1.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libbalong-ril-1.so
 LOCAL_MULTILIB := both
@@ -365,6 +396,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libbalong-ril-2
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libbalong-ril-2.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libbalong-ril-2.so
 LOCAL_MULTILIB := both
@@ -376,6 +408,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libbalong-ril
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libbalong-ril.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libbalong-ril.so
 LOCAL_MULTILIB := both
@@ -387,6 +420,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libbt-vendor-hisi
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libbt-vendor-hisi.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libbt-vendor-hisi.so
 LOCAL_MULTILIB := both
@@ -398,6 +432,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libbt_factory_test
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libbt_factory_test.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libbt_factory_test.so
 LOCAL_MULTILIB := both
@@ -409,6 +444,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libbt_factory_test_hisi
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libbt_factory_test_hisi.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libbt_factory_test_hisi.so
 LOCAL_MULTILIB := both
@@ -420,6 +456,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libc_sec_hisi_connectivity
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libc_sec_hisi_connectivity.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libc_sec_hisi_connectivity.so
 LOCAL_MULTILIB := both
@@ -431,6 +468,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libc_secshared
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libc_secshared.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libc_secshared.so
 LOCAL_MULTILIB := both
@@ -442,6 +480,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libcamerabuffer
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libcamerabuffer.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libcamerabuffer.so
 LOCAL_MULTILIB := both
@@ -453,6 +492,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libchrlog
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libchrlog.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libchrlog.so
 LOCAL_MULTILIB := both
@@ -464,6 +504,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libcommril
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libcommril.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libcommril.so
 LOCAL_MULTILIB := both
@@ -475,6 +516,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libconn_factory_test
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libconn_factory_test.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libconn_factory_test.so
 LOCAL_MULTILIB := both
@@ -486,6 +528,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libdapparamstorage
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libdapparamstorage.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libdapparamstorage.so
 LOCAL_MULTILIB := both
@@ -497,6 +540,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libdcamera_sr
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libdcamera_sr.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libdcamera_sr.so
 LOCAL_MULTILIB := both
@@ -508,6 +552,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libdlbdsservice
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libdlbdsservice.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libdlbdsservice.so
 LOCAL_MULTILIB := both
@@ -519,6 +564,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libemmc_info
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libemmc_info.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libemmc_info.so
 LOCAL_MULTILIB := both
@@ -530,6 +576,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libfaccommon_share
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libfaccommon_share.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libfaccommon_share.so
 LOCAL_MULTILIB := both
@@ -541,6 +588,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libfacedetection
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libfacedetection.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libfacedetection.so
 LOCAL_MULTILIB := both
@@ -552,6 +600,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libfacsignedapi_share
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libfacsignedapi_share.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libfacsignedapi_share.so
 LOCAL_MULTILIB := both
@@ -563,6 +612,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libfcamera_visual_effect
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libfcamera_visual_effect.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libfcamera_visual_effect.so
 LOCAL_MULTILIB := both
@@ -574,6 +624,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libgnss_lss_gw_thirdparty
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libgnss_lss_gw_thirdparty.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libgnss_lss_gw_thirdparty.so
 LOCAL_MULTILIB := both
@@ -585,6 +636,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libgps_factory_test
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libgps_factory_test.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libgps_factory_test.so
 LOCAL_MULTILIB := both
@@ -596,6 +648,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libgpucommon_vendor_client
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libgpucommon_vendor_client.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libgpucommon_vendor_client.so
 LOCAL_MULTILIB := both
@@ -607,6 +660,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libgralloc_ext
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libgralloc_ext.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libgralloc_ext.so
 LOCAL_MULTILIB := both
@@ -618,6 +672,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libhdr
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libhdr.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libhdr.so
 LOCAL_MULTILIB := both
@@ -629,6 +684,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libhdr_acore
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libhdr_acore.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libhdr_acore.so
 LOCAL_MULTILIB := both
@@ -640,6 +696,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libhiion
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libhiion.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libhiion.so
 LOCAL_MULTILIB := both
@@ -651,6 +708,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libhisee_soc_mmi
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libhisee_soc_mmi.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libhisee_soc_mmi.so
 LOCAL_MULTILIB := both
@@ -662,6 +720,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libhisi_efuse
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libhisi_efuse.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libhisi_efuse.so
 LOCAL_MULTILIB := both
@@ -673,6 +732,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libhisi_wrapper
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libhisi_wrapper.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libhisi_wrapper.so
 LOCAL_MULTILIB := both
@@ -684,6 +744,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libhivwservice
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libhivwservice.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libhivwservice.so
 LOCAL_MULTILIB := both
@@ -695,6 +756,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libhuaweiaudioeffectutil
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libhuaweiaudioeffectutil.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libhuaweiaudioeffectutil.so
 LOCAL_MULTILIB := both
@@ -706,6 +768,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libhuaweicust
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libhuaweicust.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libhuaweicust.so
 LOCAL_MULTILIB := both
@@ -717,6 +780,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libhw_display_effect
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libhw_display_effect.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libhw_display_effect.so
 LOCAL_MULTILIB := both
@@ -728,6 +792,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libhw_display_test
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libhw_display_test.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libhw_display_test.so
 LOCAL_MULTILIB := both
@@ -739,6 +804,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libhwlog
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libhwlog.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libhwlog.so
 LOCAL_MULTILIB := both
@@ -750,6 +816,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libhwwifi-hal
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libhwwifi-hal.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libhwwifi-hal.so
 LOCAL_MULTILIB := both
@@ -761,6 +828,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libiawareperf_client
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libiawareperf_client.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libiawareperf_client.so
 LOCAL_MULTILIB := both
@@ -772,6 +840,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libiawareperf_server
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libiawareperf_server.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libiawareperf_server.so
 LOCAL_MULTILIB := both
@@ -783,6 +852,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libiawareperfpolicy_server
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libiawareperfpolicy_server.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libiawareperfpolicy_server.so
 LOCAL_MULTILIB := both
@@ -794,6 +864,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libimedia_filters
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libimedia_filters.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libimedia_filters.so
 LOCAL_MULTILIB := both
@@ -805,6 +876,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libimonitor
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libimonitor.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libimonitor.so
 LOCAL_MULTILIB := both
@@ -816,6 +888,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libispenhnc
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libispenhnc.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libispenhnc.so
 LOCAL_MULTILIB := both
@@ -827,6 +900,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libjpeghdrenc
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libjpeghdrenc.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libjpeghdrenc.so
 LOCAL_MULTILIB := both
@@ -838,6 +912,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libjtag_wdt_ctrl
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libjtag_wdt_ctrl.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libjtag_wdt_ctrl.so
 LOCAL_MULTILIB := both
@@ -849,6 +924,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libkds_ca
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libkds_ca.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libkds_ca.so
 LOCAL_MULTILIB := both
@@ -860,6 +936,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libkeymaster3_attestation
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libkeymaster3_attestation.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libkeymaster3_attestation.so
 LOCAL_MULTILIB := both
@@ -871,6 +948,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libl2_cache
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libl2_cache.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libl2_cache.so
 LOCAL_MULTILIB := both
@@ -882,6 +960,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libmediacomm@2.0-client
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libmediacomm@2.0-client.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libmediacomm@2.0-client.so
 LOCAL_MULTILIB := both
@@ -893,6 +972,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libmorpho_effect_library5
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libmorpho_effect_library5.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libmorpho_effect_library5.so
 LOCAL_MULTILIB := both
@@ -904,6 +984,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libmotiondetect
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libmotiondetect.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libmotiondetect.so
 LOCAL_MULTILIB := both
@@ -915,6 +996,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libmrc_cg_ldc
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libmrc_cg_ldc.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libmrc_cg_ldc.so
 LOCAL_MULTILIB := both
@@ -926,6 +1008,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libmrc_cg_mfdenoise
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libmrc_cg_mfdenoise.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libmrc_cg_mfdenoise.so
 LOCAL_MULTILIB := both
@@ -937,6 +1020,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libmrc_cg_mfnr_ap
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libmrc_cg_mfnr_ap.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libmrc_cg_mfnr_ap.so
 LOCAL_MULTILIB := both
@@ -948,6 +1032,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libmrc_cg_niceFood
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libmrc_cg_niceFood.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libmrc_cg_niceFood.so
 LOCAL_MULTILIB := both
@@ -959,6 +1044,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libmrc_cg_postprocess
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libmrc_cg_postprocess.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libmrc_cg_postprocess.so
 LOCAL_MULTILIB := both
@@ -970,6 +1056,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libmrc_cg_postprocess_cl
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libmrc_cg_postprocess_cl.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libmrc_cg_postprocess_cl.so
 LOCAL_MULTILIB := both
@@ -981,6 +1068,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libmrc_cg_sz
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libmrc_cg_sz.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libmrc_cg_sz.so
 LOCAL_MULTILIB := both
@@ -992,6 +1080,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libnvme
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libnvme.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libnvme.so
 LOCAL_MULTILIB := both
@@ -1003,6 +1092,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := liboeminfo
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/liboeminfo.so
 LOCAL_SRC_FILES_32 := proprietary/lib/liboeminfo.so
 LOCAL_MULTILIB := both
@@ -1014,6 +1104,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libomx_vxd
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libomx_vxd.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libomx_vxd.so
 LOCAL_MULTILIB := both
@@ -1025,6 +1116,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libomx_vxe
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libomx_vxe.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libomx_vxe.so
 LOCAL_MULTILIB := both
@@ -1036,6 +1128,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libperfgenius_vendor_client
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libperfgenius_vendor_client.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libperfgenius_vendor_client.so
 LOCAL_MULTILIB := both
@@ -1047,6 +1140,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libperfhub
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libperfhub.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libperfhub.so
 LOCAL_MULTILIB := both
@@ -1058,6 +1152,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libperfhub_service
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libperfhub_service.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libperfhub_service.so
 LOCAL_MULTILIB := both
@@ -1069,6 +1164,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libpf_customize_hisi
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libpf_customize_hisi.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libpf_customize_hisi.so
 LOCAL_MULTILIB := both
@@ -1080,6 +1176,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libpf_oneimage_hisi
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libpf_oneimage_hisi.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libpf_oneimage_hisi.so
 LOCAL_MULTILIB := both
@@ -1091,6 +1188,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libpf_rotate_hisi
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libpf_rotate_hisi.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libpf_rotate_hisi.so
 LOCAL_MULTILIB := both
@@ -1102,6 +1200,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libpowerlog
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libpowerlog.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libpowerlog.so
 LOCAL_MULTILIB := both
@@ -1113,6 +1212,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libril
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libril.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libril.so
 LOCAL_MULTILIB := both
@@ -1124,6 +1224,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libscenedetection
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libscenedetection.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libscenedetection.so
 LOCAL_MULTILIB := both
@@ -1135,6 +1236,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libsecapi
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libsecapi.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libsecapi.so
 LOCAL_MULTILIB := both
@@ -1146,6 +1248,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libstorekeybox
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libstorekeybox.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libstorekeybox.so
 LOCAL_MULTILIB := both
@@ -1157,6 +1260,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libtas2560
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libtas2560.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libtas2560.so
 LOCAL_MULTILIB := both
@@ -1168,6 +1272,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libteec
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libteec.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libteec.so
 LOCAL_MULTILIB := both
@@ -1179,6 +1284,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libteec_eid
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libteec_eid.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libteec_eid.so
 LOCAL_MULTILIB := both
@@ -1190,6 +1296,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libteec_vendor
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libteec_vendor.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libteec_vendor.so
 LOCAL_MULTILIB := both
@@ -1201,6 +1308,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libthpinterface
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libthpinterface.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libthpinterface.so
 LOCAL_MULTILIB := both
@@ -1212,6 +1320,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libtrustzone_key_manager
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libtrustzone_key_manager.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libtrustzone_key_manager.so
 LOCAL_MULTILIB := both
@@ -1223,6 +1332,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libufs_info
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libufs_info.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libufs_info.so
 LOCAL_MULTILIB := both
@@ -1234,6 +1344,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libvio
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libvio.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libvio.so
 LOCAL_MULTILIB := both
@@ -1245,6 +1356,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libwifi_bcm
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libwifi_bcm.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libwifi_bcm.so
 LOCAL_MULTILIB := both
@@ -1256,6 +1368,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libwifi_ext.default
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libwifi_ext.default.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libwifi_ext.default.so
 LOCAL_MULTILIB := both
@@ -1267,6 +1380,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libwifi_factory_test
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libwifi_factory_test.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libwifi_factory_test.so
 LOCAL_MULTILIB := both
@@ -1278,6 +1392,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libwifi_factory_test_hisi
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libwifi_factory_test_hisi.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libwifi_factory_test_hisi.so
 LOCAL_MULTILIB := both
@@ -1289,6 +1404,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libwifi_wapi_hisi
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libwifi_wapi_hisi.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libwifi_wapi_hisi.so
 LOCAL_MULTILIB := both
@@ -1300,6 +1416,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libwpa_dmd
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libwpa_dmd.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libwpa_dmd.so
 LOCAL_MULTILIB := both
@@ -1311,6 +1428,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libxcollie
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libxcollie.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libxcollie.so
 LOCAL_MULTILIB := both
@@ -1322,6 +1440,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libhuaweiprocessing
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/soundfx/libhuaweiprocessing.so
 LOCAL_SRC_FILES_32 := proprietary/lib/soundfx/libhuaweiprocessing.so
 LOCAL_MULTILIB := both
@@ -1334,6 +1453,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := liboffloadvisualizer
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/soundfx/liboffloadvisualizer.so
 LOCAL_SRC_FILES_32 := proprietary/lib/soundfx/liboffloadvisualizer.so
 LOCAL_MULTILIB := both
@@ -1346,6 +1466,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.activity_recognition@1.0
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.activity_recognition@1.0.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.activity_recognition@1.0.so
 LOCAL_MULTILIB := both
@@ -1357,6 +1478,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.activity_recognition@1.1
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.activity_recognition@1.1.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.activity_recognition@1.1.so
 LOCAL_MULTILIB := both
@@ -1368,6 +1490,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.ai@1.0
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.ai@1.0.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.ai@1.0.so
 LOCAL_MULTILIB := both
@@ -1379,6 +1502,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.ai@1.1
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.ai@1.1.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.ai@1.1.so
 LOCAL_MULTILIB := both
@@ -1390,6 +1514,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.ai@1.2
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.ai@1.2.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.ai@1.2.so
 LOCAL_MULTILIB := both
@@ -1401,6 +1526,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.ai@2.0
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.ai@2.0.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.ai@2.0.so
 LOCAL_MULTILIB := both
@@ -1412,6 +1538,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.audio@2.0
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.audio@2.0.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.audio@2.0.so
 LOCAL_MULTILIB := both
@@ -1423,6 +1550,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.biometrics.hwfacerecognize@1.0
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.biometrics.hwfacerecognize@1.0.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.biometrics.hwfacerecognize@1.0.so
 LOCAL_MULTILIB := both
@@ -1434,6 +1562,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.biometrics.hwfacerecognize@1.1
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.biometrics.hwfacerecognize@1.1.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.biometrics.hwfacerecognize@1.1.so
 LOCAL_MULTILIB := both
@@ -1445,6 +1574,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.biometrics.hwsecurefacerecognize@1.0
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.biometrics.hwsecurefacerecognize@1.0.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.biometrics.hwsecurefacerecognize@1.0.so
 LOCAL_MULTILIB := both
@@ -1456,6 +1586,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.biometrics.hwvoiceid@1.0
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.biometrics.hwvoiceid@1.0.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.biometrics.hwvoiceid@1.0.so
 LOCAL_MULTILIB := both
@@ -1467,6 +1598,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.camera.camResource.orbService@1.0
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.camera.camResource.orbService@1.0.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.camera.camResource.orbService@1.0.so
 LOCAL_MULTILIB := both
@@ -1478,6 +1610,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.camera.camResource@1.0
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.camera.camResource@1.0.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.camera.camResource@1.0.so
 LOCAL_MULTILIB := both
@@ -1489,6 +1622,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.camera.camResource@1.1
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.camera.camResource@1.1.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.camera.camResource@1.1.so
 LOCAL_MULTILIB := both
@@ -1500,6 +1634,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.camera.camResource@1.2
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.camera.camResource@1.2.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.camera.camResource@1.2.so
 LOCAL_MULTILIB := both
@@ -1511,6 +1646,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.camera.camResource@1.3
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.camera.camResource@1.3.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.camera.camResource@1.3.so
 LOCAL_MULTILIB := both
@@ -1522,6 +1658,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.camera.cfgsvr@1.0
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.camera.cfgsvr@1.0.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.camera.cfgsvr@1.0.so
 LOCAL_MULTILIB := both
@@ -1533,6 +1670,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.camera.cfgsvr@1.1
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.camera.cfgsvr@1.1.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.camera.cfgsvr@1.1.so
 LOCAL_MULTILIB := both
@@ -1544,6 +1682,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.camera.factory@1.0
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.camera.factory@1.0.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.camera.factory@1.0.so
 LOCAL_MULTILIB := both
@@ -1555,6 +1694,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.dolby.dms@1.0
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.dolby.dms@1.0.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.dolby.dms@1.0.so
 LOCAL_MULTILIB := both
@@ -1566,6 +1706,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.dubai@1.0
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.dubai@1.0.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.dubai@1.0.so
 LOCAL_MULTILIB := both
@@ -1577,6 +1718,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.dubai@1.1
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.dubai@1.1.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.dubai@1.1.so
 LOCAL_MULTILIB := both
@@ -1588,6 +1730,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.eid@1.0
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.eid@1.0.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.eid@1.0.so
 LOCAL_MULTILIB := both
@@ -1599,6 +1742,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.eid@1.1
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.eid@1.1.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.eid@1.1.so
 LOCAL_MULTILIB := both
@@ -1610,6 +1754,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.fm@1.0
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.fm@1.0.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.fm@1.0.so
 LOCAL_MULTILIB := both
@@ -1621,6 +1766,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.fusd@1.0
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.fusd@1.0.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.fusd@1.0.so
 LOCAL_MULTILIB := both
@@ -1632,6 +1778,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.fusd@1.1
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.fusd@1.1.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.fusd@1.1.so
 LOCAL_MULTILIB := both
@@ -1643,6 +1790,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.fusd@1.2
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.fusd@1.2.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.fusd@1.2.so
 LOCAL_MULTILIB := both
@@ -1654,6 +1802,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.fusd@1.3
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.fusd@1.3.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.fusd@1.3.so
 LOCAL_MULTILIB := both
@@ -1665,6 +1814,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.gnss@1.0
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.gnss@1.0.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.gnss@1.0.so
 LOCAL_MULTILIB := both
@@ -1676,6 +1826,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.gnss@1.1
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.gnss@1.1.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.gnss@1.1.so
 LOCAL_MULTILIB := both
@@ -1687,6 +1838,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.gnss@1.2
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.gnss@1.2.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.gnss@1.2.so
 LOCAL_MULTILIB := both
@@ -1698,6 +1850,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.graphics.displayeffect@1.0
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.graphics.displayeffect@1.0.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.graphics.displayeffect@1.0.so
 LOCAL_MULTILIB := both
@@ -1709,6 +1862,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.graphics.displayeffect@1.1
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.graphics.displayeffect@1.1.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.graphics.displayeffect@1.1.so
 LOCAL_MULTILIB := both
@@ -1720,6 +1874,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.graphics.displayeffect@1.2
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.graphics.displayeffect@1.2.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.graphics.displayeffect@1.2.so
 LOCAL_MULTILIB := both
@@ -1731,6 +1886,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.graphics.gpucommon@1.0
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.graphics.gpucommon@1.0.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.graphics.gpucommon@1.0.so
 LOCAL_MULTILIB := both
@@ -1742,6 +1898,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.graphics.hwcinterface@1.0
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.graphics.hwcinterface@1.0.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.graphics.hwcinterface@1.0.so
 LOCAL_MULTILIB := both
@@ -1753,6 +1910,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.graphics.mediacomm@2.0
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.graphics.mediacomm@2.0.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.graphics.mediacomm@2.0.so
 LOCAL_MULTILIB := both
@@ -1764,6 +1922,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.graphics.mediacomm@2.1
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.graphics.mediacomm@2.1.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.graphics.mediacomm@2.1.so
 LOCAL_MULTILIB := both
@@ -1775,6 +1934,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.hinetmanager@1.0
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.hinetmanager@1.0.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.hinetmanager@1.0.so
 LOCAL_MULTILIB := both
@@ -1786,6 +1946,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.hisiradio@1.0
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.hisiradio@1.0.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.hisiradio@1.0.so
 LOCAL_MULTILIB := both
@@ -1797,6 +1958,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.hisiradio@1.1
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.hisiradio@1.1.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.hisiradio@1.1.so
 LOCAL_MULTILIB := both
@@ -1808,6 +1970,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.hisupl@1.0
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.hisupl@1.0.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.hisupl@1.0.so
 LOCAL_MULTILIB := both
@@ -1819,6 +1982,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.hivrar@1.0
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.hivrar@1.0.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.hivrar@1.0.so
 LOCAL_MULTILIB := both
@@ -1830,6 +1994,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.hivrar@1.1
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.hivrar@1.1.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.hivrar@1.1.so
 LOCAL_MULTILIB := both
@@ -1841,6 +2006,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.hivrar@1.2
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.hivrar@1.2.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.hivrar@1.2.so
 LOCAL_MULTILIB := both
@@ -1852,6 +2018,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.hivrar@1.3
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.hivrar@1.3.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.hivrar@1.3.so
 LOCAL_MULTILIB := both
@@ -1863,6 +2030,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.huawei_security_vnode@1.0
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.huawei_security_vnode@1.0.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.huawei_security_vnode@1.0.so
 LOCAL_MULTILIB := both
@@ -1874,6 +2042,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.huaweiantitheft@1.0
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.huaweiantitheft@1.0.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.huaweiantitheft@1.0.so
 LOCAL_MULTILIB := both
@@ -1885,6 +2054,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.huaweisigntool@1.0
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.huaweisigntool@1.0.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.huaweisigntool@1.0.so
 LOCAL_MULTILIB := both
@@ -1896,6 +2066,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.hwdisplay.displayengine@1.0
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.hwdisplay.displayengine@1.0.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.hwdisplay.displayengine@1.0.so
 LOCAL_MULTILIB := both
@@ -1907,6 +2078,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.hwdisplay.displayengine@1.1
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.hwdisplay.displayengine@1.1.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.hwdisplay.displayengine@1.1.so
 LOCAL_MULTILIB := both
@@ -1918,6 +2090,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.hwdisplay.displayengine@1.2
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.hwdisplay.displayengine@1.2.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.hwdisplay.displayengine@1.2.so
 LOCAL_MULTILIB := both
@@ -1929,6 +2102,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.hwdisplay.displayfactory@1.0
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.hwdisplay.displayfactory@1.0.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.hwdisplay.displayfactory@1.0.so
 LOCAL_MULTILIB := both
@@ -1940,6 +2114,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.hwdisplay@1.0
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.hwdisplay@1.0.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.hwdisplay@1.0.so
 LOCAL_MULTILIB := both
@@ -1951,6 +2126,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.hwfactoryinterface@1.0
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.hwfactoryinterface@1.0.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.hwfactoryinterface@1.0.so
 LOCAL_MULTILIB := both
@@ -1962,6 +2138,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.hwfactoryinterface@1.1
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.hwfactoryinterface@1.1.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.hwfactoryinterface@1.1.so
 LOCAL_MULTILIB := both
@@ -1973,6 +2150,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.hwfs@1.0
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.hwfs@1.0.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.hwfs@1.0.so
 LOCAL_MULTILIB := both
@@ -1984,6 +2162,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.hwhiview@1.0
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.hwhiview@1.0.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.hwhiview@1.0.so
 LOCAL_MULTILIB := both
@@ -1995,6 +2174,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.hwsched@1.0
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.hwsched@1.0.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.hwsched@1.0.so
 LOCAL_MULTILIB := both
@@ -2006,6 +2186,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.hwsecapi@1.0
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.hwsecapi@1.0.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.hwsecapi@1.0.so
 LOCAL_MULTILIB := both
@@ -2017,6 +2198,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.hwstp@1.0
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.hwstp@1.0.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.hwstp@1.0.so
 LOCAL_MULTILIB := both
@@ -2028,6 +2210,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.hwupdate@1.0
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.hwupdate@1.0.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.hwupdate@1.0.so
 LOCAL_MULTILIB := both
@@ -2039,6 +2222,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.hwvibrator@1.0
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.hwvibrator@1.0.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.hwvibrator@1.0.so
 LOCAL_MULTILIB := both
@@ -2050,6 +2234,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.hwvibrator@1.1
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.hwvibrator@1.1.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.hwvibrator@1.1.so
 LOCAL_MULTILIB := both
@@ -2061,6 +2246,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.iawareperf@1.0
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.iawareperf@1.0.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.iawareperf@1.0.so
 LOCAL_MULTILIB := both
@@ -2072,6 +2258,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.iawareperfpolicy@1.0
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.iawareperfpolicy@1.0.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.iawareperfpolicy@1.0.so
 LOCAL_MULTILIB := both
@@ -2083,6 +2270,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.iked@1.0
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.iked@1.0.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.iked@1.0.so
 LOCAL_MULTILIB := both
@@ -2094,6 +2282,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.irsl@1.0
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.irsl@1.0.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.irsl@1.0.so
 LOCAL_MULTILIB := both
@@ -2105,6 +2294,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.jpegdec@1.0
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.jpegdec@1.0.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.jpegdec@1.0.so
 LOCAL_MULTILIB := both
@@ -2116,6 +2306,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.kds@1.0
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.kds@1.0.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.kds@1.0.so
 LOCAL_MULTILIB := both
@@ -2127,6 +2318,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.kds@1.1
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.kds@1.1.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.kds@1.1.so
 LOCAL_MULTILIB := both
@@ -2138,6 +2330,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.libteec@2.0
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.libteec@2.0.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.libteec@2.0.so
 LOCAL_MULTILIB := both
@@ -2149,6 +2342,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.light@2.0
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.light@2.0.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.light@2.0.so
 LOCAL_MULTILIB := both
@@ -2160,6 +2354,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.modemchr@1.0
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.modemchr@1.0.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.modemchr@1.0.so
 LOCAL_MULTILIB := both
@@ -2171,6 +2366,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.modemlogcat@1.0
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.modemlogcat@1.0.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.modemlogcat@1.0.so
 LOCAL_MULTILIB := both
@@ -2182,6 +2378,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.modemlogcat@1.1
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.modemlogcat@1.1.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.modemlogcat@1.1.so
 LOCAL_MULTILIB := both
@@ -2193,6 +2390,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.motion@1.0
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.motion@1.0.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.motion@1.0.so
 LOCAL_MULTILIB := both
@@ -2204,6 +2402,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.nfc@1.0
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.nfc@1.0.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.nfc@1.0.so
 LOCAL_MULTILIB := both
@@ -2215,6 +2414,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.otasimlock@1.0
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.otasimlock@1.0.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.otasimlock@1.0.so
 LOCAL_MULTILIB := both
@@ -2226,6 +2426,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.otherdevices@1.0
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.otherdevices@1.0.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.otherdevices@1.0.so
 LOCAL_MULTILIB := both
@@ -2237,6 +2438,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.perfgenius@2.0
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.perfgenius@2.0.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.perfgenius@2.0.so
 LOCAL_MULTILIB := both
@@ -2248,6 +2450,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.power@1.0
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.power@1.0.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.power@1.0.so
 LOCAL_MULTILIB := both
@@ -2259,6 +2462,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.qcomradio@1.0
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.qcomradio@1.0.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.qcomradio@1.0.so
 LOCAL_MULTILIB := both
@@ -2270,6 +2474,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.radio.chr@1.0
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.radio.chr@1.0.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.radio.chr@1.0.so
 LOCAL_MULTILIB := both
@@ -2281,6 +2486,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.radio.deprecated@1.0
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.radio.deprecated@1.0.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.radio.deprecated@1.0.so
 LOCAL_MULTILIB := both
@@ -2292,6 +2498,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.radio.ims@1.0
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.radio.ims@1.0.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.radio.ims@1.0.so
 LOCAL_MULTILIB := both
@@ -2303,6 +2510,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.radio@2.0
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.radio@2.0.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.radio@2.0.so
 LOCAL_MULTILIB := both
@@ -2314,6 +2522,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.radioenhance@1.0
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.radioenhance@1.0.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.radioenhance@1.0.so
 LOCAL_MULTILIB := both
@@ -2325,6 +2534,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.rtt@1.0
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.rtt@1.0.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.rtt@1.0.so
 LOCAL_MULTILIB := both
@@ -2336,6 +2546,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.sensors@1.0
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.sensors@1.0.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.sensors@1.0.so
 LOCAL_MULTILIB := both
@@ -2347,6 +2558,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.sensors@1.1
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.sensors@1.1.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.sensors@1.1.so
 LOCAL_MULTILIB := both
@@ -2358,6 +2570,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.sensors@1.2
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.sensors@1.2.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.sensors@1.2.so
 LOCAL_MULTILIB := both
@@ -2369,6 +2582,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.tp@1.0
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.tp@1.0.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.tp@1.0.so
 LOCAL_MULTILIB := both
@@ -2380,6 +2594,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.vdecoder@1.0
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.vdecoder@1.0.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.vdecoder@1.0.so
 LOCAL_MULTILIB := both
@@ -2391,6 +2606,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.wifi.supplicant@2.0
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.wifi.supplicant@2.0.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.wifi.supplicant@2.0.so
 LOCAL_MULTILIB := both
@@ -2402,6 +2618,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.wifi.supplicant@2.1
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.wifi.supplicant@2.1.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.wifi.supplicant@2.1.so
 LOCAL_MULTILIB := both
@@ -2413,6 +2630,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.wifi@1.0
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.wifi@1.0.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.wifi@1.0.so
 LOCAL_MULTILIB := both
@@ -2424,6 +2642,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.wifi@1.1
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.wifi@1.1.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.wifi@1.1.so
 LOCAL_MULTILIB := both
@@ -2435,6 +2654,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libmrc_cg_filters
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES := proprietary/lib/libmrc_cg_filters.so
 LOCAL_MULTILIB := 32
 LOCAL_MODULE_TAGS := optional
@@ -2445,6 +2665,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libtrack
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES := proprietary/lib/libtrack.so
 LOCAL_MULTILIB := 32
 LOCAL_MODULE_TAGS := optional
@@ -2455,6 +2676,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libFaceDetectCA
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES := proprietary/lib64/libFaceDetectCA.so
 LOCAL_MULTILIB := 64
 LOCAL_MODULE_TAGS := optional
@@ -2465,6 +2687,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libFaceIDCA
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES := proprietary/lib64/libFaceIDCA.so
 LOCAL_MULTILIB := 64
 LOCAL_MODULE_TAGS := optional
@@ -2475,6 +2698,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libFaceIRCA
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES := proprietary/lib64/libFaceIRCA.so
 LOCAL_MULTILIB := 64
 LOCAL_MODULE_TAGS := optional
@@ -2485,6 +2709,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libFaceSecureCA
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES := proprietary/lib64/libFaceSecureCA.so
 LOCAL_MULTILIB := 64
 LOCAL_MODULE_TAGS := optional
@@ -2495,6 +2720,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libHwedkmgr
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES := proprietary/lib64/libHwedkmgr.so
 LOCAL_MULTILIB := 64
 LOCAL_MODULE_TAGS := optional
@@ -2505,6 +2731,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libVoiceIdCA
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES := proprietary/lib64/libVoiceIdCA.so
 LOCAL_MULTILIB := 64
 LOCAL_MODULE_TAGS := optional
@@ -2515,6 +2742,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libaftouch
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES := proprietary/lib64/libaftouch.so
 LOCAL_MULTILIB := 64
 LOCAL_MODULE_TAGS := optional
@@ -2525,6 +2753,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libasd
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES := proprietary/lib64/libasd.so
 LOCAL_MULTILIB := 64
 LOCAL_MODULE_TAGS := optional
@@ -2535,6 +2764,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libaudio_custom
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES := proprietary/lib64/libaudio_custom.so
 LOCAL_MULTILIB := 64
 LOCAL_MODULE_TAGS := optional
@@ -2545,6 +2775,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libaudio_custom_v2
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES := proprietary/lib64/libaudio_custom_v2.so
 LOCAL_MULTILIB := 64
 LOCAL_MODULE_TAGS := optional
@@ -2555,6 +2786,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libaudiodump
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES := proprietary/lib64/libaudiodump.so
 LOCAL_MULTILIB := 64
 LOCAL_MODULE_TAGS := optional
@@ -2565,6 +2797,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libcamera_algo
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES := proprietary/lib64/libcamera_algo.so
 LOCAL_MULTILIB := 64
 LOCAL_MODULE_TAGS := optional
@@ -2575,6 +2808,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libcamera_ivp
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES := proprietary/lib64/libcamera_ivp.so
 LOCAL_MULTILIB := 64
 LOCAL_MODULE_TAGS := optional
@@ -2585,6 +2819,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libcommunication_api
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES := proprietary/lib64/libcommunication_api.so
 LOCAL_MULTILIB := 64
 LOCAL_MODULE_TAGS := optional
@@ -2595,6 +2830,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libcontrastCal
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES := proprietary/lib64/libcontrastCal.so
 LOCAL_MULTILIB := 64
 LOCAL_MODULE_TAGS := optional
@@ -2605,6 +2841,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libdcamera_capture
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES := proprietary/lib64/libdcamera_capture.so
 LOCAL_MULTILIB := 64
 LOCAL_MODULE_TAGS := optional
@@ -2615,6 +2852,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libdcamera_stream
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES := proprietary/lib64/libdcamera_stream.so
 LOCAL_MULTILIB := 64
 LOCAL_MODULE_TAGS := optional
@@ -2625,6 +2863,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libdcamera_visual_effect
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES := proprietary/lib64/libdcamera_visual_effect.so
 LOCAL_MULTILIB := 64
 LOCAL_MODULE_TAGS := optional
@@ -2635,6 +2874,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libgnss_common_hisi
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES := proprietary/lib64/libgnss_common_hisi.so
 LOCAL_MULTILIB := 64
 LOCAL_MODULE_TAGS := optional
@@ -2645,6 +2885,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libgnss_supl10client_hisi
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES := proprietary/lib64/libgnss_supl10client_hisi.so
 LOCAL_MULTILIB := 64
 LOCAL_MODULE_TAGS := optional
@@ -2655,6 +2896,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libgnss_supl20client_hisi
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES := proprietary/lib64/libgnss_supl20client_hisi.so
 LOCAL_MULTILIB := 64
 LOCAL_MODULE_TAGS := optional
@@ -2665,6 +2907,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libgnss_supl20common_hisi
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES := proprietary/lib64/libgnss_supl20common_hisi.so
 LOCAL_MULTILIB := 64
 LOCAL_MODULE_TAGS := optional
@@ -2675,6 +2918,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libgnss_supl20if_hisi
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES := proprietary/lib64/libgnss_supl20if_hisi.so
 LOCAL_MULTILIB := 64
 LOCAL_MODULE_TAGS := optional
@@ -2685,6 +2929,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libgps_factory_test_hisi
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES := proprietary/lib64/libgps_factory_test_hisi.so
 LOCAL_MULTILIB := 64
 LOCAL_MODULE_TAGS := optional
@@ -2695,6 +2940,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libgps_factory_test_hisi_1102
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES := proprietary/lib64/libgps_factory_test_hisi_1102.so
 LOCAL_MULTILIB := 64
 LOCAL_MODULE_TAGS := optional
@@ -2705,6 +2951,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libhwgpschannelclient
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES := proprietary/lib64/libhwgpschannelclient.so
 LOCAL_MULTILIB := 64
 LOCAL_MODULE_TAGS := optional
@@ -2715,6 +2962,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libmax98925
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES := proprietary/lib64/libmax98925.so
 LOCAL_MULTILIB := 64
 LOCAL_MODULE_TAGS := optional
@@ -2725,6 +2973,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libmini_md5
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES := proprietary/lib64/libmini_md5.so
 LOCAL_MULTILIB := 64
 LOCAL_MODULE_TAGS := optional
@@ -2735,6 +2984,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libmrc_cg_oz
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES := proprietary/lib64/libmrc_cg_oz.so
 LOCAL_MULTILIB := 64
 LOCAL_MODULE_TAGS := optional
@@ -2745,6 +2995,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libracoon2
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES := proprietary/lib64/libracoon2.so
 LOCAL_MULTILIB := 64
 LOCAL_MODULE_TAGS := optional
@@ -2755,6 +3006,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := librttserver
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES := proprietary/lib64/librttserver.so
 LOCAL_MULTILIB := 64
 LOCAL_MODULE_TAGS := optional
@@ -2765,6 +3017,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libsmartpakit
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES := proprietary/lib64/libsmartpakit.so
 LOCAL_MULTILIB := 64
 LOCAL_MODULE_TAGS := optional
@@ -2775,6 +3028,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libstp
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES := proprietary/lib64/libstp.so
 LOCAL_MULTILIB := 64
 LOCAL_MODULE_TAGS := optional
@@ -2785,6 +3039,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libtpp
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES := proprietary/lib64/libtpp.so
 LOCAL_MULTILIB := 64
 LOCAL_MODULE_TAGS := optional
@@ -2795,6 +3050,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libwpa_client
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES := proprietary/lib64/libwpa_client.so
 LOCAL_MULTILIB := 64
 LOCAL_MODULE_TAGS := optional
