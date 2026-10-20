@@ -531,6 +531,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/AGS2/proprietary/vendor/lib/camera.device@3.3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.3-impl.so \
     vendor/huawei/AGS2/proprietary/vendor/lib/camera.device@3.4-external-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.4-external-impl.so \
     vendor/huawei/AGS2/proprietary/vendor/lib/camera.device@3.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.4-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib/hw/CameraFactoryService.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/CameraFactoryService.so \
     vendor/huawei/AGS2/proprietary/vendor/lib/hw/android.hardware.audio.effect@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio.effect@4.0-impl.so \
     vendor/huawei/AGS2/proprietary/vendor/lib/hw/android.hardware.audio@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio@4.0-impl.so \
     vendor/huawei/AGS2/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth@1.0-impl.so \
@@ -543,18 +544,46 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/AGS2/proprietary/vendor/lib/hw/android.hardware.memtrack@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.memtrack@1.0-impl.so \
     vendor/huawei/AGS2/proprietary/vendor/lib/hw/android.hardware.nfc@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.nfc@1.1-impl.so \
     vendor/huawei/AGS2/proprietary/vendor/lib/hw/android.hardware.thermal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.thermal@1.0-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib/hw/audio.r_submix.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.r_submix.default.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib/hw/audio.usb.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.usb.default.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib/hw/fingerprint.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fingerprint.hi6250.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib/hw/fm.hisi.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fm.hisi.hi6250.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib/hw/gatekeeper.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.hi6250.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib/hw/gralloc.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.default.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib/hw/gralloc.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.hi6250.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib/hw/hicam.hal.bz.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hicam.hal.bz.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib/hw/hicam.hal.service.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hicam.hal.service.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib/hw/hw_touch_pressure_cal.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hw_touch_pressure_cal.default.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib/hw/hw_touchscreen.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hw_touchscreen.default.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib/hw/hwcomposer.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hwcomposer.hi6250.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib/hw/keystore.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/keystore.hi6250.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib/hw/libhwdisplay.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/libhwdisplay.default.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib/hw/lights.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/lights.default.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib/hw/local_time.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/local_time.default.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib/hw/mediacomm.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/mediacomm.hi6250.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib/hw/memtrack.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.hi6250.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib/hw/nfc_nci.cxd22xx.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/nfc_nci.cxd22xx.default.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib/hw/nfc_nci.pn54x.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/nfc_nci.pn54x.default.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib/hw/power.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/power.default.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib/hw/power.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/power.hi6250.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib/hw/sensors.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.default.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib/hw/thermal.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/thermal.hi6250.so \
     vendor/huawei/AGS2/proprietary/vendor/lib/hw/vendor.huawei.hardware.camera.factory@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.huawei.hardware.camera.factory@1.0-impl.so \
     vendor/huawei/AGS2/proprietary/vendor/lib/hw/vendor.huawei.hardware.graphics.displayeffect@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.huawei.hardware.graphics.displayeffect@1.0-impl.so \
     vendor/huawei/AGS2/proprietary/vendor/lib/hw/vendor.huawei.hardware.graphics.mediacomm@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.huawei.hardware.graphics.mediacomm@2.0-impl.so \
     vendor/huawei/AGS2/proprietary/vendor/lib/hw/vendor.huawei.hardware.hwfs@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.huawei.hardware.hwfs@1.0-impl.so \
     vendor/huawei/AGS2/proprietary/vendor/lib/hw/vendor.huawei.hardware.libteec@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.huawei.hardware.libteec@2.0-impl.so \
     vendor/huawei/AGS2/proprietary/vendor/lib/hw/vendor.huawei.hardware.perfgenius@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.huawei.hardware.perfgenius@2.0-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib/hw/vibrator.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vibrator.default.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib/hw/vulkan.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vulkan.hi6250.so \
     vendor/huawei/AGS2/proprietary/vendor/lib/vendor.huawei.hardware.dolby.dms@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.dolby.dms@1.0-impl.so \
     vendor/huawei/AGS2/proprietary/vendor/lib64/camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@1.0-impl.so \
     vendor/huawei/AGS2/proprietary/vendor/lib64/camera.device@3.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.2-impl.so \
     vendor/huawei/AGS2/proprietary/vendor/lib64/camera.device@3.3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.3-impl.so \
     vendor/huawei/AGS2/proprietary/vendor/lib64/camera.device@3.4-external-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.4-external-impl.so \
     vendor/huawei/AGS2/proprietary/vendor/lib64/camera.device@3.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.4-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/CameraFactoryService.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/CameraFactoryService.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/activity_recognition.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/activity_recognition.default.so \
     vendor/huawei/AGS2/proprietary/vendor/lib64/hw/android.hardware.audio.effect@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio.effect@4.0-impl.so \
     vendor/huawei/AGS2/proprietary/vendor/lib64/hw/android.hardware.audio@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio@4.0-impl.so \
     vendor/huawei/AGS2/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.0-impl.so \
@@ -567,6 +596,35 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/AGS2/proprietary/vendor/lib64/hw/android.hardware.nfc@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.nfc@1.1-impl.so \
     vendor/huawei/AGS2/proprietary/vendor/lib64/hw/android.hardware.soundtrigger@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.soundtrigger@2.0-impl.so \
     vendor/huawei/AGS2/proprietary/vendor/lib64/hw/android.hardware.thermal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.thermal@1.0-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/audio.primary.hisi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.hisi.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/audio.r_submix.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.r_submix.default.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/audio.usb.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.usb.default.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/facerecognize.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/facerecognize.hi6250.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/fingerprint.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.hi6250.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/fm.hisi.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fm.hisi.hi6250.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/gatekeeper.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.hi6250.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/gps.hi1102.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gps.hi1102.default.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/gps.hisi.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gps.hisi.default.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/gralloc.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.default.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/gralloc.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.hi6250.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/hicam.hal.bz.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hicam.hal.bz.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/hicam.hal.service.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hicam.hal.service.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/hisupl.hi1102.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hisupl.hi1102.default.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/hw_touch_pressure_cal.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hw_touch_pressure_cal.default.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/hw_touchscreen.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hw_touchscreen.default.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/hwcomposer.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hwcomposer.hi6250.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/keystore.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/keystore.hi6250.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/libhwdisplay.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/libhwdisplay.default.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/lights.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/lights.default.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/local_time.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/local_time.default.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/mediacomm.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/mediacomm.hi6250.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/memtrack.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/memtrack.hi6250.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/nfc_nci.cxd22xx.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/nfc_nci.cxd22xx.default.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/nfc_nci.pn54x.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/nfc_nci.pn54x.default.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/power.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/power.default.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/power.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/power.hi6250.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/sensors.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensors.default.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/thermal.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/thermal.hi6250.so \
     vendor/huawei/AGS2/proprietary/vendor/lib64/hw/vendor.huawei.hardware.activity_recognition@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.huawei.hardware.activity_recognition@1.1-impl.so \
     vendor/huawei/AGS2/proprietary/vendor/lib64/hw/vendor.huawei.hardware.biometrics.hwvoiceid@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.huawei.hardware.biometrics.hwvoiceid@1.0-impl.so \
     vendor/huawei/AGS2/proprietary/vendor/lib64/hw/vendor.huawei.hardware.camera.factory@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.huawei.hardware.camera.factory@1.0-impl.so \
@@ -596,6 +654,9 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/AGS2/proprietary/vendor/lib64/hw/vendor.huawei.hardware.sensors@1.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.huawei.hardware.sensors@1.2-impl.so \
     vendor/huawei/AGS2/proprietary/vendor/lib64/hw/vendor.huawei.hardware.tp@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.huawei.hardware.tp@1.0-impl.so \
     vendor/huawei/AGS2/proprietary/vendor/lib64/hw/vendor.huawei.hardware.wifi@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.huawei.hardware.wifi@1.1-impl.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/vibrator.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vibrator.default.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/voiceid.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/voiceid.hi6250.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/vulkan.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vulkan.hi6250.so \
     vendor/huawei/AGS2/proprietary/vendor/lib64/vendor.huawei.hardware.dolby.dms@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.huawei.hardware.dolby.dms@1.0-impl.so \
     vendor/huawei/AGS2/proprietary/vendor/modem/modem_fw/readme.txt:$(TARGET_COPY_OUT_VENDOR)/modem/modem_fw/readme.txt \
     vendor/huawei/AGS2/proprietary/vendor/phone.prop:$(TARGET_COPY_OUT_VENDOR)/phone.prop \
@@ -609,33 +670,6 @@ PRODUCT_PACKAGES += \
     displayeffect.hi6250 \
     libGLES_mali \
     ese_hw_hal \
-    CameraFactoryService \
-    audio.r_submix.default \
-    audio.usb.default \
-    fingerprint.hi6250 \
-    fm.hisi.hi6250 \
-    gatekeeper.hi6250 \
-    gralloc.default \
-    gralloc.hi6250 \
-    hicam.hal.bz \
-    hicam.hal.service \
-    hw_touch_pressure_cal.default \
-    hw_touchscreen.default \
-    hwcomposer.hi6250 \
-    keystore.hi6250 \
-    libhwdisplay.default \
-    lights.default \
-    local_time.default \
-    mediacomm.hi6250 \
-    memtrack.hi6250 \
-    nfc_nci.cxd22xx.default \
-    nfc_nci.pn54x.default \
-    power.default \
-    power.hi6250 \
-    sensors.default \
-    thermal.hi6250 \
-    vibrator.default \
-    vulkan.hi6250 \
     hwcam.ddt \
     hwcam.services \
     libAntiTheftCA \
@@ -881,13 +915,6 @@ PRODUCT_PACKAGES += \
     libwifi_ext.default \
     libwifi_factory_test \
     libwifi_factory_test_hisi \
-    activity_recognition.default \
-    audio.primary.hisi \
-    facerecognize.hi6250 \
-    gps.hi1102.default \
-    gps.hisi.default \
-    hisupl.hi1102.default \
-    voiceid.hi6250 \
     libFaceDetectCA \
     libFaceIDCA \
     libFaceIRCA \
