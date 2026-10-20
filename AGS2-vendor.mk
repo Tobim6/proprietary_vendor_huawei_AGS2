@@ -26,7 +26,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/AGS2/proprietary/product/etc/carrier/46008/xml/hwcarrierconfig.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/carrier/46008/xml/hwcarrierconfig.xml \
     vendor/huawei/AGS2/proprietary/product/etc/component_version.txt:$(TARGET_COPY_OUT_PRODUCT)/etc/component_version.txt \
     vendor/huawei/AGS2/proprietary/product/etc/xml/APKInstallListEMUI5Release.txt:$(TARGET_COPY_OUT_PRODUCT)/etc/xml/APKInstallListEMUI5Release.txt \
-    vendor/huawei/AGS2/proprietary/product/etc/xml/iaware_config_cust.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/xml/iaware_config_cust.xml \
     vendor/huawei/AGS2/proprietary/product/hash_check/product_hash.txt:$(TARGET_COPY_OUT_PRODUCT)/hash_check/product_hash.txt \
     vendor/huawei/AGS2/proprietary/product/hw/default/parent_cust.cfg:$(TARGET_COPY_OUT_PRODUCT)/hw/default/parent_cust.cfg \
     vendor/huawei/AGS2/proprietary/product/hw/default/prop/hwime.properties:$(TARGET_COPY_OUT_PRODUCT)/hw/default/prop/hwime.properties \
@@ -1039,7 +1038,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/AGS2/proprietary/vendor/etc/wifi/hostapd_hisi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/hostapd_hisi.conf \
     vendor/huawei/AGS2/proprietary/vendor/etc/wifi/wpa_supplicant_hisi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_hisi.conf \
     vendor/huawei/AGS2/proprietary/vendor/etc/xml/APKInstallListEMUI5Release.txt:$(TARGET_COPY_OUT_VENDOR)/etc/xml/APKInstallListEMUI5Release.txt \
-    vendor/huawei/AGS2/proprietary/vendor/etc/xml/iaware_config_cust.xml:$(TARGET_COPY_OUT_VENDOR)/etc/xml/iaware_config_cust.xml \
     vendor/huawei/AGS2/proprietary/vendor/firmware/BCM4345C0_003.001.025.0033.0000_Generic.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/BCM4345C0_003.001.025.0033.0000_Generic.hcd \
     vendor/huawei/AGS2/proprietary/vendor/firmware/CPU_RAM_SCHED.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/CPU_RAM_SCHED.bin \
     vendor/huawei/AGS2/proprietary/vendor/firmware/CPU_RAM_WBS.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/CPU_RAM_WBS.bin \
@@ -3150,7 +3148,6 @@ PRODUCT_PACKAGES += \
     viacbp82d_FieldTest \
     FieldTest \
     hids_ue_msg \
-    native_packages \
     perfgenius_config \
     perfgenius_event_policy \
     perfgenius_scenario_policy \
@@ -3198,6 +3195,7 @@ PRODUCT_PACKAGES += \
     p2p_supplicant_hisi \
     p2p_supplicant_overlay \
     wpa_supplicant_overlay \
+    iaware_config_cust \
     PowerInfoImpl \
     apns-conf-cust \
     ambient \
@@ -3259,7 +3257,6 @@ PRODUCT_PACKAGES += \
     publicity_all \
     poweroff_thermald \
     DelAPKInstallListEMUI5Release \
-    appmng_config_cust \
     csapp_list \
     hw_defaults \
     hw_launcher_default_config \

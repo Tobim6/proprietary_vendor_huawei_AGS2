@@ -17798,15 +17798,6 @@ LOCAL_MODULE_SUFFIX := .cfg
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := native_packages
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/native_packages.xml
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := perfgenius_config
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/perfgenius_config.xml
@@ -18227,6 +18218,15 @@ LOCAL_SRC_FILES := proprietary/etc/wifi/wpa_supplicant_overlay.conf
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .conf
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := iaware_config_cust
+LOCAL_MODULE_OWNER := huawei
+LOCAL_SRC_FILES := proprietary/etc/xml/iaware_config_cust.xml
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_SUFFIX := .xml
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -18836,16 +18836,6 @@ LOCAL_SRC_FILES := proprietary/product/etc/xml/DelAPKInstallListEMUI5Release.txt
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .txt
-LOCAL_PRODUCT_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := appmng_config_cust
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/product/etc/xml/appmng_config_cust.xml
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
 LOCAL_PRODUCT_MODULE := true
 include $(BUILD_PREBUILT)
 
