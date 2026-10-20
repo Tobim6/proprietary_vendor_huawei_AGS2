@@ -220,6 +220,94 @@ LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := lib_device_interface
+LOCAL_MODULE_OWNER := huawei
+LOCAL_SRC_FILES_64 := proprietary/lib64/lib_device_interface.so
+LOCAL_SRC_FILES_32 := proprietary/lib/lib_device_interface.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := lib_factory_interface
+LOCAL_MODULE_OWNER := huawei
+LOCAL_SRC_FILES_64 := proprietary/lib64/lib_factory_interface.so
+LOCAL_SRC_FILES_32 := proprietary/lib/lib_factory_interface.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := lib_fpc_tac_shared
+LOCAL_MODULE_OWNER := huawei
+LOCAL_SRC_FILES_64 := proprietary/lib64/lib_fpc_tac_shared.so
+LOCAL_SRC_FILES_32 := proprietary/lib/lib_fpc_tac_shared.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := lib_mmi_interface
+LOCAL_MODULE_OWNER := huawei
+LOCAL_SRC_FILES_64 := proprietary/lib64/lib_mmi_interface.so
+LOCAL_SRC_FILES_32 := proprietary/lib/lib_mmi_interface.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := lib_sensor_fac_interface
+LOCAL_MODULE_OWNER := huawei
+LOCAL_SRC_FILES_64 := proprietary/lib64/lib_sensor_fac_interface.so
+LOCAL_SRC_FILES_32 := proprietary/lib/lib_sensor_fac_interface.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := lib_socslt
+LOCAL_MODULE_OWNER := huawei
+LOCAL_SRC_FILES_64 := proprietary/lib64/lib_socslt.so
+LOCAL_SRC_FILES_32 := proprietary/lib/lib_socslt.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := lib_softap_hw
+LOCAL_MODULE_OWNER := huawei
+LOCAL_SRC_FILES_64 := proprietary/lib64/lib_softap_hw.so
+LOCAL_SRC_FILES_32 := proprietary/lib/lib_softap_hw.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := lib_vibrator
+LOCAL_MODULE_OWNER := huawei
+LOCAL_SRC_FILES_64 := proprietary/lib64/lib_vibrator.so
+LOCAL_SRC_FILES_32 := proprietary/lib/lib_vibrator.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := lib_wifi_sar
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES_64 := proprietary/lib64/lib_wifi_sar.so
@@ -345,17 +433,6 @@ LOCAL_MODULE := libc_secshared
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES_64 := proprietary/lib64/libc_secshared.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libc_secshared.so
-LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libcamera_omron
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES_64 := proprietary/lib64/libcamera_omron.so
-LOCAL_SRC_FILES_32 := proprietary/lib/libcamera_omron.so
 LOCAL_MULTILIB := both
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
@@ -2345,86 +2422,6 @@ LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := lib_device_interface
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/lib/lib_device_interface.so
-LOCAL_MULTILIB := 32
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := lib_factory_interface
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/lib/lib_factory_interface.so
-LOCAL_MULTILIB := 32
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := lib_fpc_tac_shared
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/lib/lib_fpc_tac_shared.so
-LOCAL_MULTILIB := 32
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := lib_mmi_interface
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/lib/lib_mmi_interface.so
-LOCAL_MULTILIB := 32
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := lib_sensor_fac_interface
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/lib/lib_sensor_fac_interface.so
-LOCAL_MULTILIB := 32
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := lib_socslt
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/lib/lib_socslt.so
-LOCAL_MULTILIB := 32
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := lib_softap_hw
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/lib/lib_softap_hw.so
-LOCAL_MULTILIB := 32
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := lib_vibrator
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/lib/lib_vibrator.so
-LOCAL_MULTILIB := 32
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := libmrc_cg_filters
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/lib/libmrc_cg_filters.so
@@ -2498,86 +2495,6 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := libVoiceIdCA
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/lib64/libVoiceIdCA.so
-LOCAL_MULTILIB := 64
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := lib_device_interface
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/lib64/lib_device_interface.so
-LOCAL_MULTILIB := 64
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := lib_factory_interface
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/lib64/lib_factory_interface.so
-LOCAL_MULTILIB := 64
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := lib_fpc_tac_shared
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/lib64/lib_fpc_tac_shared.so
-LOCAL_MULTILIB := 64
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := lib_mmi_interface
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/lib64/lib_mmi_interface.so
-LOCAL_MULTILIB := 64
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := lib_sensor_fac_interface
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/lib64/lib_sensor_fac_interface.so
-LOCAL_MULTILIB := 64
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := lib_socslt
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/lib64/lib_socslt.so
-LOCAL_MULTILIB := 64
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := lib_softap_hw
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/lib64/lib_softap_hw.so
-LOCAL_MULTILIB := 64
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := lib_vibrator
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/lib64/lib_vibrator.so
 LOCAL_MULTILIB := 64
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
@@ -2910,17 +2827,6 @@ LOCAL_PRODUCT_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libcamera_omron
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/product/lib/libcamera_omron.so
-LOCAL_MULTILIB := 32
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_PRODUCT_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := libdmt_elvis
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/product/lib/libdmt_elvis.so
@@ -3165,30 +3071,6 @@ LOCAL_PRODUCT_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libfido_hal
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/product/app/HwFidoAsm/lib/arm/libfido_hal.so
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_PRODUCT_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libfido_hal
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/product/app/HwFidoAsm/lib/arm64/libfido_hal.so
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_PRODUCT_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := HwFidoClient
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/product/app/HwFidoClient/HwFidoClient.apk
@@ -3297,51 +3179,6 @@ LOCAL_MODULE_SUFFIX := .xml
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := audio_effects
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/audio/audio_effects.xml
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := audio_policy_configuration
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/audio/audio_policy_configuration.xml
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := audio_effects
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/audio_effects.xml
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := audio_policy
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/audio_policy.conf
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .conf
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := audio_policy_configuration
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/audio_policy_configuration.xml
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := audio_policy_volumes
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/audio_policy_volumes.xml
@@ -3396,198 +3233,9 @@ LOCAL_MODULE_SUFFIX := .model
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := gcd
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/camera/configeffect/default/gcd.xml
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := rawnf
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/camera/configeffect/default/rawnf.xml
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := sharpen
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/camera/configeffect/default/sharpen.xml
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := yuvnf
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/camera/configeffect/default/yuvnf.xml
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := gcd
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/camera/configeffect/digitalzoom/default/gcd.xml
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := rawnf
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/camera/configeffect/digitalzoom/default/rawnf.xml
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := sharpen
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/camera/configeffect/digitalzoom/default/sharpen.xml
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := yuvnf
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/camera/configeffect/digitalzoom/default/yuvnf.xml
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := rawnf
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/camera/configeffect/multidenoise/default/rawnf.xml
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := rawnf_aux
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/camera/configeffect/multidenoise/default/rawnf_aux.xml
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := sharpen
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/camera/configeffect/multidenoise/default/sharpen.xml
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := sharpen_aux
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/camera/configeffect/multidenoise/default/sharpen_aux.xml
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := yuvnf
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/camera/configeffect/multidenoise/default/yuvnf.xml
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := yuvnf_aux
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/camera/configeffect/multidenoise/default/yuvnf_aux.xml
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := gcd
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/camera/configeffect/opticalzoom/default/gcd.xml
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := gcd_aux
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/camera/configeffect/opticalzoom/default/gcd_aux.xml
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := rawnf
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/camera/configeffect/opticalzoom/default/rawnf.xml
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := rawnf_aux
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/camera/configeffect/opticalzoom/default/rawnf_aux.xml
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := sharpen
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/camera/configeffect/opticalzoom/default/sharpen.xml
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := sharpen_aux
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/camera/configeffect/opticalzoom/default/sharpen_aux.xml
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := yuvnf
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/camera/configeffect/opticalzoom/default/yuvnf.xml
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := yuvnf_aux
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/camera/configeffect/opticalzoom/default/yuvnf_aux.xml
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .xml
@@ -3648,33 +3296,6 @@ LOCAL_MODULE_SUFFIX := .xml
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := imgproc
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/camera/davinci/default/imgproc.xml
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := multiframe
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/camera/davinci/default/multiframe.xml
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := imgproc
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/camera/davinci/default/nicefood/imgproc.xml
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := dcsr
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/camera/dcsr/dcsr.xml
@@ -3690,15 +3311,6 @@ LOCAL_SRC_FILES := proprietary/etc/camera/dcsr/dcsr_kernel
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .dcsr_kernel
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := sr
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/camera/dcsr/sr.bin
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .bin
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -3768,15 +3380,6 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := mmi7cmConfig
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/camera/mmi7cm/default/mmi7cmConfig.xml
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := multiframe
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/camera/multidenoise/default/multiframe.xml
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .xml
@@ -3855,15 +3458,6 @@ LOCAL_MODULE_SUFFIX := .dat
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := multiframe
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/camera/opticalzoom/default/multiframe.xml
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := oz_ref_match
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/camera/opticalzoom/default/oz_ref_match.dat
@@ -3885,15 +3479,6 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := oz_ref_match_2
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/camera/opticalzoom/default/oz_ref_match_2.dat
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .dat
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := sr
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/camera/opticalzoom/default/sr.dat
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .dat
@@ -4035,741 +3620,12 @@ LOCAL_MODULE_SUFFIX := .xml
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := dm
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/camera/watermark/dm.argb
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .argb
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := dm
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/camera/watermark/dm.png
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .png
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := param
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/camera/watermark/param.xml
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .xml
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 20201_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/20201/20201_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .20201_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 20202_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/20202/20202_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .20202_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 20205_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/20205/20205_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .20205_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 20404_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/20404/20404_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .20404_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 20408_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/20408/20408_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .20408_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 20416_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/20416/20416_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .20416_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 20420_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/20420/20420_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .20420_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 20469_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/20469/20469_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .20469_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 20601_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/20601/20601_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .20601_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 20605_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/20605/20605_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .20605_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 20610_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/20610/20610_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .20610_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 20620_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/20620/20620_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .20620_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 20801_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/20801/20801_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .20801_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 20802_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/20802/20802_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .20802_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 20809_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/20809/20809_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .20809_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 20810_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/20810/20810_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .20810_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 20811_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/20811/20811_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .20811_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 20813_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/20813/20813_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .20813_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 20820_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/20820/20820_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .20820_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 20821_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/20821/20821_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .20821_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 20888_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/20888/20888_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .20888_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 20891_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/20891/20891_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .20891_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 21401_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/21401/21401_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .21401_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 21403_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/21403/21403_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .21403_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 21407_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/21407/21407_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .21407_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 22201_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/22201/22201_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .22201_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 22210_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/22210/22210_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .22210_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 22288_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/22288/22288_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .22288_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 22299_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/22299/22299_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .22299_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 22801_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/22801/22801_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .22801_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 22802_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/22802/22802_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .22802_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 22803_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/22803/22803_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .22803_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 22812_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/22812/22812_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .22812_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 24201_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/24201/24201_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .24201_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 24202_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/24202/24202_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .24202_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 24212_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/24212/24212_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .24212_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 26001_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/26001/26001_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .26001_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 26002_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/26002/26002_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .26002_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 26006_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/26006/26006_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .26006_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 26034_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/26034/26034_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .26034_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 26201_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/26201/26201_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .26201_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 26202_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/26202/26202_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .26202_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 26203_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/26203/26203_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .26203_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 26204_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/26204/26204_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .26204_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 26205_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/26205/26205_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .26205_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 26206_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/26206/26206_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .26206_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 26207_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/26207/26207_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .26207_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 26208_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/26208/26208_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .26208_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 26209_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/26209/26209_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .26209_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 26211_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/26211/26211_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .26211_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 26212_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/26212/26212_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .26212_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 26216_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/26216/26216_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .26216_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 26217_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/26217/26217_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .26217_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 26220_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/26220/26220_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .26220_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 26242_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/26242/26242_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .26242_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 26243_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/26243/26243_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .26243_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 26277_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/26277/26277_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .26277_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 26278_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/26278/26278_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .26278_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 310070_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/310070/310070_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .310070_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 310150_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/310150/310150_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .310150_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 310160_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/310160/310160_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .310160_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 310170_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/310170/310170_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .310170_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 310200_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/310200/310200_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .310200_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 310210_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/310210/310210_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .310210_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 310220_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/310220/310220_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .310220_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 310230_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/310230/310230_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .310230_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 310240_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/310240/310240_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .310240_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 310250_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/310250/310250_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .310250_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 310260_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/310260/310260_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .310260_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 310270_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/310270/310270_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .310270_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 310280_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/310280/310280_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .310280_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 310310_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/310310/310310_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .310310_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 310380_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/310380/310380_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .310380_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 310410_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/310410/310410_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .310410_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 310490_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/310490/310490_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .310490_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 310560_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/310560/310560_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .310560_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 310660_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/310660/310660_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .310660_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 310680_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/310680/310680_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .310680_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 310800_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/310800/310800_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .310800_0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -4782,84 +3638,12 @@ LOCAL_MODULE_SUFFIX := .334020_0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := 33403_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/33403/33403_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .33403_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := 334050_0
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/334050/334050_0
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .334050_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 40402_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/40402/40402_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .40402_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 40403_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/40403/40403_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .40403_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 40410_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/40410/40410_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .40410_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 40431_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/40431/40431_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .40431_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 40440_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/40440/40440_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .40440_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 40445_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/40445/40445_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .40445_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 40449_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/40449/40449_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .40449_0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -4872,840 +3656,12 @@ LOCAL_MODULE_SUFFIX := .40481_0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := 40490_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/40490/40490_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .40490_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 40492_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/40492/40492_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .40492_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 40493_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/40493/40493_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .40493_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 40494_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/40494/40494_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .40494_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 40495_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/40495/40495_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .40495_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 40496_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/40496/40496_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .40496_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 40497_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/40497/40497_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .40497_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 40498_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/40498/40498_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .40498_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 40551_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/40551/40551_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .40551_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 41001_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/41001/41001_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .41001_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 41401_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/41401/41401_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .41401_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 41405_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/41405/41405_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .41405_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 41406_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/41406/41406_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .41406_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 42001_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/42001/42001_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .42001_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 42202_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/42202/42202_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .42202_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 42203_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/42203/42203_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .42203_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 42402_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/42402/42402_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .42402_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 43235_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/43235/43235_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .43235_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44002_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/44002/44002_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44002_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44004_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/44004/44004_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44004_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44006_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/44006/44006_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44006_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44009_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/44009/44009_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44009_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44010_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/44010/44010_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44010_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44020_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/44020/44020_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44020_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44022_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/44022/44022_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44022_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44031_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/44031/44031_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44031_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44035_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/44035/44035_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44035_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44040_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/44040/44040_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44040_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44041_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/44041/44041_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44041_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44042_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/44042/44042_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44042_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44043_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/44043/44043_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44043_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44044_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/44044/44044_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44044_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44045_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/44045/44045_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44045_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44046_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/44046/44046_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44046_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44047_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/44047/44047_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44047_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44048_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/44048/44048_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44048_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44058_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/44058/44058_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44058_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44060_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/44060/44060_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44060_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44090_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/44090/44090_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44090_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44092_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/44092/44092_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44092_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44093_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/44093/44093_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44093_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44094_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/44094/44094_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44094_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44095_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/44095/44095_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44095_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44096_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/44096/44096_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44096_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44097_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/44097/44097_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44097_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44098_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/44098/44098_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44098_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44143_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/44143/44143_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44143_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44161_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/44161/44161_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44161_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44162_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/44162/44162_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44162_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44163_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/44163/44163_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44163_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44164_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/44164/44164_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44164_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44165_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/44165/44165_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44165_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 45400_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/45400/45400_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .45400_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 45401_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/45401/45401_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .45401_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 45402_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/45402/45402_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .45402_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 45403_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/45403/45403_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .45403_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 45404_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/45404/45404_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .45404_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 45405_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/45405/45405_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .45405_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 45406_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/45406/45406_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .45406_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 45407_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/45407/45407_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .45407_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 45410_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/45410/45410_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .45410_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 45412_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/45412/45412_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .45412_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 45413_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/45413/45413_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .45413_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 45414_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/45414/45414_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .45414_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 45415_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/45415/45415_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .45415_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 45416_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/45416/45416_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .45416_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 45417_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/45417/45417_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .45417_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 45418_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/45418/45418_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .45418_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 45419_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/45419/45419_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .45419_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 45420_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/45420/45420_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .45420_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 46000_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/46000/46000_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .46000_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 46001_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/46001/46001_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .46001_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 46002_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/46002/46002_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .46002_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 46007_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/46007/46007_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .46007_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 46009_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/46009/46009_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .46009_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 50210_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/50210/50210_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .50210_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 50212_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/50212/50212_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .50212_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 50213_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/50213/50213_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .50213_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 50216_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/50216/50216_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .50216_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 50217_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/50217/50217_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .50217_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 50218_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/50218/50218_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .50218_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 50219_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/50219/50219_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .50219_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 50501_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/50501/50501_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .50501_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := 50506_0
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/50506/50506_0
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .50506_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 50511_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/50511/50511_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .50511_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 50571_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/50571/50571_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .50571_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 50572_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/50572/50572_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .50572_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 52000_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/52000/52000_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .52000_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 52001_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/52001/52001_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .52001_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 52003_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/52003/52003_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .52003_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 52004_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/52004/52004_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .52004_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 52005_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/52005/52005_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .52005_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 52018_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/52018/52018_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .52018_0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -5718,147 +3674,12 @@ LOCAL_MODULE_SUFFIX := .52099_0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := 52501_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/52501/52501_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .52501_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 52503_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/52503/52503_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .52503_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 52505_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/52505/52505_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .52505_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 60202_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/60202/60202_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .60202_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 63902_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/63902/63902_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .63902_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 722010_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/722010/722010_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .722010_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 72207_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/72207/72207_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .72207_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := 722310_0
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/722310/722310_0
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .722310_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 72234_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/72234/72234_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .72234_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 722341_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/722341/722341_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .722341_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 73002_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/border/73002/73002_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .73002_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := custom
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/PCT-AL10I/dual0/custom
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .custom
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := custom
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/PCT-AL10I/dual1/custom
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .custom
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := custom
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/PCT-AL10I/single/custom
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .custom
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 20201
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/202/20201
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .20201
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 20205
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/202/20205
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .20205
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -5886,24 +3707,6 @@ LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/204/20408
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .20408
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 20416
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/204/20416
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .20416
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 20420
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/204/20420
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .20420
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -5952,57 +3755,12 @@ LOCAL_MODULE_SUFFIX := .20802
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := 20809
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/208/20809
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .20809
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 20810
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/208/20810
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .20810
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := 20815
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/208/20815
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .20815
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 20820
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/208/20820
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .20820
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 21401
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/214/21401
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .21401
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 21403
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/214/21403
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .21403
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -6024,33 +3782,6 @@ LOCAL_MODULE_SUFFIX := .21408
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := 21630
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/216/21630
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .21630
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 21670
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/216/21670
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .21670
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 21901
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/219/21901
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .21901
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := 21910
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/219/21910
@@ -6069,75 +3800,12 @@ LOCAL_MODULE_SUFFIX := .220
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := 22201
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/222/22201
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .22201
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 22210
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/222/22210
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .22210
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 22288
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/222/22288
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .22288
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 22299
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/222/22299
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .22299
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := 22601
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/226/22601
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .22601
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 22603
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/226/22603
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .22603
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 22606
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/226/22606
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .22606
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 22610
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/226/22610
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .22610
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -6150,30 +3818,12 @@ LOCAL_MODULE_SUFFIX := .228
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := 23001
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/230/23001
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .23001
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := 23002
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/230/23002
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .23002
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 23003
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/230/23003
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .23003
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -6186,48 +3836,12 @@ LOCAL_MODULE_SUFFIX := .23101
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := 23102
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/231/23102
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .23102
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 23201
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/232/23201
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .23201
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 23203
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/232/23203
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .23203
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := 23205
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/232/23205
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .23205
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 23207
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/232/23207
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .23207
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -6285,30 +3899,12 @@ LOCAL_MODULE_SUFFIX := .23420
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := 23430
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/234/23430
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .23430
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := 23433
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/234/23433
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .23433
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 23434
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/234/23434
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .23434
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -6348,75 +3944,12 @@ LOCAL_MODULE_SUFFIX := .23594
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := 23801
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/238/23801
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .23801
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 23802
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/238/23802
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .23802
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 23806
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/238/23806
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .23806
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 23820
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/238/23820
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .23820
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 24001
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/240/24001
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .24001
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 24002
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/240/24002
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .24002
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := 24008
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/240/24008
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .24008
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 24201
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/242/24201
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .24201
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -6471,33 +4004,6 @@ LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/244/24491
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .24491
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 24601
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/246/24601
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .24601
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 24602
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/246/24602
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .24602
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 24603
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/246/24603
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .24603
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -6564,84 +4070,12 @@ LOCAL_MODULE_SUFFIX := .26001
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := 26002
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/260/26002
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .26002
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 26003
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/260/26003
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .26003
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 26006
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/260/26006
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .26006
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := 26098
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/260/26098
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .26098
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 26201
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/262/26201
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .26201
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 26202
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/262/26202
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .26202
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 26203
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/262/26203
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .26203
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 26207
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/262/26207
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .26207
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 26209
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/262/26209
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .26209
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -6678,24 +4112,6 @@ LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/268/26889
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .26889
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 27201
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/272/27201
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .27201
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 27205
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/272/27205
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .27205
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -6762,24 +4178,6 @@ LOCAL_MODULE_SUFFIX := .28405
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := 28601
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/286/28601
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .28601
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 28602
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/286/28602
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .28602
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := 28603
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/286/28603
@@ -6834,15 +4232,6 @@ LOCAL_MODULE_SUFFIX := .29370
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := 29401
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/294/29401
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .29401
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := 29502
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/295/29502
@@ -6861,39 +4250,12 @@ LOCAL_MODULE_SUFFIX := .29701
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := 29702
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/297/29702
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .29702
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := 29703
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/297/29703
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .29703
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 302220
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/302/302220
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .302220
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 302221
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/302/302221
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .302221
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -6924,15 +4286,6 @@ LOCAL_MODULE_SUFFIX := .302500
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := 302610
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/302/302610
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .302610
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := 302630
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/302/302630
@@ -6948,15 +4301,6 @@ LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/302/302640
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .302640
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 302720
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/302/302720
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .302720
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -7464,48 +4808,12 @@ LOCAL_MODULE_SUFFIX := .44000
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := 44010
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/440/44010
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44010
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44020
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/440/44020
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44020
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44021
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/440/44021
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44021
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := 441
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/441/441
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .441
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44101
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/441/44101
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44101
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -7551,105 +4859,6 @@ LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/457/457
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .457
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 46000
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/460/46000
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .46000
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 46001
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/460/46001
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .46001
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 46002
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/460/46002
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .46002
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 46003
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/460/46003
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .46003
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 46004
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/460/46004
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .46004
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 46005
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/460/46005
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .46005
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 46006
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/460/46006
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .46006
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 46007
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/460/46007
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .46007
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 46008
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/460/46008
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .46008
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 46009
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/460/46009
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .46009
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 46011
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/460/46011
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .46011
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -7713,33 +4922,6 @@ LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/502/502
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .502
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 50501
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/505/50501
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .50501
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 50502
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/505/50502
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .50502
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 50503
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/505/50503
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .50503
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -7986,39 +5168,12 @@ LOCAL_MODULE_SUFFIX := .649
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := 65501
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/655/65501
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .65501
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 65502
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/655/65502
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .65502
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := 65507
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/655/65507
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .65507
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 65510
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/ca_cloud/ca_plmn/655/65510
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .65510
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -8193,309 +5348,12 @@ LOCAL_MODULE_SUFFIX := .001010
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := 20201
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/202/20201
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .20201
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 20205
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/202/20205
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .20205
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 20416
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/204/20416
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .20416
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 20420
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/204/20420
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .20420
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 20809
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/208/20809
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .20809
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 20810
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/208/20810
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .20810
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 20820
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/208/20820
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .20820
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 21401
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/214/21401
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .21401
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 21403
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/214/21403
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .21403
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 21630
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/216/21630
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .21630
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 21670
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/216/21670
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .21670
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 21901
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/219/21901
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .21901
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 22201
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/222/22201
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .22201
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 22210
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/222/22210
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .22210
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 22288
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/222/22288
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .22288
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 22299
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/222/22299
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .22299
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 22603
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/226/22603
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .22603
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 22606
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/226/22606
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .22606
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 22610
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/226/22610
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .22610
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := 22802
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/228/22802
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .22802
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 23001
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/230/23001
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .23001
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 23003
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/230/23003
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .23003
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 23102
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/231/23102
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .23102
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 23201
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/232/23201
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .23201
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 23203
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/232/23203
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .23203
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 23207
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/232/23207
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .23207
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 23430
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/234/23430
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .23430
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 23434
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/234/23434
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .23434
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 23801
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/238/23801
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .23801
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 23802
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/238/23802
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .23802
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 23806
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/238/23806
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .23806
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 23820
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/238/23820
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .23820
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 24001
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/240/24001
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .24001
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 24002
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/240/24002
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .24002
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -8514,42 +5372,6 @@ LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/240/2
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .24024
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 24201
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/242/24201
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .24201
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 24601
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/246/24601
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .24601
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 24602
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/246/24602
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .24602
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 24603
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/246/24603
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .24603
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -8589,93 +5411,12 @@ LOCAL_MODULE_SUFFIX := .25099
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := 26002
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/260/26002
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .26002
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 26003
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/260/26003
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .26003
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 26006
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/260/26006
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .26006
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 26201
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/262/26201
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .26201
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 26202
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/262/26202
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .26202
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 26203
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/262/26203
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .26203
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := 26206
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/262/26206
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .26206
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 26207
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/262/26207
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .26207
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 26209
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/262/26209
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .26209
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 27201
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/272/27201
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .27201
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -8688,93 +5429,12 @@ LOCAL_MODULE_SUFFIX := .27203
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := 27205
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/272/27205
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .27205
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := 27207
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/272/27207
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .27207
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 28601
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/286/28601
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .28601
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 28602
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/286/28602
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .28602
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 29401
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/294/29401
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .29401
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 29702
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/297/29702
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .29702
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 302220
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/302/302220
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .302220
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 302221
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/302/302221
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .302221
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 302610
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/302/302610
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .302610
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 302720
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/302/302720
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .302720
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -9192,33 +5852,6 @@ LOCAL_MODULE_SUFFIX := .42888
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := 44010
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/440/44010
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44010
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44020
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/440/44020
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44020
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44021
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/440/44021
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44021
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := 44050
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/440/44050
@@ -9324,15 +5957,6 @@ LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/440/4
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .44076
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44101
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/441/44101
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44101
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -9480,111 +6104,12 @@ LOCAL_MODULE_SUFFIX := .45701
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := 46000
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/460/46000
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .46000
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 46001
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/460/46001
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .46001
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 46002
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/460/46002
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .46002
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 46003
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/460/46003
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .46003
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 46004
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/460/46004
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .46004
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 46005
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/460/46005
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .46005
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 46006
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/460/46006
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .46006
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 46007
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/460/46007
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .46007
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 46008
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/460/46008
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .46008
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 46009
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/460/46009
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .46009
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := 46010
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/460/46010
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .46010
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 46011
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/460/46011
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .46011
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -9621,33 +6146,6 @@ LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/502/5
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .50219
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 50501
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/505/50501
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .50501
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 50502
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/505/50502
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .50502
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 50503
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/505/50503
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .50503
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -9822,33 +6320,6 @@ LOCAL_MODULE_SUFFIX := .60400
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := 65501
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/655/65501
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .65501
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 65502
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/655/65502
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .65502
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 65510
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/655/65510
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .65510
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := 71606
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/716/71606
@@ -10002,60 +6473,6 @@ LOCAL_MODULE_SUFFIX := .72434
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := custom
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/default/dual0/custom
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .custom
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := custom
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/default/dual1/custom
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .custom
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := custom
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/capcfg_cloud/capcfg_plmn/default/single/custom
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .custom
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 20201_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/20201/20201_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .20201_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 20202_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/20202/20202_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .20202_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 20205_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/20205/20205_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .20205_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := 20209_0
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/20209/20209_0
@@ -10083,24 +6500,6 @@ LOCAL_MODULE_SUFFIX := .20402_0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := 20404_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/20404/20404_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .20404_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 20408_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/20408/20408_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .20408_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := 20410_0
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/20410/20410_0
@@ -10119,183 +6518,12 @@ LOCAL_MODULE_SUFFIX := .20412_0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := 20416_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/20416/20416_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .20416_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 20420_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/20420/20420_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .20420_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 20469_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/20469/20469_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .20469_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 20601_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/20601/20601_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .20601_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 20605_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/20605/20605_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .20605_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 20610_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/20610/20610_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .20610_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 20620_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/20620/20620_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .20620_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 20801_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/20801/20801_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .20801_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 20802_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/20802/20802_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .20802_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 20809_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/20809/20809_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .20809_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 20810_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/20810/20810_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .20810_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 20811_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/20811/20811_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .20811_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 20813_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/20813/20813_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .20813_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := 20815_0
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/20815/20815_0
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .20815_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 20820_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/20820/20820_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .20820_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 20821_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/20821/20821_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .20821_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 20888_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/20888/20888_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .20888_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 20891_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/20891/20891_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .20891_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 21401_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/21401/21401_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .21401_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 21403_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/21403/21403_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .21403_0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -10323,15 +6551,6 @@ LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/21406/21406_0
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .21406_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 21407_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/21407/21407_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .21407_0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -10452,42 +6671,6 @@ LOCAL_MODULE_SUFFIX := .22005_0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := 22201_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/22201/22201_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .22201_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 22210_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/22210/22210_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .22210_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 22288_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/22288/22288_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .22288_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 22299_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/22299/22299_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .22299_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := 22601_0
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/22601/22601_0
@@ -10539,42 +6722,6 @@ LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/22610/22610_0
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .22610_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 22801_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/22801/22801_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .22801_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 22802_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/22802/22802_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .22802_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 22803_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/22803/22803_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .22803_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 22812_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/22812/22812_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .22812_0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -10866,39 +7013,12 @@ LOCAL_MODULE_SUFFIX := .24008_0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := 24201_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/24201/24201_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .24201_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 24202_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/24202/24202_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .24202_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := 24205_0
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/24205/24205_0
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .24205_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 24212_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/24212/24212_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .24212_0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -11145,210 +7265,12 @@ LOCAL_MODULE_SUFFIX := .25902_0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := 26001_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/26001/26001_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .26001_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 26002_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/26002/26002_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .26002_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := 26003_0
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/26003/26003_0
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .26003_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 26006_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/26006/26006_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .26006_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 26034_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/26034/26034_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .26034_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 26201_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/26201/26201_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .26201_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 26202_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/26202/26202_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .26202_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 26203_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/26203/26203_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .26203_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 26204_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/26204/26204_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .26204_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 26205_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/26205/26205_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .26205_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 26206_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/26206/26206_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .26206_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 26207_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/26207/26207_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .26207_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 26208_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/26208/26208_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .26208_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 26209_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/26209/26209_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .26209_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 26211_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/26211/26211_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .26211_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 26212_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/26212/26212_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .26212_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 26216_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/26216/26216_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .26216_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 26217_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/26217/26217_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .26217_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 26220_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/26220/26220_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .26220_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 26242_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/26242/26242_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .26242_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 26243_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/26243/26243_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .26243_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 26277_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/26277/26277_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .26277_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 26278_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/26278/26278_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .26278_0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -11820,15 +7742,6 @@ LOCAL_MODULE_SUFFIX := .310013_0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := 310070_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/310070/310070_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .310070_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := 310110_0
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/310110/310110_0
@@ -11847,123 +7760,6 @@ LOCAL_MODULE_SUFFIX := .310120_0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := 310150_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/310150/310150_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .310150_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 310160_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/310160/310160_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .310160_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 310170_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/310170/310170_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .310170_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 310200_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/310200/310200_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .310200_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 310210_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/310210/310210_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .310210_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 310220_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/310220/310220_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .310220_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 310230_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/310230/310230_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .310230_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 310240_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/310240/310240_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .310240_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 310250_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/310250/310250_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .310250_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 310260_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/310260/310260_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .310260_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 310270_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/310270/310270_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .310270_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 310280_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/310280/310280_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .310280_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 310310_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/310310/310310_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .310310_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := 310370_0
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/310370/310370_0
@@ -11973,75 +7769,12 @@ LOCAL_MODULE_SUFFIX := .310370_0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := 310380_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/310380/310380_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .310380_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 310410_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/310410/310410_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .310410_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 310490_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/310490/310490_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .310490_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 310560_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/310560/310560_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .310560_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := 310590_0
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/310590/310590_0
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .310590_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 310660_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/310660/310660_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .310660_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 310680_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/310680/310680_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .310680_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 310800_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/310800/310800_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .310800_0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -12378,15 +8111,6 @@ LOCAL_MODULE_SUFFIX := .311880_0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := 33403_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/33403/33403_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .33403_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := 338050_0
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/338050/338050_0
@@ -12576,24 +8300,6 @@ LOCAL_MODULE_SUFFIX := .40177_0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := 40402_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/40402/40402_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .40402_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 40403_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/40403/40403_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .40403_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := 40404_0
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/40404/40404_0
@@ -12618,15 +8324,6 @@ LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/40407/40407_0
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .40407_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 40410_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/40410/40410_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .40410_0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -12720,24 +8417,6 @@ LOCAL_MODULE_SUFFIX := .40430_0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := 40431_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/40431/40431_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .40431_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 40440_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/40440/40440_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .40440_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := 40443_0
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/40443/40443_0
@@ -12756,30 +8435,12 @@ LOCAL_MODULE_SUFFIX := .40444_0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := 40445_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/40445/40445_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .40445_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := 40446_0
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/40446/40446_0
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .40446_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 40449_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/40449/40449_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .40449_0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -12837,78 +8498,6 @@ LOCAL_MODULE_SUFFIX := .40489_0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := 40490_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/40490/40490_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .40490_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 40492_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/40492/40492_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .40492_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 40493_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/40493/40493_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .40493_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 40494_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/40494/40494_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .40494_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 40495_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/40495/40495_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .40495_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 40496_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/40496/40496_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .40496_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 40497_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/40497/40497_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .40497_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 40498_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/40498/40498_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .40498_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := 405025_0
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/405025/405025_0
@@ -12933,15 +8522,6 @@ LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/405036/405036_0
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .405036_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 40551_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/40551/40551_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .40551_0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -13242,15 +8822,6 @@ LOCAL_MODULE_SUFFIX := .405874_0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := 41001_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/41001/41001_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .41001_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := 41003_0
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/41003/41003_0
@@ -13347,33 +8918,6 @@ LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/41308/41308_0
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .41308_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 41401_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/41401/41401_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .41401_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 41405_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/41405/41405_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .41405_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 41406_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/41406/41406_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .41406_0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -13485,15 +9029,6 @@ LOCAL_MODULE_SUFFIX := .41904_0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := 42001_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/42001/42001_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .42001_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := 42003_0
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/42003/42003_0
@@ -13527,33 +9062,6 @@ LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/42102/42102_0
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .42102_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 42202_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/42202/42202_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .42202_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 42203_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/42203/42203_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .42203_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 42402_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/42402/42402_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .42402_0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -13728,15 +9236,6 @@ LOCAL_MODULE_SUFFIX := .43220_0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := 43235_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/43235/43235_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .43235_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := 43404_0
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/43404/43404_0
@@ -13827,33 +9326,6 @@ LOCAL_MODULE_SUFFIX := .43802_0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := 44002_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/44002/44002_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44002_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44004_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/44004/44004_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44004_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44006_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/44006/44006_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44006_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := 44007_0
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/44007/44007_0
@@ -13869,141 +9341,6 @@ LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/44008/44008_0
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .44008_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44009_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/44009/44009_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44009_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44010_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/44010/44010_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44010_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44020_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/44020/44020_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44020_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44022_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/44022/44022_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44022_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44031_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/44031/44031_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44031_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44035_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/44035/44035_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44035_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44040_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/44040/44040_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44040_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44041_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/44041/44041_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44041_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44042_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/44042/44042_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44042_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44043_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/44043/44043_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44043_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44044_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/44044/44044_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44044_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44045_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/44045/44045_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44045_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44046_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/44046/44046_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44046_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44047_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/44047/44047_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44047_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44048_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/44048/44048_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44048_0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -14067,24 +9404,6 @@ LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/44056/44056_0
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .44056_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44058_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/44058/44058_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44058_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44060_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/44060/44060_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44060_0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -14187,132 +9506,6 @@ LOCAL_MODULE_SUFFIX := .44089_0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := 44090_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/44090/44090_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44090_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44092_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/44092/44092_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44092_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44093_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/44093/44093_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44093_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44094_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/44094/44094_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44094_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44095_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/44095/44095_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44095_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44096_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/44096/44096_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44096_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44097_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/44097/44097_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44097_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44098_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/44098/44098_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44098_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44143_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/44143/44143_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44143_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44161_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/44161/44161_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44161_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44162_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/44162/44162_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44162_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44163_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/44163/44163_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44163_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44164_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/44164/44164_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44164_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 44165_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/44165/44165_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .44165_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := 44170_0
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/44170/44170_0
@@ -14403,174 +9596,12 @@ LOCAL_MODULE_SUFFIX := .45205_0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := 45400_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/45400/45400_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .45400_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 45401_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/45401/45401_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .45401_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 45402_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/45402/45402_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .45402_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 45403_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/45403/45403_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .45403_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 45404_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/45404/45404_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .45404_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 45405_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/45405/45405_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .45405_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 45406_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/45406/45406_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .45406_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 45407_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/45407/45407_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .45407_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 45410_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/45410/45410_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .45410_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := 45411_0
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/45411/45411_0
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .45411_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 45412_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/45412/45412_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .45412_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 45413_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/45413/45413_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .45413_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 45414_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/45414/45414_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .45414_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 45415_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/45415/45415_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .45415_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 45416_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/45416/45416_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .45416_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 45417_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/45417/45417_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .45417_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 45418_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/45418/45418_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .45418_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 45419_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/45419/45419_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .45419_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 45420_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/45420/45420_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .45420_0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -14664,15 +9695,6 @@ LOCAL_MODULE_SUFFIX := .45703_0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := 46000_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/46000/46000_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .46000_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := 46000_1
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/46000/46000_1
@@ -14682,30 +9704,12 @@ LOCAL_MODULE_SUFFIX := .46000_1
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := 46001_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/46001/46001_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .46001_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := 46001_1
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/46001/46001_1
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .46001_1
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 46002_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/46002/46002_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .46002_0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -14745,30 +9749,12 @@ LOCAL_MODULE_SUFFIX := .46005_0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := 46007_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/46007/46007_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .46007_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := 46007_1
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/46007/46007_1
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .46007_1
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 46009_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/46009/46009_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .46009_0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -14898,78 +9884,6 @@ LOCAL_MODULE_SUFFIX := .47202_0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := 50210_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/50210/50210_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .50210_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 50212_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/50212/50212_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .50212_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 50213_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/50213/50213_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .50213_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 50216_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/50216/50216_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .50216_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 50217_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/50217/50217_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .50217_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 50218_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/50218/50218_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .50218_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 50219_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/50219/50219_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .50219_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 50501_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/50501/50501_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .50501_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := 50502_0
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/50502/50502_0
@@ -14997,39 +9911,12 @@ LOCAL_MODULE_SUFFIX := .50507_0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := 50511_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/50511/50511_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .50511_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := 50519_0
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/50519/50519_0
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .50519_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 50571_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/50571/50571_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .50571_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 50572_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/50572/50572_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .50572_0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -15105,51 +9992,6 @@ LOCAL_MODULE_SUFFIX := .51505_0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := 52000_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/52000/52000_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .52000_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 52001_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/52001/52001_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .52001_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 52003_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/52003/52003_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .52003_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 52004_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/52004/52004_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .52004_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 52005_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/52005/52005_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .52005_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := 52015_0
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/52015/52015_0
@@ -15159,48 +10001,12 @@ LOCAL_MODULE_SUFFIX := .52015_0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := 52018_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/52018/52018_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .52018_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := 52047_0
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/52047/52047_0
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .52047_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 52501_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/52501/52501_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .52501_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 52503_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/52503/52503_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .52503_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 52505_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/52505/52505_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .52505_0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -15363,15 +10169,6 @@ LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/60201/60201_0
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .60201_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 60202_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/60202/60202_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .60202_0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -16086,15 +10883,6 @@ LOCAL_MODULE_SUFFIX := .63801_0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := 63902_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/63902/63902_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .63902_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := 63903_0
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/63903/63903_0
@@ -16581,42 +11369,6 @@ LOCAL_MODULE_SUFFIX := .71617_0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := 722010_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/722010/722010_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .722010_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 72207_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/72207/72207_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .72207_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 72234_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/72234/72234_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .72234_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 722341_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/722341/722341_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .722341_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := 72402_0
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/72402/72402_0
@@ -16722,15 +11474,6 @@ LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/73001/73001_0
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .73001_0
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := 73002_0
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/cellular_cloud/dplmn/73002/73002_0
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .73002_0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -22224,15 +16967,6 @@ LOCAL_MODULE_SUFFIX := .ini
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := component_version
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/component_version.txt
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .txt
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := default_volume_tables
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/default_volume_tables.xml
@@ -22266,24 +17000,6 @@ LOCAL_SRC_FILES := proprietary/etc/factory_modem.cfg
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .cfg
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := fstab
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/fstab.hi6250
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .hi6250
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := fstab
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/fstab.modem
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .modem
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -22338,96 +17054,6 @@ LOCAL_SRC_FILES := proprietary/etc/gnss/gnss_lss_thirdparty.conf
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .conf
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := a_1
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/gnss/rmd/c/a_1
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .a_1
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := aindex
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/gnss/rmd/c/aindex.bin
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .bin
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := a_1
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/gnss/rmd/e/a_1
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .a_1
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := aindex
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/gnss/rmd/e/aindex.bin
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .bin
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := a_1
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/gnss/rmd/f/a_1
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .a_1
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := aindex
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/gnss/rmd/f/aindex.bin
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .bin
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := a_1
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/gnss/rmd/g/a_1
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .a_1
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := aindex
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/gnss/rmd/g/aindex.bin
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .bin
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := a_1
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/gnss/rmd/t/a_1
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .a_1
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := aindex
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/gnss/rmd/t/aindex.bin
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .bin
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -22494,27 +17120,9 @@ LOCAL_MODULE_SUFFIX := .conf
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := activity_recognition_service
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/init/activity_recognition_service.rc
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .rc
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := android.hardware.drm@1.1-service.widevine
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/init/android.hardware.drm@1.1-service.widevine.rc
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .rc
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := aptouch_daemon
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/init/aptouch_daemon.rc
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .rc
@@ -22614,24 +17222,6 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := ddr_inspect
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/init/ddr_inspect.rc
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .rc
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := hinetmanager
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/init/hinetmanager.rc
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .rc
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := hisecd
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/init/hisecd.rc
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .rc
@@ -22776,15 +17366,6 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := init.vowifi
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/init/init.vowifi.rc
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .rc
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := isplogcat
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/init/isplogcat.rc
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .rc
@@ -23232,15 +17813,6 @@ LOCAL_MODULE_SUFFIX := .xml
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := basic_name
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/modemConfig/VIA/basic_name
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .basic_name
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := viacbp82d_FieldTest
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/modemConfig/VIA/viacbp82d_FieldTest.bcfg
@@ -23259,39 +17831,12 @@ LOCAL_MODULE_SUFFIX := .cfg
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := basic_name
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/modemConfig/balong/basic_name
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .basic_name
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := hids_ue_msg
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/modemConfig/hids_ue_msg.cfg
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .cfg
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := viacbp82d_log
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/modemConfig/viacbp82d_log.bcfg
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .bcfg
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := viacbp82d_shutdown_log
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/modemConfig/viacbp82d_shutdown_log.bcfg
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .bcfg
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -23682,24 +18227,6 @@ LOCAL_MODULE_SUFFIX := .cfg
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := viacbp82d_log
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/viacbp82d_log.bcfg
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .bcfg
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := viacbp82d_shutdown_log
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/viacbp82d_shutdown_log.bcfg
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .bcfg
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := compatibility_matrix
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/vintf/compatibility_matrix.xml
@@ -23715,15 +18242,6 @@ LOCAL_SRC_FILES := proprietary/etc/vintf/manifest.xml
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .xml
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := hostapd_hisi
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/wifi/hostapd_hisi.conf
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .conf
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -23745,39 +18263,12 @@ LOCAL_MODULE_SUFFIX := .conf
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := wpa_supplicant_hisi
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/wifi/wpa_supplicant_hisi.conf
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .conf
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := wpa_supplicant_overlay
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/wifi/wpa_supplicant_overlay.conf
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .conf
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := APKInstallListEMUI5Release
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/xml/APKInstallListEMUI5Release.txt
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .txt
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := iaware_config_cust
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/xml/iaware_config_cust.xml
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -23797,76 +18288,6 @@ LOCAL_SRC_FILES := proprietary/product/etc/apns-conf-cust.xml
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .xml
-LOCAL_PRODUCT_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := audio_policy
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/product/etc/audio_policy.conf
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .conf
-LOCAL_PRODUCT_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := hwcarrierconfig
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/product/etc/carrier/46000/xml/hwcarrierconfig.xml
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
-LOCAL_PRODUCT_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := hwcarrierconfig
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/product/etc/carrier/46002/xml/hwcarrierconfig.xml
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
-LOCAL_PRODUCT_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := hwcarrierconfig
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/product/etc/carrier/46004/xml/hwcarrierconfig.xml
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
-LOCAL_PRODUCT_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := hwcarrierconfig
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/product/etc/carrier/46007/xml/hwcarrierconfig.xml
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
-LOCAL_PRODUCT_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := hwcarrierconfig
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/product/etc/carrier/46008/xml/hwcarrierconfig.xml
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
-LOCAL_PRODUCT_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := component_version
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/product/etc/component_version.txt
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .txt
 LOCAL_PRODUCT_MODULE := true
 include $(BUILD_PREBUILT)
 
@@ -24451,16 +18872,6 @@ LOCAL_PRODUCT_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := APKInstallListEMUI5Release
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/product/etc/xml/APKInstallListEMUI5Release.txt
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .txt
-LOCAL_PRODUCT_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := DelAPKInstallListEMUI5Release
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/product/etc/xml/DelAPKInstallListEMUI5Release.txt
@@ -24534,16 +18945,6 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := hwouc_presets
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/product/etc/xml/hwouc_presets.xml
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
-LOCAL_PRODUCT_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := iaware_config_cust
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/product/etc/xml/iaware_config_cust.xml
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .xml
@@ -24806,22 +19207,6 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := acpi
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/bin/acpi
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := EXECUTABLES
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := activity_recognition_service
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/bin/activity_recognition_service
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := EXECUTABLES
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := aptouch_daemon
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/bin/aptouch_daemon
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := EXECUTABLES
 include $(BUILD_PREBUILT)
@@ -25539,33 +19924,9 @@ LOCAL_MODULE_CLASS := EXECUTABLES
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := hinetmanager
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/bin/hinetmanager
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := EXECUTABLES
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := hisecd
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/bin/hisecd
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := EXECUTABLES
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := hivwserver
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/bin/hivwserver
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := EXECUTABLES
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := hostapd_hisi
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/bin/hostapd_hisi
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := EXECUTABLES
 include $(BUILD_PREBUILT)
@@ -25898,14 +20259,6 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := iorenice
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/bin/iorenice
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := EXECUTABLES
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := isplogcat
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/bin/isplogcat
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := EXECUTABLES
 include $(BUILD_PREBUILT)
@@ -26946,14 +21299,6 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := wpa_cli_hisi
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/bin/wpa_cli_hisi
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := EXECUTABLES
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := wpa_supplicant_hisi
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/bin/wpa_supplicant_hisi
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := EXECUTABLES
 include $(BUILD_PREBUILT)
