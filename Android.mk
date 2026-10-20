@@ -3095,30 +3095,6 @@ LOCAL_PRODUCT_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := entry-release-rich-signed
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/product/app/HwHealthHm/entry-release-rich-signed.hap
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
-LOCAL_MODULE_SUFFIX := .hap
-LOCAL_PRODUCT_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := facard-entry-release-rich-signed
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/product/app/HwHealthHm/facard-entry-release-rich-signed.hap
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
-LOCAL_MODULE_SUFFIX := .hap
-LOCAL_PRODUCT_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := facard_release_signed_feature
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/product/app/HwHealthHm/facard_release_signed_feature.apk

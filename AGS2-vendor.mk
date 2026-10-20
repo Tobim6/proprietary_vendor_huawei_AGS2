@@ -1517,8 +1517,6 @@ PRODUCT_PACKAGES += \
     HwFidoAsm \
     HwFidoClient \
     HwHealthHm_signed_entry \
-    entry-release-rich-signed \
-    facard-entry-release-rich-signed \
     facard_release_signed_feature \
     HwKidsPaint \
     HwFrameworkNormalization \
