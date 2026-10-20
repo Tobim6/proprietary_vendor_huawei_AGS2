@@ -253,32 +253,10 @@ LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libalsautils
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES_64 := proprietary/lib64/libalsautils.so
-LOCAL_SRC_FILES_32 := proprietary/lib/libalsautils.so
-LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := libaudio_utils
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES_64 := proprietary/lib64/libaudio_utils.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libaudio_utils.so
-LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libavservices_minijail_vendor
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES_64 := proprietary/lib64/libavservices_minijail_vendor.so
-LOCAL_SRC_FILES_32 := proprietary/lib/libavservices_minijail_vendor.so
 LOCAL_MULTILIB := both
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
@@ -323,17 +301,6 @@ LOCAL_MODULE := libbt-vendor-hisi
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES_64 := proprietary/lib64/libbt-vendor-hisi.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libbt-vendor-hisi.so
-LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libbt-vendor
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES_64 := proprietary/lib64/libbt-vendor.so
-LOCAL_SRC_FILES_32 := proprietary/lib/libbt-vendor.so
 LOCAL_MULTILIB := both
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
@@ -466,28 +433,6 @@ LOCAL_MODULE := libdlbdsservice
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES_64 := proprietary/lib64/libdlbdsservice.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libdlbdsservice.so
-LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libeffects
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES_64 := proprietary/lib64/libeffects.so
-LOCAL_SRC_FILES_32 := proprietary/lib/libeffects.so
-LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libeffectsconfig
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES_64 := proprietary/lib64/libeffectsconfig.so
-LOCAL_SRC_FILES_32 := proprietary/lib/libeffectsconfig.so
 LOCAL_MULTILIB := both
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
@@ -847,17 +792,6 @@ LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libkeymaster3device
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES_64 := proprietary/lib64/libkeymaster3device.so
-LOCAL_SRC_FILES_32 := proprietary/lib/libkeymaster3device.so
-LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := libl2_cache
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES_64 := proprietary/lib64/libl2_cache.so
@@ -972,17 +906,6 @@ LOCAL_MODULE := libmrc_cg_sz
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES_64 := proprietary/lib64/libmrc_cg_sz.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libmrc_cg_sz.so
-LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libnbaio_mono
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES_64 := proprietary/lib64/libnbaio_mono.so
-LOCAL_SRC_FILES_32 := proprietary/lib/libnbaio_mono.so
 LOCAL_MULTILIB := both
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
@@ -1111,39 +1034,6 @@ LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libreference-ril
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES_64 := proprietary/lib64/libreference-ril.so
-LOCAL_SRC_FILES_32 := proprietary/lib/libreference-ril.so
-LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libril
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES_64 := proprietary/lib64/libril.so
-LOCAL_SRC_FILES_32 := proprietary/lib/libril.so
-LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := librilutils
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES_64 := proprietary/lib64/librilutils.so
-LOCAL_SRC_FILES_32 := proprietary/lib/librilutils.so
-LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := libscenedetection
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES_64 := proprietary/lib64/libscenedetection.so
@@ -1159,28 +1049,6 @@ LOCAL_MODULE := libsecapi
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES_64 := proprietary/lib64/libsecapi.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libsecapi.so
-LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libstagefrighthw
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES_64 := proprietary/lib64/libstagefrighthw.so
-LOCAL_SRC_FILES_32 := proprietary/lib/libstagefrighthw.so
-LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libstdc++
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES_64 := proprietary/lib64/libstdc++.so
-LOCAL_SRC_FILES_32 := proprietary/lib/libstdc++.so
 LOCAL_MULTILIB := both
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
@@ -1287,10 +1155,10 @@ LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libwebrtc_audio_preprocessing
+LOCAL_MODULE := libwifi_bcm
 LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES_64 := proprietary/lib64/libwebrtc_audio_preprocessing.so
-LOCAL_SRC_FILES_32 := proprietary/lib/libwebrtc_audio_preprocessing.so
+LOCAL_SRC_FILES_64 := proprietary/lib64/libwifi_bcm.so
+LOCAL_SRC_FILES_32 := proprietary/lib/libwifi_bcm.so
 LOCAL_MULTILIB := both
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
@@ -1298,10 +1166,32 @@ LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libwifi-hal-bcm
+LOCAL_MODULE := libwifi_ext.default
 LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES_64 := proprietary/lib64/libwifi-hal-bcm.so
-LOCAL_SRC_FILES_32 := proprietary/lib/libwifi-hal-bcm.so
+LOCAL_SRC_FILES_64 := proprietary/lib64/libwifi_ext.default.so
+LOCAL_SRC_FILES_32 := proprietary/lib/libwifi_ext.default.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libwifi_factory_test
+LOCAL_MODULE_OWNER := huawei
+LOCAL_SRC_FILES_64 := proprietary/lib64/libwifi_factory_test.so
+LOCAL_SRC_FILES_32 := proprietary/lib/libwifi_factory_test.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libwifi_factory_test_hisi
+LOCAL_MODULE_OWNER := huawei
+LOCAL_SRC_FILES_64 := proprietary/lib64/libwifi_factory_test_hisi.so
+LOCAL_SRC_FILES_32 := proprietary/lib/libwifi_factory_test_hisi.so
 LOCAL_MULTILIB := both
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
@@ -1342,102 +1232,6 @@ LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libclearkeycasplugin
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES_64 := proprietary/lib64/mediacas/libclearkeycasplugin.so
-LOCAL_SRC_FILES_32 := proprietary/lib/mediacas/libclearkeycasplugin.so
-LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_RELATIVE_PATH := mediacas
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libmockcasplugin
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES_64 := proprietary/lib64/mediacas/libmockcasplugin.so
-LOCAL_SRC_FILES_32 := proprietary/lib/mediacas/libmockcasplugin.so
-LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_RELATIVE_PATH := mediacas
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libdrmclearkeyplugin
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES_64 := proprietary/lib64/mediadrm/libdrmclearkeyplugin.so
-LOCAL_SRC_FILES_32 := proprietary/lib/mediadrm/libdrmclearkeyplugin.so
-LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_RELATIVE_PATH := mediadrm
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libaudiopreprocessing
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES_64 := proprietary/lib64/soundfx/libaudiopreprocessing.so
-LOCAL_SRC_FILES_32 := proprietary/lib/soundfx/libaudiopreprocessing.so
-LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_RELATIVE_PATH := soundfx
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libbundlewrapper
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES_64 := proprietary/lib64/soundfx/libbundlewrapper.so
-LOCAL_SRC_FILES_32 := proprietary/lib/soundfx/libbundlewrapper.so
-LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_RELATIVE_PATH := soundfx
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libdownmix
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES_64 := proprietary/lib64/soundfx/libdownmix.so
-LOCAL_SRC_FILES_32 := proprietary/lib/soundfx/libdownmix.so
-LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_RELATIVE_PATH := soundfx
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libdynproc
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES_64 := proprietary/lib64/soundfx/libdynproc.so
-LOCAL_SRC_FILES_32 := proprietary/lib/soundfx/libdynproc.so
-LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_RELATIVE_PATH := soundfx
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libeffectproxy
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES_64 := proprietary/lib64/soundfx/libeffectproxy.so
-LOCAL_SRC_FILES_32 := proprietary/lib/soundfx/libeffectproxy.so
-LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_RELATIVE_PATH := soundfx
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := libhuaweiprocessing
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES_64 := proprietary/lib64/soundfx/libhuaweiprocessing.so
@@ -1450,46 +1244,10 @@ LOCAL_MODULE_RELATIVE_PATH := soundfx
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libldnhncr
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES_64 := proprietary/lib64/soundfx/libldnhncr.so
-LOCAL_SRC_FILES_32 := proprietary/lib/soundfx/libldnhncr.so
-LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_RELATIVE_PATH := soundfx
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := liboffloadvisualizer
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES_64 := proprietary/lib64/soundfx/liboffloadvisualizer.so
 LOCAL_SRC_FILES_32 := proprietary/lib/soundfx/liboffloadvisualizer.so
-LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_RELATIVE_PATH := soundfx
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libreverbwrapper
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES_64 := proprietary/lib64/soundfx/libreverbwrapper.so
-LOCAL_SRC_FILES_32 := proprietary/lib/soundfx/libreverbwrapper.so
-LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_RELATIVE_PATH := soundfx
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libvisualizer
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES_64 := proprietary/lib64/soundfx/libvisualizer.so
-LOCAL_SRC_FILES_32 := proprietary/lib/soundfx/libvisualizer.so
 LOCAL_MULTILIB := both
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
@@ -1568,17 +1326,6 @@ LOCAL_MODULE := vendor.huawei.hardware.audio@2.0
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.audio@2.0.so
 LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.audio@2.0.so
-LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := vendor.huawei.hardware.biometrics.fingerprint@2.1
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.huawei.hardware.biometrics.fingerprint@2.1.so
-LOCAL_SRC_FILES_32 := proprietary/lib/vendor.huawei.hardware.biometrics.fingerprint@2.1.so
 LOCAL_MULTILIB := both
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
@@ -2678,16 +2425,6 @@ LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libminijail
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/lib/libminijail.so
-LOCAL_MULTILIB := 32
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := libmrc_cg_filters
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/lib/libmrc_cg_filters.so
@@ -2701,46 +2438,6 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := libtrack
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/lib/libtrack.so
-LOCAL_MULTILIB := 32
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libwifi_bcm
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/lib/libwifi_bcm.so
-LOCAL_MULTILIB := 32
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libwifi_ext.default
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/lib/libwifi_ext.default.so
-LOCAL_MULTILIB := 32
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libwifi_factory_test
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/lib/libwifi_factory_test.so
-LOCAL_MULTILIB := 32
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libwifi_factory_test_hisi
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/lib/libwifi_factory_test_hisi.so
 LOCAL_MULTILIB := 32
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
@@ -3078,59 +2775,9 @@ LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libhwc2on1adapter
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/lib64/libhwc2on1adapter.so
-LOCAL_MULTILIB := 64
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libhwc2onfbadapter
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/lib64/libhwc2onfbadapter.so
-LOCAL_MULTILIB := 64
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := libhwgpschannelclient
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/lib64/libhwgpschannelclient.so
-LOCAL_MULTILIB := 64
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libhwminijail
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/lib64/libhwminijail.so
-LOCAL_MULTILIB := 64
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libkeystore-engine-wifi-hidl
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/lib64/libkeystore-engine-wifi-hidl.so
-LOCAL_MULTILIB := 64
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libkeystore-wifi-hidl
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/lib64/libkeystore-wifi-hidl.so
 LOCAL_MULTILIB := 64
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
@@ -3151,16 +2798,6 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := libmini_md5
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/lib64/libmini_md5.so
-LOCAL_MULTILIB := 64
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libminijail
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/lib64/libminijail.so
 LOCAL_MULTILIB := 64
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
@@ -3218,69 +2855,9 @@ LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libtinycompress
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/lib64/libtinycompress.so
-LOCAL_MULTILIB := 64
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := libtpp
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/lib64/libtpp.so
-LOCAL_MULTILIB := 64
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libwifi-hal
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/lib64/libwifi-hal.so
-LOCAL_MULTILIB := 64
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libwifi_bcm
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/lib64/libwifi_bcm.so
-LOCAL_MULTILIB := 64
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libwifi_ext.default
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/lib64/libwifi_ext.default.so
-LOCAL_MULTILIB := 64
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libwifi_factory_test
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/lib64/libwifi_factory_test.so
-LOCAL_MULTILIB := 64
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libwifi_factory_test_hisi
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/lib64/libwifi_factory_test_hisi.so
 LOCAL_MULTILIB := 64
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
@@ -22692,24 +22269,6 @@ LOCAL_MODULE_SUFFIX := .cfg
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := fs_config_dirs
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/fs_config_dirs
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .fs_config_dirs
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := fs_config_files
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/fs_config_files
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .fs_config_files
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := fstab
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/fstab.hi6250
@@ -22881,15 +22440,6 @@ LOCAL_MODULE_SUFFIX := .xml
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := group
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/group
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .group
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := default
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/ikedconfig/default.conf
@@ -22953,144 +22503,9 @@ LOCAL_MODULE_SUFFIX := .rc
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := android.hardware.bluetooth@1.0-service
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/init/android.hardware.bluetooth@1.0-service.rc
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .rc
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := android.hardware.cas@1.0-service
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/init/android.hardware.cas@1.0-service.rc
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .rc
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := android.hardware.configstore@1.1-service
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/init/android.hardware.configstore@1.1-service.rc
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .rc
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := android.hardware.drm@1.0-service
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/init/android.hardware.drm@1.0-service.rc
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .rc
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := android.hardware.drm@1.1-service.clearkey
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/init/android.hardware.drm@1.1-service.clearkey.rc
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .rc
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := android.hardware.drm@1.1-service.widevine
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/init/android.hardware.drm@1.1-service.widevine.rc
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .rc
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := android.hardware.gatekeeper@1.0-service
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/init/android.hardware.gatekeeper@1.0-service.rc
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .rc
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := android.hardware.graphics.allocator@2.0-service
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/init/android.hardware.graphics.allocator@2.0-service.rc
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .rc
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := android.hardware.graphics.composer@2.2-service
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/init/android.hardware.graphics.composer@2.2-service.rc
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .rc
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := android.hardware.health@2.0-service
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/init/android.hardware.health@2.0-service.rc
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .rc
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := android.hardware.keymaster@3.0-service
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/init/android.hardware.keymaster@3.0-service.rc
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .rc
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := android.hardware.media.omx@1.0-service
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/init/android.hardware.media.omx@1.0-service.rc
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .rc
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := android.hardware.memtrack@1.0-service
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/init/android.hardware.memtrack@1.0-service.rc
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .rc
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := android.hardware.secure_element@1.0-service
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/init/android.hardware.secure_element@1.0-service.rc
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .rc
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := android.hardware.thermal@1.0-service
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/init/android.hardware.thermal@1.0-service.rc
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .rc
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := android.hardware.usb@1.0-service
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/init/android.hardware.usb@1.0-service.rc
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .rc
@@ -23394,15 +22809,6 @@ LOCAL_MODULE_SUFFIX := .rc
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := rild
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/init/rild.rc
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .rc
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.graphics.displayeffect@1.0-service
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/init/vendor.huawei.graphics.displayeffect@1.0-service.rc
@@ -23655,15 +23061,6 @@ LOCAL_MODULE_SUFFIX := .rc
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := vndservicemanager
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/init/vndservicemanager.rc
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .rc
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := libnfc_brcm_bln_L21
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/libnfc_brcm_bln_L21.conf
@@ -23835,15 +23232,6 @@ LOCAL_MODULE_SUFFIX := .xml
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := mkshrc
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/mkshrc
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .mkshrc
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := basic_name
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/modemConfig/VIA/basic_name
@@ -23913,15 +23301,6 @@ LOCAL_SRC_FILES := proprietary/etc/native_packages.xml
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .xml
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := passwd
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/passwd
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .passwd
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -24168,15 +23547,6 @@ LOCAL_MODULE_SUFFIX := .xml
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := com.android.nfc_extras
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/permissions/com.android.nfc_extras.xml
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := handheld_core_hardware
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/permissions/handheld_core_hardware.xml
@@ -24201,15 +23571,6 @@ LOCAL_SRC_FILES := proprietary/etc/r_submix_audio_policy_configuration.xml
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .xml
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := recovery
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/recovery.fstab
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .fstab
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -24240,39 +23601,12 @@ LOCAL_MODULE_SUFFIX := .txt
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := precompiled_sepolicy
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/selinux/precompiled_sepolicy
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .precompiled_sepolicy
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := precompiled_sepolicy.plat_and_mapping
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/selinux/precompiled_sepolicy.plat_and_mapping.sha256
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .sha256
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := vendor_file_contexts
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/selinux/vendor_file_contexts
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .vendor_file_contexts
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := vendor_hwservice_contexts
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/selinux/vendor_hwservice_contexts
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .vendor_hwservice_contexts
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -24285,39 +23619,12 @@ LOCAL_MODULE_SUFFIX := .xml
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := vendor_property_contexts
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/selinux/vendor_property_contexts
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .vendor_property_contexts
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := vendor_seapp_contexts
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/selinux/vendor_seapp_contexts
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .vendor_seapp_contexts
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := vendor_sepolicy
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/selinux/vendor_sepolicy.cil
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .cil
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := vndservice_contexts
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/selinux/vndservice_contexts
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .vndservice_contexts
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -24432,15 +23739,6 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := p2p_supplicant_overlay
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/wifi/p2p_supplicant_overlay.conf
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .conf
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := wpa_supplicant
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/etc/wifi/wpa_supplicant.conf
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .conf
@@ -24699,16 +23997,6 @@ LOCAL_SRC_FILES := proprietary/product/etc/facerecognize/panorama_mgb
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .panorama_mgb
-LOCAL_PRODUCT_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := init
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/product/etc/firmware/init
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .init
 LOCAL_PRODUCT_MODULE := true
 include $(BUILD_PREBUILT)
 
@@ -25547,14 +24835,6 @@ LOCAL_MODULE_CLASS := EXECUTABLES
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := awk
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/bin/awk
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := EXECUTABLES
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := b4b71581-add2-e89f-d536-f35436dc7973
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/bin/b4b71581-add2-e89f-d536-f35436dc7973.sec
@@ -25710,14 +24990,6 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := cpio
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/bin/cpio
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := EXECUTABLES
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := cplay
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/bin/cplay
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := EXECUTABLES
 include $(BUILD_PREBUILT)
@@ -26235,14 +25507,6 @@ LOCAL_MODULE_CLASS := EXECUTABLES
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := grep
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/bin/grep
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := EXECUTABLES
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := groups
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/bin/groups
@@ -26312,159 +25576,6 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/bin/hostname
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := EXECUTABLES
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := android.hardware.bluetooth@1
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/bin/hw/android.hardware.bluetooth@1.0-service
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := EXECUTABLES
-LOCAL_MODULE_RELATIVE_PATH := hw
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := android.hardware.cas@1
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/bin/hw/android.hardware.cas@1.0-service
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := EXECUTABLES
-LOCAL_MODULE_RELATIVE_PATH := hw
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := android.hardware.configstore@1
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/bin/hw/android.hardware.configstore@1.1-service
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := EXECUTABLES
-LOCAL_MODULE_RELATIVE_PATH := hw
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := android.hardware.drm@1
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/bin/hw/android.hardware.drm@1.0-service
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := EXECUTABLES
-LOCAL_MODULE_RELATIVE_PATH := hw
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := android.hardware.drm@1.1-service
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/bin/hw/android.hardware.drm@1.1-service.clearkey
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := EXECUTABLES
-LOCAL_MODULE_RELATIVE_PATH := hw
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := android.hardware.gatekeeper@1
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/bin/hw/android.hardware.gatekeeper@1.0-service
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := EXECUTABLES
-LOCAL_MODULE_RELATIVE_PATH := hw
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := android.hardware.graphics.allocator@2
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/bin/hw/android.hardware.graphics.allocator@2.0-service
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := EXECUTABLES
-LOCAL_MODULE_RELATIVE_PATH := hw
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := android.hardware.graphics.composer@2
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/bin/hw/android.hardware.graphics.composer@2.2-service
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := EXECUTABLES
-LOCAL_MODULE_RELATIVE_PATH := hw
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := android.hardware.health@2
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/bin/hw/android.hardware.health@2.0-service
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := EXECUTABLES
-LOCAL_MODULE_RELATIVE_PATH := hw
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := android.hardware.keymaster@3
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/bin/hw/android.hardware.keymaster@3.0-service
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := EXECUTABLES
-LOCAL_MODULE_RELATIVE_PATH := hw
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := android.hardware.media.omx@1
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/bin/hw/android.hardware.media.omx@1.0-service
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := EXECUTABLES
-LOCAL_MODULE_RELATIVE_PATH := hw
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := android.hardware.memtrack@1
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/bin/hw/android.hardware.memtrack@1.0-service
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := EXECUTABLES
-LOCAL_MODULE_RELATIVE_PATH := hw
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := android.hardware.secure_element@1
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/bin/hw/android.hardware.secure_element@1.0-service
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := EXECUTABLES
-LOCAL_MODULE_RELATIVE_PATH := hw
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := android.hardware.thermal@1
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/bin/hw/android.hardware.thermal@1.0-service
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := EXECUTABLES
-LOCAL_MODULE_RELATIVE_PATH := hw
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := android.hardware.usb@1
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/bin/hw/android.hardware.usb@1.0-service
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := EXECUTABLES
-LOCAL_MODULE_RELATIVE_PATH := hw
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := hostapd
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/bin/hw/hostapd
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := EXECUTABLES
-LOCAL_MODULE_RELATIVE_PATH := hw
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := rild
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/bin/hw/rild
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := EXECUTABLES
-LOCAL_MODULE_RELATIVE_PATH := hw
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -26714,15 +25825,6 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.huawei.hardware.wifi@1
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/bin/hw/vendor.huawei.hardware.wifi@1.1-service
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := EXECUTABLES
-LOCAL_MODULE_RELATIVE_PATH := hw
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := wpa_supplicant
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/bin/hw/wpa_supplicant
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := EXECUTABLES
 LOCAL_MODULE_RELATIVE_PATH := hw
@@ -27345,14 +26447,6 @@ LOCAL_MODULE_CLASS := EXECUTABLES
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := sh
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/bin/sh
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := EXECUTABLES
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := sha1sum
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/bin/sha1sum
@@ -27673,14 +26767,6 @@ LOCAL_MODULE_CLASS := EXECUTABLES
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := toolbox
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/bin/toolbox
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := EXECUTABLES
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := top
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/bin/top
@@ -27692,14 +26778,6 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := touch
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/bin/touch
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := EXECUTABLES
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := toybox_vendor
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/bin/toybox_vendor
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := EXECUTABLES
 include $(BUILD_PREBUILT)
@@ -27833,22 +26911,6 @@ LOCAL_MODULE_CLASS := EXECUTABLES
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := vndservice
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/bin/vndservice
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := EXECUTABLES
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := vndservicemanager
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/bin/vndservicemanager
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := EXECUTABLES
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := wc
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/bin/wc
@@ -27876,14 +26938,6 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := wl
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/bin/wl
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := EXECUTABLES
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := wpa_cli
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/bin/wpa_cli
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := EXECUTABLES
 include $(BUILD_PREBUILT)

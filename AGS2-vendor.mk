@@ -688,14 +688,11 @@ PRODUCT_PACKAGES += \
     lib_wifi_sar \
     libaehc \
     libalConvert2Img_al6045 \
-    libalsautils \
     libaudio_utils \
-    libavservices_minijail_vendor \
     libbalong-ril-1 \
     libbalong-ril-2 \
     libbalong-ril \
     libbt-vendor-hisi \
-    libbt-vendor \
     libbt_factory_test \
     libbt_factory_test_hisi \
     libc_sec_hisi_connectivity \
@@ -708,8 +705,6 @@ PRODUCT_PACKAGES += \
     libdapparamstorage \
     libdcamera_sr \
     libdlbdsservice \
-    libeffects \
-    libeffectsconfig \
     libemmc_info \
     libfaccommon_share \
     libfacedetection \
@@ -742,7 +737,6 @@ PRODUCT_PACKAGES += \
     libjtag_wdt_ctrl \
     libkds_ca \
     libkeymaster3_attestation \
-    libkeymaster3device \
     libl2_cache \
     libmediacomm@2.0-client \
     libmorpho_effect_library5 \
@@ -754,7 +748,6 @@ PRODUCT_PACKAGES += \
     libmrc_cg_postprocess \
     libmrc_cg_postprocess_cl \
     libmrc_cg_sz \
-    libnbaio_mono \
     libnvme \
     liboeminfo \
     libomx_vxd \
@@ -766,13 +759,8 @@ PRODUCT_PACKAGES += \
     libpf_oneimage_hisi \
     libpf_rotate_hisi \
     libpowerlog \
-    libreference-ril \
-    libril \
-    librilutils \
     libscenedetection \
     libsecapi \
-    libstagefrighthw \
-    libstdc++ \
     libstorekeybox \
     libtas2560 \
     libteec \
@@ -782,24 +770,15 @@ PRODUCT_PACKAGES += \
     libtrustzone_key_manager \
     libufs_info \
     libvio \
-    libwebrtc_audio_preprocessing \
-    libwifi-hal-bcm \
+    libwifi_bcm \
+    libwifi_ext.default \
+    libwifi_factory_test \
+    libwifi_factory_test_hisi \
     libwifi_wapi_hisi \
     libwpa_dmd \
     libxcollie \
-    libclearkeycasplugin \
-    libmockcasplugin \
-    libdrmclearkeyplugin \
-    libaudiopreprocessing \
-    libbundlewrapper \
-    libdownmix \
-    libdynproc \
-    libeffectproxy \
     libhuaweiprocessing \
-    libldnhncr \
     liboffloadvisualizer \
-    libreverbwrapper \
-    libvisualizer \
     vendor.huawei.hardware.activity_recognition@1.0 \
     vendor.huawei.hardware.activity_recognition@1.1 \
     vendor.huawei.hardware.ai@1.0 \
@@ -807,7 +786,6 @@ PRODUCT_PACKAGES += \
     vendor.huawei.hardware.ai@1.2 \
     vendor.huawei.hardware.ai@2.0 \
     vendor.huawei.hardware.audio@2.0 \
-    vendor.huawei.hardware.biometrics.fingerprint@2.1 \
     vendor.huawei.hardware.biometrics.hwfacerecognize@1.0 \
     vendor.huawei.hardware.biometrics.hwfacerecognize@1.1 \
     vendor.huawei.hardware.biometrics.hwsecurefacerecognize@1.0 \
@@ -908,13 +886,8 @@ PRODUCT_PACKAGES += \
     lib_socslt \
     lib_softap_hw \
     lib_vibrator \
-    libminijail \
     libmrc_cg_filters \
     libtrack \
-    libwifi_bcm \
-    libwifi_ext.default \
-    libwifi_factory_test \
-    libwifi_factory_test_hisi \
     libFaceDetectCA \
     libFaceIDCA \
     libFaceIRCA \
@@ -948,27 +921,15 @@ PRODUCT_PACKAGES += \
     libgnss_supl20if_hisi \
     libgps_factory_test_hisi \
     libgps_factory_test_hisi_1102 \
-    libhwc2on1adapter \
-    libhwc2onfbadapter \
     libhwgpschannelclient \
-    libhwminijail \
-    libkeystore-engine-wifi-hidl \
-    libkeystore-wifi-hidl \
     libmax98925 \
     libmini_md5 \
-    libminijail \
     libmrc_cg_oz \
     libracoon2 \
     librttserver \
     libsmartpakit \
     libstp \
-    libtinycompress \
     libtpp \
-    libwifi-hal \
-    libwifi_bcm \
-    libwifi_ext.default \
-    libwifi_factory_test \
-    libwifi_factory_test_hisi \
     libwpa_client \
     libaptXHD_encoder \
     libaptX_encoder \
@@ -3116,8 +3077,6 @@ PRODUCT_PACKAGES += \
     device_state_monitor \
     dhcpcd \
     factory_modem \
-    fs_config_dirs \
-    fs_config_files \
     fstab \
     fstab \
     geoloc \
@@ -3137,7 +3096,6 @@ PRODUCT_PACKAGES += \
     a_1 \
     aindex \
     goldeneye_config \
-    group \
     default \
     ikedconfig \
     racoon2 \
@@ -3145,22 +3103,7 @@ PRODUCT_PACKAGES += \
     tunnel_ike_natt \
     vals \
     activity_recognition_service \
-    android.hardware.bluetooth@1.0-service \
-    android.hardware.cas@1.0-service \
-    android.hardware.configstore@1.1-service \
-    android.hardware.drm@1.0-service \
-    android.hardware.drm@1.1-service.clearkey \
     android.hardware.drm@1.1-service.widevine \
-    android.hardware.gatekeeper@1.0-service \
-    android.hardware.graphics.allocator@2.0-service \
-    android.hardware.graphics.composer@2.2-service \
-    android.hardware.health@2.0-service \
-    android.hardware.keymaster@3.0-service \
-    android.hardware.media.omx@1.0-service \
-    android.hardware.memtrack@1.0-service \
-    android.hardware.secure_element@1.0-service \
-    android.hardware.thermal@1.0-service \
-    android.hardware.usb@1.0-service \
     aptouch_daemon \
     init.charger \
     init.chip.charger \
@@ -3194,7 +3137,6 @@ PRODUCT_PACKAGES += \
     isplogcat \
     modemchr_service \
     init.recovery.huawei \
-    rild \
     vendor.huawei.graphics.displayeffect@1.0-service \
     vendor.huawei.hardware.audio@4.0-service \
     vendor.huawei.hardware.biometrics.fingerprint@2.1-service \
@@ -3223,7 +3165,6 @@ PRODUCT_PACKAGES += \
     vendor.huawei.hardware.sensors@1.2-service \
     vendor.huawei.hardware.tp@1.0-service \
     vendor.huawei.hardware.wifi@1.1-service \
-    vndservicemanager \
     libnfc_brcm_bln_L21 \
     libnfc_brcm_nem_L21 \
     libnfc_brcm_nmo_L21 \
@@ -3243,7 +3184,6 @@ PRODUCT_PACKAGES += \
     media_codecs_performance \
     media_profiles \
     media_profiles_V1_0 \
-    mkshrc \
     basic_name \
     viacbp82d_FieldTest \
     FieldTest \
@@ -3252,7 +3192,6 @@ PRODUCT_PACKAGES += \
     viacbp82d_log \
     viacbp82d_shutdown_log \
     native_packages \
-    passwd \
     perfgenius_config \
     perfgenius_event_policy \
     perfgenius_scenario_policy \
@@ -3280,23 +3219,15 @@ PRODUCT_PACKAGES += \
     android.software.app_widgets \
     android.software.backup \
     android.software.midi \
-    com.android.nfc_extras \
     handheld_core_hardware \
     public.libraries \
     r_submix_audio_policy_configuration \
-    recovery \
     configstore@1.1 \
     plat_pub_versioned \
     plat_sepolicy_vers \
-    precompiled_sepolicy \
     precompiled_sepolicy.plat_and_mapping \
-    vendor_file_contexts \
-    vendor_hwservice_contexts \
     vendor_mac_permissions \
-    vendor_property_contexts \
-    vendor_seapp_contexts \
     vendor_sepolicy \
-    vndservice_contexts \
     selinux_dmd \
     servicefilter \
     topazhp \
@@ -3310,7 +3241,6 @@ PRODUCT_PACKAGES += \
     hostapd_hisi \
     p2p_supplicant_hisi \
     p2p_supplicant_overlay \
-    wpa_supplicant \
     wpa_supplicant_hisi \
     wpa_supplicant_overlay \
     APKInstallListEMUI5Release \
@@ -3337,7 +3267,6 @@ PRODUCT_PACKAGES += \
     scenerecognition \
     megviifacepp_model \
     panorama_mgb \
-    init \
     libpn551_fw \
     aps_config \
     normal_cpu_policy \
@@ -3425,7 +3354,6 @@ PRODUCT_PACKAGES += \
     activity_recognition_service \
     aptouch_daemon \
     atcmdserver \
-    awk \
     b4b71581-add2-e89f-d536-f35436dc7973 \
     base64 \
     basename \
@@ -3446,7 +3374,6 @@ PRODUCT_PACKAGES += \
     comm \
     cp \
     cpio \
-    cplay \
     cut \
     d77c4d60-d279-4425-afa8-7f94559eae16 \
     date \
@@ -3511,7 +3438,6 @@ PRODUCT_PACKAGES += \
     goodix_5296_ta_handel \
     goodix_8206_ta \
     gpsdaemon \
-    grep \
     groups \
     gunzip \
     gzip \
@@ -3521,23 +3447,6 @@ PRODUCT_PACKAGES += \
     hivwserver \
     hostapd_hisi \
     hostname \
-    android.hardware.bluetooth@1 \
-    android.hardware.cas@1 \
-    android.hardware.configstore@1 \
-    android.hardware.drm@1 \
-    android.hardware.drm@1.1-service \
-    android.hardware.gatekeeper@1 \
-    android.hardware.graphics.allocator@2 \
-    android.hardware.graphics.composer@2 \
-    android.hardware.health@2 \
-    android.hardware.keymaster@3 \
-    android.hardware.media.omx@1 \
-    android.hardware.memtrack@1 \
-    android.hardware.secure_element@1 \
-    android.hardware.thermal@1 \
-    android.hardware.usb@1 \
-    hostapd \
-    rild \
     vendor.huawei.hardware.audio@4 \
     vendor.huawei.hardware.biometrics.fingerprint@2 \
     vendor.huawei.hardware.biometrics.hwfacerecognize@1 \
@@ -3566,7 +3475,6 @@ PRODUCT_PACKAGES += \
     vendor.huawei.hardware.sensors@1 \
     vendor.huawei.hardware.tp@1 \
     vendor.huawei.hardware.wifi@1 \
-    wpa_supplicant \
     hwclock \
     hwemerffu \
     id \
@@ -3644,7 +3552,6 @@ PRODUCT_PACKAGES += \
     setenforce \
     setprop \
     setsid \
-    sh \
     sha1sum \
     sha224sum \
     sha256sum \
@@ -3685,10 +3592,8 @@ PRODUCT_PACKAGES += \
     time \
     timeout \
     tlogcat \
-    toolbox \
     top \
     touch \
-    toybox_vendor \
     tpd \
     tr \
     true \
@@ -3705,13 +3610,10 @@ PRODUCT_PACKAGES += \
     uudecode \
     uuencode \
     vmstat \
-    vndservice \
-    vndservicemanager \
     wc \
     which \
     whoami \
     wl \
-    wpa_cli \
     wpa_cli_hisi \
     wpa_supplicant_hisi \
     xargs \
