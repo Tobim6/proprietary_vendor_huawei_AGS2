@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="GB2312"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Config>
     <Global>
         <platform_flag>0</platform_flag>  <!-- 0: phone, 1: UDP -->
-        <contractAdjust_flag>0</contractAdjust_flag> <!--0:¹Ø±Õ¶Ô±È¶Èµ÷Õû,1: ¿ªÆô¶Ô±È¶Èµ÷Õû -->
-        <colorAdjust_flag>0</colorAdjust_flag><!--0:¹Ø±ÕÑÕÉ«µ÷Õû,1:¿ªÆôÑÕÉ«µ÷Õû -->
-        <lumaAdjust_flag>0</lumaAdjust_flag><!--0:¹Ø±ÕÁÁ¶Èµ÷Õû,1:¿ªÆôÁÁ¶Èµ÷Õû -->
+        <contractAdjust_flag>0</contractAdjust_flag> <!--0:å…³é—­å¯¹æ¯”åº¦è°ƒæ•´,1: å¼€å¯å¯¹æ¯”åº¦è°ƒæ•´ -->
+        <colorAdjust_flag>0</colorAdjust_flag><!--0:å…³é—­é¢œè‰²è°ƒæ•´,1:å¼€å¯é¢œè‰²è°ƒæ•´ -->
+        <lumaAdjust_flag>0</lumaAdjust_flag><!--0:å…³é—­äº®åº¦è°ƒæ•´,1:å¼€å¯äº®åº¦è°ƒæ•´ -->
     </Global>
     <ColorAdjust>
-        <contrast_param>7</contrast_param>          <!-- [0, 20]   : ¶Ô±È¶È²ÎÊý Ô½´ó ¶Ô±È¶ÈÔöÇ¿Ô½´ó -->
-        <color_adj_ratio>1.1</color_adj_ratio>        <!-- [1.0, 1.6]  : ±¥ºÍ¶È²ÎÊý Ô½´ó ±¥ºÍ¶ÈÔ½¸ß -->
+        <contrast_param>7</contrast_param>          <!-- [0, 20]   : å¯¹æ¯”åº¦å‚æ•° è¶Šå¤§ å¯¹æ¯”åº¦å¢žå¼ºè¶Šå¤§ -->
+        <color_adj_ratio>1.1</color_adj_ratio>        <!-- [1.0, 1.6]  : é¥±å’Œåº¦å‚æ•° è¶Šå¤§ é¥±å’Œåº¦è¶Šé«˜ -->
     </ColorAdjust>
     <LumaAdjust>
         <luma_adjust_gain>-1</luma_adjust_gain>      <!-- [-20, 20] -->
@@ -17,29 +17,29 @@
 	    <smooth_transition>0</smooth_transition>   <!-- smooth transistion in froeground and background boundary, 0: use hard transition; 1: use soft transition-->
 	    <circle_radius>6</circle_radius>   <!-- radius in circle filtering, [1, 10]  -->
 		<group_circle_radius>6</group_circle_radius>   <!-- radius in circle filtering when group, [1, 10]  -->
-		<color_facula>1</color_facula>  <!-- 0:¹Ø±Õcolor facula,1£º¿ªÆôcolor facula  -->
+		<color_facula>1</color_facula>  <!-- 0:å…³é—­color facula,1ï¼šå¼€å¯color facula  -->
 	</BlurEffect>
     <FaceCheck>
         <ratio_to_image>0.1</ratio_to_image> <!-- [0, 1], face, whose size is less than this_ratio * min(image_width, image_height), will be filtered -->
         <ratio_to_major_face>0.3</ratio_to_major_face> <!-- [0, 1], face, whose size is less than this_ratio * largest_face_size, will be filtered -->
-        <face_recover>0</face_recover><!-- 0:¹Ø±ÕÈËÁ³±£»¤,1£º¿ªÆôÈËÁ³±£»¤ -->
+        <face_recover>0</face_recover><!-- 0:å…³é—­äººè„¸ä¿æŠ¤,1ï¼šå¼€å¯äººè„¸ä¿æŠ¤ -->
     </FaceCheck>
     <HairRefine>
-        <hair_refine>0</hair_refine>   <!-- 0:¹Ø±ÕÍ··¢±£»¤,1£º¿ªÆôÍ··¢±£»¤  -->
-        <hair_area_ratio>1.0</hair_area_ratio>   <!-- [1.0, 1.25]  : area ratioÔ½´ó ¸ÄÉÆÇøÓòÔ½´ó -->
-        <hair_refine_halo>0</hair_refine_halo>   <!-- 0:¹Ø±ÕÍ··¢ºÚÔÎÓÅ»¯,1£º¿ªÆôÍ··¢ºÚÔÎÓÅ»¯  -->
+        <hair_refine>0</hair_refine>   <!-- 0:å…³é—­å¤´å‘ä¿æŠ¤,1ï¼šå¼€å¯å¤´å‘ä¿æŠ¤  -->
+        <hair_area_ratio>1.0</hair_area_ratio>   <!-- [1.0, 1.25]  : area ratioè¶Šå¤§ æ”¹å–„åŒºåŸŸè¶Šå¤§ -->
+        <hair_refine_halo>0</hair_refine_halo>   <!-- 0:å…³é—­å¤´å‘é»‘æ™•ä¼˜åŒ–,1ï¼šå¼€å¯å¤´å‘é»‘æ™•ä¼˜åŒ–  -->
     </HairRefine>
     <SkinProtect>
-        <skin_protect>1</skin_protect>   <!-- 0:¹Ø±Õ·ôÉ«±£»¤,1£º¿ªÆô·ôÉ«±£»¤  -->
+        <skin_protect>1</skin_protect>   <!-- 0:å…³é—­è‚¤è‰²ä¿æŠ¤,1ï¼šå¼€å¯è‚¤è‰²ä¿æŠ¤  -->
     </SkinProtect>
     <EdgeProtect>
-        <edge_protect>0</edge_protect>   <!-- 0:¹Ø±Õedge_protect,1£º¿ªÆôedge_protect  -->
+        <edge_protect>0</edge_protect>   <!-- 0:å…³é—­edge_protect,1ï¼šå¼€å¯edge_protect  -->
     </EdgeProtect>
     <InPaint>
-        <in_paint>0</in_paint>   <!-- 0:¹Ø±Õin paint,1£º¿ªÆôin paint  -->
+        <in_paint>0</in_paint>   <!-- 0:å…³é—­in paint,1ï¼šå¼€å¯in paint  -->
     </InPaint>
     <ITR>
-        <itr>1</itr>   <!-- [1, 2]:²ÎÊýÔ½´ó£¬ÍâÀ©¸üÉÙ  -->
+        <itr>1</itr>   <!-- [1, 2]:å‚æ•°è¶Šå¤§ï¼Œå¤–æ‰©æ›´å°‘  -->
     </ITR>
     <PreviewConfig>
         <preview_mask_refine>1</preview_mask_refine>   <!-- 0:close mask refine,1: open mask refine  -->
