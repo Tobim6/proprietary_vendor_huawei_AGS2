@@ -17,6 +17,7 @@
 PRODUCT_COPY_FILES += \
     vendor/huawei/AGS2/proprietary/product/app/HwFidoAsm/lib/arm/libfido_hal.so:$(TARGET_COPY_OUT_PRODUCT)/app/HwFidoAsm/lib/arm/libfido_hal.so \
     vendor/huawei/AGS2/proprietary/product/app/HwFidoAsm/lib/arm64/libfido_hal.so:$(TARGET_COPY_OUT_PRODUCT)/app/HwFidoAsm/lib/arm64/libfido_hal.so \
+    vendor/huawei/AGS2/proprietary/product/bin/inv_ipld:$(TARGET_COPY_OUT_PRODUCT)/bin/inv_ipld \
     vendor/huawei/AGS2/proprietary/product/etc/audio_policy.conf:$(TARGET_COPY_OUT_PRODUCT)/etc/audio_policy.conf \
     vendor/huawei/AGS2/proprietary/product/etc/carrier/46000/xml/hwcarrierconfig.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/carrier/46000/xml/hwcarrierconfig.xml \
     vendor/huawei/AGS2/proprietary/product/etc/carrier/46002/xml/hwcarrierconfig.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/carrier/46002/xml/hwcarrierconfig.xml \
@@ -3612,5 +3613,4 @@ PRODUCT_PACKAGES += \
     xargs \
     xxd \
     yes \
-    zcat \
-    inv_ipld
+    zcat
