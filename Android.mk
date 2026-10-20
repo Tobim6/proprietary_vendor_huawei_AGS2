@@ -3036,17 +3036,6 @@ LOCAL_PRODUCT_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := readme
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/product/lib64/readme.txt
-LOCAL_MULTILIB := 64
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .txt
-LOCAL_PRODUCT_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := CeliaKeyboardStub
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/product/app/CeliaKeyboardStub/CeliaKeyboardStub.apk

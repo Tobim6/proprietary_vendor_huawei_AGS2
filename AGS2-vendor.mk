@@ -154,6 +154,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/AGS2/proprietary/product/hw_oem/AGS2-W19/xml/hw_defaults.xml:$(TARGET_COPY_OUT_PRODUCT)/hw_oem/AGS2-W19/xml/hw_defaults.xml \
     vendor/huawei/AGS2/proprietary/product/hw_oem/AGS2-W19/xml/unstall_apk.xml:$(TARGET_COPY_OUT_PRODUCT)/hw_oem/AGS2-W19/xml/unstall_apk.xml \
     vendor/huawei/AGS2/proprietary/product/lib/libcamera_omron.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libcamera_omron.so \
+    vendor/huawei/AGS2/proprietary/product/lib64/readme.txt:$(TARGET_COPY_OUT_PRODUCT)/lib64/readme.txt \
     vendor/huawei/AGS2/proprietary/product/overlay/init:$(TARGET_COPY_OUT_PRODUCT)/overlay/init \
     vendor/huawei/AGS2/proprietary/product/region_comm/china/aimodel/config/nlu_actor_static_local_group_comp.json:$(TARGET_COPY_OUT_PRODUCT)/region_comm/china/aimodel/config/nlu_actor_static_local_group_comp.json \
     vendor/huawei/AGS2/proprietary/product/region_comm/china/aimodel/config/nlu_amNspHA_local_group_comp.json:$(TARGET_COPY_OUT_PRODUCT)/region_comm/china/aimodel/config/nlu_amNspHA_local_group_comp.json \
@@ -1510,7 +1511,6 @@ PRODUCT_PACKAGES += \
     libopencv_videoio \
     libopencv_ximgproc \
     libtensorflowLite \
-    readme \
     CeliaKeyboardStub \
     HwFidoAsm \
     HwFidoClient \
