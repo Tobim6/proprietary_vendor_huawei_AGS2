@@ -21658,7 +21658,8 @@ LOCAL_MODULE_TAGS := optional
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := hostapd
+LOCAL_MODULE := hostapd_emui8
+LOCAL_MODULE_STEM := hostapd
 LOCAL_MODULE_OWNER := huawei
 LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES := proprietary/bin/hostapd
@@ -21677,7 +21678,8 @@ LOCAL_MODULE_TAGS := optional
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := android.hardware.gnss@1.0-service
+LOCAL_MODULE := android.hardware.gnss@1.0-service_emui8
+LOCAL_MODULE_STEM := android.hardware.gnss@1.0-service
 LOCAL_MODULE_OWNER := huawei
 LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES := proprietary/bin/hw/android.hardware.gnss@1.0-service
@@ -22038,7 +22040,8 @@ LOCAL_MODULE_TAGS := optional
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := android.hardware.audio.effect@2.0-impl
+LOCAL_MODULE := android.hardware.audio.effect@2.0-impl_emui8
+LOCAL_MODULE_STEM := android.hardware.audio.effect@2.0-impl
 LOCAL_MODULE_OWNER := huawei
 LOCAL_PROPRIETARY_MODULE := true
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
@@ -22051,7 +22054,8 @@ LOCAL_MODULE_TAGS := optional
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := android.hardware.gnss@1.0-impl
+LOCAL_MODULE := android.hardware.gnss@1.0-impl_emui8
+LOCAL_MODULE_STEM := android.hardware.gnss@1.0-impl
 LOCAL_MODULE_OWNER := huawei
 LOCAL_PROPRIETARY_MODULE := true
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
@@ -22064,7 +22068,8 @@ LOCAL_MODULE_TAGS := optional
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := android.hardware.tests.libhwbinder@1.0-impl
+LOCAL_MODULE := android.hardware.tests.libhwbinder@1.0-impl_emui8
+LOCAL_MODULE_STEM := android.hardware.tests.libhwbinder@1.0-impl
 LOCAL_MODULE_OWNER := huawei
 LOCAL_PROPRIETARY_MODULE := true
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES

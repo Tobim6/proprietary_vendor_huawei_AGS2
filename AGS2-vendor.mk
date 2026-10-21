@@ -3562,9 +3562,8 @@ PRODUCT_PACKAGES += \
     zcat \
     check_root \
     fwrt_emmc_screen_test \
-    hostapd \
     android.hardware.configstore@1.0-service \
-    android.hardware.gnss@1.0-service \
+    android.hardware.gnss@1.0-service_emui8 \
     vendor.huawei.hardware.biometrics.hwfacerecognize@1.0-service \
     vendor.huawei.hardware.gnss@1.0-service \
     vendor.huawei.hardware.huaweiantitheft@1.0-service \
@@ -3596,9 +3595,9 @@ PRODUCT_PACKAGES += \
     rc_vendor.huawei.hardware.perfgenius@1.0-service \
     rc_vendor.huawei.hardware.sensors@1.0-service \
     perm_android.software.verified_boot \
-    android.hardware.audio.effect@2.0-impl \
-    android.hardware.gnss@1.0-impl \
-    android.hardware.tests.libhwbinder@1.0-impl \
+    android.hardware.audio.effect@2.0-impl_emui8 \
+    android.hardware.gnss@1.0-impl_emui8 \
+    android.hardware.tests.libhwbinder@1.0-impl_emui8 \
     audio.primary.hisi \
     facerecognize.hi6250 \
     fm.bcm.hi6250 \
