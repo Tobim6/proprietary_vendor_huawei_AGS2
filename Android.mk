@@ -21604,4 +21604,16 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
 
+# TEEOS native-CA hash whitelist. teecd loads /system/etc/native_packages.xml and pushes it
+# to TEEOS via TC_NS_set_nativeCA_hash; without it TEEOS logs 'hash not setted reject all
+# calls to TA' and rejects every session open (0xffff0000, origin=3). EMUI8 /system file.
+include $(CLEAR_VARS)
+LOCAL_MODULE := native_packages.xml
+LOCAL_MODULE_OWNER := huawei
+LOCAL_SRC_FILES := system_teecd_extract/etc/native_packages.xml
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)
+include $(BUILD_PREBUILT)
+
 endif
