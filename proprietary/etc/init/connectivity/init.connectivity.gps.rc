@@ -24,8 +24,6 @@ on boot
 
     service gpsdaemon /vendor/bin/gpsdaemon
     class main
-    user root
-    group root system
     oneshot
 
     service gpsd_47531  /vendor/bin/glgps47531 -c /data/gps/gpsconfig.xml

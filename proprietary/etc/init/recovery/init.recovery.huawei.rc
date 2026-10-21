@@ -1,7 +1,5 @@
 import /vendor/etc/init/charger/init.chip.usb.rc
 import /vendor/etc/init/connectivity/init.recovery.${ro.connectivity.sub_chiptype}.rc
-import /vendor/etc/init/manufacture/init.recovery.manufacture.rc
-
 on early-init
     # Apply strict SELinux checking of PROT_EXEC on mmap/mprotect calls.
     write /sys/fs/selinux/checkreqprot 0
@@ -13,6 +11,7 @@ on early-init
     start ueventd
     start healthd
     start hwservicemanager
+    start keymaster-3-0
 
 on init
 
@@ -35,10 +34,11 @@ on init
     wait /dev/nve0
     chmod 0640 /dev/nve0
     write /proc/sys/vm/max_map_count 1000000
-    write /proc/balong/stats/boot_time 1
 
 
 on fs
+    wait /dev/block/bootdevice/by-name/oeminfo
+    start oeminfo_nvm
     wait /dev/block/bootdevice/by-name/system
     wait /dev/block/bootdevice/by-name/vendor
     #mount ext4 /dev/block/bootdevice/by-name/system /newsys wait ro
@@ -61,12 +61,13 @@ on property:vold.decrypt=trigger_post_fs_data
     trigger post-fs-data
 
 on post-fs-data
-    start teecd
     trigger post-fs-data_hw
 # Data Encryption end
 
 on post-fs-data_hw
-
+	mkdir /storage
+	symlink /data/media/0 /storage/sdcard0
+	symlink /sdcard /storage/sdcard1
     setprop vold.post_fs_data_done 1
     
 on early-boot_hw
@@ -74,7 +75,10 @@ on early-boot_hw
     ##change start priority to early-boot stage, because rild is started on boot stage
     ## and sometime rild is started but device file's property is NOT changed
 
-
+    mkdir /data/hisi_logs/hifi_log 0755 root system
+    mkdir /data/hisi_logs/hifi_log/coredump 0755 root system
+    symlink /splash2/fac_log /data/log/fac_log
+    symlink /splash2 /log
 
 on cust_parse_action
     cust_parse
@@ -112,7 +116,7 @@ on property:androidboot.start_services=true
     trigger boot
     setprop recovery.load_finish true
 
-on property:odm.recovery.start_all_srv=true
+on property:recovery.start_all_srv=true
     #for the reason that init cust policy dirs
     trigger cust_parse_action
 
@@ -123,12 +127,11 @@ on property:odm.recovery.start_all_srv=true
 
     setprop sys.system.serv run
     load_hwcust_prop_for_recovery
-    load_persist_props
     start logd
+    start atcmdserver
     start hw_ueventd
     start statusd
-    start keymaster-3-0
-
+    
 on property:factory_reset.stop_srv=true
     #stop all srv that occupy data when in factory reset
     stop applogcat
@@ -158,6 +161,7 @@ service keymaster-3-0 /vendor/bin/hw/android.hardware.keymaster@3.0-service
     class early_hal
     user system
     group system drmrpc
+    seclabel u:r:hal_keymaster_default:s0
 
 service hdbd /sbin/hdbd --root_seclabel=u:r:su:s0 --device_banner=recovery
     disabled
@@ -189,9 +193,10 @@ service vold_recovery /system/bin/vold \
     writepid /dev/cpuset/foreground/tasks /dev/blkio/foreground/tasks
 
 on property:ro.board.platform=hi6250
+    start teecd
     chmod 0660 /sys/class/hw_power/charger/charge_data/iin_thermal
     chown system system /sys/class/hw_power/charger/charge_data/iin_thermal
-    write /sys/class/hw_power/charger/charge_data/iin_thermal 900
+    start limit_current
 
 # Used to disable USB when switching states
 on property:sys.usb.config=none && property:sys.usb.configfs=0
@@ -245,6 +250,16 @@ on property:ro.debuggable=1
 on property:sys.system.serv=run
     class_start server
     setprop sys.system.serv up
+service atcmdserver  /vendor/bin/atcmdserver
+    class server_atcmdserver
+    user root
+    oneshot
+    disabled
+    
+service oeminfo_nvm /sbin/oeminfo_nvm_server
+    critical
+    ioprio rt 4
+    seclabel u:r:oeminfo_nvm:s0
 
 service hw_ueventd /sbin/hw_ueventd
     class server
@@ -252,20 +267,27 @@ service hw_ueventd /sbin/hw_ueventd
     disabled
     seclabel u:r:hw_ueventd:s0
 
-service xlogctl_service /sbin/xlogcat-early -t 0
+#limit current
+service limit_current /system/bin/limit_current -r
     class server
     user root
     oneshot
-    seclabel u:r:xlogcat:s0
-
-service xlogview_service /sbin/xlogcat-early -t 2
-    class server
-    user root
+    seclabel u:r:limit_current:s0
     disabled
-    oneshot
-    seclabel u:r:xlogcat:s0
 
-service faclog_service /system/bin/factory_log_service -m 2
+service logctl_service /sbin/logctl_service -m 2
+    class server
+    user root
+    oneshot
+    seclabel u:r:logctlservice:s0
+
+service logcat_service /sbin/logctl_service -m 2 -t 1
+    class server
+    user root
+    oneshot
+    seclabel u:r:logctlservice:s0
+
+service fac_log_service /system/vendor/bin/factory_log_service -m 2
     class server
     user root
     disabled
@@ -312,12 +334,30 @@ service kmsgcat_cp /sbin/xlogcat-early -b kmsgcat_cp
     disabled
     seclabel u:r:xlogcat:s0
 
-on property:odm.recovery.start_all_srv=false
-    start xlogctl_service
+service logctl_srv_updt /sbin/logctl_service -m 3
+    class server
+    user root
+    oneshot
+    disabled
+    seclabel u:r:logctlservice:s0
+
+on property:recovery.start_all_srv=false
+    start logctl_srv_updt
 
 on apply_file_decryption
     exec u:r:fsck:s0 -- /sbin/fsck.f2fs_s -p1 /dev/block/bootdevice/by-name/userdata
 # decrypt file fs for /data/update
+    mount f2fs /dev/block/bootdevice/by-name/userdata /data nosuid nodev noatime discard,inline_data,inline_xattr
+    wait /dev/block/bootdevice/by-name/userdata
+    # mount squashfs /dev/block/bootdevice/by-name/system /system wait ro
+    # start teecd
+    check_file_encrypt
+    setprop vold.crypto_unencrypt_updatedir /data/update
+    # start vold
+    # installkey /data
+    # stop vold
+    # umount /system
+    umount /data
 
 on property:factory.recovery.prepare=start
     # start teecd
@@ -352,6 +392,3 @@ on property:vold.status=start
     init_user0
     unlock_user0_key
     setprop vold.status end
-
-on property:ro.logsystem.usertype=*
-    write /proc/log-usertype ${ro.logsystem.usertype}

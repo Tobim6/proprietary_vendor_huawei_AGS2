@@ -16,15 +16,13 @@ service octty /vendor/bin/octty
     user system
     group system bluetooth root media
     disabled
-    shutdown critical
 
 service hisi_bfg_rec /vendor/bin/start_connectivity_hisi recovery
     class server
     user root
-    group system wifi
     oneshot
 
-on property:vendor.setup_hi110x_modules=success
+on property:setup_hi110x_modules=success
     start octty
     write /dev/kmsg "octty has started    "
     start agnsscontrol

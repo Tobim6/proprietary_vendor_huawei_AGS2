@@ -39,7 +39,6 @@ on boot
     chown system system /sys/class/graphics/fb0/frame_update
     chown system system /sys/class/graphics/fb0/lcd_fps_scence
     chown radio radio /sys/class/graphics/fb0/mipi_dsi_bit_clk_upt
-    chmod 664 /sys/class/graphics/fb0/mipi_dsi_bit_clk_upt
     chown system system /sys/class/graphics/fb0/lcd_status
     chown system system /sys/class/graphics/fb0/amoled_pcd_errflag_check
     chown system system /sys/class/ina231/ina231_0/ina231_debug
@@ -50,7 +49,6 @@ on boot
     chown system system /sys/class/ina231/ina231_1/ina231_value
     chown system system /sys/class/graphics/fb0/lcd_sleep_ctrl
     chown system system /sys/class/graphics/fb0/lcd_func_switch
-    chown system system /sys/class/graphics/fb0/lcd_dynamic_porch
     chown system system /sys/class/graphics/fb0/lcd_test_config
     chown system system /sys/class/graphics/fb0/lcd_support_mode
     chown system system /sys/class/graphics/fb0/lcd_ic_color_enhancement_mode
@@ -61,8 +59,6 @@ on boot
     chown system system /sys/class/graphics/fb0/lcd_scan_mode
     chown system system /sys/class/graphics/fb0/lcd_acm_state
     chown system system /sys/class/graphics/fb0/amoled_acl
-    chown system system /dev/display_sharemem_map
-    chmod 660 /dev/display_sharemem_map
     chown system system /sys/class/graphics/fb0/amoled_hbm
     chown system system /sys/class/graphics/fb0/lcd_gmp_state
     chown system system /sys/class/graphics/fb0/effect_al
@@ -82,9 +78,7 @@ on boot
     chmod 664 /sys/class/graphics/fb0/lcd_bl_support_mode
     chown system system /sys/class/graphics/fb0/lcd_ldo_check
     chown system system /sys/class/graphics/fb0/ddic_oem_info
-    chown system system /sys/class/graphics/fb0/lcd_mipi_config
-    chown system system /sys/class/sensors/als_sensor/als_ud_rgbl
-    chown system system /sys/class/sensors/als_sensor/als_ud_rgbl_block
+    chown media media /sys/devices/virtual/misc/isp_log/isplogctrl
 #Touchscreen sysfs
     chown system system /sys/touchscreen/ic_ver
     chown system system /sys/touchscreen/hw_reset
@@ -98,7 +92,6 @@ on boot
     chown system system /sys/touchscreen/easy_wakeup_supported_gestures
     chown system system /sys/touchscreen/touch_glove
     chown system system /sys/touchscreen/touch_window
-    chown system system /dev/rmi0
     chown system system /sys/touchscreen/touch_sensitivity
     chown system system /sys/touchscreen/fw_update_sd
     chown system system /sys/touchscreen/reset
@@ -126,38 +119,27 @@ on boot
     chown system system /sys/touchscreen/touch_register_operation
     chown system system /sys/touchscreen/touch_wideth
     chown system system /sys/touchscreen/touch_switch
-    chown system system /sys/touchscreen/udfp_enable
-    chown system system /sys/touchscreen/stylus_wakeup_ctrl
-    chmod  0660 /dev/input_mt_wrapper
-    chown root system /dev/input_mt_wrapper
-    chown system system /sys/class/fts/fts_i2c
-    chown system system /sys/class/fts/fts_i2c/iread
-    chown system system /sys/class/fts/fts_i2c/iread_result
-    chown system system /sys/class/fts/fts_i2c/iwrite
-    chown system system /sys/class/fts/fts_i2c/iwrite_result
-    chown system system /sys/class/fts/fts_i2c/iwr
-    chown system system /sys/class/fts/fts_i2c/iwr_result
-
 #led sysfs
     chown system system /sys/class/leds/red/brightness
+    chmod  660  /sys/class/leds/red/brightness
     chown system system /sys/class/leds/red/delay_off
     chown system system /sys/class/leds/red/delay_on
     chown system system /sys/class/leds/green/brightness
+    chmod  660  /sys/class/leds/green/brightness
     chown system system /sys/class/leds/green/delay_off
     chown system system /sys/class/leds/green/delay_on
     chown system system /sys/class/leds/blue/brightness
+    chmod  660  /sys/class/leds/blue/brightness
     chown system system /sys/class/leds/blue/delay_off
     chown system system /sys/class/leds/blue/delay_on
-    mkdir /data/vendor/log/fingerprint
-    chown system system /data/vendor/log/fingerprint
+    mkdir /data/log/fingerprint
+    chown system system /data/log/fingerprint
 
 #add for fingerprint
     chmod  0660  /dev/fingerprint
     chmod  0660  /dev/fingerprinthub
-    chmod  0660  /dev/fingerprinthub_ud
     chown  system  system  /dev/fingerprinthub
     chown  system  system  /dev/fingerprint
-    chown  system  system  /dev/fingerprinthub_ud
     chmod  0660  /sys/devices/platform/fingerprint/irq
     chown  system  system  /sys/devices/platform/fingerprint/irq
     chown system system /sys/devices/platform/fingerprint/fingerprint_chip_info
@@ -171,12 +153,6 @@ on boot
     chown  system  system  /sys/devices/platform/fingerprint/result
     chmod  0660  /sys/devices/platform/fingerprint/irq_enabled
     chown  system  system  /sys/devices/platform/fingerprint/irq_enabled
-    chmod  0660  /sys/devices/platform/fingerprint/module_id_ud
-    chown  system  system  /sys/devices/platform/fingerprint/module_id_ud
-    chmod  0660  /sys/devices/platform/fingerprint/low_temperature
-    chown  system  system  /sys/devices/platform/fingerprint/low_temperature
-    chmod  0660  /sys/devices/platform/fingerprint/ud_fingerprint_chip_info
-    chown  system  system  /sys/devices/platform/fingerprint/ud_fingerprint_chip_info
 
 #LRA vibrator
     chown system system /sys/class/timed_output/vibrator/vibrator_dbc_test
@@ -212,5 +188,6 @@ on boot
 service hwemerffu /vendor/bin/hwemerffu
     class main
     user root
-    group root system
+    group root
     oneshot
+

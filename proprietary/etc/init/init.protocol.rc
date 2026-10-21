@@ -19,6 +19,12 @@ on boot
 #    write /device/sample/sample_property ${ro.some_property}
 #    chmod 644 /device/sample/sample_device
 
+#regionalphone reset modem setting
+on property:sys.regional.resetmodem=1
+    exec - root -- chmod 666 /proc/ModemNv
+    write /proc/ModemNv abc
+    setprop persist.radio.current_version " "
+    exec - root -- chmod 660 /proc/ModemNv
 
 
 ## Service definition

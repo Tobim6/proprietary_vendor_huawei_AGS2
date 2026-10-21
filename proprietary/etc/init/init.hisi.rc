@@ -1,30 +1,11 @@
-import  /vendor/etc/init/charger/init.chip.usb.rc
-
 on early-init
 
 on init
-    write /sys/module/hisi_nve/parameters/nve /dev/block/by-name/nvme
+    write /sys/module/hisi_nve/parameters/nve /dev/block/bootdevice/by-name/nvme
     #change nve device visit permission
     wait /dev/nve0
     chmod 0770 /dev/nve0
     chown root system /dev/nve0
-
-# sets up initial workingset cgroup
-    mkdir /dev/workingset
-    mount cgroup none /dev/workingset nodev noexec nosuid workingset
-    mkdir /dev/workingset/monitor0
-    mkdir /dev/workingset/monitor1
-
-    chmod 0600 /dev/workingset/tasks
-    chmod 0600 /dev/workingset/monitor0/tasks
-    chmod 0600 /dev/workingset/monitor1/tasks
-    chmod 0600 /dev/workingset/cgroup.procs
-    chmod 0600 /dev/workingset/monitor0/cgroup.procs
-    chmod 0600 /dev/workingset/monitor1/cgroup.procs
-    chmod 0600 /dev/workingset/monitor0/workingset.state
-    chmod 0600 /dev/workingset/monitor1/workingset.state
-    chmod 0600 /dev/workingset/monitor0/workingset.data
-    chmod 0600 /dev/workingset/monitor1/workingset.data
 
 on early-fs
 
@@ -40,6 +21,9 @@ on post-fs
     chmod 0660 /proc/uid_iostats/uid_iomonitor_list
     chown system system /proc/uid_iostats/remove_uid_list
     chmod 0660 /proc/uid_iostats/remove_uid_list
+
+on post-fs-data
+    setprop persist.sys.kmemleak.debug 0
 
 on early-boot
     chmod 660 /dev/appvcom
@@ -133,12 +117,8 @@ on early-boot
     chown radio radio /dev/appvcom19
 #/* AR000A2G3P zhangze 00346362 20180129 end >*/
 
-    chown system system /dev/appvcom18
-    chown system system /dev/appvcom34
-
     chown system system /dev/appvcomERRLOG
 
-    chown system system /proc/bind_pid
 
     chown system system /proc/portcfg
 
@@ -148,8 +128,9 @@ on early-boot
     chown radio radio sys/devices/platform/balong_power/state
 
 # pstore/ramoops previous console log
-    chown root log /sys/fs/pstore/console-ramoops-0
-    chmod 0660 /sys/fs/pstore/console-ramoops-0
+    mount pstore pstore /sys/fs/pstore
+    chown root log /sys/fs/pstore/console-ramoops
+    chmod 0660 /sys/fs/pstore/console-ramoops
     chown root log /sys/fs/pstore/dmesg-ramoops-0
     chmod 0660 /sys/fs/pstore/dmesg-ramoops-0
     chown root log /sys/fs/pstore/pmsg-ramoops-0
@@ -159,6 +140,8 @@ on early-boot
     write /dev/pmsg0 1
 
 on boot
+    write /sys/kernel/debug/kmemleak scan=14400
+
     chown radio radio /proc/modemstatus
 
 on data_ready
@@ -182,30 +165,62 @@ on data_not_ready
 #    disabled
 #    oneshot
 #    onrestart restart another_service
-#service ril-daemon /vendor/bin/hw/rild
-#    disabled
-#    class core
+service ril-daemon /vendor/bin/hw/rild
+    disabled
+    class core
+    socket rild stream 660 root radio
+    socket rildm2 stream 660 root radio
+    socket rildm3 stream 660 root radio
+    socket rildi stream 660 root radio
+    socket rildi2 stream 660 root radio
+    socket rildc1 stream 660 radio system
+    socket rildc2 stream 660 radio system
+    socket rildc3 stream 660 radio system
+    
+    socket rild-debug stream 660 radio system
+    user root
+    group radio cache inet misc audio sdcard_r sdcard_rw log readproc system
 
-#    user root
-#    group radio cache inet misc audio sdcard_r sdcard_rw log readproc system
+service ril-daemon1 /vendor/bin/hw/rild -c 1
+    disabled
+    class core
+    socket rilds2 stream 660 root radio
+    socket rild-debug1 stream 660 radio system
+    socket rild-balong-test stream 660 radio system
+    user root
+    group radio cache inet misc audio sdcard_r sdcard_rw log
 
-#service ril-daemon1 /vendor/bin/hw/rild -c 1
-#    disabled
-#    class core
+on property:sys.userdata_is_ready=1
+    start ril-daemon
 
-#    user root
-#    group radio cache inet misc audio sdcard_r sdcard_rw log
+on property:rild.rild1_ready_to_start=true
+    start ril-daemon1
 
-#on property:init.svc.zygote=running
-#    start ril-daemon
+on property:ro.multi.rild=true
+    symlink /dev/socket/rilds2 /dev/socket/rild2
 
-#on property:odm.rild.rild1_ready_to_start=true
-#    start ril-daemon1
+on property:ro.multi.rild=false
+    symlink /dev/socket/rildm2 /dev/socket/rild2
+    symlink /dev/socket/rildm3 /dev/socket/rild3
 
-#add for create /data/vendor/hwcdump and add context
+# set hardware alter name
+on property:ro.hardware.alter=*
+    write /proc/sys/kernel/hardware_alter ${ro.hardware.alter}
+
+# add kmemleak debug log
+service kmemleak_debug /system/bin/sh /system/etc/kmemleak.debug.sh
+    class late_start
+    user root
+    disabled
+    oneshot
+
+on property:persist.sys.kmemleak.debug=1
+    start kmemleak_debug
+
+#add for create /data/hwcdump and add context
 on property:ro.build.type=eng
-    mkdir /data/vendor/hwcdump 0755 system system
-    restorecon_recursive /data/vendor/hwcdump
+    mkdir /data/hwcdump 0755 system system
+    restorecon_recursive /data/hwcdump
 
 on property:ro.build.type=eng
     write /proc/sys/kernel/kptr_restrict 0
@@ -217,5 +232,5 @@ service gcovd /vendor/bin/gcovd
     group root
     oneshot
 
-on property:ro.vendor.build.gcov=y
+on property:ro.build.gcov=y
     start gcovd

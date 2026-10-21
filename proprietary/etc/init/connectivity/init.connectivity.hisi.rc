@@ -1,8 +1,1 @@
-import /vendor/etc/init/connectivity/init.connectivity.${ro.boot.odm.conn.schiptype}.rc
-
-service gpsdaemon /vendor/bin/gpsdaemon
-    class main
-    user root
-    group system inet root wakelock
-    oneshot
-
+import /vendor/etc/init/connectivity/init.connectivity.${ro.connectivity.sub_chiptype}.rc

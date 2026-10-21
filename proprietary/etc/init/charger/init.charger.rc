@@ -1,7 +1,6 @@
 import /init.usb.rc
 import /init.usb.configfs.rc
 import /vendor/etc/init/charger/init.chip.charger.rc
-import /vendor/etc/init/charger/init.chip.usb.rc
 
 on early-init
     # Set the security context of /postinstall if present.
@@ -24,16 +23,24 @@ on init
     copy /default.prop /dev/urandom
     symlink /system/etc /etc
     symlink /sys/kernel/debug /d
+    mkdir /sdcard
+    mkdir /system
+    mkdir /data
+    mkdir /cache
+    mkdir /sec_storage
     mkdir /config 0500 root root
 
     write /proc/sys/kernel/panic_on_oops 1
     write /proc/sys/vm/max_map_count 1000000
     symlink /system/vendor /vendor
+    mkdir /usb
+    mkdir /cust
+    mkdir /splash2
     chown system system /dev/cpuctl
     chown system system /dev/cpuctl/tasks
 
     #oem_info
-    write /sys/module/hisi_nve/parameters/nve /dev/block/by-name/nvme
+    write /sys/module/hisi_nve/parameters/nve /dev/block/bootdevice/by-name/nvme
     wait /dev/nve0
     chmod 0640 /dev/nve0
     chown root system /dev/nve0
@@ -44,14 +51,8 @@ on init
     chown system system /sys/class/devfreq/ddrfreq/min_freq
     chmod 664 /sys/class/devfreq/ddrfreq/min_freq
 
-    # Mount cgroup mount point for cpu accounting
-    mount cgroup none /acct cpuacct
-    mkdir /acct/uid
-
 #init.rc
 on charger
-    chmod 0660 /sys/class/hw_power/interface/enable_charger
-    chown system system /sys/class/hw_power/interface/enable_charger
     chmod 0660 /sys/class/hw_power/charger/charge_data/iin_thermal
     chown system system /sys/class/hw_power/charger/charge_data/iin_thermal
     chmod 0660 /sys/class/hw_power/charger/direct_charger/enable_charger
@@ -60,26 +61,10 @@ on charger
     chown system system /sys/class/hw_power/charger/direct_charger/iin_thermal
     chmod 0660 /sys/class/hw_power/charger/direct_charger/adaptor_voltage
     chown system system /sys/class/hw_power/charger/direct_charger/adaptor_voltage
-
-    chmod 0660 /sys/class/hw_power/charger/direct_charger_sc/enable_charger
-    chown system system /sys/class/hw_power/charger/direct_charger_sc/enable_charger
-    chmod 0660 /sys/class/hw_power/charger/direct_charger_sc/iin_thermal
-    chown system system /sys/class/hw_power/charger/direct_charger_sc/iin_thermal
-    chmod 0660 /sys/class/hw_power/charger/direct_charger_sc/set_resistance_threshold
-    chown system system /sys/class/hw_power/charger/direct_charger_sc/set_resistance_threshold
-    chmod 0660 /sys/class/hw_power/charger/direct_charger_sc/set_chargetype_priority
-    chown system system /sys/class/hw_power/charger/direct_charger_sc/set_chargetype_priority
-
-    chmod 0660 /sys/class/hw_power/charger/wireless_sc/enable_charger
-    chown system system /sys/class/hw_power/charger/wireless_sc/enable_charger
-    chmod 0660 /sys/class/hw_power/charger/wireless_sc/iin_thermal
-    chown system system /sys/class/hw_power/charger/wireless_sc/iin_thermal
-
     chmod 0660 /sys/class/hw_power/charger/charge_data/cca_charge_pattern
     chown system system /sys/class/hw_power/charger/charge_data/cca_charge_pattern
     chmod 0660 /sys/class/hw_power/charger/charge_data/cca_cccv_sample
     chown system system /sys/class/hw_power/charger/charge_data/cca_cccv_sample
-
     trigger cust_parse_action
     trigger load_system_props_action
     trigger charger-config-usb_gadget
@@ -88,26 +73,9 @@ on charger
     start oeminfo_nvm
     start teecd
 
-    chmod 0660 /sys/devices/virtual/hw_power/power_mesg/powerct
-    chown system system /sys/devices/virtual/hw_power/power_mesg/powerct
-    chmod 0660 /sys/devices/virtual/hw_power/power_mesg/runtime
-    chown system system /sys/devices/virtual/hw_power/power_mesg/runtime
-    chmod 0440 /sys/devices/platform/huawei_batt_info/ic_id
-    chown system system /sys/devices/platform/huawei_batt_info/ic_id
-    chmod 0440 /sys/devices/platform/huawei_batt_info/batt_id
-    chown system system /sys/devices/platform/huawei_batt_info/batt_id
-    chmod 0440 /sys/devices/platform/huawei_batt_info/ic_status
-    chown system system /sys/devices/platform/huawei_batt_info/ic_status
-    chmod 0440 /sys/devices/platform/huawei_batt_info/sn_status
-    chown system system /sys/devices/platform/huawei_batt_info/sn_status
-    chmod 0440 /sys/devices/platform/huawei_batt_info/key_status
-    chown system system /sys/devices/platform/huawei_batt_info/key_status
-    chmod 0440 /sys/devices/platform/huawei_batt_info/official
-    chown system system /sys/devices/platform/huawei_batt_info/official
-
-    start powerct
-    start atcmdserver
-    start bsoh
+# /* adb reboot */
+on property:sys.powerctl=*
+   powerctl ${sys.powerctl}
 
 service ueventd /sbin/ueventd
     critical
@@ -115,8 +83,6 @@ service ueventd /sbin/ueventd
 
 service charger /sbin/charger -p
     class charger
-    user root
-    group root system
     critical
     seclabel u:r:charger:s0
 
@@ -129,7 +95,8 @@ on nonencrypted
 
 on data_ready
     setprop sys.userdata_is_ready 1
-    start xlogctl_service
+    start logctl_service
+    start logcat_service
     start chargemonitor
 
 on post-fs-data
@@ -166,21 +133,19 @@ service teecd /sbin/teecd
     seclabel u:r:tee:s0
 
 # /*The service, trigger, persist  associated with the log */
-service xlogctl_service /sbin/xlogcat-early -t 0
+service logctl_service /sbin/logctl_service -m 1
     class late_start
     user root
     group system
-    disabled
     oneshot
-    seclabel u:r:xlogcat:s0
+    seclabel u:r:logctlservice:s0
 
-service xlogview_service /sbin/xlogcat-early -t 2
+service logcat_service /sbin/logctl_service -m 1 -t 1
     class late_start
     user root
     group system
-    disabled
     oneshot
-    seclabel u:r:xlogcat:s0
+    seclabel u:r:logctlservice:s0
 
 service shlogd /system/vendor/bin/shs
     class late_start
@@ -206,25 +171,12 @@ service chargemonitor /system/bin/chargemonitor
     class late_start
     user system
     group system
-    oneshot
     seclabel u:r:chargemonitor:s0
 
 service atcmdserver  /vendor/bin/atcmdserver
-    group root system nfc
     disabled
 
-service oeminfo_nvm /vendor/bin/oeminfo_nvm_server
-    group system readproc root
+service oeminfo_nvm /sbin/oeminfo_nvm_server
     critical
     ioprio rt 4
     seclabel u:r:oeminfo_nvm:s0
-
-service powerct /vendor/bin/powerct
-    user system
-    group system
-    disabled
-
-service bsoh /vendor/bin/bsoh
-    user system
-    group system
-    disabled
