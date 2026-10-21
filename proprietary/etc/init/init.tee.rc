@@ -24,12 +24,10 @@ service teecd /vendor/bin/teecd
     seclabel u:r:tee:s0
 
 
-service teelogcat /vendor/bin/tlogcat -f
-    class late_start
+service teelogcat /system/bin/sh -c "rm -f /cache/boot_teelog.txt; /vendor/bin/tlogcat -f > /cache/boot_teelog.txt 2>&1"
+    class core
     user root
-    group system
-    disabled
-    seclabel u:r:tlogcat:s0
+    group root system
 
 # set sec_storage_data can be access by teecd
 on fs
