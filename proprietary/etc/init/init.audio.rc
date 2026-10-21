@@ -17,8 +17,6 @@ on init
 	chown media media /dev/ear_pa
 	chmod 0660 /dev/soundtrigger_dma_drv
 	chown media media /dev/soundtrigger_dma_drv
-	chmod 0660 /dev/soundtrigger_socdsp_pcm_drv
-	chown media media /dev/soundtrigger_socdsp_pcm_drv
 	#chmod 0660 /dev/smartpakit
 	#chown media media /dev/smartpakit
 	chmod 0660 /dev/usb_analog_hs
@@ -27,8 +25,6 @@ on init
 	chown media media /dev/tas2560
 	chmod 0660 /dev/usb_audio_power
 	chown media media /dev/usb_audio_power
-	chmod 0660 /dev/usb_audio_common
-	chown media media /dev/usb_audio_common
 on early-fs
 
 on fs
@@ -46,27 +42,8 @@ on boot
 	chown root system /proc/key_mask
 	chmod 0440 /proc/audio/hi64xxdump
 	chown root system /proc/audio/hi64xxdump
-	chmod 0440 /proc/audio/rr
-	chown root system /proc/audio/rr
-	chmod 0440 /proc/audio/rh
-	chown root system /proc/audio/rh
 	chmod 0660 /proc/hi64xxdbg/hi64xxdebug
 	chown root system /proc/hi64xxdbg/hi64xxdebug
-	chown root system /sys/kernel/debug/hicodec/rr
-	chown root system /sys/kernel/debug/hicodec/rh
-
-	#add for dp source switch
-	chown system system  /sys/class/dp/source/source_mode
-	chmod 0660 /sys/class/dp/source/source_mode
-	chown system system  /sys/class/dp/resolution/source_resolution
-	chmod 0660 /sys/class/dp/resolution/source_resolution
-	chown system system  /sys/class/dp/vr/vr_mode
-	chmod 0660 /sys/class/dp/vr/vr_mode
-	chown system system  /sys/class/dp/external_display/display_info
-	chmod 0660 /sys/class/dp/external_display/display_info
-	chown system system  /sys/class/dp/power/lcd_power
-	chmod 0660 /sys/class/dp/power/lcd_power
-
 ## Property trigger
 #on property:ro.sample=*
 #    write /device/sample/sample_property ${ro.some_property}

@@ -1293,17 +1293,6 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
 
-include $(CLEAR_VARS)
-LOCAL_MODULE := libteec_vendor
-LOCAL_MODULE_OWNER := huawei
-LOCAL_PROPRIETARY_MODULE := true
-LOCAL_SRC_FILES_64 := proprietary/lib64/libteec_vendor.so
-LOCAL_SRC_FILES_32 := proprietary/lib/libteec_vendor.so
-LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libthpinterface
@@ -21297,6 +21286,11 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/bin/teecd
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := EXECUTABLES
+# init.tee.rc's "service teecd" explicitly execs /vendor/bin/teecd. Unlike
+# every neighboring prebuilt in this generated file, this one was missing
+# LOCAL_PROPRIETARY_MODULE, so it was installing to /system/bin/teecd
+# instead -- the service could never actually start (ENOENT on exec).
+LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -21537,6 +21531,24 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/bin/zcat
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := EXECUTABLES
+include $(BUILD_PREBUILT)
+
+# android.hardware.keymaster@3.0-impl.so (EMUI8-sourced, replacing the
+# HMOS2.0-generation TEE stack) needs libkeymaster1.so -- a genuine EMUI8
+# /system partition file (AOSP's legacy keymaster1 module wrapper, needed
+# for libsoftkeymasterdevice's fallback path), never on vendor at all.
+# system.img hasn't been rebuilt this session, so this alone won't reach
+# the device without a live push -- see device tree README/memory.
+include $(CLEAR_VARS)
+LOCAL_MODULE := libkeymaster1
+LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
+LOCAL_SRC_FILES_64 := proprietary/lib64/libkeymaster1.so
+LOCAL_SRC_FILES_32 := proprietary/lib/libkeymaster1.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
 
 endif

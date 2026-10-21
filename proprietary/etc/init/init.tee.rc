@@ -19,9 +19,9 @@ service teeauth /system/bin/tee_auth_daemon
     seclabel u:r:system_teecd:s0
 
 service teecd /vendor/bin/teecd
-    class early_hal
+    class core
     user root
-    group root system readproc
+    group root readproc
     seclabel u:r:tee:s0
 
 
