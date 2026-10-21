@@ -21566,4 +21566,42 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := EXECUTABLES
 include $(BUILD_PREBUILT)
 
+# EMUI8-ABI keymaster support libs: LOS16 libsoftkeymasterdevice lacks the old
+# SoftKeymasterContext::ParseKeyBlob signature the EMUI8 impl links against.
+include $(CLEAR_VARS)
+LOCAL_MODULE := libsoftkeymasterdevice
+LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
+LOCAL_SRC_FILES_64 := proprietary/lib64/libsoftkeymasterdevice.so
+LOCAL_SRC_FILES_32 := proprietary/lib/libsoftkeymasterdevice.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libkeymaster_messages
+LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
+LOCAL_SRC_FILES_64 := proprietary/lib64/libkeymaster_messages.so
+LOCAL_SRC_FILES_32 := proprietary/lib/libkeymaster_messages.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+# libtuidaemon: needed by /system/bin/system_teecd (EMUI8 /system lib)
+include $(CLEAR_VARS)
+LOCAL_MODULE := libtuidaemon
+LOCAL_MODULE_OWNER := huawei
+LOCAL_SRC_FILES_64 := system_teecd_extract/lib64/libtuidaemon.so
+LOCAL_SRC_FILES_32 := system_teecd_extract/lib/libtuidaemon.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
 endif
