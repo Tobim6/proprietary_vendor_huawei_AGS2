@@ -3645,4 +3645,7 @@ PRODUCT_PACKAGES += \
     hisi_cfg_ags2_w09b_hisi \
     hisi_cfg_ags2_w09c_hisi \
     hisi_cfg_ags2_w19_hisi \
-    hisi_cfg_ags2_w19b_hisi
+    hisi_cfg_ags2_w19b_hisi \
+    libkeymaster1_emui8 \
+    libsoftkeymasterdevice_emui8 \
+    libkeymaster_messages_emui8

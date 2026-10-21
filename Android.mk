@@ -21546,7 +21546,8 @@ include $(BUILD_PREBUILT)
 # system.img hasn't been rebuilt this session, so this alone won't reach
 # the device without a live push -- see device tree README/memory.
 include $(CLEAR_VARS)
-LOCAL_MODULE := libkeymaster1
+LOCAL_MODULE := libkeymaster1_emui8
+LOCAL_MODULE_STEM := libkeymaster1
 LOCAL_MODULE_OWNER := huawei
 LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libkeymaster1.so
@@ -21575,7 +21576,8 @@ include $(BUILD_PREBUILT)
 # EMUI8-ABI keymaster support libs: LOS16 libsoftkeymasterdevice lacks the old
 # SoftKeymasterContext::ParseKeyBlob signature the EMUI8 impl links against.
 include $(CLEAR_VARS)
-LOCAL_MODULE := libsoftkeymasterdevice
+LOCAL_MODULE := libsoftkeymasterdevice_emui8
+LOCAL_MODULE_STEM := libsoftkeymasterdevice
 LOCAL_MODULE_OWNER := huawei
 LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libsoftkeymasterdevice.so
@@ -21587,7 +21589,8 @@ LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libkeymaster_messages
+LOCAL_MODULE := libkeymaster_messages_emui8
+LOCAL_MODULE_STEM := libkeymaster_messages
 LOCAL_MODULE_OWNER := huawei
 LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libkeymaster_messages.so
