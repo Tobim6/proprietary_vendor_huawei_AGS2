@@ -21616,4 +21616,16 @@ LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)
 include $(BUILD_PREBUILT)
 
+# Vendor-side TEEOS native-CA whitelist (holds the vendor HAL services, e.g. gatekeeper).
+# Binary .xml: the old extraction categorizer dropped it. Stem keeps the on-device name.
+include $(CLEAR_VARS)
+LOCAL_MODULE := vendor_native_packages.xml
+LOCAL_MODULE_STEM := native_packages.xml
+LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
+LOCAL_SRC_FILES := proprietary/etc/native_packages.xml
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+include $(BUILD_PREBUILT)
+
 endif
