@@ -1,1 +1,1 @@
-import /vendor/etc/init/connectivity/init.connectivity.${ro.connectivity.sub_chiptype}.rc
+import /vendor/etc/init/connectivity/init.connectivity.hi1102.rc

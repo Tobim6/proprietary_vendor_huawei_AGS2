@@ -1,4 +1,6 @@
-import /vendor/etc/init/connectivity/init.connectivity.${ro.connectivity.chiptype}.rc
+# Properties from /vendor/build.prop are loaded after rc parsing (load_system_props runs at post-fs), so the
+# ${ro.connectivity.chiptype} expansion always failed; stock init sets it from the DT. AGS2 is Hi1102 (hisi).
+import /vendor/etc/init/connectivity/init.connectivity.hisi.rc
 
 on post-fs-data
 	mkdir /data/misc/wifi 0770 wifi wifi

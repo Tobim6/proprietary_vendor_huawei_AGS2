@@ -22538,4 +22538,105 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
 
+
+# Hi1102 connectivity (BT/WiFi/GNSS) board config; the driver opens /vendor/etc/cfg_<product>_hisi.ini
+include $(CLEAR_VARS)
+LOCAL_MODULE := hisi_cfg_ags2_al00b_hisi
+LOCAL_MODULE_STEM := cfg_ags2_al00b_hisi.ini
+LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
+LOCAL_SRC_FILES := proprietary/etc/cfg_ags2_al00b_hisi.ini
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_SUFFIX :=
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := hisi_cfg_ags2_hisi
+LOCAL_MODULE_STEM := cfg_ags2_hisi.ini
+LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
+LOCAL_SRC_FILES := proprietary/etc/cfg_ags2_hisi.ini
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_SUFFIX :=
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := hisi_cfg_ags2_l03_hisi
+LOCAL_MODULE_STEM := cfg_ags2_l03_hisi.ini
+LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
+LOCAL_SRC_FILES := proprietary/etc/cfg_ags2_l03_hisi.ini
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_SUFFIX :=
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := hisi_cfg_ags2_l03b_hisi
+LOCAL_MODULE_STEM := cfg_ags2_l03b_hisi.ini
+LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
+LOCAL_SRC_FILES := proprietary/etc/cfg_ags2_l03b_hisi.ini
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_SUFFIX :=
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := hisi_cfg_ags2_w09_hisi
+LOCAL_MODULE_STEM := cfg_ags2_w09_hisi.ini
+LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
+LOCAL_SRC_FILES := proprietary/etc/cfg_ags2_w09_hisi.ini
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_SUFFIX :=
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := hisi_cfg_ags2_w09b_hisi
+LOCAL_MODULE_STEM := cfg_ags2_w09b_hisi.ini
+LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
+LOCAL_SRC_FILES := proprietary/etc/cfg_ags2_w09b_hisi.ini
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_SUFFIX :=
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := hisi_cfg_ags2_w09c_hisi
+LOCAL_MODULE_STEM := cfg_ags2_w09c_hisi.ini
+LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
+LOCAL_SRC_FILES := proprietary/etc/cfg_ags2_w09c_hisi.ini
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_SUFFIX :=
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := hisi_cfg_ags2_w19_hisi
+LOCAL_MODULE_STEM := cfg_ags2_w19_hisi.ini
+LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
+LOCAL_SRC_FILES := proprietary/etc/cfg_ags2_w19_hisi.ini
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_SUFFIX :=
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := hisi_cfg_ags2_w19b_hisi
+LOCAL_MODULE_STEM := cfg_ags2_w19b_hisi.ini
+LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
+LOCAL_SRC_FILES := proprietary/etc/cfg_ags2_w19b_hisi.ini
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_SUFFIX :=
+include $(BUILD_PREBUILT)
+
 endif
