@@ -3631,4 +3631,7 @@ PRODUCT_PACKAGES += \
     vendor.huawei.hardware.hwsched@1.0-impl \
     vendor.huawei.hardware.libteec@1.0-impl \
     vendor.huawei.hardware.sensors@1.0-impl \
-    libdevice_status_api
+    libdevice_status_api \
+    android.hidl.base@1.0-emui8 \
+    libtinyxml2_emui8 \
+    android.hardware.audio.common@2.0-util_emui8
