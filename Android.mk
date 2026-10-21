@@ -22079,8 +22079,9 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_PROPRIETARY_MODULE := true
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
+LOCAL_SRC_FILES_64 := proprietary/lib64/hw/audio.primary.hisi.so
 LOCAL_SRC_FILES_32 := proprietary/lib/hw/audio.primary.hisi.so
-LOCAL_MULTILIB := 32
+LOCAL_MULTILIB := both
 LOCAL_MODULE_RELATIVE_PATH := hw
 LOCAL_MODULE_TAGS := optional
 include $(BUILD_PREBUILT)
