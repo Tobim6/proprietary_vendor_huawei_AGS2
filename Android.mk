@@ -21551,4 +21551,19 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
 
+# /system/bin/system_teecd -- EMUI8's real CA (client authentication) daemon
+# for libteec.so's "connect ca daemon" handshake. init.tee.rc's "system_teecd"
+# service execs this; without it, every TEE client (gatekeeper, keymaster,
+# teecd itself) fails with "connect ca daemon failed with system_teecd" ->
+# "Initialize TEE context failed". Genuinely a /system file in stock EMUI8
+# (confirmed via its own file_contexts: system_teecd_exec), not vendor --
+# same system.img-not-rebuilt caveat as libkeymaster1 above.
+include $(CLEAR_VARS)
+LOCAL_MODULE := system_teecd
+LOCAL_MODULE_OWNER := huawei
+LOCAL_SRC_FILES := system_teecd_extract/system_teecd
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := EXECUTABLES
+include $(BUILD_PREBUILT)
+
 endif

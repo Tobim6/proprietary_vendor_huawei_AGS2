@@ -10,13 +10,12 @@ on init
     chmod 0400 /dev/hisi_teelog
 
 #secure os tee agent
-service teeauth /system/bin/tee_auth_daemon
+service system_teecd /system/bin/system_teecd
     socket tui_daemon stream 660 root system
     socket tee-multi-user stream 660 root system
     class core
     user root
-    group root system readproc
-    seclabel u:r:system_teecd:s0
+    group root readproc
 
 service teecd /vendor/bin/teecd
     class core
