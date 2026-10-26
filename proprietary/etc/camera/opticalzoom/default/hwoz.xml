@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="GB2312"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Config>
 
 	<Capture>
-		<FrameStrategy>  <!-- ¶þ½øÖÆÐòÁÐ£¬´Ó×óµ½ÓÒ£¬·Ö±ð±íÊ¾¸±cameraÓÐÎÞÕÚµ²<1ÓÐ£¬0ÎÞ>£¬µÍÁÁ¶È»òÕß¸ßÁÁ¶È<1µÍÕÕ¶È£¬0¸ßÁÁ¶È>£¬ÊÇ·ñÐ¡ÓÚÓÒ×ósensor·Ö±æÂÊ±¶ÂÊ<1Ð¡ÓÚµÈÓÚ£¬0´óÓÚ> -->
+		<FrameStrategy>  <!-- äºŒè¿›åˆ¶åºåˆ—ï¼Œä»Žå·¦åˆ°å³ï¼Œåˆ†åˆ«è¡¨ç¤ºå‰¯cameraæœ‰æ— é®æŒ¡<1æœ‰ï¼Œ0æ— >ï¼Œä½Žäº®åº¦æˆ–è€…é«˜äº®åº¦<1ä½Žç…§åº¦ï¼Œ0é«˜äº®åº¦>ï¼Œæ˜¯å¦å°äºŽå³å·¦sensoråˆ†è¾¨çŽ‡å€çŽ‡<1å°äºŽç­‰äºŽï¼Œ0å¤§äºŽ> -->
 			<Scene SceneIndex="0" ColorFrames="4" MonoFrames="4"/>
 			<Scene SceneIndex="1" ColorFrames="4" MonoFrames="4"/>
 			<Scene SceneIndex="2" ColorFrames="4" MonoFrames="4"/>

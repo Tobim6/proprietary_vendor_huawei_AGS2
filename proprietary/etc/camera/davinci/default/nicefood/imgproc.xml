@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="GB2312"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Config>
     <Global>
         <InvalidYuvCorrec>0</InvalidYuvCorrec>
@@ -392,12 +392,12 @@
 
     <ColorManagement>
         <hueShift>
-            <size>15</size><!--hueShiftµÄÊý¾Ý³¤¶È-->
-            <params> 0 0 0 42 43 3 85 85 7 127 127 10 170 171 0 </params> <!--Èý¸öÒ»×é£¬²»³¬¹ý10×é-->
+            <size>15</size><!--hueShiftçš„æ•°æ®é•¿åº¦-->
+            <params> 0 0 0 42 43 3 85 85 7 127 127 10 170 171 0 </params> <!--ä¸‰ä¸ªä¸€ç»„ï¼Œä¸è¶…è¿‡10ç»„-->
         </hueShift>
         <satGain>
-            <size>2</size><!--satGainµÄÊý¾Ý³¤¶È-->
-            <params>175 190</params> <!--µÚÒ»¸öÊÇÓÃÓÚµ÷½Ú±¥ºÍ¶ÈÔöÇ¿³Ì¶È£¬È¡Öµ·¶Î§[128,255], µÚ¶þ¸ö²ÎÊýÓÃÓÚ´¿É«±£»¤-->
+            <size>2</size><!--satGainçš„æ•°æ®é•¿åº¦-->
+            <params>175 190</params> <!--ç¬¬ä¸€ä¸ªæ˜¯ç”¨äºŽè°ƒèŠ‚é¥±å’Œåº¦å¢žå¼ºç¨‹åº¦ï¼Œå–å€¼èŒƒå›´[128,255], ç¬¬äºŒä¸ªå‚æ•°ç”¨äºŽçº¯è‰²ä¿æŠ¤-->
         </satGain>
     </ColorManagement>
 
