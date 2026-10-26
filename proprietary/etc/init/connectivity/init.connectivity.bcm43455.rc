@@ -78,13 +78,4 @@ service wpa_supplicant /vendor/bin/hw/wpa_supplicant -d \
     disabled
     oneshot
 
-service hostapd /vendor/bin/hostapd \
-        -e /data/misc/wifi/entropy.bin \
-        /data/misc/wifi/hostapd.conf
-    class main
-    user wifi
-    group wifi
-    writepid /data/misc/wifi/hostapd.pid
-    disabled
-    oneshot
 

@@ -1494,7 +1494,7 @@ PRODUCT_PACKAGES += \
     libsmartpakit \
     libstp \
     libtpp \
-    libwpa_client \
+    libwpa_client_emui8 \
     libaptXHD_encoder \
     libaptX_encoder \
     libarcsoft_beautyshot \

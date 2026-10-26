@@ -3043,7 +3043,8 @@ LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libwpa_client
+LOCAL_MODULE := libwpa_client_emui8
+LOCAL_MODULE_STEM := libwpa_client
 LOCAL_MODULE_OWNER := huawei
 LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES := proprietary/lib64/libwpa_client.so
