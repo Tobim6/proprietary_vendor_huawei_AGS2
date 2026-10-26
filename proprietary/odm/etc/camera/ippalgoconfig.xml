@@ -2,7 +2,7 @@
 <IppConfig>
 	<IppAlgo name="ColorReverser" switcher="0" ></IppAlgo>
 	<IppAlgo name="FaceDetection" switcher="1" ></IppAlgo>
-	<IppAlgo name="SceneDetection" switcher="1" ></IppAlgo>
+	<IppAlgo name="SceneDetection" switcher="0" ></IppAlgo>
 	<IppAlgo name="VideoStabilization" switcher="0" ></IppAlgo>
 	<IppAlgo name="TargetTracking" switcher="1" ></IppAlgo>
 	<IppAlgo name="MirrorDenoise" switcher="1" ></IppAlgo>
