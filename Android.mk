@@ -19475,6 +19475,7 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/bin/CameraDaemon
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := EXECUTABLES
+LOCAL_MODULE_STEM := CameraDaemon
 LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
 
@@ -20068,6 +20069,7 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/bin/gnss_control_hisi
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := EXECUTABLES
+LOCAL_MODULE_STEM := gnss_control_hisi
 LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
 
@@ -20077,6 +20079,7 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/bin/gnss_engine_hisi
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := EXECUTABLES
+LOCAL_MODULE_STEM := gnss_engine_hisi
 LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
 
@@ -20086,6 +20089,7 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/bin/gnss_supl20clientd_hisi
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := EXECUTABLES
+LOCAL_MODULE_STEM := gnss_supl20clientd_hisi
 LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
 
@@ -20231,6 +20235,7 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/bin/hw/vendor.huawei.hardware.audio@4.0-service
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := EXECUTABLES
+LOCAL_MODULE_STEM := vendor.huawei.hardware.audio@4.0-service
 LOCAL_PROPRIETARY_MODULE := true
 LOCAL_MODULE_RELATIVE_PATH := hw
 include $(BUILD_PREBUILT)
@@ -20286,6 +20291,7 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/bin/hw/vendor.huawei.hardware.graphics.displayeffect@1.0-service
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := EXECUTABLES
+LOCAL_MODULE_STEM := vendor.huawei.hardware.graphics.displayeffect@1.0-service
 LOCAL_PROPRIETARY_MODULE := true
 LOCAL_MODULE_RELATIVE_PATH := hw
 include $(BUILD_PREBUILT)
@@ -20296,6 +20302,7 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/bin/hw/vendor.huawei.hardware.graphics.mediacomm@2.0-service
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := EXECUTABLES
+LOCAL_MODULE_STEM := vendor.huawei.hardware.graphics.mediacomm@2.0-service
 LOCAL_PROPRIETARY_MODULE := true
 LOCAL_MODULE_RELATIVE_PATH := hw
 include $(BUILD_PREBUILT)
@@ -20306,6 +20313,7 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/bin/hw/vendor.huawei.hardware.hisupl@1.0-service
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := EXECUTABLES
+LOCAL_MODULE_STEM := vendor.huawei.hardware.hisupl@1.0-service
 LOCAL_PROPRIETARY_MODULE := true
 LOCAL_MODULE_RELATIVE_PATH := hw
 include $(BUILD_PREBUILT)
@@ -20325,6 +20333,7 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/bin/hw/vendor.huawei.hardware.hwdisplay@1.0-service
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := EXECUTABLES
+LOCAL_MODULE_STEM := vendor.huawei.hardware.hwdisplay@1.0-service
 LOCAL_PROPRIETARY_MODULE := true
 LOCAL_MODULE_RELATIVE_PATH := hw
 include $(BUILD_PREBUILT)
@@ -20335,6 +20344,7 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/bin/hw/vendor.huawei.hardware.hwfactoryinterface@1.1-service
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := EXECUTABLES
+LOCAL_MODULE_STEM := vendor.huawei.hardware.hwfactoryinterface@1.1-service
 LOCAL_PROPRIETARY_MODULE := true
 LOCAL_MODULE_RELATIVE_PATH := hw
 include $(BUILD_PREBUILT)
@@ -20345,6 +20355,7 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/bin/hw/vendor.huawei.hardware.hwfs@1.0-service
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := EXECUTABLES
+LOCAL_MODULE_STEM := vendor.huawei.hardware.hwfs@1.0-service
 LOCAL_PROPRIETARY_MODULE := true
 LOCAL_MODULE_RELATIVE_PATH := hw
 include $(BUILD_PREBUILT)
@@ -20382,6 +20393,7 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/bin/hw/vendor.huawei.hardware.hwvibrator@1.0-service
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := EXECUTABLES
+LOCAL_MODULE_STEM := vendor.huawei.hardware.hwvibrator@1.0-service
 LOCAL_PROPRIETARY_MODULE := true
 LOCAL_MODULE_RELATIVE_PATH := hw
 include $(BUILD_PREBUILT)
@@ -20392,6 +20404,7 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/bin/hw/vendor.huawei.hardware.iawareperf@1.0-service
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := EXECUTABLES
+LOCAL_MODULE_STEM := vendor.huawei.hardware.iawareperf@1.0-service
 LOCAL_PROPRIETARY_MODULE := true
 LOCAL_MODULE_RELATIVE_PATH := hw
 include $(BUILD_PREBUILT)
@@ -20420,6 +20433,7 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/bin/hw/vendor.huawei.hardware.light@2.0-service
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := EXECUTABLES
+LOCAL_MODULE_STEM := vendor.huawei.hardware.light@2.0-service
 LOCAL_PROPRIETARY_MODULE := true
 LOCAL_MODULE_RELATIVE_PATH := hw
 include $(BUILD_PREBUILT)
@@ -20457,6 +20471,7 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/bin/hw/vendor.huawei.hardware.power@1.0-service
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := EXECUTABLES
+LOCAL_MODULE_STEM := vendor.huawei.hardware.power@1.0-service
 LOCAL_PROPRIETARY_MODULE := true
 LOCAL_MODULE_RELATIVE_PATH := hw
 include $(BUILD_PREBUILT)
@@ -20476,6 +20491,7 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/bin/hw/vendor.huawei.hardware.tp@1.0-service
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := EXECUTABLES
+LOCAL_MODULE_STEM := vendor.huawei.hardware.tp@1.0-service
 LOCAL_PROPRIETARY_MODULE := true
 LOCAL_MODULE_RELATIVE_PATH := hw
 include $(BUILD_PREBUILT)
@@ -20486,6 +20502,7 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/bin/hw/vendor.huawei.hardware.wifi@1.1-service
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := EXECUTABLES
+LOCAL_MODULE_STEM := vendor.huawei.hardware.wifi@1.1-service
 LOCAL_PROPRIETARY_MODULE := true
 LOCAL_MODULE_RELATIVE_PATH := hw
 include $(BUILD_PREBUILT)
@@ -20504,6 +20521,7 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/bin/hwemerffu
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := EXECUTABLES
+LOCAL_MODULE_STEM := hwemerffu
 LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
 
@@ -20665,6 +20683,7 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/bin/mac_addr_normalization
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := EXECUTABLES
+LOCAL_MODULE_STEM := mac_addr_normalization
 LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
 
@@ -20858,6 +20877,7 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/bin/oam_hisi
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := EXECUTABLES
+LOCAL_MODULE_STEM := oam_hisi
 LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
 
@@ -20867,6 +20887,7 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/bin/octty
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := EXECUTABLES
+LOCAL_MODULE_STEM := octty
 LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
 
@@ -21252,6 +21273,7 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/bin/start_connectivity_hisi
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := EXECUTABLES
+LOCAL_MODULE_STEM := start_connectivity_hisi
 LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
 
@@ -21277,6 +21299,7 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/bin/storage_info
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := EXECUTABLES
+LOCAL_MODULE_STEM := storage_info
 LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
 
@@ -21427,6 +21450,7 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/bin/tlogcat
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := EXECUTABLES
+LOCAL_MODULE_STEM := tlogcat
 LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
 
