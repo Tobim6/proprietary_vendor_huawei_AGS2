@@ -1062,7 +1062,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/AGS2/proprietary/vendor/firmware/hifi_6402_tas4smartpa.img:$(TARGET_COPY_OUT_VENDOR)/firmware/hifi_6402_tas4smartpa.img \
     vendor/huawei/AGS2/proprietary/vendor/firmware/hifi_6402_tas4smartpa_no_wakeup_aec.img:$(TARGET_COPY_OUT_VENDOR)/firmware/hifi_6402_tas4smartpa_no_wakeup_aec.img \
     vendor/huawei/AGS2/proprietary/vendor/firmware/isp_bw.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/isp_bw.elf \
-    vendor/huawei/AGS2/proprietary/vendor/firmware/isp_dts.img:$(TARGET_COPY_OUT_VENDOR)/firmware/isp_dts.img \
+    vendor/huawei/AGS2/proprietary/system/etc/firmware/isp_dts.img:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/isp_dts.img \
     vendor/huawei/AGS2/proprietary/vendor/firmware/isp_fw.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/isp_fw.elf \
     vendor/huawei/AGS2/proprietary/vendor/firmware/libpn548ad_fw.so:$(TARGET_COPY_OUT_VENDOR)/firmware/libpn548ad_fw.so \
     vendor/huawei/AGS2/proprietary/vendor/firmware/libpn548ad_fw_10.01.1C_64bits.so:$(TARGET_COPY_OUT_VENDOR)/firmware/libpn548ad_fw_10.01.1C_64bits.so \
