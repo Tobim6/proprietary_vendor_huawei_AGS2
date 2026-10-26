@@ -22498,6 +22498,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libtinyxml2_emui8
 LOCAL_MODULE_STEM := libtinyxml2_emui8
+LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := huawei
 LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libtinyxml2_emui8.so
@@ -22511,6 +22512,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := android.hardware.audio.common@2.0-util_emui8
 LOCAL_MODULE_STEM := android.hardware.audio.common@2.0-util_emui8
+LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := huawei
 LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/android.hardware.audio.common@2.0-util_emui8.so
