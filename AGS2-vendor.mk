@@ -3633,6 +3633,20 @@ PRODUCT_PACKAGES += \
     libdevice_status_api \
     android.hidl.base@1.0-emui8 \
     libtinyxml2_emui8 \
+    android.hardware.keymaster@3.0-service_emui8 \
+    rc_android.hardware.keymaster@3.0-service_emui8 \
+    android.hardware.gatekeeper@1.0-service_emui8 \
+    rc_android.hardware.gatekeeper@1.0-service_emui8 \
+    android.hardware.graphics.allocator@2.0-service_emui8 \
+    rc_android.hardware.graphics.allocator@2.0-service_emui8 \
+    android.hardware.graphics.composer@2.1-service_emui8 \
+    rc_android.hardware.graphics.composer@2.1-service_emui8 \
+    android.hardware.health@1.0-service_emui8 \
+    rc_android.hardware.health@1.0-service_emui8 \
+    android.hardware.graphics.composer@2.1-impl_emui8 \
+    android.hardware.health@1.0-impl_emui8 \
+    libhilog_emui8 \
+    libhwc2on1adapter_emui8 \
     system_teecd \
     libtuidaemon \
     native_packages.xml \

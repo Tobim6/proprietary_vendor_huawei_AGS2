@@ -17408,7 +17408,10 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/init/connectivity/init.connectivity.hi1102.rc
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .rc
+LOCAL_PROPRIETARY_MODULE := true
+LOCAL_MODULE_STEM := init.connectivity.hi1102.rc
+LOCAL_MODULE_SUFFIX :=
+LOCAL_MODULE_RELATIVE_PATH := init/connectivity
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -17453,7 +17456,10 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/init/init.audio.rc
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .rc
+LOCAL_PROPRIETARY_MODULE := true
+LOCAL_MODULE_STEM := init.audio.rc
+LOCAL_MODULE_SUFFIX :=
+LOCAL_MODULE_RELATIVE_PATH := init
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -17462,7 +17468,10 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/init/init.balong_modem.rc
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .rc
+LOCAL_PROPRIETARY_MODULE := true
+LOCAL_MODULE_STEM := init.balong_modem.rc
+LOCAL_MODULE_SUFFIX :=
+LOCAL_MODULE_RELATIVE_PATH := init
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -17471,7 +17480,10 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/init/init.connectivity.rc
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .rc
+LOCAL_PROPRIETARY_MODULE := true
+LOCAL_MODULE_STEM := init.connectivity.rc
+LOCAL_MODULE_SUFFIX :=
+LOCAL_MODULE_RELATIVE_PATH := init
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -17480,7 +17492,10 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/init/init.device.rc
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .rc
+LOCAL_PROPRIETARY_MODULE := true
+LOCAL_MODULE_STEM := init.device.rc
+LOCAL_MODULE_SUFFIX :=
+LOCAL_MODULE_RELATIVE_PATH := init
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -17489,7 +17504,10 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/init/init.extmodem.rc
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .rc
+LOCAL_PROPRIETARY_MODULE := true
+LOCAL_MODULE_STEM := init.extmodem.rc
+LOCAL_MODULE_SUFFIX :=
+LOCAL_MODULE_RELATIVE_PATH := init
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -17498,7 +17516,10 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/init/init.hisi.rc
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .rc
+LOCAL_PROPRIETARY_MODULE := true
+LOCAL_MODULE_STEM := init.hisi.rc
+LOCAL_MODULE_SUFFIX :=
+LOCAL_MODULE_RELATIVE_PATH := init
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -17507,7 +17528,10 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/init/init.ko.rc
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .rc
+LOCAL_PROPRIETARY_MODULE := true
+LOCAL_MODULE_STEM := init.ko.rc
+LOCAL_MODULE_SUFFIX :=
+LOCAL_MODULE_RELATIVE_PATH := init
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -17516,7 +17540,10 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/init/init.manufacture.rc
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .rc
+LOCAL_PROPRIETARY_MODULE := true
+LOCAL_MODULE_STEM := init.manufacture.rc
+LOCAL_MODULE_SUFFIX :=
+LOCAL_MODULE_RELATIVE_PATH := init
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -17525,7 +17552,10 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/init/init.performance.rc
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .rc
+LOCAL_PROPRIETARY_MODULE := true
+LOCAL_MODULE_STEM := init.performance.rc
+LOCAL_MODULE_SUFFIX :=
+LOCAL_MODULE_RELATIVE_PATH := init
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -17534,7 +17564,10 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/init/init.platform.rc
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .rc
+LOCAL_PROPRIETARY_MODULE := true
+LOCAL_MODULE_STEM := init.platform.rc
+LOCAL_MODULE_SUFFIX :=
+LOCAL_MODULE_RELATIVE_PATH := init
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -17543,7 +17576,10 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/init/init.post-fs-data.rc
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .rc
+LOCAL_PROPRIETARY_MODULE := true
+LOCAL_MODULE_STEM := init.post-fs-data.rc
+LOCAL_MODULE_SUFFIX :=
+LOCAL_MODULE_RELATIVE_PATH := init
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -17552,7 +17588,10 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/init/init.protocol.rc
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .rc
+LOCAL_PROPRIETARY_MODULE := true
+LOCAL_MODULE_STEM := init.protocol.rc
+LOCAL_MODULE_SUFFIX :=
+LOCAL_MODULE_RELATIVE_PATH := init
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -17570,7 +17609,10 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/init/init.tee.rc
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .rc
+LOCAL_PROPRIETARY_MODULE := true
+LOCAL_MODULE_STEM := init.tee.rc
+LOCAL_MODULE_SUFFIX :=
+LOCAL_MODULE_RELATIVE_PATH := init
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -17615,7 +17657,10 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/init/vendor.huawei.hardware.audio@4.0-service.rc
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .rc
+LOCAL_PROPRIETARY_MODULE := true
+LOCAL_MODULE_STEM := vendor.huawei.hardware.audio@4.0-service.rc
+LOCAL_MODULE_SUFFIX :=
+LOCAL_MODULE_RELATIVE_PATH := init
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -22650,3 +22695,175 @@ LOCAL_MODULE_SUFFIX :=
 include $(BUILD_PREBUILT)
 
 endif
+
+# EMUI8 HAL services whose generic names collided with AOSP modules (commit b0f5ee2 dropped them outright, so a clean
+# build had no keymaster/gatekeeper/display/health services at all). Unique module names, same stems/paths.
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := android.hardware.keymaster@3.0-service_emui8
+LOCAL_MODULE_STEM := android.hardware.keymaster@3.0-service
+LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
+LOCAL_SRC_FILES := proprietary/bin/hw/android.hardware.keymaster@3.0-service
+LOCAL_MODULE_CLASS := EXECUTABLES
+LOCAL_MODULE_RELATIVE_PATH := hw
+LOCAL_MODULE_TAGS := optional
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := rc_android.hardware.keymaster@3.0-service_emui8
+LOCAL_MODULE_STEM := android.hardware.keymaster@3.0-service.rc
+LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
+LOCAL_SRC_FILES := proprietary/etc/init/android.hardware.keymaster@3.0-service.rc
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_SUFFIX :=
+LOCAL_MODULE_RELATIVE_PATH := init
+LOCAL_MODULE_TAGS := optional
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := android.hardware.gatekeeper@1.0-service_emui8
+LOCAL_MODULE_STEM := android.hardware.gatekeeper@1.0-service
+LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
+LOCAL_SRC_FILES := proprietary/bin/hw/android.hardware.gatekeeper@1.0-service
+LOCAL_MODULE_CLASS := EXECUTABLES
+LOCAL_MODULE_RELATIVE_PATH := hw
+LOCAL_MODULE_TAGS := optional
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := rc_android.hardware.gatekeeper@1.0-service_emui8
+LOCAL_MODULE_STEM := android.hardware.gatekeeper@1.0-service.rc
+LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
+LOCAL_SRC_FILES := proprietary/etc/init/android.hardware.gatekeeper@1.0-service.rc
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_SUFFIX :=
+LOCAL_MODULE_RELATIVE_PATH := init
+LOCAL_MODULE_TAGS := optional
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := android.hardware.graphics.allocator@2.0-service_emui8
+LOCAL_MODULE_STEM := android.hardware.graphics.allocator@2.0-service
+LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
+LOCAL_SRC_FILES := proprietary/bin/hw/android.hardware.graphics.allocator@2.0-service
+LOCAL_MODULE_CLASS := EXECUTABLES
+LOCAL_MODULE_RELATIVE_PATH := hw
+LOCAL_MODULE_TAGS := optional
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := rc_android.hardware.graphics.allocator@2.0-service_emui8
+LOCAL_MODULE_STEM := android.hardware.graphics.allocator@2.0-service.rc
+LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
+LOCAL_SRC_FILES := proprietary/etc/init/android.hardware.graphics.allocator@2.0-service.rc
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_SUFFIX :=
+LOCAL_MODULE_RELATIVE_PATH := init
+LOCAL_MODULE_TAGS := optional
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := android.hardware.graphics.composer@2.1-service_emui8
+LOCAL_MODULE_STEM := android.hardware.graphics.composer@2.1-service
+LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
+LOCAL_SRC_FILES := proprietary/bin/hw/android.hardware.graphics.composer@2.1-service
+LOCAL_MODULE_CLASS := EXECUTABLES
+LOCAL_MODULE_RELATIVE_PATH := hw
+LOCAL_MODULE_TAGS := optional
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := rc_android.hardware.graphics.composer@2.1-service_emui8
+LOCAL_MODULE_STEM := android.hardware.graphics.composer@2.1-service.rc
+LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
+LOCAL_SRC_FILES := proprietary/etc/init/android.hardware.graphics.composer@2.1-service.rc
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_SUFFIX :=
+LOCAL_MODULE_RELATIVE_PATH := init
+LOCAL_MODULE_TAGS := optional
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := android.hardware.health@1.0-service_emui8
+LOCAL_MODULE_STEM := android.hardware.health@1.0-service
+LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
+LOCAL_SRC_FILES := proprietary/bin/hw/android.hardware.health@1.0-service
+LOCAL_MODULE_CLASS := EXECUTABLES
+LOCAL_MODULE_RELATIVE_PATH := hw
+LOCAL_MODULE_TAGS := optional
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := rc_android.hardware.health@1.0-service_emui8
+LOCAL_MODULE_STEM := android.hardware.health@1.0-service.rc
+LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
+LOCAL_SRC_FILES := proprietary/etc/init/android.hardware.health@1.0-service.rc
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_SUFFIX :=
+LOCAL_MODULE_RELATIVE_PATH := init
+LOCAL_MODULE_TAGS := optional
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := android.hardware.graphics.composer@2.1-impl_emui8
+LOCAL_MODULE_STEM := android.hardware.graphics.composer@2.1-impl
+LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
+LOCAL_SRC_FILES_64 := proprietary/lib64/hw/android.hardware.graphics.composer@2.1-impl.so
+LOCAL_SRC_FILES_32 := proprietary/lib/hw/android.hardware.graphics.composer@2.1-impl.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_RELATIVE_PATH := hw
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := android.hardware.health@1.0-impl_emui8
+LOCAL_MODULE_STEM := android.hardware.health@1.0-impl
+LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
+LOCAL_SRC_FILES_64 := proprietary/lib64/hw/android.hardware.health@1.0-impl.so
+LOCAL_SRC_FILES_32 := proprietary/lib/hw/android.hardware.health@1.0-impl.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_RELATIVE_PATH := hw
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libhilog_emui8
+LOCAL_MODULE_STEM := libhilog
+LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
+LOCAL_SRC_FILES_64 := proprietary/lib64/libhilog.so
+LOCAL_SRC_FILES_32 := proprietary/lib/libhilog.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libhwc2on1adapter_emui8
+LOCAL_MODULE_STEM := libhwc2on1adapter
+LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
+LOCAL_SRC_FILES_64 := proprietary/lib64/libhwc2on1adapter.so
+LOCAL_SRC_FILES_32 := proprietary/lib/libhwc2on1adapter.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
