@@ -22492,13 +22492,12 @@ LOCAL_SRC_FILES_32 := proprietary/lib/android.hidl.base@1.0.so
 LOCAL_MULTILIB := both
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX :=
+LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
 # EMUI8 tinyxml2 (1-arg XMLDocument ctor); renamed so it can't clash with LOS16's libtinyxml2
 include $(CLEAR_VARS)
 LOCAL_MODULE := libtinyxml2_emui8
 LOCAL_MODULE_STEM := libtinyxml2_emui8
-LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := huawei
 LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libtinyxml2_emui8.so
@@ -22506,13 +22505,12 @@ LOCAL_SRC_FILES_32 := proprietary/lib/libtinyxml2_emui8.so
 LOCAL_MULTILIB := both
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX :=
+LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
 # EMUI8 audio util exporting Singleton<EffectMap>::sLock, needed by the audio@2.0 impl
 include $(CLEAR_VARS)
 LOCAL_MODULE := android.hardware.audio.common@2.0-util_emui8
 LOCAL_MODULE_STEM := android.hardware.audio.common@2.0-util_emui8
-LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := huawei
 LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/android.hardware.audio.common@2.0-util_emui8.so
@@ -22520,7 +22518,7 @@ LOCAL_SRC_FILES_32 := proprietary/lib/android.hardware.audio.common@2.0-util_emu
 LOCAL_MULTILIB := both
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX :=
+LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
 
 
