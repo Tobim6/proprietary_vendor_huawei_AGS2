@@ -3633,6 +3633,10 @@ PRODUCT_PACKAGES += \
     libdevice_status_api \
     android.hidl.base@1.0-emui8 \
     libtinyxml2_emui8 \
+    system_teecd \
+    libtuidaemon \
+    native_packages.xml \
+    vendor_native_packages.xml \
     android.hardware.audio.common@2.0-util_emui8 \
     libwifi-system_emui8 \
     android.hardware.wifi@1.0_emui8 \
