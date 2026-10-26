@@ -22867,3 +22867,118 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := android.hardware.bluetooth@1.0-service_emui8
+LOCAL_MODULE_STEM := android.hardware.bluetooth@1.0-service
+LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
+LOCAL_SRC_FILES := proprietary/bin/hw/android.hardware.bluetooth@1.0-service
+LOCAL_MODULE_CLASS := EXECUTABLES
+LOCAL_MODULE_RELATIVE_PATH := hw
+LOCAL_MODULE_TAGS := optional
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := rc_android.hardware.bluetooth@1.0-service_emui8
+LOCAL_MODULE_STEM := android.hardware.bluetooth@1.0-service.rc
+LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
+LOCAL_SRC_FILES := proprietary/etc/init/android.hardware.bluetooth@1.0-service.rc
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_SUFFIX :=
+LOCAL_MODULE_RELATIVE_PATH := init
+LOCAL_MODULE_TAGS := optional
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := android.hardware.memtrack@1.0-service_emui8
+LOCAL_MODULE_STEM := android.hardware.memtrack@1.0-service
+LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
+LOCAL_SRC_FILES := proprietary/bin/hw/android.hardware.memtrack@1.0-service
+LOCAL_MODULE_CLASS := EXECUTABLES
+LOCAL_MODULE_RELATIVE_PATH := hw
+LOCAL_MODULE_TAGS := optional
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := rc_android.hardware.memtrack@1.0-service_emui8
+LOCAL_MODULE_STEM := android.hardware.memtrack@1.0-service.rc
+LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
+LOCAL_SRC_FILES := proprietary/etc/init/android.hardware.memtrack@1.0-service.rc
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_SUFFIX :=
+LOCAL_MODULE_RELATIVE_PATH := init
+LOCAL_MODULE_TAGS := optional
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := android.hardware.thermal@1.0-service_emui8
+LOCAL_MODULE_STEM := android.hardware.thermal@1.0-service
+LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
+LOCAL_SRC_FILES := proprietary/bin/hw/android.hardware.thermal@1.0-service
+LOCAL_MODULE_CLASS := EXECUTABLES
+LOCAL_MODULE_RELATIVE_PATH := hw
+LOCAL_MODULE_TAGS := optional
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := rc_android.hardware.thermal@1.0-service_emui8
+LOCAL_MODULE_STEM := android.hardware.thermal@1.0-service.rc
+LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
+LOCAL_SRC_FILES := proprietary/etc/init/android.hardware.thermal@1.0-service.rc
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_SUFFIX :=
+LOCAL_MODULE_RELATIVE_PATH := init
+LOCAL_MODULE_TAGS := optional
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := android.hardware.usb@1.0-service_emui8
+LOCAL_MODULE_STEM := android.hardware.usb@1.0-service
+LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
+LOCAL_SRC_FILES := proprietary/bin/hw/android.hardware.usb@1.0-service
+LOCAL_MODULE_CLASS := EXECUTABLES
+LOCAL_MODULE_RELATIVE_PATH := hw
+LOCAL_MODULE_TAGS := optional
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := rc_android.hardware.usb@1.0-service_emui8
+LOCAL_MODULE_STEM := android.hardware.usb@1.0-service.rc
+LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
+LOCAL_SRC_FILES := proprietary/etc/init/android.hardware.usb@1.0-service.rc
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_SUFFIX :=
+LOCAL_MODULE_RELATIVE_PATH := init
+LOCAL_MODULE_TAGS := optional
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := android.hardware.drm@1.0-service_emui8
+LOCAL_MODULE_STEM := android.hardware.drm@1.0-service
+LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
+LOCAL_SRC_FILES := proprietary/bin/hw/android.hardware.drm@1.0-service
+LOCAL_MODULE_CLASS := EXECUTABLES
+LOCAL_MODULE_RELATIVE_PATH := hw
+LOCAL_MODULE_TAGS := optional
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := rc_android.hardware.drm@1.0-service_emui8
+LOCAL_MODULE_STEM := android.hardware.drm@1.0-service.rc
+LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
+LOCAL_SRC_FILES := proprietary/etc/init/android.hardware.drm@1.0-service.rc
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_SUFFIX :=
+LOCAL_MODULE_RELATIVE_PATH := init
+LOCAL_MODULE_TAGS := optional
+include $(BUILD_PREBUILT)

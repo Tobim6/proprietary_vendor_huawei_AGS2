@@ -3647,6 +3647,16 @@ PRODUCT_PACKAGES += \
     android.hardware.health@1.0-impl_emui8 \
     libhilog_emui8 \
     libhwc2on1adapter_emui8 \
+    android.hardware.bluetooth@1.0-service_emui8 \
+    rc_android.hardware.bluetooth@1.0-service_emui8 \
+    android.hardware.memtrack@1.0-service_emui8 \
+    rc_android.hardware.memtrack@1.0-service_emui8 \
+    android.hardware.thermal@1.0-service_emui8 \
+    rc_android.hardware.thermal@1.0-service_emui8 \
+    android.hardware.usb@1.0-service_emui8 \
+    rc_android.hardware.usb@1.0-service_emui8 \
+    android.hardware.drm@1.0-service_emui8 \
+    rc_android.hardware.drm@1.0-service_emui8 \
     system_teecd \
     libtuidaemon \
     native_packages.xml \
