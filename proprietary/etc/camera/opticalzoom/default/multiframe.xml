@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="gb2312"?>
 <Config>
     <Global>
         <NoiseReductionFlag>1</NoiseReductionFlag>
         <ExposureFusionFlag colorcount="4" graycount="4" minfps0="62500" minfps1="62500" maxiso0="3600" maxiso1="3600" sync="0">1</ExposureFusionFlag>
     </Global>
 
-	
+	<!--  Large one is Gain, small one is ISO, ISO : Gain = 50 : 256, ISO = Gain*50/256   -->
     <NoiseReduction>
         <ISO1>
             <isovalue>2048</isovalue>
@@ -253,10 +253,10 @@
 		<ExtraMonoBaseMean>1.7</ExtraMonoBaseMean>
 		<ExtraMonoBaseStd>1.7</ExtraMonoBaseStd>
 		<ExtraMonoBasePercent>0.9</ExtraMonoBasePercent>
-		
+		<!-- values of ISOs are *ISO value* of NoiseReduction -->
 		<ExtraMonoBaseISOs>2048 3838 4376 6784 9728 12800 16384 20480</ExtraMonoBaseISOs>
 		<ExtraMonoBaseLumaPercents>10 15 20 50 55 60 70 70</ExtraMonoBaseLumaPercents>
-		
+		<!--LumaEnhanceISOs>3200 3500 3800 4000 4500 4800 6400 7200</LumaEnhanceISOs -->
 		<LumaEnhanceISOs>16384 17920 19456 20480 23040 24576 32768 36864</LumaEnhanceISOs>
 		<LumaEnhanceGammaValues>1.0 0.85 0.8 0.75 0.75 0.7 0.7 0.7</LumaEnhanceGammaValues>
 		<LumaGlobalGhostThr>1000</LumaGlobalGhostThr>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="GB2312"?>
 <Config>
 	<ISPControl>
 		<ISO1>
@@ -54,10 +54,10 @@
 		<ISO1>		
 			<isovalue>258</isovalue>
 			<MSKR>
-			
+			<!-- MultiscaleLevel后面的参数,每种参数的个数与MultiscaleLevel的值相同,分别表示相应层的参数 -->
 				<MultiscaleLevel>1</MultiscaleLevel>
 				<CkrWs>5</CkrWs>
-				<GradientWs>5</GradientWs> 
+				<GradientWs>5</GradientWs> <!-- 5 -->
 				<CkrSF>0.8</CkrSF>
 				<SkrAlpha>0.8</SkrAlpha>
 				<SkrFilterGroup>0</SkrFilterGroup>
@@ -68,35 +68,35 @@
 				<Q1>8</Q1>
 				<Q2>25</Q2>
 				<Q3>300</Q3>
-				<SharpLevelMax>0.3</SharpLevelMax>             
+				<SharpLevelMax>0.3</SharpLevelMax>             <!-- 0表示不增强-->
 				<SharpLevelMin>0.0</SharpLevelMin>		   
 				<LPFParams1>26</LPFParams1>
 				<LPFParams2>53</LPFParams2>
-				<IsOscOn>1</IsOscOn> 
+				<IsOscOn>1</IsOscOn> <!-- 1 -->
 				<ThrL1>50</ThrL1>
-				<ThrL2>100</ThrL2> 
-				<ThrD1>50</ThrD1> 
-				<ThrD2>100</ThrD2> 
+				<ThrL2>100</ThrL2> <!-- 200 -->
+				<ThrD1>50</ThrD1> <!-- 5 -->
+				<ThrD2>100</ThrD2> <!-- 10 -->
 				<OvershootRatioMax>0.0</OvershootRatioMax>
-				<UndershootRatioMax>0.0</UndershootRatioMax>		
+				<UndershootRatioMax>0.0</UndershootRatioMax>	<!-- 0.5 -->	
 			</MSKR>
 			<EdgeEnhancement>
 				<IsSharpnessOn>1</IsSharpnessOn>
-				<Q0>1</Q0> 
-				<Q1>25</Q1> 
-				<Q2>250</Q2> 
-				<Q3>300</Q3> 
-				<SharpLevelMax>3.5</SharpLevelMax>             
-				<SharpLevelMin>1.0</SharpLevelMin>		       
+				<Q0>1</Q0> <!-- 1  1 -->
+				<Q1>25</Q1> <!-- 8  25 -->
+				<Q2>250</Q2> <!-- 25  250-->
+				<Q3>300</Q3> <!-- 300  300-->
+				<SharpLevelMax>3.5</SharpLevelMax>             <!-- 2.5    0表示不增强-->
+				<SharpLevelMin>1.0</SharpLevelMin>		       <!-- 0    0表示不增强-->
 				<LPFParams1>26</LPFParams1>
 				<LPFParams2>53</LPFParams2>
-				<IsOscOn>1</IsOscOn> 
+				<IsOscOn>1</IsOscOn> <!-- 1 -->
 				<ThrL1>50</ThrL1>
-				<ThrL2>100</ThrL2> 
-				<ThrD1>100</ThrD1> 
-				<ThrD2>200</ThrD2> 
+				<ThrL2>100</ThrL2> <!-- 200 -->
+				<ThrD1>100</ThrD1> <!-- 5 -->
+				<ThrD2>200</ThrD2> <!-- 10 -->
 				<OvershootRatioMax>0.0</OvershootRatioMax>
-				<UndershootRatioMax>0.0</UndershootRatioMax>		
+				<UndershootRatioMax>0.0</UndershootRatioMax>	<!-- 0.5 -->	
 				<OSC_TH>255</OSC_TH>
 				<HF_WEIGHT_MIN_TH>40</HF_WEIGHT_MIN_TH>
 				<HF_WEIGHT_MAX_TH>96</HF_WEIGHT_MAX_TH>
@@ -112,10 +112,10 @@
 				<LOW_TEXTURE_TH_MAX>48</LOW_TEXTURE_TH_MAX>
 			</EdgeEnhancement>
 			<TextureRecovery>
-				<EnableTextureRecovery>2</EnableTextureRecovery> 
+				<EnableTextureRecovery>2</EnableTextureRecovery> <!-- 0:disable，1：enable with input image, 2:enable with naive sharpness enhancement image,滤波器参数使用EdgeEnhancement标签下的-->
 				<NaivaSharpenLevel>6.0</NaivaSharpenLevel>
-				<Q0>2</Q0>  
-				<Q1>6</Q1>	
+				<Q0>2</Q0>  <!-- 倒几形 --> <!--2 8 16 30 -->
+				<Q1>6</Q1>	<!--2 6 24 30 -->
 				<Q2>24</Q2>
 				<Q3>30</Q3>
 			</TextureRecovery>
@@ -123,10 +123,10 @@
 		<ISO2>
 			<isovalue>516</isovalue>
 			<MSKR>
-			
+			<!-- MultiscaleLevel后面的参数,每种参数的个数与MultiscaleLevel的值相同,分别表示相应层的参数 -->
 				<MultiscaleLevel>1</MultiscaleLevel>
 				<CkrWs>5</CkrWs>
-				<GradientWs>5</GradientWs> 
+				<GradientWs>5</GradientWs> <!-- 5 -->
 				<CkrSF>0.8</CkrSF>
 				<SkrAlpha>0.8</SkrAlpha>
 				<SkrFilterGroup>0</SkrFilterGroup>
@@ -137,35 +137,35 @@
 				<Q1>8</Q1>
 				<Q2>25</Q2>
 				<Q3>300</Q3>
-				<SharpLevelMax>0.3</SharpLevelMax>             
+				<SharpLevelMax>0.3</SharpLevelMax>             <!-- 0表示不增强-->
 				<SharpLevelMin>0.0</SharpLevelMin>		   
 				<LPFParams1>26</LPFParams1>
 				<LPFParams2>53</LPFParams2>
-				<IsOscOn>1</IsOscOn> 
+				<IsOscOn>1</IsOscOn> <!-- 1 -->
 				<ThrL1>50</ThrL1>
-				<ThrL2>100</ThrL2> 
-				<ThrD1>50</ThrD1> 
-				<ThrD2>100</ThrD2> 
+				<ThrL2>100</ThrL2> <!-- 200 -->
+				<ThrD1>50</ThrD1> <!-- 5 -->
+				<ThrD2>100</ThrD2> <!-- 10 -->
 				<OvershootRatioMax>0.0</OvershootRatioMax>
-				<UndershootRatioMax>0.0</UndershootRatioMax>	
+				<UndershootRatioMax>0.0</UndershootRatioMax>	<!-- 0.5 -->
 			</MSKR>
 			<EdgeEnhancement>
 				<IsSharpnessOn>1</IsSharpnessOn>
-				<Q0>1</Q0> 
-				<Q1>25</Q1> 
-				<Q2>250</Q2> 
-				<Q3>300</Q3> 
-				<SharpLevelMax>3.5</SharpLevelMax>             
-				<SharpLevelMin>1.0</SharpLevelMin>		       
+				<Q0>1</Q0> <!-- 1  1 -->
+				<Q1>25</Q1> <!-- 8  25 -->
+				<Q2>250</Q2> <!-- 25  250-->
+				<Q3>300</Q3> <!-- 300  300-->
+				<SharpLevelMax>3.5</SharpLevelMax>             <!-- 2.5    0表示不增强-->
+				<SharpLevelMin>1.0</SharpLevelMin>		       <!-- 0    0表示不增强-->
 				<LPFParams1>26</LPFParams1>
 				<LPFParams2>53</LPFParams2>
-				<IsOscOn>1</IsOscOn> 
+				<IsOscOn>1</IsOscOn> <!-- 1 -->
 				<ThrL1>30</ThrL1>
-				<ThrL2>100</ThrL2> 
-				<ThrD1>50</ThrD1> 
-				<ThrD2>200</ThrD2> 
+				<ThrL2>100</ThrL2> <!-- 200 -->
+				<ThrD1>50</ThrD1> <!-- 5 -->
+				<ThrD2>200</ThrD2> <!-- 10 -->
 				<OvershootRatioMax>0.0</OvershootRatioMax>
-				<UndershootRatioMax>0.0</UndershootRatioMax>		
+				<UndershootRatioMax>0.0</UndershootRatioMax>	<!-- 0.5 -->	
 				<OSC_TH>255</OSC_TH>
 				<HF_WEIGHT_MIN_TH>40</HF_WEIGHT_MIN_TH>
 				<HF_WEIGHT_MAX_TH>96</HF_WEIGHT_MAX_TH>
@@ -181,9 +181,9 @@
 				<LOW_TEXTURE_TH_MAX>48</LOW_TEXTURE_TH_MAX>
 			</EdgeEnhancement>
 			<TextureRecovery>
-				<EnableTextureRecovery>2</EnableTextureRecovery> 
+				<EnableTextureRecovery>2</EnableTextureRecovery> <!-- 0:disable，1：enable with input image, 2:enable with naive sharpness enhancement image,滤波器参数使用EdgeEnhancement标签下的-->
 				<NaivaSharpenLevel>6.0</NaivaSharpenLevel>
-				<Q0>2</Q0>  
+				<Q0>2</Q0>  <!-- 倒几形 -->
 				<Q1>6</Q1>
 				<Q2>24</Q2>
 				<Q3>30</Q3>
@@ -192,10 +192,10 @@
 		<ISO3>
 			<isovalue>1200</isovalue>			
 			<MSKR>
-			
+			<!-- MultiscaleLevel后面的参数,每种参数的个数与MultiscaleLevel的值相同,分别表示相应层的参数 -->
 				<MultiscaleLevel>1</MultiscaleLevel>
 				<CkrWs>5</CkrWs>
-				<GradientWs>5</GradientWs> 
+				<GradientWs>5</GradientWs> <!-- 5 -->
 				<CkrSF>0.8</CkrSF>
 				<SkrAlpha>0.8</SkrAlpha>
 				<SkrFilterGroup>0</SkrFilterGroup>
@@ -206,35 +206,35 @@
 				<Q1>8</Q1>
 				<Q2>25</Q2>
 				<Q3>300</Q3>
-				<SharpLevelMax>0.3</SharpLevelMax>             
+				<SharpLevelMax>0.3</SharpLevelMax>             <!-- 0表示不增强-->
 				<SharpLevelMin>0.0</SharpLevelMin>		   
 				<LPFParams1>26</LPFParams1>
 				<LPFParams2>53</LPFParams2>
-				<IsOscOn>1</IsOscOn> 
+				<IsOscOn>1</IsOscOn> <!-- 1 -->
 				<ThrL1>50</ThrL1>
-				<ThrL2>100</ThrL2> 
-				<ThrD1>50</ThrD1> 
-				<ThrD2>100</ThrD2> 
+				<ThrL2>100</ThrL2> <!-- 200 -->
+				<ThrD1>50</ThrD1> <!-- 5 -->
+				<ThrD2>100</ThrD2> <!-- 10 -->
 				<OvershootRatioMax>0.0</OvershootRatioMax>
-				<UndershootRatioMax>0.0</UndershootRatioMax>		
+				<UndershootRatioMax>0.0</UndershootRatioMax>	<!-- 0.5 -->	
 			</MSKR>
 			<EdgeEnhancement>
 				<IsSharpnessOn>1</IsSharpnessOn>
-				<Q0>1</Q0> 
-				<Q1>25</Q1> 
-				<Q2>250</Q2> 
-				<Q3>300</Q3> 
-				<SharpLevelMax>2.5</SharpLevelMax>             
-				<SharpLevelMin>1.0</SharpLevelMin>		       
+				<Q0>1</Q0> <!-- 1  1 -->
+				<Q1>25</Q1> <!-- 8  25 -->
+				<Q2>250</Q2> <!-- 25  250-->
+				<Q3>300</Q3> <!-- 300  300-->
+				<SharpLevelMax>2.5</SharpLevelMax>             <!-- 2.5    0表示不增强-->
+				<SharpLevelMin>1.0</SharpLevelMin>		       <!-- 0    0表示不增强-->
 				<LPFParams1>26</LPFParams1>
 				<LPFParams2>53</LPFParams2>
-				<IsOscOn>1</IsOscOn> 
+				<IsOscOn>1</IsOscOn> <!-- 1 -->
 				<ThrL1>30</ThrL1>
-				<ThrL2>80</ThrL2> 
-				<ThrD1>50</ThrD1> 
-				<ThrD2>200</ThrD2> 
+				<ThrL2>80</ThrL2> <!-- 200 -->
+				<ThrD1>50</ThrD1> <!-- 5 -->
+				<ThrD2>200</ThrD2> <!-- 10 -->
 				<OvershootRatioMax>0.0</OvershootRatioMax>
-				<UndershootRatioMax>0.0</UndershootRatioMax>		
+				<UndershootRatioMax>0.0</UndershootRatioMax>	<!-- 0.5 -->	
 				<OSC_TH>255</OSC_TH>
 				<HF_WEIGHT_MIN_TH>40</HF_WEIGHT_MIN_TH>
 				<HF_WEIGHT_MAX_TH>96</HF_WEIGHT_MAX_TH>
@@ -250,9 +250,9 @@
 				<LOW_TEXTURE_TH_MAX>48</LOW_TEXTURE_TH_MAX>
 			</EdgeEnhancement>
 			<TextureRecovery>
-				<EnableTextureRecovery>2</EnableTextureRecovery> 
+				<EnableTextureRecovery>2</EnableTextureRecovery> <!-- 0:disable，1：enable with input image, 2:enable with naive sharpness enhancement image,滤波器参数使用EdgeEnhancement标签下的-->
 				<NaivaSharpenLevel>5.0</NaivaSharpenLevel>
-				<Q0>2</Q0>  
+				<Q0>2</Q0>  <!-- 倒几形 -->
 				<Q1>6</Q1>
 				<Q2>24</Q2>
 				<Q3>30</Q3>
@@ -261,10 +261,10 @@
 		<ISO4>
 			<isovalue>1500</isovalue>
 			<MSKR>
-			
+			<!-- MultiscaleLevel后面的参数,每种参数的个数与MultiscaleLevel的值相同,分别表示相应层的参数 -->
 				<MultiscaleLevel>1</MultiscaleLevel>
 				<CkrWs>5</CkrWs>
-				<GradientWs>5</GradientWs> 
+				<GradientWs>5</GradientWs> <!-- 5 -->
 				<CkrSF>0.8</CkrSF>
 				<SkrAlpha>0.8</SkrAlpha>
 				<SkrFilterGroup>0</SkrFilterGroup>
@@ -275,35 +275,35 @@
 				<Q1>8</Q1>
 				<Q2>25</Q2>
 				<Q3>300</Q3>
-				<SharpLevelMax>0.3</SharpLevelMax>             
+				<SharpLevelMax>0.3</SharpLevelMax>             <!-- 0表示不增强-->
 				<SharpLevelMin>0.0</SharpLevelMin>		   
 				<LPFParams1>26</LPFParams1>
 				<LPFParams2>53</LPFParams2>
-				<IsOscOn>1</IsOscOn> 
+				<IsOscOn>1</IsOscOn> <!-- 1 -->
 				<ThrL1>50</ThrL1>
-				<ThrL2>100</ThrL2> 
-				<ThrD1>50</ThrD1> 
-				<ThrD2>100</ThrD2> 
+				<ThrL2>100</ThrL2> <!-- 200 -->
+				<ThrD1>50</ThrD1> <!-- 5 -->
+				<ThrD2>100</ThrD2> <!-- 10 -->
 				<OvershootRatioMax>0.0</OvershootRatioMax>
-				<UndershootRatioMax>0.0</UndershootRatioMax>		
+				<UndershootRatioMax>0.0</UndershootRatioMax>	<!-- 0.5 -->	
 			</MSKR>
 			<EdgeEnhancement>
 				<IsSharpnessOn>1</IsSharpnessOn>
-				<Q0>1</Q0> 
-				<Q1>25</Q1> 
-				<Q2>250</Q2> 
-				<Q3>300</Q3> 
-				<SharpLevelMax>2.5</SharpLevelMax>             
-				<SharpLevelMin>1.0</SharpLevelMin>		       
+				<Q0>1</Q0> <!-- 1  1 -->
+				<Q1>25</Q1> <!-- 8  25 -->
+				<Q2>250</Q2> <!-- 25  250-->
+				<Q3>300</Q3> <!-- 300  300-->
+				<SharpLevelMax>2.5</SharpLevelMax>             <!-- 2.5    0表示不增强-->
+				<SharpLevelMin>1.0</SharpLevelMin>		       <!-- 0    0表示不增强-->
 				<LPFParams1>26</LPFParams1>
 				<LPFParams2>53</LPFParams2>
-				<IsOscOn>1</IsOscOn> 
+				<IsOscOn>1</IsOscOn> <!-- 1 -->
 				<ThrL1>30</ThrL1>
-				<ThrL2>80</ThrL2> 
-				<ThrD1>50</ThrD1> 
-				<ThrD2>200</ThrD2> 
+				<ThrL2>80</ThrL2> <!-- 200 -->
+				<ThrD1>50</ThrD1> <!-- 5 -->
+				<ThrD2>200</ThrD2> <!-- 10 -->
 				<OvershootRatioMax>0.0</OvershootRatioMax>
-				<UndershootRatioMax>0.0</UndershootRatioMax>	
+				<UndershootRatioMax>0.0</UndershootRatioMax>	<!-- 0.5 -->
 				<OSC_TH>255</OSC_TH>
 				<HF_WEIGHT_MIN_TH>40</HF_WEIGHT_MIN_TH>
 				<HF_WEIGHT_MAX_TH>96</HF_WEIGHT_MAX_TH>
@@ -319,9 +319,9 @@
 				<LOW_TEXTURE_TH_MAX>48</LOW_TEXTURE_TH_MAX>
 			</EdgeEnhancement>
 			<TextureRecovery>
-				<EnableTextureRecovery>2</EnableTextureRecovery> 
+				<EnableTextureRecovery>2</EnableTextureRecovery> <!-- 0:disable，1：enable with input image, 2:enable with naive sharpness enhancement image,滤波器参数使用EdgeEnhancement标签下的-->
 				<NaivaSharpenLevel>5.0</NaivaSharpenLevel>
-				<Q0>2</Q0>  
+				<Q0>2</Q0>  <!-- 倒几形 -->
 				<Q1>6</Q1>
 				<Q2>24</Q2>
 				<Q3>30</Q3>
@@ -330,10 +330,10 @@
 		<ISO5>
 			<isovalue>2500</isovalue>
 			<MSKR>
-			
+			<!-- MultiscaleLevel后面的参数,每种参数的个数与MultiscaleLevel的值相同,分别表示相应层的参数 -->
 				<MultiscaleLevel>1</MultiscaleLevel>
 				<CkrWs>5</CkrWs>
-				<GradientWs>5</GradientWs> 
+				<GradientWs>5</GradientWs> <!-- 5 -->
 				<CkrSF>0.8</CkrSF>
 				<SkrAlpha>0.8</SkrAlpha>
 				<SkrFilterGroup>0</SkrFilterGroup>
@@ -344,35 +344,35 @@
 				<Q1>8</Q1>
 				<Q2>25</Q2>
 				<Q3>300</Q3>
-				<SharpLevelMax>0.3</SharpLevelMax>             
+				<SharpLevelMax>0.3</SharpLevelMax>             <!-- 0表示不增强-->
 				<SharpLevelMin>0.0</SharpLevelMin>		   
 				<LPFParams1>26</LPFParams1>
 				<LPFParams2>53</LPFParams2>
-				<IsOscOn>1</IsOscOn> 
+				<IsOscOn>1</IsOscOn> <!-- 1 -->
 				<ThrL1>50</ThrL1>
-				<ThrL2>100</ThrL2> 
-				<ThrD1>50</ThrD1> 
-				<ThrD2>100</ThrD2> 
+				<ThrL2>100</ThrL2> <!-- 200 -->
+				<ThrD1>50</ThrD1> <!-- 5 -->
+				<ThrD2>100</ThrD2> <!-- 10 -->
 				<OvershootRatioMax>0.0</OvershootRatioMax>
-				<UndershootRatioMax>0.0</UndershootRatioMax>		
+				<UndershootRatioMax>0.0</UndershootRatioMax>	<!-- 0.5 -->	
 			</MSKR>
 			<EdgeEnhancement>
 				<IsSharpnessOn>1</IsSharpnessOn>
-				<Q0>1</Q0> 
-				<Q1>25</Q1> 
-				<Q2>250</Q2> 
-				<Q3>300</Q3> 
-				<SharpLevelMax>2.5</SharpLevelMax>             
-				<SharpLevelMin>1.0</SharpLevelMin>		       
+				<Q0>1</Q0> <!-- 1  1 -->
+				<Q1>25</Q1> <!-- 8  25 -->
+				<Q2>250</Q2> <!-- 25  250-->
+				<Q3>300</Q3> <!-- 300  300-->
+				<SharpLevelMax>2.5</SharpLevelMax>             <!-- 2.5    0表示不增强-->
+				<SharpLevelMin>1.0</SharpLevelMin>		       <!-- 0    0表示不增强-->
 				<LPFParams1>26</LPFParams1>
 				<LPFParams2>53</LPFParams2>
-				<IsOscOn>1</IsOscOn> 
+				<IsOscOn>1</IsOscOn> <!-- 1 -->
 				<ThrL1>30</ThrL1>
-				<ThrL2>80</ThrL2> 
-				<ThrD1>50</ThrD1> 
-				<ThrD2>200</ThrD2> 
+				<ThrL2>80</ThrL2> <!-- 200 -->
+				<ThrD1>50</ThrD1> <!-- 5 -->
+				<ThrD2>200</ThrD2> <!-- 10 -->
 				<OvershootRatioMax>0.0</OvershootRatioMax>
-				<UndershootRatioMax>0.0</UndershootRatioMax>	
+				<UndershootRatioMax>0.0</UndershootRatioMax>	<!-- 0.5 -->
 				<OSC_TH>255</OSC_TH>
 				<HF_WEIGHT_MIN_TH>32</HF_WEIGHT_MIN_TH>
 				<HF_WEIGHT_MAX_TH>96</HF_WEIGHT_MAX_TH>
@@ -388,9 +388,9 @@
 				<LOW_TEXTURE_TH_MAX>48</LOW_TEXTURE_TH_MAX>
 			</EdgeEnhancement>
 			<TextureRecovery>
-				<EnableTextureRecovery>2</EnableTextureRecovery> 
+				<EnableTextureRecovery>2</EnableTextureRecovery> <!-- 0:disable，1：enable with input image, 2:enable with naive sharpness enhancement image,滤波器参数使用EdgeEnhancement标签下的-->
 				<NaivaSharpenLevel>4.0</NaivaSharpenLevel>
-				<Q0>2</Q0>  
+				<Q0>2</Q0>  <!-- 倒几形 -->
 				<Q1>8</Q1>
 				<Q2>20</Q2>
 				<Q3>30</Q3>
@@ -399,10 +399,10 @@
 		<ISO6>
 			<isovalue>3200</isovalue>
 			<MSKR>
-			
+			<!-- MultiscaleLevel后面的参数,每种参数的个数与MultiscaleLevel的值相同,分别表示相应层的参数 -->
 				<MultiscaleLevel>1</MultiscaleLevel>
 				<CkrWs>5</CkrWs>
-				<GradientWs>5</GradientWs> 
+				<GradientWs>5</GradientWs> <!-- 5 -->
 				<CkrSF>0.8</CkrSF>
 				<SkrAlpha>0.8</SkrAlpha>
 				<SkrFilterGroup>0</SkrFilterGroup>
@@ -413,35 +413,35 @@
 				<Q1>8</Q1>
 				<Q2>25</Q2>
 				<Q3>300</Q3>
-				<SharpLevelMax>0.3</SharpLevelMax>             
+				<SharpLevelMax>0.3</SharpLevelMax>             <!-- 0表示不增强-->
 				<SharpLevelMin>0.0</SharpLevelMin>		   
 				<LPFParams1>26</LPFParams1>
 				<LPFParams2>53</LPFParams2>
-				<IsOscOn>1</IsOscOn> 
+				<IsOscOn>1</IsOscOn> <!-- 1 -->
 				<ThrL1>50</ThrL1>
-				<ThrL2>100</ThrL2> 
-				<ThrD1>50</ThrD1> 
-				<ThrD2>100</ThrD2> 
+				<ThrL2>100</ThrL2> <!-- 200 -->
+				<ThrD1>50</ThrD1> <!-- 5 -->
+				<ThrD2>100</ThrD2> <!-- 10 -->
 				<OvershootRatioMax>0.0</OvershootRatioMax>
-				<UndershootRatioMax>0.0</UndershootRatioMax>		
+				<UndershootRatioMax>0.0</UndershootRatioMax>	<!-- 0.5 -->	
 			</MSKR>
 			<EdgeEnhancement>
 				<IsSharpnessOn>1</IsSharpnessOn>
-				<Q0>1</Q0> 
-				<Q1>25</Q1> 
-				<Q2>250</Q2> 
-				<Q3>300</Q3> 
-				<SharpLevelMax>2.5</SharpLevelMax>             
-				<SharpLevelMin>0.5</SharpLevelMin>		       
+				<Q0>1</Q0> <!-- 1  1 -->
+				<Q1>25</Q1> <!-- 8  25 -->
+				<Q2>250</Q2> <!-- 25  250-->
+				<Q3>300</Q3> <!-- 300  300-->
+				<SharpLevelMax>2.5</SharpLevelMax>             <!-- 2.5    0表示不增强-->
+				<SharpLevelMin>0.5</SharpLevelMin>		       <!-- 0    0表示不增强-->
 				<LPFParams1>26</LPFParams1>
 				<LPFParams2>53</LPFParams2>
-				<IsOscOn>1</IsOscOn> 
+				<IsOscOn>1</IsOscOn> <!-- 1 -->
 				<ThrL1>30</ThrL1>
-				<ThrL2>80</ThrL2> 
-				<ThrD1>50</ThrD1> 
-				<ThrD2>200</ThrD2> 
+				<ThrL2>80</ThrL2> <!-- 200 -->
+				<ThrD1>50</ThrD1> <!-- 5 -->
+				<ThrD2>200</ThrD2> <!-- 10 -->
 				<OvershootRatioMax>0.0</OvershootRatioMax>
-				<UndershootRatioMax>0.0</UndershootRatioMax>	
+				<UndershootRatioMax>0.0</UndershootRatioMax>	<!-- 0.5 -->
 				<OSC_TH>128</OSC_TH>
 				<HF_WEIGHT_MIN_TH>32</HF_WEIGHT_MIN_TH>
 				<HF_WEIGHT_MAX_TH>80</HF_WEIGHT_MAX_TH>
@@ -457,9 +457,9 @@
 				<LOW_TEXTURE_TH_MAX>48</LOW_TEXTURE_TH_MAX>
 			</EdgeEnhancement>
 			<TextureRecovery>
-				<EnableTextureRecovery>2</EnableTextureRecovery> 
+				<EnableTextureRecovery>2</EnableTextureRecovery> <!-- 0:disable，1：enable with input image, 2:enable with naive sharpness enhancement image,滤波器参数使用EdgeEnhancement标签下的-->
 				<NaivaSharpenLevel>4.0</NaivaSharpenLevel>
-				<Q0>2</Q0>  
+				<Q0>2</Q0>  <!-- 倒几形 -->
 				<Q1>8</Q1>
 				<Q2>16</Q2>
 				<Q3>30</Q3>
@@ -468,10 +468,10 @@
 		<ISO7>
 			<isovalue>4800</isovalue>
 			<MSKR>
-			
+			<!-- MultiscaleLevel后面的参数,每种参数的个数与MultiscaleLevel的值相同,分别表示相应层的参数 -->
 				<MultiscaleLevel>1</MultiscaleLevel>
 				<CkrWs>5</CkrWs>
-				<GradientWs>5</GradientWs> 
+				<GradientWs>5</GradientWs> <!-- 5 -->
 				<CkrSF>0.8</CkrSF>
 				<SkrAlpha>0.8</SkrAlpha>
 				<SkrFilterGroup>0</SkrFilterGroup>
@@ -482,35 +482,35 @@
 				<Q1>8</Q1>
 				<Q2>25</Q2>
 				<Q3>300</Q3>
-				<SharpLevelMax>0.3</SharpLevelMax>             
+				<SharpLevelMax>0.3</SharpLevelMax>             <!-- 0表示不增强-->
 				<SharpLevelMin>0.0</SharpLevelMin>		   
 				<LPFParams1>26</LPFParams1>
 				<LPFParams2>53</LPFParams2>
-				<IsOscOn>1</IsOscOn> 
+				<IsOscOn>1</IsOscOn> <!-- 1 -->
 				<ThrL1>50</ThrL1>
-				<ThrL2>100</ThrL2> 
-				<ThrD1>50</ThrD1> 
-				<ThrD2>100</ThrD2> 
+				<ThrL2>100</ThrL2> <!-- 200 -->
+				<ThrD1>50</ThrD1> <!-- 5 -->
+				<ThrD2>100</ThrD2> <!-- 10 -->
 				<OvershootRatioMax>0.0</OvershootRatioMax>
-				<UndershootRatioMax>0.0</UndershootRatioMax>		
+				<UndershootRatioMax>0.0</UndershootRatioMax>	<!-- 0.5 -->	
 			</MSKR>
 			<EdgeEnhancement>
 				<IsSharpnessOn>1</IsSharpnessOn>
-				<Q0>1</Q0> 
-				<Q1>25</Q1> 
-				<Q2>250</Q2> 
-				<Q3>300</Q3> 
-				<SharpLevelMax>2.0</SharpLevelMax>             
-				<SharpLevelMin>0.5</SharpLevelMin>		       
+				<Q0>1</Q0> <!-- 1  1 -->
+				<Q1>25</Q1> <!-- 8  25 -->
+				<Q2>250</Q2> <!-- 25  250-->
+				<Q3>300</Q3> <!-- 300  300-->
+				<SharpLevelMax>2.0</SharpLevelMax>             <!-- 2.5    0表示不增强-->
+				<SharpLevelMin>0.5</SharpLevelMin>		       <!-- 0    0表示不增强-->
 				<LPFParams1>26</LPFParams1>
 				<LPFParams2>53</LPFParams2>
-				<IsOscOn>1</IsOscOn> 
+				<IsOscOn>1</IsOscOn> <!-- 1 -->
 				<ThrL1>30</ThrL1>
-				<ThrL2>80</ThrL2> 
-				<ThrD1>50</ThrD1> 
-				<ThrD2>200</ThrD2> 
+				<ThrL2>80</ThrL2> <!-- 200 -->
+				<ThrD1>50</ThrD1> <!-- 5 -->
+				<ThrD2>200</ThrD2> <!-- 10 -->
 				<OvershootRatioMax>0.0</OvershootRatioMax>
-				<UndershootRatioMax>0.0</UndershootRatioMax>		
+				<UndershootRatioMax>0.0</UndershootRatioMax>	<!-- 0.5 -->	
 				<OSC_TH>128</OSC_TH>
 				<HF_WEIGHT_MIN_TH>32</HF_WEIGHT_MIN_TH>
 				<HF_WEIGHT_MAX_TH>64</HF_WEIGHT_MAX_TH>
@@ -526,9 +526,9 @@
 				<LOW_TEXTURE_TH_MAX>48</LOW_TEXTURE_TH_MAX>
 			</EdgeEnhancement>
 			<TextureRecovery>
-				<EnableTextureRecovery>2</EnableTextureRecovery> 
+				<EnableTextureRecovery>2</EnableTextureRecovery> <!-- 0:disable，1：enable with input image, 2:enable with naive sharpness enhancement image,滤波器参数使用EdgeEnhancement标签下的-->
 				<NaivaSharpenLevel>4.0</NaivaSharpenLevel>
-				<Q0>2</Q0>  
+				<Q0>2</Q0>  <!-- 倒几形 -->
 				<Q1>8</Q1>
 				<Q2>16</Q2>
 				<Q3>30</Q3>
@@ -537,10 +537,10 @@
 		<ISO8>
 			<isovalue>20000</isovalue>
 			<MSKR>
-			
+			<!-- MultiscaleLevel后面的参数,每种参数的个数与MultiscaleLevel的值相同,分别表示相应层的参数 -->
 				<MultiscaleLevel>1</MultiscaleLevel>
 				<CkrWs>5</CkrWs>
-				<GradientWs>5</GradientWs> 
+				<GradientWs>5</GradientWs> <!-- 5 -->
 				<CkrSF>0.8</CkrSF>
 				<SkrAlpha>0.8</SkrAlpha>
 				<SkrFilterGroup>0</SkrFilterGroup>
@@ -551,35 +551,35 @@
 				<Q1>8</Q1>
 				<Q2>25</Q2>
 				<Q3>300</Q3>
-				<SharpLevelMax>0.3</SharpLevelMax>             
+				<SharpLevelMax>0.3</SharpLevelMax>             <!-- 0表示不增强-->
 				<SharpLevelMin>0.0</SharpLevelMin>		   
 				<LPFParams1>26</LPFParams1>
 				<LPFParams2>53</LPFParams2>
-				<IsOscOn>1</IsOscOn> 
+				<IsOscOn>1</IsOscOn> <!-- 1 -->
 				<ThrL1>50</ThrL1>
-				<ThrL2>80</ThrL2> 
-				<ThrD1>50</ThrD1> 
-				<ThrD2>100</ThrD2> 
+				<ThrL2>80</ThrL2> <!-- 200 -->
+				<ThrD1>50</ThrD1> <!-- 5 -->
+				<ThrD2>100</ThrD2> <!-- 10 -->
 				<OvershootRatioMax>0.0</OvershootRatioMax>
-				<UndershootRatioMax>0.0</UndershootRatioMax>		
+				<UndershootRatioMax>0.0</UndershootRatioMax>	<!-- 0.5 -->	
 			</MSKR>
 			<EdgeEnhancement>
 				<IsSharpnessOn>1</IsSharpnessOn>
-				<Q0>1</Q0> 
-				<Q1>25</Q1> 
-				<Q2>250</Q2> 
-				<Q3>300</Q3> 
-				<SharpLevelMax>1.5</SharpLevelMax>             
-				<SharpLevelMin>0.5</SharpLevelMin>		       
+				<Q0>1</Q0> <!-- 1  1 -->
+				<Q1>25</Q1> <!-- 8  25 -->
+				<Q2>250</Q2> <!-- 25  250-->
+				<Q3>300</Q3> <!-- 300  300-->
+				<SharpLevelMax>1.5</SharpLevelMax>             <!-- 2.5    0表示不增强-->
+				<SharpLevelMin>0.5</SharpLevelMin>		       <!-- 0    0表示不增强-->
 				<LPFParams1>26</LPFParams1>
 				<LPFParams2>53</LPFParams2>
-				<IsOscOn>1</IsOscOn> 
+				<IsOscOn>1</IsOscOn> <!-- 1 -->
 				<ThrL1>30</ThrL1>
-				<ThrL2>80</ThrL2> 
-				<ThrD1>50</ThrD1> 
-				<ThrD2>200</ThrD2> 
+				<ThrL2>80</ThrL2> <!-- 200 -->
+				<ThrD1>50</ThrD1> <!-- 5 -->
+				<ThrD2>200</ThrD2> <!-- 10 -->
 				<OvershootRatioMax>0.0</OvershootRatioMax>
-				<UndershootRatioMax>0.0</UndershootRatioMax>		
+				<UndershootRatioMax>0.0</UndershootRatioMax>	<!-- 0.5 -->	
 				<OSC_TH>128</OSC_TH>
 				<HF_WEIGHT_MIN_TH>32</HF_WEIGHT_MIN_TH>
 				<HF_WEIGHT_MAX_TH>64</HF_WEIGHT_MAX_TH>
@@ -595,9 +595,9 @@
 				<LOW_TEXTURE_TH_MAX>48</LOW_TEXTURE_TH_MAX>
 			</EdgeEnhancement>
 			<TextureRecovery>
-				<EnableTextureRecovery>2</EnableTextureRecovery> 
+				<EnableTextureRecovery>2</EnableTextureRecovery> <!-- 0:disable，1：enable with input image, 2:enable with naive sharpness enhancement image,滤波器参数使用EdgeEnhancement标签下的-->
 				<NaivaSharpenLevel>3.0</NaivaSharpenLevel>
-				<Q0>2</Q0>  
+				<Q0>2</Q0>  <!-- 倒几形 -->
 				<Q1>8</Q1>
 				<Q2>16</Q2>
 				<Q3>30</Q3>

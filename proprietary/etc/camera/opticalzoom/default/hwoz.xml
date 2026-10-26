@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="GB2312"?>
 <Config>
 
 	<Capture>
-		<FrameStrategy>  
+		<FrameStrategy>  <!-- 二进制序列，从左到右，分别表示副camera有无遮挡<1有，0无>，低亮度或者高亮度<1低照度，0高亮度>，是否小于右左sensor分辨率倍率<1小于等于，0大于> -->
 			<Scene SceneIndex="0" ColorFrames="4" MonoFrames="4"/>
 			<Scene SceneIndex="1" ColorFrames="4" MonoFrames="4"/>
 			<Scene SceneIndex="2" ColorFrames="4" MonoFrames="4"/>
@@ -94,39 +94,39 @@
 		
 	<HybridEnlargeRatio>6</HybridEnlargeRatio>
 	<HybridTH>4000</HybridTH>
-		<DaylightISO>300</DaylightISO>	
-		<ROUTER0>						
+		<DaylightISO>300</DaylightISO>	<!--  gain  300 -->
+		<ROUTER0>				<!--  MONO_BASED   -->		
             <ColorFrames>2</ColorFrames>		
             <MonoFrames>4</MonoFrames>			
 		</ROUTER0>
-		<ROUTER1>					
+		<ROUTER1>			<!--  COLOR_BASED   -->		
             <ColorFrames>4</ColorFrames>		
             <MonoFrames>2</MonoFrames>	
 		</ROUTER1>
-		<ROUTER2>						
+		<ROUTER2>				<!--  COLOR_ONLY   -->		
             <ColorFrames>6</ColorFrames>		
             <MonoFrames>0</MonoFrames>	
 		</ROUTER2>
-		<ROUTER3>						
+		<ROUTER3>				<!--  HYBRID   -->		
             <ColorFrames>2</ColorFrames>		
             <MonoFrames>4</MonoFrames>	
 		</ROUTER3>
-		<ROUTER4>						
+		<ROUTER4>				<!--  MONO_ONLY   -->		
             <ColorFrames>0</ColorFrames>		
             <MonoFrames>6</MonoFrames>	
 		</ROUTER4>
-		<ROUTER5>						
+		<ROUTER5>				<!--  DAYLIGHT   -->		
             <ColorFrames>1</ColorFrames>		
             <MonoFrames>4</MonoFrames>	
 		</ROUTER5>
     </RouteSwitchOZ>
 	
 	<SharpenLUT>
-		 <ISO_LOW_TH>600</ISO_LOW_TH> 
-		 <ISO_HIGH_TH>2500</ISO_HIGH_TH> 
+		 <ISO_LOW_TH>600</ISO_LOW_TH> <!-- 600 -->
+		 <ISO_HIGH_TH>2500</ISO_HIGH_TH> <!-- 2500 -->
 	</SharpenLUT>
 	
-	
+	<!--  Large one is Gain, small one is ISO, ISO : Gain = 50 : 256, ISO = Gain*50/256   -->
     <NoiseReduction>
 		<ISO_TH>300</ISO_TH>
 	<NR_WV_SHRINK_ISO>2000000</NR_WV_SHRINK_ISO>
@@ -160,7 +160,7 @@
 	
     <SFNoiseReduction>
         <ISO1>
-            <isovalue>256</isovalue>	
+            <isovalue>256</isovalue>	<!--gain-->
             <NoiseReducFlag>1</NoiseReducFlag>
             <ContrastEnhanceFlag>0</ContrastEnhanceFlag>
             <SharpnessEnhanceFlag>0</SharpnessEnhanceFlag>
@@ -194,7 +194,7 @@
             <SharpnessEnhanceFlag>0</SharpnessEnhanceFlag>
             <ColorManageFlag>0</ColorManageFlag>
 
-            <luma>-90</luma>
+            <luma>-90</luma><!--luma>-95</luma-->
             <chroma>-85</chroma>
             <lumaHF>0</lumaHF>
             <chromaHF>-90</chromaHF>
@@ -208,7 +208,7 @@
             <SharpnessEnhanceFlag>0</SharpnessEnhanceFlag>
             <ColorManageFlag>0</ColorManageFlag>
 
-            <luma>-90</luma>
+            <luma>-90</luma><!--luma>-90</luma-->
             <chroma>-82</chroma>
             <lumaHF>0</lumaHF>
             <chromaHF>-90</chromaHF>
@@ -222,9 +222,9 @@
             <SharpnessEnhanceFlag>0</SharpnessEnhanceFlag>
             <ColorManageFlag>0</ColorManageFlag>
 
-            <luma>-88</luma>
+            <luma>-88</luma><!--luma>-70</luma-->
             <chroma>-80</chroma>
-            <lumaHF>0</lumaHF>
+            <lumaHF>0</lumaHF><!--lumaHF>-50</lumaHF-->
             <chromaHF>-88</chromaHF>
             <detail>-100</detail>
         </ISO5>
@@ -236,7 +236,7 @@
             <SharpnessEnhanceFlag>0</SharpnessEnhanceFlag>
             <ColorManageFlag>0</ColorManageFlag>
 
-            <luma>-85</luma>
+            <luma>-85</luma><!--luma>-60</luma-->
             <chroma>-78</chroma>
             <lumaHF>0</lumaHF>
             <chromaHF>-85</chromaHF>
@@ -368,7 +368,7 @@
         </ISO8>
     </GhostDetection>
 	
-	<GhostDetection_Reg>  
+	<GhostDetection_Reg>  <!--  ISO values here are consistent with first *SIX *ISO values of NoiseReduction-->
 	    <ISO1>
 		    <LumaThArr>5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4</LumaThArr>
 			<ChromaThArr_U>7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 5 5 5 5 5 5 5 5 5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4</ChromaThArr_U>
@@ -446,13 +446,13 @@
         <zoom_factor_th>1.5</zoom_factor_th>
 		<detail_ratio_max_th>256</detail_ratio_max_th>
     </FUSION>
-    
-    
-    
+    <!--params for different iso-->
+    <!--mono_eps at [0.032, 0.16]-->
+    <!--color_eps at [0.04, 0.16]-->
     <isoCount>10</isoCount>
     <iso1>
         <iso>512</iso>
-        <appointed_router>-1</appointed_router> 
+        <appointed_router>-1</appointed_router> <!--0/1/2/3??monobase/colorbase/coloronly/hybrid, -1????????-->
         
         <color_eps>0.04</color_eps>
         <color_r>4</color_r>

@@ -3648,3 +3648,59 @@ PRODUCT_PACKAGES += \
     libkeymaster1_emui8 \
     libsoftkeymasterdevice_emui8 \
     libkeymaster_messages_emui8
+
+
+# AGS2 camera bring-up: new/extra camera-related vendor files (EMUI8 userland)
+PRODUCT_COPY_FILES += \
+    vendor/huawei/AGS2/proprietary/vendor/lib/libcamera_ae.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera_ae.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib/libcamera_flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera_flash.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib/hw/camera.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.hi6250.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/hw/camera.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/camera.hi6250.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/libsensor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensor.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib/libstdc++.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstdc++.so \
+    vendor/huawei/AGS2/proprietary/vendor/lib64/libstdc++.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstdc++.so \
+    vendor/huawei/AGS2/proprietary/vendor/etc/camera/bshutter/default/algo.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/bshutter/default/algo.xml \
+    vendor/huawei/AGS2/proprietary/vendor/etc/camera/bshutter/default/info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/bshutter/default/info.xml \
+    vendor/huawei/AGS2/proprietary/vendor/etc/camera/configeffect/opticalzoom/default/gcd_aux.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/configeffect/opticalzoom/default/gcd_aux.xml \
+    vendor/huawei/AGS2/proprietary/vendor/etc/camera/davinci/default/cm_correction.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/davinci/default/cm_correction.dat \
+    vendor/huawei/AGS2/proprietary/vendor/etc/camera/davinci/default/cm_foliage.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/davinci/default/cm_foliage.dat \
+    vendor/huawei/AGS2/proprietary/vendor/etc/camera/davinci/default/cm_normal.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/davinci/default/cm_normal.dat \
+    vendor/huawei/AGS2/proprietary/vendor/etc/camera/davinci/default/cm_sky.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/davinci/default/cm_sky.dat \
+    vendor/huawei/AGS2/proprietary/vendor/etc/camera/davinci/default/cm_sunset.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/davinci/default/cm_sunset.dat \
+    vendor/huawei/AGS2/proprietary/vendor/etc/camera/davinci/default/hdr.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/davinci/default/hdr.xml \
+    vendor/huawei/AGS2/proprietary/vendor/etc/camera/dcsr/dcsr.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/dcsr/dcsr.xml \
+    vendor/huawei/AGS2/proprietary/vendor/etc/camera/dcsr/dcsr_kernel:$(TARGET_COPY_OUT_VENDOR)/etc/camera/dcsr/dcsr_kernel \
+    vendor/huawei/AGS2/proprietary/vendor/etc/camera/filter/filter.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/filter.xml \
+    vendor/huawei/AGS2/proprietary/vendor/etc/camera/filter/mixIm.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/mixIm.dat \
+    vendor/huawei/AGS2/proprietary/vendor/etc/camera/hwbeauty/default/hwbeauty_params.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/hwbeauty/default/hwbeauty_params.xml \
+    vendor/huawei/AGS2/proprietary/vendor/etc/camera/hwscope/default/hwsz.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/hwscope/default/hwsz.xml \
+    vendor/huawei/AGS2/proprietary/vendor/etc/camera/hwscope/default/kernel:$(TARGET_COPY_OUT_VENDOR)/etc/camera/hwscope/default/kernel \
+    vendor/huawei/AGS2/proprietary/vendor/etc/camera/libcl/opticalzoom_source.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/libcl/opticalzoom_source.bin \
+    vendor/huawei/AGS2/proprietary/vendor/etc/camera/mmi7cm/default/mmi7cmConfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mmi7cm/default/mmi7cmConfig.xml \
+    vendor/huawei/AGS2/proprietary/vendor/etc/camera/multidenoise/multidenoise.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/multidenoise/multidenoise.xml \
+    vendor/huawei/AGS2/proprietary/vendor/etc/camera/nicefood/default/niceFood.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/nicefood/default/niceFood.dat \
+    vendor/huawei/AGS2/proprietary/vendor/etc/camera/opticalzoom/default/hwnie.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/opticalzoom/default/hwnie.xml \
+    vendor/huawei/AGS2/proprietary/vendor/etc/camera/opticalzoom/default/hwnie_co.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/opticalzoom/default/hwnie_co.xml \
+    vendor/huawei/AGS2/proprietary/vendor/etc/camera/opticalzoom/default/hwnie_star.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/opticalzoom/default/hwnie_star.xml \
+    vendor/huawei/AGS2/proprietary/vendor/etc/camera/opticalzoom/default/hwoz.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/opticalzoom/default/hwoz.xml \
+    vendor/huawei/AGS2/proprietary/vendor/etc/camera/opticalzoom/default/hwoz_kernel.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/opticalzoom/default/hwoz_kernel.dat \
+    vendor/huawei/AGS2/proprietary/vendor/etc/camera/opticalzoom/default/hwoz_kernel_6x.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/opticalzoom/default/hwoz_kernel_6x.dat \
+    vendor/huawei/AGS2/proprietary/vendor/etc/camera/opticalzoom/default/oz_ref_match.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/opticalzoom/default/oz_ref_match.dat \
+    vendor/huawei/AGS2/proprietary/vendor/etc/camera/opticalzoom/default/oz_ref_match_1.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/opticalzoom/default/oz_ref_match_1.dat \
+    vendor/huawei/AGS2/proprietary/vendor/etc/camera/opticalzoom/default/oz_ref_match_2.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/opticalzoom/default/oz_ref_match_2.dat \
+    vendor/huawei/AGS2/proprietary/vendor/etc/camera/opticalzoom/default/sr_lanczos_lut.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/opticalzoom/default/sr_lanczos_lut.dat \
+    vendor/huawei/AGS2/proprietary/vendor/etc/camera/opticalzoom/default/sr_lanczos_lut_0.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/opticalzoom/default/sr_lanczos_lut_0.dat \
+    vendor/huawei/AGS2/proprietary/vendor/etc/camera/opticalzoom/default/sr_lanczos_lut_1.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/opticalzoom/default/sr_lanczos_lut_1.dat \
+    vendor/huawei/AGS2/proprietary/vendor/etc/camera/opticalzoom/default/sr_lanczos_lut_2.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/opticalzoom/default/sr_lanczos_lut_2.dat \
+    vendor/huawei/AGS2/proprietary/vendor/etc/camera/smartae/default/SmartAE.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/smartae/default/SmartAE.xml \
+    vendor/huawei/AGS2/proprietary/vendor/etc/camera/tornado/FoliageMinMaxTOA.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/tornado/FoliageMinMaxTOA.txt \
+    vendor/huawei/AGS2/proprietary/vendor/etc/camera/tornado/FoliageModelTOA.model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/tornado/FoliageModelTOA.model \
+    vendor/huawei/AGS2/proprietary/vendor/etc/camera/tornado/IndoorFeatureFilterTOA.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/tornado/IndoorFeatureFilterTOA.txt \
+    vendor/huawei/AGS2/proprietary/vendor/etc/camera/tornado/IndoorModelTOA.model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/tornado/IndoorModelTOA.model \
+    vendor/huawei/AGS2/proprietary/vendor/etc/camera/tornado/NightMinMaxTOA.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/tornado/NightMinMaxTOA.txt \
+    vendor/huawei/AGS2/proprietary/vendor/etc/camera/tornado/NightModelTOA.model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/tornado/NightModelTOA.model \
+    vendor/huawei/AGS2/proprietary/vendor/etc/camera/tornado/SunsetMinMaxTOA.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/tornado/SunsetMinMaxTOA.txt \
+    vendor/huawei/AGS2/proprietary/vendor/etc/camera/tornado/SunsetModelTOA.model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/tornado/SunsetModelTOA.model \
+    vendor/huawei/AGS2/proprietary/vendor/etc/camera/tornado/default/TornadoI.ini:$(TARGET_COPY_OUT_VENDOR)/etc/camera/tornado/default/TornadoI.ini \
+    vendor/huawei/AGS2/proprietary/vendor/etc/camera/tracking/targettracking.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/tracking/targettracking.xml \
+    vendor/huawei/AGS2/proprietary/vendor/etc/camera/watermark/param.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/watermark/param.xml

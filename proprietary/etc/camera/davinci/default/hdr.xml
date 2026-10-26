@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="gb2312"?>
 <Config>
     <night_iso>3000</night_iso>
-    <night_exposure>17</night_exposure>
-    <night_lumaavg>15</night_lumaavg>
-    <zoom_ratio_max>1.5</zoom_ratio_max>
+    <night_exposure>17</night_exposure><!--night exposure threshold-->
+    <night_lumaavg>15</night_lumaavg><!--night avgbright threshold-->
+    <zoom_ratio_max>1.5</zoom_ratio_max><!--night avgbright threshold-->
 
     <ImageRegistrationMethod>1</ImageRegistrationMethod>
 
