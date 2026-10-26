@@ -3657,6 +3657,8 @@ PRODUCT_PACKAGES += \
     rc_android.hardware.usb@1.0-service_emui8 \
     android.hardware.drm@1.0-service_emui8 \
     rc_android.hardware.drm@1.0-service_emui8 \
+    libkeystore-engine-wifi-hidl_emui8 \
+    libkeystore-wifi-hidl_emui8 \
     system_teecd \
     libtuidaemon \
     native_packages.xml \
@@ -3732,3 +3734,9 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/AGS2/proprietary/vendor/etc/camera/tornado/default/TornadoI.ini:$(TARGET_COPY_OUT_VENDOR)/etc/camera/tornado/default/TornadoI.ini \
     vendor/huawei/AGS2/proprietary/vendor/etc/camera/tracking/targettracking.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/tracking/targettracking.xml \
     vendor/huawei/AGS2/proprietary/vendor/etc/camera/watermark/param.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/watermark/param.xml
+
+# system_teecd (/system/bin) and libtuidaemon link libc_secshared.so, which a /system binary cannot load from /vendor.
+# Plain copies (a second prebuilt module with the same stem would collide in obj/).
+PRODUCT_COPY_FILES += \
+    vendor/huawei/AGS2/proprietary/lib64/libc_secshared.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libc_secshared.so \
+    vendor/huawei/AGS2/proprietary/lib/libc_secshared.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libc_secshared.so
