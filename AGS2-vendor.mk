@@ -3659,6 +3659,7 @@ PRODUCT_PACKAGES += \
     rc_android.hardware.drm@1.0-service_emui8 \
     libkeystore-engine-wifi-hidl_emui8 \
     libkeystore-wifi-hidl_emui8 \
+    libbt-vendor_emui8 \
     system_teecd \
     libtuidaemon \
     native_packages.xml \

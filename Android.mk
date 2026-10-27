@@ -17425,7 +17425,10 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/init/connectivity/init.connectivity.hisi.rc
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .rc
+LOCAL_PROPRIETARY_MODULE := true
+LOCAL_MODULE_STEM := init.connectivity.hisi.rc
+LOCAL_MODULE_SUFFIX :=
+LOCAL_MODULE_RELATIVE_PATH := init/connectivity
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -23150,6 +23153,19 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/lib64/libkeystore-wifi-hidl.so
 LOCAL_MULTILIB := 64
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libbt-vendor_emui8
+LOCAL_MODULE_STEM := libbt-vendor
+LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
+LOCAL_SRC_FILES_64 := proprietary/lib64/libbt-vendor.so
+LOCAL_SRC_FILES_32 := proprietary/lib/libbt-vendor.so
+LOCAL_MULTILIB := both
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
