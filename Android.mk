@@ -3413,7 +3413,10 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/bluetooth/bt_vendor.conf
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .conf
+LOCAL_PROPRIETARY_MODULE := true
+LOCAL_MODULE_RELATIVE_PATH := bluetooth
+LOCAL_MODULE_STEM := bt_vendor.conf
+LOCAL_MODULE_SUFFIX :=
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -17201,7 +17204,9 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/dhcpcd/dhcpcd.conf
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .conf
+LOCAL_MODULE_RELATIVE_PATH := dhcpcd
+LOCAL_MODULE_STEM := dhcpcd.conf
+LOCAL_MODULE_SUFFIX :=
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -18164,7 +18169,9 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/permissions/android.hardware.bluetooth_le.xml
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
+LOCAL_MODULE_RELATIVE_PATH := permissions
+LOCAL_MODULE_STEM := android.hardware.bluetooth_le.xml
+LOCAL_MODULE_SUFFIX :=
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -18173,7 +18180,9 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/permissions/android.hardware.camera.flash-autofocus.xml
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
+LOCAL_MODULE_RELATIVE_PATH := permissions
+LOCAL_MODULE_STEM := android.hardware.camera.flash-autofocus.xml
+LOCAL_MODULE_SUFFIX :=
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -18182,7 +18191,9 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/permissions/android.hardware.camera.front.xml
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
+LOCAL_MODULE_RELATIVE_PATH := permissions
+LOCAL_MODULE_STEM := android.hardware.camera.front.xml
+LOCAL_MODULE_SUFFIX :=
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -18191,7 +18202,9 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/permissions/android.hardware.camera.xml
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
+LOCAL_MODULE_RELATIVE_PATH := permissions
+LOCAL_MODULE_STEM := android.hardware.camera.xml
+LOCAL_MODULE_SUFFIX :=
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -18200,7 +18213,9 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/permissions/android.hardware.faketouch.xml
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
+LOCAL_MODULE_RELATIVE_PATH := permissions
+LOCAL_MODULE_STEM := android.hardware.faketouch.xml
+LOCAL_MODULE_SUFFIX :=
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -18209,7 +18224,9 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/permissions/android.hardware.location.gps.xml
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
+LOCAL_MODULE_RELATIVE_PATH := permissions
+LOCAL_MODULE_STEM := android.hardware.location.gps.xml
+LOCAL_MODULE_SUFFIX :=
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -18218,7 +18235,9 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/permissions/android.hardware.location.xml
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
+LOCAL_MODULE_RELATIVE_PATH := permissions
+LOCAL_MODULE_STEM := android.hardware.location.xml
+LOCAL_MODULE_SUFFIX :=
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -18227,7 +18246,9 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/permissions/android.hardware.opengles.aep.xml
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
+LOCAL_MODULE_RELATIVE_PATH := permissions
+LOCAL_MODULE_STEM := android.hardware.opengles.aep.xml
+LOCAL_MODULE_SUFFIX :=
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -18236,7 +18257,9 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/permissions/android.hardware.sensor.accelerometer.xml
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
+LOCAL_MODULE_RELATIVE_PATH := permissions
+LOCAL_MODULE_STEM := android.hardware.sensor.accelerometer.xml
+LOCAL_MODULE_SUFFIX :=
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -18245,7 +18268,9 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/permissions/android.hardware.sensor.compass.xml
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
+LOCAL_MODULE_RELATIVE_PATH := permissions
+LOCAL_MODULE_STEM := android.hardware.sensor.compass.xml
+LOCAL_MODULE_SUFFIX :=
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -18254,7 +18279,9 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/permissions/android.hardware.sensor.gyroscope.xml
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
+LOCAL_MODULE_RELATIVE_PATH := permissions
+LOCAL_MODULE_STEM := android.hardware.sensor.gyroscope.xml
+LOCAL_MODULE_SUFFIX :=
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -18263,7 +18290,9 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/permissions/android.hardware.sensor.light.xml
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
+LOCAL_MODULE_RELATIVE_PATH := permissions
+LOCAL_MODULE_STEM := android.hardware.sensor.light.xml
+LOCAL_MODULE_SUFFIX :=
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -18272,7 +18301,9 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/permissions/android.hardware.sensor.proximity.xml
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
+LOCAL_MODULE_RELATIVE_PATH := permissions
+LOCAL_MODULE_STEM := android.hardware.sensor.proximity.xml
+LOCAL_MODULE_SUFFIX :=
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -18281,7 +18312,9 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/permissions/android.hardware.sensor.stepcounter.xml
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
+LOCAL_MODULE_RELATIVE_PATH := permissions
+LOCAL_MODULE_STEM := android.hardware.sensor.stepcounter.xml
+LOCAL_MODULE_SUFFIX :=
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -18290,7 +18323,9 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/permissions/android.hardware.touchscreen.multitouch.jazzhand.xml
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
+LOCAL_MODULE_RELATIVE_PATH := permissions
+LOCAL_MODULE_STEM := android.hardware.touchscreen.multitouch.jazzhand.xml
+LOCAL_MODULE_SUFFIX :=
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -18299,7 +18334,9 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/permissions/android.hardware.usb.accessory.xml
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
+LOCAL_MODULE_RELATIVE_PATH := permissions
+LOCAL_MODULE_STEM := android.hardware.usb.accessory.xml
+LOCAL_MODULE_SUFFIX :=
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -18308,7 +18345,9 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/permissions/android.hardware.vulkan.compute.xml
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
+LOCAL_MODULE_RELATIVE_PATH := permissions
+LOCAL_MODULE_STEM := android.hardware.vulkan.compute.xml
+LOCAL_MODULE_SUFFIX :=
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -18317,7 +18356,9 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/permissions/android.hardware.vulkan.level.xml
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
+LOCAL_MODULE_RELATIVE_PATH := permissions
+LOCAL_MODULE_STEM := android.hardware.vulkan.level.xml
+LOCAL_MODULE_SUFFIX :=
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -18326,7 +18367,9 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/permissions/android.hardware.vulkan.version.xml
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
+LOCAL_MODULE_RELATIVE_PATH := permissions
+LOCAL_MODULE_STEM := android.hardware.vulkan.version.xml
+LOCAL_MODULE_SUFFIX :=
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -18335,7 +18378,9 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/permissions/android.hardware.wifi.direct.xml
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
+LOCAL_MODULE_RELATIVE_PATH := permissions
+LOCAL_MODULE_STEM := android.hardware.wifi.direct.xml
+LOCAL_MODULE_SUFFIX :=
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -18344,7 +18389,9 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/permissions/android.hardware.wifi.xml
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
+LOCAL_MODULE_RELATIVE_PATH := permissions
+LOCAL_MODULE_STEM := android.hardware.wifi.xml
+LOCAL_MODULE_SUFFIX :=
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -18353,7 +18400,9 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/permissions/android.software.app_widgets.xml
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
+LOCAL_MODULE_RELATIVE_PATH := permissions
+LOCAL_MODULE_STEM := android.software.app_widgets.xml
+LOCAL_MODULE_SUFFIX :=
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -18362,7 +18411,9 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/permissions/android.software.backup.xml
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
+LOCAL_MODULE_RELATIVE_PATH := permissions
+LOCAL_MODULE_STEM := android.software.backup.xml
+LOCAL_MODULE_SUFFIX :=
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -18371,7 +18422,9 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/permissions/android.software.midi.xml
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
+LOCAL_MODULE_RELATIVE_PATH := permissions
+LOCAL_MODULE_STEM := android.software.midi.xml
+LOCAL_MODULE_SUFFIX :=
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -18380,7 +18433,9 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/permissions/handheld_core_hardware.xml
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
+LOCAL_MODULE_RELATIVE_PATH := permissions
+LOCAL_MODULE_STEM := handheld_core_hardware.xml
+LOCAL_MODULE_SUFFIX :=
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -18533,7 +18588,10 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/wifi/p2p_supplicant_hisi.conf
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .conf
+LOCAL_PROPRIETARY_MODULE := true
+LOCAL_MODULE_RELATIVE_PATH := wifi
+LOCAL_MODULE_STEM := p2p_supplicant_hisi.conf
+LOCAL_MODULE_SUFFIX :=
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -18542,7 +18600,10 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/wifi/p2p_supplicant_overlay.conf
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .conf
+LOCAL_PROPRIETARY_MODULE := true
+LOCAL_MODULE_RELATIVE_PATH := wifi
+LOCAL_MODULE_STEM := p2p_supplicant_overlay.conf
+LOCAL_MODULE_SUFFIX :=
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -18551,7 +18612,10 @@ LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/etc/wifi/wpa_supplicant_overlay.conf
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .conf
+LOCAL_PROPRIETARY_MODULE := true
+LOCAL_MODULE_RELATIVE_PATH := wifi
+LOCAL_MODULE_STEM := wpa_supplicant_overlay.conf
+LOCAL_MODULE_SUFFIX :=
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
