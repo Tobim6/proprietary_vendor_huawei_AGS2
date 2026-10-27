@@ -695,13 +695,17 @@
       <path name="earpiece" />
   </path>
 
+  <!-- louder speaker: analog headset-amp gain 15/15 (max). Applied after "speaker" in media-speaker, because "init" resets it to 12 -->
+  <path name="speaker-loud" >
+      <ctl name="HISSC_SMT_HSL_GAIN" value="15" />
+      <ctl name="HISSC_SMT_HSR_GAIN" value="15" />
+  </path>
+
   <path name="media-speaker" >
       <path name="init" />
       <path name="audio-play-nossc" />
       <path name="speaker" />
-      <!-- louder speaker: analog headset-amp gain 15/15 (max); must come after "init", which resets it to 12 -->
-      <ctl name="HISSC_SMT_HSL_GAIN" value="15" />
-      <ctl name="HISSC_SMT_HSR_GAIN" value="15" />
+      <path name="speaker-loud" />
   </path>
 
   <path name="media-speaker-earpiece" >

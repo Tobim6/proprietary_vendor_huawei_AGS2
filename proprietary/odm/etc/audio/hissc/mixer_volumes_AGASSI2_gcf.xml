@@ -147,12 +147,12 @@
       <ctl name="HISSC_DACL_AGC_USR_GDB_INTEGER" value="0"/>
       <!-- HEADPHONE_L PGA -->
       <ctl name="HISSC_SMT_HSL_MIN_GAIN" value="0" />
-      <ctl name="HISSC_SMT_HSL_GAIN" value="12" />
+      <ctl name="HISSC_SMT_HSL_GAIN" value="15" />
       <ctl name="HISSC_SMT_HSL_MUTE" value="0" />
       <ctl name="HISSC_SMT_HS_LIT_LP_L" value="0" />
       <!-- HEADPHONE_R PGA -->
       <ctl name="HISSC_SMT_HSR_MIN_GAIN" value="0" />
-      <ctl name="HISSC_SMT_HSR_GAIN" value="12" />
+      <ctl name="HISSC_SMT_HSR_GAIN" value="15" />
       <ctl name="HISSC_SMT_HSR_MUTE" value="0" />
       <ctl name="HISSC_SMT_HS_LIT_LP_R" value="0" />
   </path>
