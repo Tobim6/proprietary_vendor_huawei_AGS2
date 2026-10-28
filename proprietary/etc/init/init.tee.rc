@@ -10,15 +10,19 @@ on init
     chmod 0400 /dev/hisi_teelog
 
 #secure os tee agent
+# The keymaster HAL (class early_hal, started at late-fs) talks to the TEE through libteec, which connects to
+# system_teecd/teecd ("connect ca daemon failed with system_teecd" otherwise). They therefore have to start in
+# the same early stage, not in class core (started much later): with the TEE keymaster module a clean boot hung
+# for ever because the HAL could not open its TEE context and init waits for the HAL.
 service system_teecd /system/bin/system_teecd
     socket tui_daemon stream 660 root system
     socket tee-multi-user stream 660 root system
-    class core
+    class early_hal
     user root
     group root readproc
 
 service teecd /vendor/bin/teecd
-    class core
+    class early_hal
     user root
     group root readproc
     seclabel u:r:tee:s0
@@ -39,3 +43,8 @@ on fs
 on post-fs-data
    mkdir /data/vendor/log/sec_storage_data 0775 system system
    mkdir /data/vendor/log/sec_storage_data/log 0755 system system
+
+# keymaster-3-0 is "disabled" in its own rc and started here, right after class_start early_hal has started the
+# TEE daemons above (this action is parsed after init.rc's late-fs action).
+on late-fs
+    start keymaster-3-0

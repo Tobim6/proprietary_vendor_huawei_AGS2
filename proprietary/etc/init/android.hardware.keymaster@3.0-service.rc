@@ -1,4 +1,6 @@
 service keymaster-3-0 /vendor/bin/hw/android.hardware.keymaster@3.0-service
     class early_hal
+    # started from init.tee.rc once the TEE daemons are up
+    disabled
     user system
     group system drmrpc log
