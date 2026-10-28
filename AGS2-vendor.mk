@@ -1358,6 +1358,7 @@ PRODUCT_PACKAGES += \
     libwpa_dmd \
     libxcollie \
     libhuaweiprocessing \
+    libbundlewrapper_stock \
     liboffloadvisualizer \
     vendor.huawei.hardware.activity_recognition@1.0 \
     vendor.huawei.hardware.activity_recognition@1.1 \

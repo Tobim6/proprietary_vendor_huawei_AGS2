@@ -15,7 +15,7 @@
          <library name="pre_processing" path="libaudiopreprocessing.so"/>
     -->
     <libraries>
-        <library name="bundle" path="libbundlewrapper.so"/>
+        <library name="bundle" path="libbundlewrapper_stock.so"/>
         <library name="reverb" path="libreverbwrapper.so"/>
         <library name="visualizer" path="libvisualizer.so"/>
         <library name="downmix" path="libdownmix.so"/>

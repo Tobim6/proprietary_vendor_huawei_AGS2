@@ -23170,3 +23170,20 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
+
+# AOSP's LVM music bundle (libbundlewrapper built from frameworks/av) corrupts its own state on this
+# device and the effects HAL segfaults in the biquad code as soon as bass boost / EQ runs. Use the
+# stock EMUI8 bundle instead; it is installed as libbundlewrapper_stock.so (a different name, so it
+# does not collide with the AOSP module) and audio_effects.xml points at it.
+include $(CLEAR_VARS)
+LOCAL_MODULE := libbundlewrapper_stock
+LOCAL_MODULE_OWNER := huawei
+LOCAL_VENDOR_MODULE := true
+LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/soundfx/libbundlewrapper.so
+LOCAL_SRC_FILES_32 := proprietary/vendor/lib/soundfx/libbundlewrapper.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_RELATIVE_PATH := soundfx
+include $(BUILD_PREBUILT)
