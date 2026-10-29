@@ -14,7 +14,9 @@ on init
 # system_teecd/teecd ("connect ca daemon failed with system_teecd" otherwise). They therefore have to start in
 # the same early stage, not in class core (started much later): with the TEE keymaster module a clean boot hung
 # for ever because the HAL could not open its TEE context and init waits for the HAL.
-service system_teecd /system/bin/system_teecd
+service system_teecd /vendor/bin/system_teecd
+    # joins a binder thread pool through ProcessState::self(); the shim makes that open /dev/vndbinder (Treble)
+    setenv LD_PRELOAD /vendor/lib64/libvndbinder_shim.so
     socket tui_daemon stream 660 root system
     socket tee-multi-user stream 660 root system
     class early_hal
@@ -28,17 +30,10 @@ service teecd /vendor/bin/teecd
     seclabel u:r:tee:s0
 
 
-service teelogcat /system/bin/sh -c "rm -f /cache/boot_teelog.txt; /vendor/bin/tlogcat -f > /cache/boot_teelog.txt 2>&1"
-    class core
-    user root
-    group root system
+# (the boot-time tlogcat -> /cache/boot_teelog.txt debug service was removed: a vendor domain may not write /cache)
 
-# set sec_storage_data can be access by teecd
-on fs
-    mkdir /data/sec_storage_data 0700 system system
-    restorecon /data/sec_storage_data
-    mkdir /data/sec_storage_data_users 0700 system system
-    restorecon /data/sec_storage_data_users
+# /data/sec_storage_data(_users), which teecd needs, is created by the core rc (system/etc/init/ags2-core.rc):
+# vendor_init may not create directories in core /data.
 
 on post-fs-data
    mkdir /data/vendor/log/sec_storage_data 0775 system system

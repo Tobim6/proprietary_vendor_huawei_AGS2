@@ -10,11 +10,6 @@ on post-fs
 
 on post-fs-data
 
-    mkdir /data/gps
-    mkdir /data/gps/log
-    chown root system /data/gps
-    chmod 775 /data/gps
-    chmod 770 /data/gps/log
 
 on early-boot
 

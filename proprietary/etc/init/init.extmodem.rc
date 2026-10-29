@@ -12,13 +12,9 @@ on post-fs-data
     ##change start priority to early-boot stage, because rild is started on boot stage
     ## and sometime rild is started but device file's property is NOT changed
     #3rdmodem VIA flashlessd service
-    mkdir /data/log/3rdcp-log 0775 radio nvram
 
-    mkdir /data/nvram/ 0770 root nvram
-    mkdir /data/nvram/md_via 0770 root nvram
 
     #3rdmodem VIA pppd service
-    mkdir /data/pppd_via 0770 radio system
 
 on early-boot
     chmod 0660 /dev/vmodem

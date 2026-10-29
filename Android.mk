@@ -20977,6 +20977,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := oeminfo_nvm_server
 LOCAL_MODULE_OWNER := huawei
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES := proprietary/bin/oeminfo_nvm_server
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := EXECUTABLES
@@ -21766,6 +21767,9 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := system_teecd
 LOCAL_MODULE_OWNER := huawei
+# Lives in /vendor/bin (not /system/bin like stock): the vendor HALs talk to it, so under Treble it has to be a vendor
+# daemon. Our tzdriver accepts the /vendor/bin path (system_ca_hash_vendor in tc_client_driver.c).
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES := system_teecd_extract/system_teecd
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := EXECUTABLES
@@ -21802,6 +21806,8 @@ include $(BUILD_PREBUILT)
 # libtuidaemon: needed by /system/bin/system_teecd (EMUI8 /system lib)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libtuidaemon
+# system_teecd lives in /vendor/bin now (Treble), so its library has to be a vendor library too
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES_64 := system_teecd_extract/lib64/libtuidaemon.so
 LOCAL_SRC_FILES_32 := system_teecd_extract/lib/libtuidaemon.so

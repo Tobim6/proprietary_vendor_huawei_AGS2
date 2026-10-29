@@ -1,12 +1,7 @@
 on early-init
 
 
-on init
-    mkdir /cust
-    mkdir /splash2
-    mkdir /3rdmodem
-    mkdir /3rdmodemnvm
-    mkdir /3rdmodemnvmbkp
+# (the mount points in / are created by the core rc, system/etc/init/ags2-core.rc: vendor_init may not touch rootfs)
 
 on early-fs
     #oeminfo
@@ -81,10 +76,8 @@ on post-fs
 on post-fs-data
     # AR0009EHNV Added by s00903035 20170809 begin
     #Create directory for OtaSave
-    mkdir /data/OtaSave 0770 system system
 
     #Create directory for cache/fotapkg
-    mkdir /cache/fotapkg 0771 system system
     # AR0009EHNV Added by s00903035 20170809 end
 
 on early-boot
@@ -167,11 +160,6 @@ on property:ro.runmode=normal && property:ro.image=bootimage && property:sys.boo
 on property:ro.runmode=factory
     chmod 0664 /dev/block/sdc
     chown root system /dev/block/sdc
-    chmod 0775 /data/media/0/Music
-    chmod 0775 /data/media/0/Pictures
-    chown media_rw media_rw /data/media/0
-    chown media_rw media_rw /data/media/0/Music
-    chown media_rw media_rw /data/media/0/Pictures
     start fmd
 
 service fmd /vendor/bin/fmd
